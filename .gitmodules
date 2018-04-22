@@ -1,6 +1,0 @@
-[submodule "blank"]
-	path = blank
-	url = https://github.com/vimux/blank.git
-[submodule "themes/blank"]
-	path = themes/blank
-	url = https://github.com/vimux/blank
