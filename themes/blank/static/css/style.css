@@ -1,9 +1,0 @@
-*,
-*::before,
-*::after {
-  /* box-shadow: 0 0 3px 0 rgba(255, 0, 255, 0.3) */
-}
-
-body {
-  background-color: #ccc;
-}

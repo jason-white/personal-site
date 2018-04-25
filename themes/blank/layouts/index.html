@@ -1,10 +1,15 @@
 {{ partial "header.html" . }}
-	<main>
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
-		{{ end }}
-		{{ partial "pagination.html" . }}
+	<main class="h-full flex justify-center items-center">
+    
+    <div class="leading-normal text-lg">
+      <p>
+        🚧 Under Construction 👷
+      </p>
+      <p>
+        No real design ideas for this site, so just designing it in the open as a go!
+      </p>
+    </div>
+        
 	</main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
