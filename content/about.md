@@ -5,6 +5,4 @@ draft: false
 layout: "about"
 ---
 
-# About Me!
-
 Hi, my name is Jason. I'm a front-end web developer and designer living and working in Charlotte, North Carolina.

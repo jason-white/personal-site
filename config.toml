@@ -1,4 +1,35 @@
-baseURL = "http://jasonwhite.us/"
-languageCode = "en-us"
+baseurl = "https://jasonwhite.us"
+languageCode = "en"
 title = "Jason White"
 theme = "hemingway2"
+copyright = "&copy; <a href=\"https://github.com/jason-white\">Jason White</a> 2018"
+disqusShortname = "shortname"
+googleAnalytics = ""
+description = "Personal site."
+keywords = ["keyword1", "keyword2"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/jason-white"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/_qbert"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "https://instagram.com/qbrt"
+fa_icon = "fa-instagram"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
