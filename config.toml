@@ -1,4 +1,4 @@
-baseurld. = "https://jasonwhite.us"
+baseurl = "https://jasonwhite.us"
 languageCode = "en"
 title = "Jason White"
 sectionPagesMenu = "main"
