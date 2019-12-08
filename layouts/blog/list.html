@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+<ul>
+  {{ range (.Paginator 5).Pages }}
+
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <span>
+      <time>
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
+      {{ end }}
+    </span>
+    <div>
+      {{ .Summary }}
+    </div>
+    <p>
+      <small>
+        <a href="{{ .RelPermalink }}">
+          Read More
+        </a>
+      </small>
+    </p>
+  </li>
+
+  {{ end }}
+</ul>
+{{ partial "footer.html" . }}
