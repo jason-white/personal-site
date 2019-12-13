@@ -4,7 +4,7 @@
   "description": "A theme for Hugo, the static site generator.",
   "main": "index.js",
   "dependencies": {
-    "npm": "^6.13.2"
+    "npm": "^6.13.4"
   },
   "devDependencies": {
     "autoprefixer": "^8.6.5",
