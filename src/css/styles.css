@@ -2,7 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /*box-shadow: 0 0 3px 0 rgba(255, 0, 255, 0.3);*/
+  box-shadow: 0 0 3px 0 rgba(255, 0, 255, 0.3);
 }
 
 html,
@@ -12,4 +12,56 @@ body {
 
 body {
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 1fr 48rem 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+.page__header {
+  grid-row: 1 / 2;
+}
+
+.header__logo {
+  grid-column: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__header svg {
+  vertical-align: middle;
+}
+
+.page__nav {
+  grid-column: 3 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item a {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.page__main {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.page__footer {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
 }
