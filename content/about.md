@@ -1,6 +1,5 @@
 +++
 type = "static"
-page = "static/single.html"
 title = "About"
 description = "About Jason"
 menu = "main"

@@ -1,8 +1,9 @@
 {{ partial "head.html" . }}
-    <main class="page__main">
-      {{ partial "header.html" . }}
-      <article>
-        {{ .Content }}
-      </article>
-    </main>
-  {{ partial "footer.html" . }}
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+  <main class="page__main">
+    <article>
+      {{ .Content }}
+    </article>
+  </main>
+{{ partial "footer.html" . }}

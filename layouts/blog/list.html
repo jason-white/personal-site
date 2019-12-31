@@ -1,6 +1,7 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<ul>
+{{ partial "nav.html" . }}
+<ul class="page__main">
   {{ range (.Paginator 5).Pages }}
 
   <li>
