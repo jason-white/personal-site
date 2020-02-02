@@ -1,30 +1,26 @@
 {{ partial "head.html" . }}
-{{ partial "header.html" . }}
-{{ partial "nav.html" . }}
-<ul class="page__main">
-  {{ range (.Paginator 5).Pages }}
+<div class="page">
+  {{ partial "header.html" . }}
+  <ul class="posts">
+    {{ range (.Paginator 5).Pages }}
+    <li class="post">
+      <h2>{{ .Title }}</h2>
+      <article class="post__body">
+        <p class="post__meta">
+          <a href="{{ .RelPermalink }}">
+            <time>
+              {{ .Date.Format "January 2, 2006" }}
+            </time>
+            {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
+            {{ end }}
+          </a>
+        </p>
+        {{ .Content }}
+      </article>
+      
+    </li>
 
-  <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    <span>
-      <time>
-        {{ .Date.Format "January 2, 2006" }}
-      </time>
-      {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
-      {{ end }}
-    </span>
-    <div>
-      {{ .Summary }}
-    </div>
-    <p>
-      <small>
-        <a href="{{ .RelPermalink }}">
-          Read More
-        </a>
-      </small>
-    </p>
-  </li>
-
-  {{ end }}
-</ul>
-{{ partial "footer.html" . }}
+    {{ end }}
+  </ul>
+  {{ partial "footer.html" . }}
+</div>

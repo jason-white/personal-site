@@ -1,4 +1,4 @@
 +++
-title = "Blog"
-description = "Blogs"
+title = "Journal"
+description = "Journal"
 +++
