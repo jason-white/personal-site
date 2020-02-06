@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
+{{ partial "header.html" . }}
 <div class="page">
-  {{ partial "header.html" . }}
   <ul class="posts">
     {{ range (.Paginator 5).Pages }}
     <li class="post">
@@ -22,5 +22,5 @@
 
     {{ end }}
   </ul>
-  {{ partial "footer.html" . }}
 </div>
+{{ partial "footer.html" . }}

@@ -12,3 +12,7 @@ So here's the To Do over the next week:
 * Write an actual blog post
 
 Not too bad, I guess. Can probably handle that.
+
+#### Image test:
+
+![chemex](https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,q_auto:good,w_1920/v1580959990/IMG_1153.webp)

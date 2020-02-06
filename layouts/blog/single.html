@@ -1,11 +1,20 @@
 {{ partial "head.html" . }}
+{{ partial "header.html" . }}
 <div class="page">
-  {{ partial "header.html" . }}
-  <main class="page__main">
-    <article>
-      {{ .Content }}    
+  <main class="post">
+    <h2>{{ .Title }}</h2>
+    <article class="post__body">
+      <p class="post__meta">
+        <a href="{{ .RelPermalink }}">
+          <time>
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+          {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
+          {{ end }}
+        </a>
+      </p>
+      {{ .Content }}
     </article>
   </main>
-          
-  {{ partial "footer.html" . }}
 </div>
+{{ partial "footer.html" . }}
