@@ -15,4 +15,4 @@ Not too bad, I guess. Can probably handle that.
 
 #### Image test:
 
-![alden shoes dc](https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,q_auto:good,w_1920/v1580959990/IMG_1153.webp)
+![alden shoes dc](https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_1920/v1580959990/IMG_1153.jpg)
