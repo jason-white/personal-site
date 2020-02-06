@@ -3,6 +3,26 @@
 <div class="page">
   {{ partial "main.html" . }}
   <div class="interests">
+    <div class="recent-posts">
+      <h3>📷 Journal</h3>
+      <ul class="list-reset">
+        {{ range where .Site.Pages "Type" "blog" }}
+          <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
+            <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="recent-finds">
+      <h3>🔗 Links</h3>
+      <ul class="list-reset">
+        <li>
+          <a href="https://github.com/yuki-ycino/fzf-preview.vim" target="_blank">fzf Preview</a>
+          <p>Neovim plugin that has already wrapped fzf into a pop-up window that displays a preview of the file</p>
+        </li>
+      </ul>
+    </div>
     <div id="lastfm" class="lastfm">
     </div>
   </div>
@@ -24,7 +44,7 @@
         albums = data.topalbums.album;
         console.log(data);
         const list = `
-          <h3>Current Top Albums</h3>
+          <h3>🎧 Listening</h3>
           <span>via <a href="https://www.last.fm/user/qbertqbert">last.fm</a></span>
           <ul class="albums">
             ${albums.map(album => 
@@ -33,7 +53,7 @@
                   <img src="${album.image[1]['#text']}"/>
                 </div>
                 <div class="album__info">
-                  <span class="album__title"><a href="${album.url}">${album.name}</a></span><br/>
+                  <span class="album__title"><a href="${album.url}" target="_blank">${album.name}</a></span><br/>
                   <span class="album__artist">by: ${album.artist.name}</span>
                 </div>
               </li>`).join('')}

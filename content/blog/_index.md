@@ -1,4 +1,5 @@
-+++
-title = "Journal"
-description = "Journal"
-+++
+---
+type: "page"
+title: "Journal"
+description: "Journal"
+---

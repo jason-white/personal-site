@@ -45,6 +45,12 @@ h2 {
   letter-spacing: -0.01rem;
 }
 
+.list-reset {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   grid-area: content;
   padding: 0 1rem;
@@ -151,11 +157,30 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
-    ". . lastfm";
+    "recentposts recentfinds lastfm";
+}
+
+.recent-posts {
+  grid-area: recentposts;
+  padding: 1rem;
+}
+
+.recent-finds {
+  grid-area: recentfinds;
+  padding: 1rem;
+}
+
+.recent-finds li {
+  margin-top: 1rem;
+}
+
+.recent-finds li > p {
+  margin: 0;
 }
 
 .lastfm {
   grid-area: lastfm;
+  padding: 1rem;
 }
 
 .albums {
