@@ -146,3 +146,43 @@ h2 {
   color: #fff;
   padding: 2rem 0;
 }
+
+.interests {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    ". . lastfm";
+}
+
+.lastfm {
+  grid-area: lastfm;
+}
+
+.albums {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.album {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.album {
+  margin-top: 1rem;
+}
+
+.album__art {
+  flex: 0 0 4rem;
+  height: 4rem;
+  background-color: #f4f4f4;
+}
+
+.album__info {
+  padding-left: 0.5rem;
+}
+
+.album__artist {
+  line-height: 1.5rem;
+}

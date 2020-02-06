@@ -2,5 +2,44 @@
 {{ partial "header.html" . }}
 <div class="page">
   {{ partial "main.html" . }}
+  <div class="interests">
+    <div id="lastfm" class="lastfm">
+    </div>
+  </div>
 </div>
 {{ partial "footer.html" . }}
+
+<script>
+  let scrobbles = [];
+  let lastfm = document.getElementById('lastfm');
+  
+  getScrobbles();
+  
+  function getScrobbles() {
+    fetch('https://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=qbertqbert&api_key=473eee2c0423d8188bbb6cfa3e21eedc&format=json&period=1month&limit=5')
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        albums = data.topalbums.album;
+        console.log(data);
+        const list = `
+          <h3>Current Top Albums</h3>
+          <span>via <a href="https://www.last.fm/user/qbertqbert">last.fm</a></span>
+          <ul class="albums">
+            ${albums.map(album => 
+              `<li class="album">
+                <div class="album__art">
+                  <img src="${album.image[1]['#text']}"/>
+                </div>
+                <div class="album__info">
+                  <span class="album__title"><a href="${album.url}">${album.name}</a></span><br/>
+                  <span class="album__artist">by: ${album.artist.name}</span>
+                </div>
+              </li>`).join('')}
+          </ul>
+        `;
+        lastfm.innerHTML = list;
+      });
+  }
+</script>
