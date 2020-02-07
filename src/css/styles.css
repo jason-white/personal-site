@@ -173,6 +173,19 @@ h2 {
   padding: 2rem 0;
 }
 
+.page__footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__elsewhere h4 {
+  margin-top: 1rem;
+}
+
+.footer__elsewhere ul li {
+  margin: 0.25rem 0;
+}
+
 .interests {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -213,31 +226,28 @@ h2 {
   padding: 1rem;
 }
 
-.albums {
+.tracks {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.album {
+.track {
   display: flex;
   padding: 1rem 0;
-}
-
-.album {
   margin-top: 1rem;
 }
 
-.album__art {
+.track__art {
   flex: 0 0 4rem;
   height: 4rem;
   background-color: #f4f4f4;
 }
 
-.album__info {
+.track__info {
   padding-left: 0.5rem;
 }
 
-.album__artist {
+.track__artist {
   line-height: 1.5rem;
 }

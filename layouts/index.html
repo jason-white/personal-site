@@ -44,25 +44,25 @@
   getScrobbles();
   
   function getScrobbles() {
-    fetch('https://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=qbertqbert&api_key=473eee2c0423d8188bbb6cfa3e21eedc&format=json&period=1month&limit=5')
+    fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=473eee2c0423d8188bbb6cfa3e21eedc&format=json&limit=5')
       .then((response) => {
         return response.json();
       })
       .then((data) => {
-        albums = data.topalbums.album;
-        console.log(data);
+        tracks = data.recenttracks.track;
+        //console.log(data);
         const list = `
           <h3>🎧 Listening</h3>
           <span>via <a href="https://www.last.fm/user/qbertqbert">last.fm</a></span>
-          <ul class="albums">
-            ${albums.map(album => 
-              `<li class="album">
-                <div class="album__art">
-                  <img src="${album.image[1]['#text']}"/>
+          <ul class="tracks">
+            ${tracks.map(track => 
+              `<li class="track">
+                <div class="track__art">
+                  <img src="${track.image[1]['#text']}" alt="${track.name} album art">
                 </div>
-                <div class="album__info">
-                  <span class="album__title"><a href="${album.url}" target="_blank">${album.name}</a></span><br/>
-                  <span class="album__artist">by: ${album.artist.name}</span>
+                <div class="track__info">
+                  <span class="track__name"><a href="${track.url}" target="_blank">${track.name}</a></span><br/>
+                  <span class="track__artist">by: ${track.artist['#text']}</span>
                 </div>
               </li>`).join('')}
           </ul>
