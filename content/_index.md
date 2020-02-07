@@ -12,8 +12,8 @@ I should probably take some photos. 🤔
 
 ### Todo:
 
-- Figure out some sort of bookmark/found links/favorites archive to pull in
-- Display list of posts on homepage _OR_..._blogroll?!_ 😬
+- Figure out some sort of bookmark/found links/favorites archive to pull in ✔️
+- Display list of posts on homepage _OR_..._blogroll?!_ ✔️
 - Recent book reads? Favorite podcasts?
 - Create a "uses" page
 - Possibly backdate some posts to add 'old' content

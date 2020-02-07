@@ -37,6 +37,13 @@ p {
   letter-spacing: 0.02rem;
 }
 
+blockquote {
+  margin: 0;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  border-left: 0.25rem solid #111;
+  background-color: #f4f4f4;
+}
+
 h2 {
   font-style: normal;
   font-weight: bold;
@@ -137,6 +144,19 @@ h2 {
   text-transform: uppercase;
 }
 
+.post__tags {
+  display: flex;
+}
+
+.post__tags li {
+  margin-right: 1rem;
+}
+
+.post__tags li a {
+  font-size: 0.75rem;
+  color: #333;
+}
+
 .post__body {
 }
 
@@ -163,6 +183,16 @@ h2 {
 .recent-posts {
   grid-area: recentposts;
   padding: 1rem;
+}
+
+.recent-post time {
+  font-size: 0.75rem;
+  color: #3c3c3c;
+  text-transform: uppercase;
+}
+
+.recent-post + .recent-post {
+  margin-top: 1rem;
 }
 
 .recent-finds {

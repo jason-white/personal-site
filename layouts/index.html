@@ -7,7 +7,7 @@
       <h3>📷 Journal</h3>
       <ul class="list-reset">
         {{ range where .Site.Pages "Type" "blog" }}
-          <li>
+          <li class="recent-post">
             <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
             <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
           </li>
@@ -17,6 +17,10 @@
     <div class="recent-finds">
       <h3>🔗 Links</h3>
       <ul class="list-reset">
+        <li>
+          <a href="https://www.kernelmodular.com/" target="_blank">Kernel Modular shelving</a>
+          <p>I really love <a href="https://www.vitsoe.com/us" target="_blank">Vitsoe shelving</a>. I also <em>really</em> cannot afford Vitsoe shelving. Kernel Modular offers something very similar for a fraction of the price.</p>
+        </li>
         <li>
           <a href="https://www.youtube.com/watch?v=BkUpU0sjZr0" target="_blank">Leica M3 Review</a>
           <p>I've been thinking about getting an old Leica. Currently researching the M2 &amp; M3. This is a great overview of the latter.
