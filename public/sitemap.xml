@@ -3,34 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jasonwhite.us/blog/</loc>
-    <lastmod>2018-04-22T15:55:49-04:00</lastmod>
+    <loc>//jasonwhite.us/journal/deadmau5-in-dc/</loc>
+    <lastmod>2019-12-02T19:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jasonwhite.us/</loc>
-    <lastmod>2018-04-22T15:55:49-04:00</lastmod>
+    <loc>//jasonwhite.us/</loc>
+    <lastmod>2019-12-02T19:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jasonwhite.us/blog/my-first-post/</loc>
-    <lastmod>2018-04-22T15:55:49-04:00</lastmod>
+    <loc>//jasonwhite.us/journal/</loc>
+    <lastmod>2019-12-02T19:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jasonwhite.us/about/</loc>
+    <loc>//jasonwhite.us/tags/shows/</loc>
+    <lastmod>2019-12-02T19:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jasonwhite.us/categories/</loc>
+    <loc>//jasonwhite.us/tags/</loc>
+    <lastmod>2019-12-02T19:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jasonwhite.us/home/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jasonwhite.us/tags/</loc>
+    <loc>//jasonwhite.us/categories/</loc>
   </url>
   
 </urlset>

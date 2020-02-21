@@ -2,13 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jason White</title>
-    <link>https://jasonwhite.us/tags/</link>
+    <link>//jasonwhite.us/tags/</link>
     <description>Recent content in Tags on Jason White</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 02 Dec 2019 19:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://jasonwhite.us/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//jasonwhite.us/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>shows</title>
+      <link>//jasonwhite.us/tags/shows/</link>
+      <pubDate>Mon, 02 Dec 2019 19:00:00 -0500</pubDate>
+      
+      <guid>//jasonwhite.us/tags/shows/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

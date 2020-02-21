@@ -1,3 +1,8 @@
+:root {
+  --sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --space: 1.5rem; /* Used for line-height & grid-gap; */
+}
+
 *,
 *::before,
 *::after {
@@ -11,7 +16,7 @@ body {
 }
 
 body {
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: var(--sans); 
   display: grid;
   grid-template-columns: 1fr minmax(auto, 62rem) 1fr;
   grid-template-rows: auto 1fr 25rem;
@@ -19,6 +24,9 @@ body {
     "header header header"
     ". content ."
     "footer footer footer";
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 a {
@@ -29,11 +37,11 @@ a:visited {
   color: #0066FF;
 }
 
-p {
+p, ul {
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: var(--space);
   letter-spacing: 0.02rem;
 }
 
@@ -42,6 +50,10 @@ blockquote {
   padding: 0.5rem 0.5rem 0.5rem 2rem;
   border-left: 0.25rem solid #111;
   background-color: #f4f4f4;
+}
+
+h3 {
+  line-height: 1;
 }
 
 h2 {
@@ -188,14 +200,11 @@ h2 {
 
 .interests {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-    "recentposts recentfinds lastfm";
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: var(--space);
 }
 
 .recent-posts {
-  grid-area: recentposts;
-  padding: 1rem;
 }
 
 .recent-post time {
@@ -209,8 +218,6 @@ h2 {
 }
 
 .recent-finds {
-  grid-area: recentfinds;
-  padding: 1rem;
 }
 
 .recent-finds li {
@@ -222,8 +229,6 @@ h2 {
 }
 
 .lastfm {
-  grid-area: lastfm;
-  padding: 1rem;
 }
 
 .tracks {

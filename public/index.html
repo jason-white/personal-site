@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -7,51 +7,139 @@
 	<title>Home</title>
 	
 	
-  <link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://jasonwhite.us/index.xml" rel="feed" type="application/rss+xml" title="Jason White">
-	<meta name="generator" content="Hugo 0.59.1" />
+  <link rel="stylesheet" href="//jasonwhite.us/css/normalize.css">
+	<link rel="stylesheet" href="//jasonwhite.us/css/styles.css">
+	<link href="//jasonwhite.us/index.xml" rel="feed" type="application/rss+xml" title="Jason White">
+	<meta name="generator" content="Hugo 0.64.0" />
 </head>
 <body>
-  <div class="page">
 
-    <header class="page__header">
-    <div>
-      <h1>
-        <a href="https://jasonwhite.us">
-          <svg width="75" height="75" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" stroke-linejoin="round" stroke-miterlimit="1.414"><path fill="none" d="M0 0h192v192H0z"/><clipPath id="a"><path d="M0 0h192v192H0z"/></clipPath><g clip-path="url(#a)"><path d="M0 98.157h94.144v49.818h4.332V.014C150.318 1.336 192 43.834 192 95.991 192 148.98 148.978 192 95.988 192 43.721 192 1.153 150.147 0 98.157zm94.144-4.332H0C1.14 42.448 42.724.971 94.144 0v93.825z"/></g></svg>
+  <header class="header">
+    <h1 class="header__logo">
+      <a href="//jasonwhite.us">
+        <svg width="48" height="48" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" stroke-linejoin="round" stroke-miterlimit="1.414"><path fill="none" d="M0 0h192v192H0z"/><clipPath id="a"><path d="M0 0h192v192H0z"/></clipPath><g clip-path="url(#a)"><path d="M0 98.157h94.144v49.818h4.332V.014C150.318 1.336 192 43.834 192 95.991 192 148.98 148.978 192 95.988 192 43.721 192 1.153 150.147 0 98.157zm94.144-4.332H0C1.14 42.448 42.724.971 94.144 0v93.825z"/></g></svg>
+      </a>
+    </h1>
+      <nav class="page__nav">
+    <ul class="nav">
+      
+      <li class="nav__item">
+        <a class="nav__link" href="/journal/">
+          Journal
         </a>
-      </h1>
+      </li>
+      
+    </ul>
+  </nav>
 
-      <nav class="header__nav">
-        <ul class="nav__list">
-          
-          <li class="">
-            <a href="/about/">
-              About
-            </a>
-          </li>
-          
-          <li class="">
-            <a href="/blog/">
-              Blog
-            </a>
-          </li>
-          
-        </ul>
-      </nav>
-    </div>
   </header>
 
 
-    <main class="page__content">
-      
-      <p>content</p>
-    </main>
-      <footer class="page__footer">
-      <p>&copy; 2019 <a href="https://jasonwhite.us">Jason White</a></p>
+<div class="page">
+  <main class="home__content">
+  <p>This site is currently 🚧 under construction 🚧</p>
+<p>Working on the layout and then will begin updating the journal with photos.</p>
+<p>I should probably take some photos. 🤔</p>
+<h3 id="todo">Todo:</h3>
+<ul>
+<li>Figure out some sort of bookmark/found links/favorites archive to pull in ✔️</li>
+<li>Display list of posts on homepage <em>OR</em>&hellip;<em>blogroll?!</em> ✔️</li>
+<li>Recent book reads? Favorite podcasts?</li>
+<li>Create a &ldquo;uses&rdquo; page</li>
+<li>Possibly backdate some posts to add &lsquo;old&rsquo; content</li>
+<li>Make everything accessible</li>
+<li>Make responsive</li>
+</ul>
+
+</main>
+
+  <div class="interests">
+    <div class="recent-posts">
+      <h3>📷 Journal</h3>
+      <ul class="list-reset">
+        
+          <li class="recent-post">
+            <a href="//jasonwhite.us/journal/deadmau5-in-dc/">Deadmau5</a><br/>
+            <time>Mon, Dec 2, 2019</time>
+          </li>
+        
+      </ul>
+    </div>
+    <div class="recent-finds">
+      <h3>🔗 Links</h3>
+      <ul class="list-reset">
+        <li>
+          <a href="https://www.kernelmodular.com/" target="_blank">Kernel Modular shelving</a>
+          <p>I really love <a href="https://www.vitsoe.com/us" target="_blank">Vitsoe shelving</a>. I also <em>really</em> cannot afford Vitsoe shelving. Kernel Modular offers something very similar for a fraction of the price.</p>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=BkUpU0sjZr0" target="_blank">Leica M3 Review</a>
+          <p>I've been thinking about getting an old Leica. Currently researching the M2 &amp; M3. This is a great overview of the latter.
+        </li>
+        <li>
+          <a href="https://github.com/yuki-ycino/fzf-preview.vim" target="_blank">fzf Preview</a>
+          <p>Neovim plugin that has already wrapped fzf into a pop-up window that displays a preview of the file</p>
+        </li>
+      </ul>
+    </div>
+    <div id="lastfm" class="lastfm">
+    </div>
+  </div>
+</div>
+    <footer class="page__footer">
+      <div class="container">
+        <div class="page__footer-content">
+          <div class="footer__elsewhere">
+            <h4>Elsewhere</h4>
+            <ul class="list-reset">
+              <li>
+                <a href="https://instagram.com/qbrt">Instagram</a>
+              </li>
+              <li>
+                <a href="https://vsco.co/jasonwhite/images">Vsco</a>
+              </li>
+            </ul>
+          </div>
+          <p>&copy; 2020 <a href="//jasonwhite.us">Jason White</a></p>
+        </div>
+      </div>
     </footer>
   </div>
 </body>
 </html>
 
+
+<script>
+  let scrobbles = [];
+  let lastfm = document.getElementById('lastfm');
+  
+  getScrobbles();
+  
+  function getScrobbles() {
+    fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=473eee2c0423d8188bbb6cfa3e21eedc&format=json&limit=5')
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        tracks = data.recenttracks.track;
+        
+        const list = `
+          <h3>🎧 Listening</h3>
+          <span>via <a href="https://www.last.fm/user/qbertqbert">last.fm</a></span>
+          <ul class="tracks">
+            ${tracks.map(track => 
+              `<li class="track">
+                <div class="track__art">
+                  <img src="${track.image[1]['#text']}" alt="${track.name} album art">
+                </div>
+                <div class="track__info">
+                  <span class="track__name"><a href="${track.url}" target="_blank">${track.name}</a></span><br/>
+                  <span class="track__artist">by: ${track.artist['#text']}</span>
+                </div>
+              </li>`).join('')}
+          </ul>
+        `;
+        lastfm.innerHTML = list;
+      });
+  }
+</script>

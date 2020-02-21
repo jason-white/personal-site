@@ -2,42 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Jason White</title>
-    <link>https://jasonwhite.us/</link>
+    <link>//jasonwhite.us/</link>
     <description>Recent content in Home on Jason White</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Apr 2018 15:55:49 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 19:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://jasonwhite.us/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//jasonwhite.us/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://jasonwhite.us/blog/my-first-post/</link>
-      <pubDate>Sun, 22 Apr 2018 15:55:49 -0400</pubDate>
-      
-      <guid>https://jasonwhite.us/blog/my-first-post/</guid>
-      <description>Hello, World! Going to leave this first post here for right now. The goal today was to get a Hugo site up and running on Netlify and I&amp;rsquo;ve done that with very little effort. 💪 As everyone else has been saying, Netlify was an absolute dream to use. I don&amp;rsquo;t think it can get any more simplified.
-So here&amp;rsquo;s the To Do over the next week:
- Style this sucker!</description>
-    </item>
     
     <item>
-      <title>About</title>
-      <link>https://jasonwhite.us/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Deadmau5</title>
+      <link>//jasonwhite.us/journal/deadmau5-in-dc/</link>
+      <pubDate>Mon, 02 Dec 2019 19:00:00 -0500</pubDate>
       
-      <guid>https://jasonwhite.us/about/</guid>
-      <description>Hello! Hi, my name is Jason. I&amp;rsquo;m a front-end web developer and designer living and working in Charlotte, North Carolina.</description>
-    </item>
-    
-    <item>
-      <title>home</title>
-      <link>https://jasonwhite.us/home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jasonwhite.us/home/</guid>
-      <description></description>
+      <guid>//jasonwhite.us/journal/deadmau5-in-dc/</guid>
+      <description>Much earlier this year my friend Ryan asked me what seemed, at the time, a very random question:
+ Do you guys want to go see Deadmau5 in DC the weekend after Thanksgiving?
+ I didn&amp;rsquo;t know what to think at first as far as seeing Deadmau5 live, goes. But a trip to DC always sounds like a good time.
+There ended up being eight of us and we decided to rent a shuttle van to make the trip up, which everyone agrees was a fantastic idea.</description>
     </item>
     
   </channel>

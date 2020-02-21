@@ -1,5 +1,5 @@
 ---
-type: "blog"
+type: "journal"
 title: "Super Bowl LIV"
 date: 2020-02-06T19:56:40-05:00
 draft: true

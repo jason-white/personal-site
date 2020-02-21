@@ -18,4 +18,5 @@ I should probably take some photos. 🤔
 - Create a "uses" page
 - Possibly backdate some posts to add 'old' content
 - Make everything accessible
-- Make responsive
+- Make responsive ✔️
+
