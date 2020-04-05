@@ -9,9 +9,7 @@ tags:
 
 ![deadmau5 performing live in the cube v3](https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_1920/v1581043392/2019_dc/deadmau5-live.jpg)
 
-Much earlier this year my friend Ryan asked me what seemed, at the time, a very random question:
-
-> Do you guys want to go see Deadmau5 in DC the weekend after Thanksgiving?
+Much earlier this year my friend Ryan asked us if we'd like to drive up to DC and see Deadmau5 around Thanksgiving.
 
 I didn't know what to think at first as far as seeing Deadmau5 live, goes. But a trip to DC always sounds like a good time.
 

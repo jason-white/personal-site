@@ -2,3 +2,5 @@ baseurl = "//jasonwhite.us"
 languageCode = "en"
 title = "Jason White"
 sectionPagesMenu = "main"
+[markup.goldmark.renderer]
+unsafe= true

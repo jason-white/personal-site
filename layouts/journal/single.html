@@ -1,10 +1,10 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<div class="page">
-  <main class="post">
+<div class="single-page">
+  <article class="single-post">
     <h2>{{ .Title }}</h2>
-    <article class="post__body">
-      <p class="post__meta">
+    <div class="single-post__body">
+      <div class="post__meta">
         <a href="{{ .RelPermalink }}">
           <time>
             {{ .Date.Format "January 2, 2006" }}
@@ -12,9 +12,9 @@
           {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
           {{ end }}
         </a>
-      </p>
+      </div>
       {{ .Content }}
-    </article>
-  </main>
+    </div>
+  </article>
 </div>
 {{ partial "footer.html" . }}
