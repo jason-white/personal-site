@@ -55,35 +55,15 @@
 {{ partial "footer.html" . }}
 
 <script>
-  let scrobbles = [];
-  let lastfm = document.getElementById('lastfm');
+  getPins();
   
-  getScrobbles();
-  
-  function getScrobbles() {
-    fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=473eee2c0423d8188bbb6cfa3e21eedc&format=json&limit=5')
+  function getPins() {
+    fetch('https://feeds.pinboard.in/json/v1/u:jasonwhite/')
       .then((response) => {
         return response.json();
       })
       .then((data) => {
-        tracks = data.recenttracks.track;
-        //console.log(data);
-        const list = `
-          <span>via <a href="https://www.last.fm/user/qbertqbert">last.fm</a></span>
-          <ul class="tracks">
-            ${tracks.map(track => 
-              `<li class="track">
-                <div class="track__art">
-                  <img src="${track.image[1]['#text']}" alt="${track.name} album art">
-                </div>
-                <div class="track__info">
-                  <span class="track__name"><a href="${track.url}" target="_blank">${track.name}</a></span><br/>
-                  <span class="track__artist">by: ${track.artist['#text']}</span>
-                </div>
-              </li>`).join('')}
-          </ul>
-        `;
-        lastfm.innerHTML = list;
-      });
+        console.log(data);
+      })
   }
 </script>

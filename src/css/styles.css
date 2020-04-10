@@ -28,7 +28,7 @@ body {
 
 body {
   display: grid;
-  grid-template-rows: 10rem 1fr auto;
+  grid-template-rows: auto 1fr auto;
 	font-family: var(--sans); 
 }
 
@@ -48,12 +48,6 @@ p, ul {
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 0.02rem;
-}
-
-@media (min-width: 64rem) {
-  p {
-    font-size: 1.2rem;
-  }
 }
 
 blockquote {
@@ -94,6 +88,8 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: var(--space);
   padding: var(--space);
+  align-items: center;
+  margin-bottom: 6rem;
 }
 
 .header__logo {
@@ -172,6 +168,8 @@ h2 {
  * Homepage
  */
 
+
+
 .home {
   grid-row: 2 / 3;
   display: grid;
@@ -179,6 +177,8 @@ h2 {
   grid-gap: var(--space);
   padding: 0 var(--space);
 }
+
+
 
 /* Recent Posts */
 
@@ -344,5 +344,11 @@ h2 {
   width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+@media (min-width: 64rem) {
+  .single-post__body p {
+    font-size: 1.2rem;
+  }
 }
 
