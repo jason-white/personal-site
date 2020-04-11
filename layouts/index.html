@@ -3,7 +3,13 @@
 {{ partial "header.html" . }}
 
 <!-- Begin page -->
-<div class="home grid-columns">
+<div class="home">
+  
+  <!-- Hello column -->
+  <section class="home__about">
+    <h3>Welcome</h3>
+    {{.Content}}
+  </section>
 
   <!-- Pages column -->
   <section class="home__recent">
@@ -13,6 +19,7 @@
         <li class="recent__post">
           <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
           <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+          <p>{{ .Summary }}</p>
         </li>
       {{ end }}
     </ul>
@@ -20,50 +27,11 @@
 
   <!-- Links column -->
   <section class="home__links">
-    <h3>Links</h3>
-    <ul class="list-reset">
-      <li>
-        <a href="https://www.kernelmodular.com/" target="_blank">Kernel Modular shelving</a>
-        <p>I really love <a href="https://www.vitsoe.com/us" target="_blank">Vitsoe shelving</a>. I also <em>really</em> cannot afford Vitsoe shelving. Kernel Modular offers something very similar for a fraction of the price.</p>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=BkUpU0sjZr0" target="_blank">Leica M3 Review</a>
-        <p>I've been thinking about getting an old Leica. Currently researching the M2 &amp; M3. This is a great overview of the latter.
-      </li>
-      <li>
-        <a href="https://github.com/yuki-ycino/fzf-preview.vim" target="_blank">fzf Preview</a>
-        <p>Neovim plugin that has already wrapped fzf into a pop-up window that displays a preview of the file</p>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Media consumption column -->
-  <section class="home__media">
-    <h3>Listening</h3>
-    <div id="lastfm" class="lastfm">
-      <!-- Audioscrobbles go here -->
-    </div>
-  </section>
-
-  <!-- About column -->
-  <section class="home__about">
-    {{ partial "main.html" . }}
+    <h3>Recent Finds</h3>
+    <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=jasonwhite&count=20"></script>
   </section>
 </div>
 
 <!-- Import footer -->
 {{ partial "footer.html" . }}
 
-<script>
-  getPins();
-  
-  function getPins() {
-    fetch('https://feeds.pinboard.in/json/v1/u:jasonwhite/')
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        console.log(data);
-      })
-  }
-</script>
