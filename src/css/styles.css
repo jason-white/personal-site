@@ -174,27 +174,55 @@ h2 {
 /*******************************
  * Homepage
  */
-
-
-
 .home {
   grid-row: 2 / 3;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: var(--space);
   padding: 0 var(--space);
+}
+
+.home > section + section {
+  margin-top: 3rem;
+}
+
+
+@media (min-width: 40rem) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: var(--space);
+    grid-template-areas:
+      "intro intro"
+      "posts links";
+  }
+
+  .home > section + section {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 64rem) {
+  .home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: var(--space);
+    grid-template-areas: "intro intro posts links";
+  }
+  
+  .home > section + section {
+    margin-top: 0;
+  }
 }
 
 /* About */
 
-.home__about {
-  grid-column: 1 / 3;
+.home__intro {
+  grid-area: intro;
 }
 
 /* Recent Posts */
 
 .home__recent {
-  grid-column: 3 / 4;
+  grid-area: posts;
 }
 
 .recent__post time {
@@ -214,7 +242,7 @@ h2 {
 /* Links */
 
 .home__links {
-  grid-column: 4 / 5;
+  grid-area: links;
 }
 
 .pin-title {
