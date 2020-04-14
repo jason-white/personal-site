@@ -378,9 +378,3 @@ h2 {
   height: auto;
   vertical-align: middle;
 }
-
-@media (min-width: 64rem) {
-  .single-post__body p {
-    font-size: 1.2rem;
-  }
-}

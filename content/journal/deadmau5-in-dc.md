@@ -3,7 +3,6 @@ type: "journal"
 title: "Deadmau5"
 date: 2019-12-02T19:00:00-05:00
 draft: false
-summary: "Deadmau5 at the Anthem in DC over Thanksgiving weekend"
 tags:
 - shows
 ---

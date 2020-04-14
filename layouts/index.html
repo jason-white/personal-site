@@ -19,7 +19,6 @@
         <li class="recent__post">
           <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
           <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-          <p>{{ .Summary }}</p>
         </li>
       {{ end }}
     </ul>
