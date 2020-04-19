@@ -1,0 +1,27 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<div class="about-page">
+  <main class="about-page__content">
+    <article>
+      {{ .Content }}
+    </article>
+  </main>
+  <section class="blog-roll">
+    <h3>Blog Roll</h3>
+    <ul class="list-reset">
+      <li>
+        <a href="https://chrisglass.com/" target="_blank">Chris Glass</a>
+      </li>
+      <li>
+        <a href="https://www.johncranford.com/" target="_blank">John Cranford</a>
+      </li>
+      <li>
+        <a href="https://frankchimero.com/" target="_blank">Frank Chimero</a>
+      </li>
+      <li>
+        <a href="https://little-deaths.com/" target="_blank">Vince Griffin</a>
+      </li>
+    </ul>
+  </section>
+</div>
+{{ partial "footer.html" . }}
