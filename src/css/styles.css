@@ -46,7 +46,7 @@ a:visited {
   color: #000;
 }
 
-p, ul {
+p {
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
@@ -312,11 +312,16 @@ figcaption > p {
 }
 
 .post {
-  /*padding: 1rem 0;*/
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.post:last-of-type {
+  border-bottom: none;
 }
 
 .post + .post {
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 
 .post h2 {
@@ -334,16 +339,22 @@ figcaption > p {
 }
 
 .post__tags {
+  list-style-type: none;
+  margin: 2rem 0 0 0;
+  padding: 0;
   display: flex;
 }
 
 .post__tags li {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
+  font-size: 0.90rem;
+  color: #777;
 }
 
 .post__tags li a {
-  font-size: 0.75rem;
-  color: #333;
+  font-size: 0.90rem;
+  color: #777;
+  text-decoration: none;
 }
 
 .post__body {
