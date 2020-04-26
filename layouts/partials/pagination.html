@@ -1,9 +1,17 @@
-<div>
-{{ if .Paginator.HasPrev }}
-	<a href="{{ .Paginator.Prev.URL }}">Previous Page</a>
+{{ $baseurl := .Site.BaseURL }}
+{{ $pag := .Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+	<nav class="pagination">
+		{{ range $pag.Pagers }}
+			{{ if eq . $pag }}
+			<span class="pagination__button pagination__button--current">
+				{{ .PageNumber }}
+			</span>
+			{{ else }}
+			<a class="pagination__button" href='{{ $baseurl }}{{ .URL }}'>
+				{{ .PageNumber }}
+			</a>
+			{{ end }}
+		{{ end }}
+	</nav>
 {{ end }}
-{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
-{{ if .Paginator.HasNext }}
-	<a href="{{ .Paginator.Next.URL }}">Next Page</a>
-{{ end }}
-</div>

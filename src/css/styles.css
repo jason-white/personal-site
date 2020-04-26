@@ -91,6 +91,14 @@ figcaption > p {
   color: #3c3c3c;
 }
 
+.list li {
+  line-height: 1.5;
+}
+
+.list li + li {
+  margin-top: 0.5rem;
+}
+
 .list-reset {
   list-style-type: none;
   margin: 0;
@@ -369,6 +377,30 @@ figcaption > p {
 .img-caption {
   font-size: 0.75rem;
   color: #3c3c3c;
+}
+
+.pagination {
+  margin: 1rem 0;
+}
+
+.pagination__button {
+  display: inline-block;
+  margin-right: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  background-color: none;
+  text-decoration: none;
+  border-radius: 0.125rem;
+  font-weight: 600;
+}
+
+.pagination__button--current {
+  background-color: #FF6347;
+}
+
+@media (min-width: 64rem) {
+  .pagination {
+    grid-column: 1 / 2;
+  }
 }
 
 

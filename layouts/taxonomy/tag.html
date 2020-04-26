@@ -1,7 +1,27 @@
-<ul>
-  {{ range .Pages }}
-    <li>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<div class="list-page">
+  <ul class="posts">
+    {{ range (.Paginator 5).Pages }}
+    <li class="post">
+      <h3>{{ .Title }}</h3>
+      <article class="post__body">
+        <div class="post__meta">
+          <a href="{{ .RelPermalink }}">
+            <time>
+              {{ .Date.Format "January 2, 2006" }}
+            </time>
+            {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
+            {{ end }}
+          </a>
+        </div>
+        {{ .Content }}
+        <!-- tags -->
+        {{ partial "tags.html" . }}
+      </article>
     </li>
-  {{ end }}
-</ul>
+    {{ end }}
+  </ul>
+</div>
+
+{{ partial "footer.html" . }}
