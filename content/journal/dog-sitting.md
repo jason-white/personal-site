@@ -5,7 +5,6 @@ date: 2020-03-31T20:46:58-04:00
 draft: false
 tags:
 - dogs
-- covid-19
 ---
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1587689578/000003270005.jpg" alt="farley and memphis napping" caption="Leica M6 / Voigtlander 35mm f/1.4 | Kodak Portra" >}}

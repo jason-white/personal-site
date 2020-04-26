@@ -18,3 +18,5 @@ So that's what this website is, really. Getting back to doing a lot of the thing
 Eventually I'll create a post going over the ins-and-outs of the website, how it was created, what software and services I'm using etc. But for now I'll just say, its current and future state is heavily influenced by <a href="https://chrisglass.com/" target="_blank">Chris Glass</a> and <a href="https://frankchimero.com" target="_blank">Frank Chimero</a>.
 
 ✌️
+
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1587692634/000003270036.jpg" alt="feet in sunshine with house plant" >}}

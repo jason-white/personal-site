@@ -10,4 +10,3 @@ My name is Jason and this is my little slice of the internet. As the 90s-inspire
 
 There isn't a lot of content at the moment, but feel free to browse the [journal](/journal/) or recent finds around the internet via <a href="https://pinboard.in/u:jasonwhite" target="_blank">Pinboard</a>. For more information about me and the website, please see the [about](/about/) page.
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1587692634/000003270036.jpg" alt="feet in sunshine with house plant" >}}
