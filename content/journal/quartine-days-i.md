@@ -7,7 +7,7 @@ tags:
 - covid-19
 ---
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1586719663/000036960016.jpg" alt="empty steel at costco" caption="Leica M6 / Voigtlander 35mm f/1.4" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1586719663/000036960016.jpg" alt="empty steel at costco" caption="Kodak Portra 400" >}}
 
 Like most others, we've been laying low. Only trips to the grocery store or Costco for essential items. Haven't seen any friends in person for weeks. Our only real way to get out and about is to walk in the park by our neighborhood. It helps.
 
