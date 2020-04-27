@@ -1,11 +1,12 @@
   <nav class="header__nav">
     <ul class="nav">
+      {{ $currentPage := . }}
       {{ range .Site.Menus.main.ByWeight }}
-      <li class="nav__item">
-        <a class="nav__link" href="{{ .URL }}">
-          {{ .Name }}
-        </a>
-      </li>
+        <li>
+          <a class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}" href="{{ .URL }}">
+            {{ .Name }}
+          </a>
+        </li>
       {{ end }}
     </ul>
   </nav>

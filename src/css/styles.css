@@ -148,22 +148,21 @@ figcaption > p {
   padding: 0;
 }
 
-.nav__item + .nav__item {
+.nav li + li {
   margin-top: 0.25rem; 
 }
 
-.nav__link {
+.nav a {
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.03rem;
   text-decoration: none;
   color: #000;
-  padding-bottom: 0.25rem;
 }
 
-.nav__link:visited {
-  color: #000;
+.nav a.active {
+  border-bottom: 0.125rem solid #FF6347;
 }
 
 
