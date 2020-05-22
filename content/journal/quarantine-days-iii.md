@@ -15,4 +15,4 @@ Tomorrow they're going to start "Phase II" of reopening around these parts. This
 
 Things have been the pretty much the same at home. Walks around the neighborhood park and bike rides with a couple friends. It's been raining for multiple days straight with more to come, so no walks for a while. [McAlpine Creek](https://www.mecknc.gov/ParkandRec/Greenways/OpenGreenways/Pages/UpperMcAlpineCreekGreenway.aspx) is probably washing over the bridges at this point. Staying inside watching a lot of [Hunter x Hunter](https://www.imdb.com/title/tt2098220/) and Mitch playing Animal Crossing has been the afterwork activities.
 
-
+Oh, and happy birthday, Mom! 🎉
