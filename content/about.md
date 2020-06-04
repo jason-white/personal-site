@@ -15,7 +15,7 @@ This year (2020) I've decided I wanted to be a little more hands-on. I enjoyed t
 
 So that's what this website is, really. Getting back to doing a lot of the things I used to enjoy and documenting them. Sure, there are many other ways of documenting every day life. Some are quite simple, or _convenient_. But there's something very satisfying about going through the whole process. Besides, this is personal. There's no rush.
 
-Eventually I'll create a post going over the ins-and-outs of the website, how it was created, what software and services I'm using etc. But for now I'll just say, its current and future state is heavily influenced by <a href="https://chrisglass.com/" target="_blank">Chris Glass</a> and <a href="https://frankchimero.com" target="_blank">Frank Chimero</a>.
+If interested check out the [Uses](/uses) page a bit more information on how the site was created.
 
 ✌️
 
