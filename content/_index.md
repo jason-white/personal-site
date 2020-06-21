@@ -4,8 +4,6 @@ title: "Home"
 description: "Jason White - Web design & developer"
 ---
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/v1591420297/blm-square.png" alt="a black square" caption="Black Lives Matter" >}}
-
 🚧 This site is currently under construction 🚧
 
 My name is Jason and this is my little slice of the internet. As the 90s-inspired construction emoji that frames the message above indicates, this site is still being worked on. At some point I will remove the message, but the site will continue to be developed "live" so-to-speak.
