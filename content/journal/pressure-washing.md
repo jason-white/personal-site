@@ -2,7 +2,7 @@
 type: "journal"
 title: "Pressure Washing"
 date: 2020-07-22T23:00:32-04:00
-draft: true
+draft: false
 tags:
 - house
 ---
