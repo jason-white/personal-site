@@ -56,7 +56,7 @@ Image hosting is handled by {{< link href="https://cloudinary.com/" text="Cloudi
 - The Fuji paired with the Nikon macro lens
 - My tripod
 - Raleno LED studio light
-- Lomography Digitaliza film holder
+- Negative Supply MK1 + MK2
 - Roll of packing tape to raise the Raleno 😂
 
 #### Other Photo Gear
