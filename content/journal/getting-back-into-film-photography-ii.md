@@ -8,8 +8,6 @@ tags:
 - film
 ---
 
-Getting Back Into Film Photography II
-
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1595634042/new-post-1.jpg" alt="building with glowing red neon trim" caption="CineStill 800t" >}}
 
 So the last post was more about my little adventure in acquiring my "forever" camera. Forever 35mm camera, anyway. But what has it been like to actually shoot film rather than digital these days? It's been expensive, slow, sometimes frustrating and I've probably lost or ruined a few too many shots. What I'm trying to say is that it's been super fun and I'm enjoying it now more than ever.
