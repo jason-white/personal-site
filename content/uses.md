@@ -41,10 +41,12 @@ I'm not really using the XA 2 so much these days. The Leica is small enough to c
 - Nikon Nikkor 55mm F/3.5 Micro Nippon Kogaku + M2 extension tube
 
 #### Film Development
+
 ##### Black & White
 - Ilfotec DD-X
 - Ilfotec Rapid Fixer
 - Kodak Photo Flo
+
 ##### Color
 - CineStill C-41 Kit (liquid & powder)
 
