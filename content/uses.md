@@ -56,7 +56,7 @@ I'm not really using the XA 2 so much these days. The Leica is small enough to c
 - Raleno LED studio light
 - Negative Supply MK1 + MK2
 
-The scanning rig has evolved pretty quickly. You get annoyed rather quickly with a flimsy setup. Especially when it yields amazing results *sometimes*. The Negative Supply MK1 has pretty much annihilated any remaining frustrations.
+The scanning rig is ever-changing it seems. You get annoyed rather quickly with a flimsy setup. Especially when it yields amazing results *sometimes*. The Negative Supply MK1 has pretty much annihilated any remaining frustrations. I may get a copy stand at some point, but the tri-pod (inverted) is working really well.
 
 #### Software
 - Lightroom w/ {{< link href="https://www.negativelabpro.com/" text="Negative Lab Pro" >}}
