@@ -17,6 +17,7 @@ Having a local Tandy is handy (heh.) I still needed some antique rivets and a ri
 We actually bought a lot of stuff from Tandy Leather months ago so I had a lot of the tools we needed already.
 
 Lessons Learned:
+
 - No need to bevel the top of a nicely finished strip like this
 - No need to burnish the edges I was told (but isn't a terrible idea)
 - Leather bumpers would be nice to silence the triangle rings
