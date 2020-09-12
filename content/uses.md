@@ -37,6 +37,7 @@ I'm not really using the XA 2 so much these days. The Leica is small enough to c
 
 #### Lenses
 - Voigtlander Nokton Classic 35mm f/1.4
+- Leica (Leitz Canada) Tele-Elmarit 90mm f/2.8
 - Fuji 35mm f/1.4 R
 - Nikon Nikkor 55mm F/3.5 Micro Nippon Kogaku + M2 extension tube
 
