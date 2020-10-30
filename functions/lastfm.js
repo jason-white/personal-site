@@ -1,5 +1,3 @@
-import fetch from 'node-fetch'
-
 const ENDPOINT = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=7d55acde37f9cbd0d03400d2ce01e513&format=json&limit=5'
 let lastfm = null
 
