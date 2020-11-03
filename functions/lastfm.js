@@ -1,7 +1,9 @@
 const fetch = require('node-fetch')
 const key = process.env.lastfm
 
-const ENDPOINT = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=${key}&format=json&limit=5`
+const ENDPOINT = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=7d55acde37f9cbd0d03400d2ce01e513&format=json&limit=5'
+
+console.log(key)
 let lastfm = null
 
 exports.handler = async (event, context) => {
