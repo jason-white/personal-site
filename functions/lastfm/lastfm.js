@@ -13,7 +13,7 @@ const handler = async function (event, context) {
       })
     }
   }
-  const { identity, user } = context.clientContext
+  // const { identity, user } = context.clientContext
   try {
     const response = await fetch(ENDPOINT$)
     if (!response.ok) {
@@ -24,7 +24,7 @@ const handler = async function (event, context) {
 
     return {
       statusCode: 200,
-      body: JSON.stringify({ identity, user, msg: data.value })
+      body: JSON.stringify({ msg: data.value })
     }
   } catch (error) {
     // output to netlify function log
