@@ -6,7 +6,7 @@ const sourcemaps = require('gulp-sourcemaps')
 
 function css () {
   return gulp
-    .src('./src/css/**/*.css')
+    .src('./src/css/*.css')
     .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(postcss([autoprefixer()]))
@@ -15,7 +15,7 @@ function css () {
 }
 
 function watchFiles () {
-  gulp.watch('./src/css/**/*.css', css)
+  gulp.watch('./src/css/*.css', css)
 }
 
 gulp.task('css', css)

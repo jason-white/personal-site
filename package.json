@@ -4,6 +4,7 @@
   "description": "A theme for Hugo, the static site generator.",
   "main": "index.js",
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "npm": "^6.13.2"
   },
   "devDependencies": {
@@ -23,8 +24,7 @@
     "tailwindcss": "^0.5.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp": "gulp"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "hugo",
