@@ -31,14 +31,13 @@ I use the monitor as a hub, and being USB-C for the MacBook, it also works as a 
 #### Cameras
 - Leica M6
 - Olympus XA 2
-- Fuji X-Pro 1
+- Nikon D800E
 
-I'm not really using the XA 2 so much these days. The Leica is small enough to carry everywhere. The Fuji X-Pro 1 is almost entirely used for scanning negatives lately.
+I'm not really using the XA 2 so much these days. The Leica is small enough to carry everywhere. The D800E is almost exclusively used for scanning negatives.
 
 #### Lenses
 - Voigtlander Nokton Classic 35mm f/1.4
 - Leica (Leitz Canada) Tele-Elmarit 90mm f/2.8
-- Fuji 35mm f/1.4 R
 - Nikon Nikkor 55mm F/3.5 Micro Nippon Kogaku + M2 extension tube
 
 #### Film Development
@@ -52,12 +51,12 @@ I'm not really using the XA 2 so much these days. The Leica is small enough to c
 - CineStill C-41 Kit (liquid & powder)
 
 #### Scanning Rig
-- The Fuji paired with the Nikon macro lens
-- Peak Design Tripod (aluminum)
+- The D800E paired with the Nikon macro lens
+- ALZO copy stand
 - Raleno LED studio light
 - Negative Supply MK1 + MK2
 
-The scanning rig is ever-changing it seems. You get annoyed rather quickly with a flimsy setup. Especially when it yields amazing results *sometimes*. The Negative Supply MK1 has pretty much annihilated any remaining frustrations. I may get a copy stand at some point, but the tri-pod (inverted) is working really well.
+The scanning rig is ever-changing it seems. You get annoyed rather quickly with a flimsy setup. Especially when it yields amazing results *sometimes*. The Negative Supply MK1 has pretty much annihilated any remaining frustrations. ~~I may get a copy stand at some point, but the tri-pod (inverted) is working really well.~~ I got an ALZO copy stand, and having a dedicated setup for scanning really makes a difference.
 
 #### Software
 - Lightroom w/ {{< link href="https://www.negativelabpro.com/" text="Negative Lab Pro" >}}

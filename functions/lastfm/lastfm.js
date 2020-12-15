@@ -1,32 +1,17 @@
 const fetch = require('node-fetch')
-const { LAST_FM_KEY } = process.env
+const key = JSON.stringify(process.env.LAST_FM_KEY)
 
-const ENDPOINT = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=${LAST_FM_KEY}&format=json&limit=5`
+const ENDPOINT = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=${key}&format=json&limit=5&cb=http://jasonwhite.us`
+
+// let lastfm = document.getElementById('lastfm')
 
 const handler = async (event, context) => {
   let response
   try {
-    response = await fetch(ENDPOINT, { headers: {'Accept': 'application/json'} })
+    response = await fetch(ENDPOINT)
       .then((response) => {
-        console.log(JSON.stringify(response))
+        console.log(response)
         return response.json()
-      })
-      .then((data) => {
-        let tracks = data.recenttracks.track
-        const list = `
-          <ul class="tracks">
-            ${tracks.map(track =>
-              `<li class="track">
-                 <div class="track__art">
-                   <img src="${track.image[1]['#text']}" alt="${track.name} album art">
-                 </div>
-                 <div class="track__info">
-                   <span class="track__name"><a href="${track.url}" target="_blank">${track.name}</a></span><br/>
-                   <span class="track__artist">by: ${track.artist['#text']}</span>
-                 </div>
-               </li>`).join('')}
-             </ul>
-           `
       })
   } catch (err) {
     return {

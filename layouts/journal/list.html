@@ -6,6 +6,8 @@
     <li class="post">
       <h3>{{ .Title }}</h3>
       <article class="post__body">
+        {{ .Content }}
+        <!-- meta -->
         <div class="post__meta">
           <a href="{{ .RelPermalink }}">
             <time>
@@ -14,10 +16,8 @@
             {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
             {{ end }}
           </a>
+          {{ partial "tags.html" . }}
         </div>
-        {{ .Content }}
-        <!-- tags -->
-        {{ partial "tags.html" . }}
       </article>
     </li>
     {{ end }}
