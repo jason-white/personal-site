@@ -4,6 +4,7 @@
   <article class="single-post">
     <h3>{{ .Title }}</h3>
     <div class="single-post__body">
+      {{ .Content }}
       <div class="post__meta">
         <a href="{{ .RelPermalink }}">
           <time>
@@ -12,10 +13,9 @@
           {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
           {{ end }}
         </a>
+        <!-- tags -->
+        {{ partial "tags.html" . }}
       </div>
-      {{ .Content }}
-      <!-- tags -->
-      {{ partial "tags.html" . }}
     </div>
   </article>
 </div>
