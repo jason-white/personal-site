@@ -250,7 +250,7 @@ figcaption > p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: var(--space);
-    grid-template-areas: "intro intro posts links";
+    grid-template-areas: "intro . posts links";
   }
   
   .home > section + section {
@@ -342,11 +342,13 @@ figcaption > p {
 }
 
 .post h3 {
-  margin: 0 0 2.5rem 0;
+  margin: 0 0 4rem 0;
 }
 
 .post__meta {
   margin-top: 3rem;
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
 .post__meta a {
@@ -354,7 +356,7 @@ figcaption > p {
 }
 
 .post__meta time {
-  font-size: 0.90rem;
+  text-transform: uppercase;
   color: #777;
 }
 
@@ -367,12 +369,11 @@ figcaption > p {
 
 .post__tags li {
   margin-right: 0.5rem;
-  font-size: 0.90rem;
+  text-transform: uppercase;
   color: #777;
 }
 
 .post__tags li a {
-  font-size: 0.90rem;
   color: #777;
   text-decoration: none;
 }

@@ -30,6 +30,7 @@ I use the monitor as a hub, and being USB-C for the MacBook, it also works as a 
 
 #### Cameras
 - Leica M6
+- Hasseblad 500C (late model)
 - Olympus XA 2
 - Nikon D800E
 
@@ -38,6 +39,8 @@ I'm not really using the XA 2 so much these days. The Leica is small enough to c
 #### Lenses
 - Voigtlander Nokton Classic 35mm f/1.4
 - Leica (Leitz Canada) Tele-Elmarit 90mm f/2.8
+- Carl Zeiss 80mm Planar f/2.8 C
+- Car Zeiss 150mm Sonnar f/4 C T*
 - Nikon Nikkor 55mm F/3.5 Micro Nippon Kogaku + M2 extension tube
 
 #### Film Development
