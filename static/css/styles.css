@@ -427,7 +427,7 @@ figcaption > p {
   grid-column: 2 / 4;
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 80rem) {
   .single-page {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
