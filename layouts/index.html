@@ -45,9 +45,9 @@
       try {
         await fetch('/api/lastfm', {
           method: 'GET'
-          headers: ({
+          headers: {
             "Content-Type": "application/json"
-          })
+          }
         })
       return recentTracks
       } catch (err) {
