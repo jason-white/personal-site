@@ -36,19 +36,23 @@
 <!-- Import footer -->
 {{ partial "footer.html" . }}
 
-  <script>
-    const body = document.body;
-    body.onload = getTracks;
+<script>
+  const body = document.body;
+  body.onload = getTracks;
 
-    function getTracks() {
-      const recentTracks = async () => {
-        try {
-          await fetch('/api/lastfm', {
-            method: 'GET'
+  function getTracks() {
+    const recentTracks = async () => {
+      try {
+        await fetch('/api/lastfm', {
+          method: 'GET'
+          headers: ({
+            "Content-Type": "application/json"
           })
-        } catch (err) {
-          console.error(err);
-        }
+        })
+      return recentTracks
+      } catch (err) {
+        console.error(err);
       }
     }
-  </script>
+  }
+</script>
