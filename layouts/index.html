@@ -37,19 +37,18 @@
 {{ partial "footer.html" . }}
 
 <script>
+  const fetch = require('node-fetch')
   const body = document.body;
-  body.onload = getTracks;
+  body.onload = getTracks();
 
   function getTracks() {
     const recentTracks = async () => {
       try {
-        await fetch('/api/lastfm', {
+        await fetch('/api/lastfm-tracks', {
           method: 'GET'
-          headers: {
-            "Content-Type": "application/json"
-          }
+        }).then(response => {
+          console.log(response.json)
         })
-      return recentTracks
       } catch (err) {
         console.error(err);
       }

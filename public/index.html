@@ -107,39 +107,3 @@
   </div>
 </body>
 </html>
-
-
-<script>
-  let scrobbles = [];
-  let lastfm = document.getElementById('lastfm');
-  
-  getScrobbles();
-  
-  function getScrobbles() {
-    fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=473eee2c0423d8188bbb6cfa3e21eedc&format=json&limit=5')
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        tracks = data.recenttracks.track;
-        
-        const list = `
-          <h3>🎧 Listening</h3>
-          <span>via <a href="https://www.last.fm/user/qbertqbert">last.fm</a></span>
-          <ul class="tracks">
-            ${tracks.map(track => 
-              `<li class="track">
-                <div class="track__art">
-                  <img src="${track.image[1]['#text']}" alt="${track.name} album art">
-                </div>
-                <div class="track__info">
-                  <span class="track__name"><a href="${track.url}" target="_blank">${track.name}</a></span><br/>
-                  <span class="track__artist">by: ${track.artist['#text']}</span>
-                </div>
-              </li>`).join('')}
-          </ul>
-        `;
-        lastfm.innerHTML = list;
-      });
-  }
-</script>
