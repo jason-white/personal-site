@@ -3,3 +3,6 @@
 /themes/blank/node_modules/
 /public
 .DS_Store
+
+# Local Netlify folder
+.netlify
