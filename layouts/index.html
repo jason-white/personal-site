@@ -43,11 +43,8 @@
     function getTracks() {
       const recentTracks = async () => {
         try {
-          await fetch('/api/getTracks', {
-            method: 'GET',
-            body: "body"
-          }).then(response => {
-            console.log(response)
+          await fetch('/api/lastfm', {
+            method: 'GET'
           })
         } catch (err) {
           console.error(err);
