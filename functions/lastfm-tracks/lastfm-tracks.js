@@ -6,7 +6,7 @@ const url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user
 const handler = async function () {
   try {
     const response = await fetch(url, {
-      headers: { Accept: 'application/json' },
+      headers: { Accept: '*/*' },
     })
     if (!response.ok) {
       // NOT res.status >= 200 && res.status < 300
