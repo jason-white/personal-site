@@ -5,8 +5,7 @@ dotenv.config();
 exports.handler = async (event, context) => {
   const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN;
 
-  const auth = Buffer.from(`${process.env.SPOTIFY_CLIENT_ID}:${process.env.SPOTIFY_CLIENT_SECRET}`)
-    .toString("base64");
+  const auth = Buffer.from(`${process.env.SPOTIFY_CLIENT_ID}:${process.env.SPOTIFY_CLIENT_SECRET}`).toString("base64");
 
   const tokenEndpoint = `https://accounts.spotify.com/api/token`;
   const playerEndpoint = `https://api.spotify.com/v1/me/player/recently-played`;
@@ -44,7 +43,7 @@ exports.handler = async (event, context) => {
     })
     .then(json => {
       return {
-        statuseCode: 200,
+        statusCode: 200,
         body: JSON.stringify(json),
       }
     });
