@@ -57,7 +57,7 @@ I'm not really using the XA 2 so much these days. The Leica is small enough to c
 - CineStill C-41 Kit (liquid & powder)
 
 #### Scanning Rig
-- The D800E paired with the Nikon macro lens
+- The D800E paired with the Sigma macro lens
 - ALZO copy stand
 - Raleno LED studio light
 - Negative Supply MK1, 120 + MK2
