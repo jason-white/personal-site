@@ -43,7 +43,8 @@ I'm not really using the XA 2 so much these days. The Leica is small enough to c
 - Leica (Leitz Canada) Tele-Elmarit 90mm f/2.8
 - Carl Zeiss 80mm Planar f/2.8 C
 - Car Zeiss 150mm Sonnar f/4 C T*
-- Nikon Nikkor 55mm F/3.5 Micro Nippon Kogaku + M2 extension tube
+- Nikon Nikkor 55mm f/3.5 Micro Nippon Kogaku + M2 extension tube
+- Sigma 70mm f/2.8 DG Macro
 
 #### Film Development
 
