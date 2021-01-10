@@ -99,6 +99,12 @@ figcaption > p {
   color: #3c3c3c;
 }
 
+figure.right {
+  float: right;
+  width: 50%;
+  padding-left: 1rem;
+}
+
 .list li {
   line-height: 1.5;
 }
