@@ -11,7 +11,7 @@ weight: 3
 
 My name is Jason. Professionally I'm a web designer and developer, but outside of work I really enjoy photographing things. I live in Charlotte, North Carolina with my husband. Dog is pending.
 
-This year (2020) I've decided I wanted to be a little more hands-on. I enjoyed the days when everyone had a website and shared little snippets of their personal life or hobbies. Before services and web applications became the norm. 
+In 2020 I decided I wanted to be a little more hands-on. I enjoyed the days when everyone had a website and shared little snippets of their personal life or hobbies. Before services and web applications became the norm. 
 
 So that's what this website is, really. Getting back to doing a lot of the things I used to enjoy and documenting them. Sure, there are many other ways of documenting every day life. Some are quite simple, or _convenient_. But there's something very satisfying about going through the whole process. Besides, this is personal. There's no rush.
 
