@@ -9,6 +9,8 @@ weight: 2
 
 ### Things I Use
 
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1610245818/IMG_0980.jpg" alt="computer workstation" caption="Workstation, January 2021" >}}
+
 I love reading other peoples 'Uses' pages so I thought I'd make my own. It feels weird to write your own and I'm not entirely sure what to write, but here we are.
 
 #### Development Environment
@@ -57,7 +59,7 @@ I'm not really using the XA 2 so much these days. The Leica is small enough to c
 - The D800E paired with the Nikon macro lens
 - ALZO copy stand
 - Raleno LED studio light
-- Negative Supply MK1 + MK2
+- Negative Supply MK1, 120 + MK2
 
 The scanning rig is ever-changing it seems. You get annoyed rather quickly with a flimsy setup. Especially when it yields amazing results *sometimes*. The Negative Supply MK1 has pretty much annihilated any remaining frustrations. ~~I may get a copy stand at some point, but the tri-pod (inverted) is working really well.~~ I got an ALZO copy stand, and having a dedicated setup for scanning really makes a difference.
 
