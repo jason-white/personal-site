@@ -286,6 +286,10 @@ figure.right {
   margin: 0;
 }
 
+.recent__post a {
+  line-height: 1.5rem;
+}
+
 .recent__post + .recent__post {
   margin-top: 1rem;
 }
@@ -297,7 +301,8 @@ figure.right {
 }
 
 .pin-title {
-  font-size:1em;
+  font-size:1rem;
+  line-height: 1.5rem;
 }
 
 .pin-description {
