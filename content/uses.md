@@ -39,6 +39,7 @@ I use the monitor as a hub, and being USB-C for the MacBook, it also works as a 
 I'm not really using the XA 2 so much these days. The Leica is small enough to carry everywhere. The D800E is almost exclusively used for scanning negatives.
 
 #### Lenses
+- Leica Summicron ASPH 35mm f/2
 - Voigtlander Nokton Classic 35mm f/1.4
 - Leica (Leitz Canada) Tele-Elmarit 90mm f/2.8
 - Carl Zeiss 80mm Planar f/2.8 C
