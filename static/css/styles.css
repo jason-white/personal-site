@@ -319,6 +319,7 @@ figure.right {
 }
 
 .track__img {
+  align-self: flex-start;
   margin-right: 0.5rem;
 }
 
