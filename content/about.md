@@ -19,4 +19,4 @@ If interested check out the [Uses](/uses) page a bit more information on some of
 
 ✌️
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1610247692/selfie.jpg" alt="self portrait with leica m6 in mirror" caption="Mirror selfie in Matt's bathroom 2020" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1613273347/02-07-21_hp5-2-7.jpg" alt="self portrait with leica m6 in mirror" caption="Mirror selfie during our bathroom remodel" >}}
