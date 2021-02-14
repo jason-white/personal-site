@@ -15,13 +15,16 @@
   <section class="home__recent">
     <h3>Recent Posts</h3>
     <ul class="list-reset">
-      {{ range where .Site.Pages "Type" "journal" }}
+      {{ range first 10 (where .Site.Pages "Type" "journal") }}
         <li class="recent__post">
           <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
           <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
         </li>
       {{ end }}
     </ul>
+    <p>
+      More Journal posts can be found <a href="/journal">here</a>
+    </p>
   </section>
 
   <!-- Tracks column -->
@@ -30,6 +33,9 @@
     <ul id="recent-tracks" class="recent-tracks">
       <!-- populated by js -->
     </ul>
+    <p>
+    Recently played tracks are pulled from my <a href="https://www.last.fm/user/qbertqbert" target="_blank">last.fm</a> account, which is populated via <a href="https://open.spotify.com/user/jasonawhite" target="_blank">Spotify</a>.
+    </p>
   </section>
 
   <!-- Links column -->
