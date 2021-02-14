@@ -91,7 +91,8 @@ figure {
 }
 
 @media(min-width: 80rem) {
-  .post__body figure {
+  .post__body figure,
+  .single-post__body figure {
     margin: 2rem -3rem 1rem -3rem;
   }
 }
