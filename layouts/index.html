@@ -9,8 +9,6 @@
   <section class="home__intro">
     <h3>Welcome</h3>
     {{.Content}}
-    <div id="lastfm">
-    </div>
   </section>
 
   <!-- Pages column -->
@@ -26,6 +24,14 @@
     </ul>
   </section>
 
+  <!-- Tracks column -->
+  <section class="home__tracks">
+    <h3>Currently Listening</h3>
+    <ul id="recent-tracks" class="recent-tracks">
+      <!-- populated by js -->
+    </ul>
+  </section>
+
   <!-- Links column -->
   <section class="home__links">
     <h3>Recent Finds</h3>
@@ -37,21 +43,35 @@
 {{ partial "footer.html" . }}
 
 <script>
-  const fetch = require('node-fetch')
   const body = document.body;
+  const tracks = document.getElementById("recent-tracks");
   body.onload = getTracks();
 
   function getTracks() {
-    const recentTracks = async () => {
-      try {
-        await fetch('/api/lastfm-tracks', {
-          method: 'GET'
-        }).then(response => {
-          console.log(response.json)
-        })
-      } catch (err) {
-        console.error(err);
+    return fetch('/api/lastfm', {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json"
       }
-    }
+    })
+      .then((res) => res.json())
+      .then(res => {
+        res.recenttracks.track.forEach((track) => {
+          tracks.innerHTML += `
+            <li>
+              <div class="track">
+                <img class="track__img" src="${track.image[1]['#text']}" alt="generated album cover - non-descript">
+                <div class="track__info">
+                  <p>${track.artist['#text']}</p>
+                  <a href="${track.url}" target="_blank">${track.name}</a>
+                </div>
+              </div>
+            </li>
+          `
+        });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }
 </script>

@@ -242,8 +242,8 @@ figure.right {
     grid-template-rows: auto auto;
     grid-gap: var(--space);
     grid-template-areas:
-      "intro intro"
-      "posts links";
+      "intro posts"
+      "tracks links";
   }
 
   .home > section + section {
@@ -256,7 +256,7 @@ figure.right {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: var(--space);
-    grid-template-areas: "intro . posts links";
+    grid-template-areas: "intro posts tracks links";
   }
   
   .home > section + section {
@@ -292,6 +292,33 @@ figure.right {
 
 .recent__post + .recent__post {
   margin-top: 1rem;
+}
+
+/* Recent Tracks */
+.home__tracks {
+  grid-area: tracks;
+}
+
+.recent-tracks {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-tracks li + li {
+  margin-top: 1rem;
+}
+
+.track {
+  display: flex;
+}
+
+.track__img {
+  margin-right: 0.5rem;
+}
+
+.track__info p {
+  margin: 0;
 }
 
 /* Links */
