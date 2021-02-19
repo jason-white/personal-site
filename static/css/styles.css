@@ -269,6 +269,40 @@ figure.right {
   }
 }
 
+/* Archives */
+
+.archives {
+  padding: 0 var(--space);
+}
+
+.archive ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.archive ul > li {
+  display: flex;
+}
+
+.archive li + li {
+  margin-top: 0.5rem;
+}
+
+.archive__publish-date {
+  flex: 0 0 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (min-width: 64rem) {
+  .archives {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: var(--space);
+  }
+}
+
 /* About */
 
 .home__intro {

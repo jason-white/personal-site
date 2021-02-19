@@ -10,7 +10,7 @@ Most of the content is within the [journal](/journal/) or recent finds around th
 
 Here's a little todo list to keep me reminded ✏️
 
-- Create proper Archives page for posts
+- Create proper Archives page for posts ✅
 - Revamp the About page and kinda merge it with the Uses page
 - Create a portfolio page
 - Thinking of squeezing VueJS in just to make a gallery shortcode for Hugo
