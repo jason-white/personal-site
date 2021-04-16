@@ -103,15 +103,6 @@ figcaption > p {
   color: #3c3c3c;
 }
 
-@media (min-width: 80rem) {
-  .post__body figure,
-  .single-post__body figure,
-  .single-page__body figure {
-    margin: 2rem -4rem 1rem -4rem;
-  }
-}
-
-
 .right {
   float: right;
   margin-left: 1rem;
