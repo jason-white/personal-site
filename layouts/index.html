@@ -3,7 +3,7 @@
 {{ partial "header.html" . }}
 
 <!-- Begin page -->
-<div class="home columns">
+<div class="home">
   
   <!-- Hello column -->
   <section class="home__intro">
@@ -49,6 +49,7 @@
 {{ partial "footer.html" . }}
 
 <script>
+  // Get last.fm recent tracks
   const body = document.body;
   const tracks = document.getElementById("recent-tracks");
   body.onload = getTracks();
@@ -80,4 +81,19 @@
         console.log(err);
       });
   }
+
+
+  // Lightbox
+  let thumb = document.querySelector('.thumb');
+  let lightbox = document.querySelector('.lightbox');
+
+  thumb.addEventListener('click', function(event) {
+    event.preventDefault();
+    lightbox.classList.toggle('open');
+  });
+
+  lightbox.addEventListener('click', function(event) {
+    event.preventDefault();
+    lightbox.classList.toggle('open');
+  });
 </script>
