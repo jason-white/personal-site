@@ -1,6 +1,6 @@
 ---
 type: "journal"
-title: "April Book Pickups 2021"
+title: "April Book Pickups"
 date: 2021-04-25T22:53:18-04:00
 draft: false
 tags:
