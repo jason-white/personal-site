@@ -7,8 +7,6 @@ layout: "single"
 weight: 2
 ---
 
-### Things I Use
-
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1610245818/IMG_0980.jpg" alt="computer workstation" caption="Workstation, January 2021" >}}
 
 I love reading other peoples 'Uses' pages so I thought I'd make my own. It feels weird to write your own and I'm not entirely sure what to write, but here we are.

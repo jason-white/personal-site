@@ -1,10 +1,11 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<div class="single-page">
-    <main class="single-page__content">
-      <article class="single-page__body">
-        {{ .Content }}
-      </article>
-    </main>
-</div>
+<main class="single-page">
+  <div class="layout__center">
+    <h3>{{ .Title }}</h3>
+    <article class="article__content">
+      {{ .Content }}
+    </article>
+  </div>
+</main>
 {{ partial "footer.html" . }}

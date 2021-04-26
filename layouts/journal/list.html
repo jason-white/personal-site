@@ -1,24 +1,26 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<div class="list-page columns">
+<div class="list-page">
   <ul class="posts">
     {{ range (.Paginator 5).Pages }}
     <li class="post">
-      <h3>{{ .Title }}</h3>
-      <article class="post__body">
+      <h3>
+        {{ .Title }}
+      </h3>
+      <article class="article__content">
         {{ .Content }}
-        <!-- meta -->
-        <div class="post__meta">
-          <a href="{{ .RelPermalink }}">
-            <time>
-              {{ .Date.Format "January 2, 2006" }}
-            </time>
-            {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
-            {{ end }}
-          </a>
-          {{ partial "tags.html" . }}
-        </div>
       </article>
+      <!-- meta -->
+      <div class="post__meta">
+        <a href="{{ .RelPermalink }}">
+          <time>
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+          {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
+          {{ end }}
+        </a>
+        {{ partial "tags.html" . }}
+      </div>
     </li>
     {{ end }}
   </ul>

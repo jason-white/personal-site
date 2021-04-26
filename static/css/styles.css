@@ -11,7 +11,6 @@
 @media (min-width: 64rem) {
   :root {
     --space: 1.5rem;
-    font-size: 1.125rem;
   }
 }
 
@@ -19,7 +18,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /*box-shadow: 0 0 3px 0 rgba(255, 0, 255, 0.3);*/
+  /* box-shadow: 0 0 3px 0 rgba(255, 0, 255, 0.3); */
 }
 
 html,
@@ -103,15 +102,7 @@ figcaption > p {
   color: #3c3c3c;
 }
 
-.right {
-  float: right;
-  margin-left: 1rem;
-}
 
-.left {
-  float: left;
-  margin-right: 1rem;
-}
 
 .list li {
   line-height: 1.5;
@@ -278,6 +269,10 @@ figcaption > p {
   padding: 0 var(--space);
 }
 
+.archive {
+  margin-bottom: 4rem;
+}
+
 .archive ul {
   list-style-type: none;
   margin: 0;
@@ -418,6 +413,7 @@ figcaption > p {
   padding: 0;
 }
 
+/*
 .post {
   border-bottom: 1px solid #ccc;
   padding-bottom: 1rem;
@@ -426,19 +422,23 @@ figcaption > p {
 .post:last-of-type {
   border-bottom: none;
 }
+*/
 
 .post + .post {
-  margin-top: 8rem;
+  margin: 8rem 0;
 }
 
 .post h3 {
-  margin: 0 0 4rem 0;
+  margin-bottom: 4rem;
 }
 
 .post__meta {
-  margin-top: 3rem;
+  margin: 2rem auto 0 auto;
+  max-width: 40rem;
   font-size: 0.75rem;
   font-weight: 600;
+  padding-top: 1rem;
+  border-top: 0.063rem solid #e1e1e1;
 }
 
 .post__meta a {
@@ -467,13 +467,6 @@ figcaption > p {
   color: #777;
   text-decoration: none;
 }
-
-/*
-.post__body img {
-  width: 100%;
-  height: auto;
-}
-*/
 
 .img-caption {
   font-size: 0.75rem;
@@ -504,7 +497,31 @@ figcaption > p {
 }
 
 
+/*******************************
+ * Article Content
+ */
 
+.layout__center {
+  grid-column: 2 / 4;
+}
+
+.article__content > *:not(figure) {
+  max-width: 40rem;
+  margin: 1rem auto;
+}
+
+.article__content > figure {
+  margin: 4.5rem 0;
+}
+
+.article__content > figure:first-of-type {
+  margin-top: 0;
+}
+
+@media (min-width: 80rem) {
+  .article__content > figure {
+  }
+}
 
 /*******************************
  * Single Page
@@ -514,9 +531,7 @@ figcaption > p {
   padding: 0 var(--space);
 }
 
-.single-page__content {
-  grid-column: 2 / 4;
-}
+
 
 @media (min-width: 80rem) {
   .single-page {
@@ -531,7 +546,7 @@ figcaption > p {
 }
 
 .single-post h3 {
-  margin: 0 0 4rem 0;
+  margin-bottom: 4rem;
 }
 
 /*******************************
@@ -561,15 +576,26 @@ figcaption > p {
 
 
 /****************************
- * Lightbox
+ * Floated Image / Lightbox
  */
 
 .thumb {
   cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 .thumb:hover {
   opacity: 0.80;
+}
+
+.right {
+  float: right;
+  margin-left: 2rem;
+}
+
+.left {
+  float: left;
+  margin-right: 2rem;
 }
 
 .lightbox {

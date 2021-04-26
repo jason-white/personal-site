@@ -1,11 +1,12 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<div class="single-page columns">
-  <article class="single-post">
+<div class="single-page">
+  <div class="single-post layout__center">
     <h3>{{ .Title }}</h3>
-    <div class="single-post__body">
+    <article class="article__content">
       {{ .Content }}
-      <div class="post__meta">
+    </article>
+    <div class="post__meta">
         <a href="{{ .RelPermalink }}">
           <time>
             {{ .Date.Format "January 2, 2006" }}
@@ -16,7 +17,6 @@
         <!-- tags -->
         {{ partial "tags.html" . }}
       </div>
-    </div>
-  </article>
+  </div>
 </div>
 {{ partial "footer.html" . }}
