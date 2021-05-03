@@ -67,17 +67,17 @@ blockquote {
   background-color: #f4f4f4;
 }
 
-h3 {
-  line-height: 1;
-  margin-bottom: 4rem;
-}
-
 h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 3rem;
   line-height: 4rem;
   letter-spacing: -0.01rem;
+}
+
+h3 {
+  line-height: 1;
+  margin-bottom: 4rem;
 }
 
 img {
@@ -505,9 +505,13 @@ figcaption > p {
   grid-column: 2 / 4;
 }
 
-.article__content > *:not(figure) {
+.article__content > *:not(figure):not(h4) {
   max-width: 40rem;
   margin: 1rem auto;
+}
+
+.article__content h4 {
+  margin: 3rem auto 2rem auto;
 }
 
 .article__content > figure {
@@ -580,22 +584,29 @@ figcaption > p {
  */
 
 .thumb {
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-
-.thumb:hover {
-  opacity: 0.80;
+  width: 150px;
 }
 
 .right {
   float: right;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .left {
   float: left;
-  margin-right: 2rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .thumb {
+    width: auto;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+
+  .thumb:hover {
+    opacity: 0.80;
+  }
 }
 
 .lightbox {

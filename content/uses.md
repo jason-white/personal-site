@@ -36,9 +36,9 @@ I love reading other peoples 'Uses' pages so I thought I'd make my own. It feels
 - CineStill C-41 Kit (I like the liquid kit as it's a bit easier to mix)
 
 #### Scanning Rig
-- The D800E paired with the Sigma macro lens
+- The D800E paired with the Sigma 70mm f/2.8 DG Macro
 - ALZO copy stand
-- Raleno LED studio light
+- {{< link href="https://www.negative.supply/" text="Negative Supply Basic Light" >}}
 - {{< link href="https://www.negative.supply/" text="Negative Supply MK1, 120 + MK2" >}}
 
 #### Software

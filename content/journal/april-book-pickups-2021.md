@@ -15,4 +15,3 @@ Didn't mean for this to be a series, but a few books came in this month. Followi
 _Avedon at Work_ by Laura Wilson I found out through Ed Templeton's Instagram stories. Laura Wilson (mother to Luke, Owen and Andrew Wilson) assisted Avedon while he was working on his American West series. She later wrote this book about it. I've only just started reading this one. Sidenote, Laura Wilson's {{< link href="https://laurawilsonphotography.com/" text="work is stunning." >}}
 
 _Friend of Mine_ by Matt Day. This is a second edition where Matt was able to recreate his book the way he felt it should have been done the first time. It's wonderful to finally have these photos in printed form. And the book is bound beautifully with a black linen wrapped hardcover. Nice and simple presentation. 
-

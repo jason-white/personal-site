@@ -2,23 +2,22 @@
   <img
     class="thumb {{ .Get "float" }}"
     src="{{ .Get "thumb" }}"
-      {{ if or (.Get "alt") (.Get "caption") }}
-      alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}" {{ end }}
+    {{ if or (.Get "alt") (.Get "caption") }}
+    alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}" {{ end }}
   />
-
-  <div class="lightbox">
-    <figure>
-      <img
-        src="{{ .Get "src" }}"
-      />
-      {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
-      <figcaption>
-        {{ if or (.Get "caption") (.Get "attr")}}
-        <p>
-        {{ .Get "caption" }}
-        </p> {{ end }}
-      </figcaption>
-      {{ end }}
-    </figure>
-  </div>
 </p>
+<div class="lightbox">
+  <figure>
+    <img
+      src="{{ .Get "src" }}"
+    />
+    {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
+    <figcaption>
+      {{ if or (.Get "caption") (.Get "attr")}}
+      <p>
+      {{ .Get "caption" }}
+      </p> {{ end }}
+    </figcaption>
+    {{ end }}
+  </figure>
+</div>
