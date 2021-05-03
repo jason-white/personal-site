@@ -511,6 +511,7 @@ figcaption > p {
 }
 
 .article__content h4 {
+  max-width: 40rem;
   margin: 3rem auto 2rem auto;
 }
 
