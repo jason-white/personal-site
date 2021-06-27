@@ -3,11 +3,13 @@ type: "journal"
 title: "Deadmau5"
 date: 2019-12-02T19:00:00-05:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1581043392/2019_dc/deadmau5-live.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1581043392/2019_dc/deadmau5-live.jpg"
+alt: "deadmau5 performing live"
+caption: "iPhone 11 Pro"
 tags:
 - shows
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_1920/v1581043392/2019_dc/deadmau5-live.jpg" alt="deadmau5 performing live in the cube v3" caption="iPhone 11 Pro" >}}
 
 Much earlier this year my friend Ryan asked us if we'd like to drive up to DC and see Deadmau5 around Thanksgiving.
 

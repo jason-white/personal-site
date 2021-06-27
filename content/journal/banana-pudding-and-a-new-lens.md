@@ -3,13 +3,15 @@ type: "journal"
 title: "Banana Pudding and a New Lens"
 date: 2021-02-08T20:11:10-05:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1612836107/2021%20Posts/2021-02-08/02-07-21_hp5-2-19.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1612836107/2021%20Posts/2021-02-08/02-07-21_hp5-2-19.jpg"
+alt: "man scraping pudding into dessert dish from a bowl"
+caption: "35mm Summicron ASPH / Ilford HP5 @ 1600"
 tags:
 - leica
 - summicron
 - superbowl
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1612836107/2021%20Posts/2021-02-08/02-07-21_hp5-2-19.jpg" alt="man scooping pudding from bowl into dish" caption="Ilford HP5 pushed to 1600" >}}
 
 Mitch made banana pudding for Super Bowl LV from a friend of a friends recipe, I believe. It was delicious. I'm not sure if banana pudding is a thing outside of the south eastern United States, but you should try it sometime if not. Those Nilla Wafers, though. 
 

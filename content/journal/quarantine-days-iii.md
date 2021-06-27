@@ -3,11 +3,13 @@ type: "journal"
 title: "Quarantine Days III"
 date: 2020-05-21T13:22:40-04:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1590175737/bike-repair1.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1590175737/bike-repair1.jpg"
+alt: "man repairing bicycle"
+caption: "35mm Nokton / Ilford HP5 @ 1600"
 tags:
 - covid-19
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1590175737/bike-repair1.jpg" alt="man repairing bicycle" caption="Ilford HP5 pushed to 1600" >}}
 
 Tomorrow they're going to start "Phase II" of reopening around these parts. This means restaurants, bars, gyms and salons can open at limited capacity. I'm still pretty content staying at home but I do hope we get to have socially distanced friend meetups sometime soon.
 

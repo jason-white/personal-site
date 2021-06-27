@@ -3,47 +3,49 @@
 {{ partial "header.html" . }}
 
 <!-- Begin page -->
-<div class="home">
+<main class="home">
   
   <!-- Hello column -->
   <section class="home__intro">
-    <h3>Hello</h3>
     {{.Content}}
   </section>
 
   <!-- Pages column -->
-  <section class="home__recent">
-    <h3>Recent Posts</h3>
-    <ul class="list-reset">
-      {{ range first 10 (where .Site.Pages "Type" "journal") }}
-        <li class="recent__post">
+  <section class="home__posts">
+    <h2>Recent Posts</h2>
+    <ul class="recent-posts">
+      {{ range first 3 (where .Site.Pages "Type" "journal") }}
+        <li class="post-card">
+          <img src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}">
           <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
-          <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+          <time>{{ .Date.Format "Jan 2, 2006" }}</time>
         </li>
       {{ end }}
     </ul>
     <p>
-      More Journal posts can be found <a href="/archives/">here</a>
-    </p>
-  </section>
-
-  <!-- Tracks column -->
-  <section class="home__tracks">
-    <h3>Currently Listening</h3>
-    <ul id="recent-tracks" class="recent-tracks">
-      <!-- populated by js -->
-    </ul>
-    <p>
-    Recently played tracks are pulled from my <a href="https://www.last.fm/user/qbertqbert" target="_blank">last.fm</a> account, which is populated via <a href="https://open.spotify.com/user/jasonawhite" target="_blank">Spotify</a>.
+      More Journal posts can be found <a href="/journal/">here</a>
     </p>
   </section>
 
   <!-- Links column -->
   <section class="home__links">
-    <h3>Recent Finds</h3>
-    <script language="javascript" src="https://pinboard.in//widgets/v1/linkroll/?user=jasonwhite&count=10"></script>
+    <h2>Recent Finds</h2>
+    <script language="javascript" src="https://pinboard.in//widgets/v1/linkroll/?user=jasonwhite&count=8"></script>
+    <p>
+      More links can be found at <a href="https://pinboard.in/u:jasonwhite">Pinboard</a>
+    </p>
   </section>
-</div>
+
+  <!-- Tracks column -->
+  <section class="home__tracks">
+    <h2>Currently Jamming</h2>
+    <ul id="recent-tracks" class="recent-tracks">
+    </ul>
+    <p>
+      Recently played tracks are pulled from my <a href="https://www.last.fm/user/qbertqbert" target="_blank">last.fm</a> account, which is populated via <a href="https://open.spotify.com/user/jasonawhite" target="_blank">Spotify</a>.
+    </p>
+  </section>
+</main>
 
 <!-- Import footer -->
 {{ partial "footer.html" . }}

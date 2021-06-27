@@ -1,22 +1,34 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<div class="single-page">
-  <div class="single-post layout__center">
-    <h3>{{ .Title }}</h3>
-    <article class="article__content">
+
+<main class="wrapper">
+  <article class="post">
+    <header class="post__header">
+      <h1>{{ .Title }}</h1>
+      <figure>
+        <img src="{{ .Params.image }}" alt="{{ .Params.alt }}">
+        <figcaption>
+          <p>
+            {{ .Params.caption }}
+          </p>
+        </figcaption>
+      </figure>
+    </header>
+    <section class="post__body">
       {{ .Content }}
-    </article>
+    </section>
     <div class="post__meta">
-        <a href="{{ .RelPermalink }}">
-          <time>
-            {{ .Date.Format "January 2, 2006" }}
-          </time>
-          {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
-          {{ end }}
-        </a>
-        <!-- tags -->
-        {{ partial "tags.html" . }}
-      </div>
-  </div>
-</div>
+      <a href="{{ .RelPermalink }}">
+        <time>
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
+        {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
+        {{ end }}
+      </a>
+      <!-- tags -->
+      {{ partial "tags.html" . }}
+    </div>
+  </article>
+</main>
+
 {{ partial "footer.html" . }}

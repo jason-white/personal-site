@@ -3,11 +3,13 @@ type: "journal"
 title: "McAlpine Creek Park"
 date: 2020-12-19T20:59:50-05:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1608429803/121820-PORTRA400-11.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1608429803/121820-PORTRA400-11.jpg"
+alt: "fall trees in recreational park reflected in pond"
+caption: "Olympus XA / Kodak Porta 400"
 tags:
 - parks
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1608429803/121820-PORTRA400-11.jpg" alt="fall trees in recreational park reflected in pond" caption="Kodak Portra 400" >}}
 
 Why did I not come here during peak fall colors? Next year, I guess.
 

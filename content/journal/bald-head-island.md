@@ -3,13 +3,15 @@ type: "journal"
 title: "Bald Head Island"
 date: 2020-08-23T23:36:26-04:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1600572938/2020_Sunset-Beach/3-bald-head-island-2020.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1600572938/2020_Sunset-Beach/3-bald-head-island-2020.jpg"
+alt: "beach access with life ring"
+caption: "35mm Nokton / Kodak Portra 160"
 tags:
 - baldhead
 - beach
 - vacation
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1600572938/2020_Sunset-Beach/3-bald-head-island-2020.jpg" alt="beach access with life ring" caption="Kodak Portra 160" >}}
 
 A trip to Bald Head Island during vacation was one of my favorite days. Although hot, the weather was sunny and clear. Lots of spectacular houses thoughout the whole island, and the transportation method is pretty much golf cart only. 
 

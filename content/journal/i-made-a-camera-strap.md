@@ -3,12 +3,14 @@ type: "journal"
 title: "I Made a Camera Strap"
 date: 2020-08-18T08:13:07-04:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1597752707/camera-strap.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1597752707/camera-strap.jpg"
+alt: "leica m6 with leather camera strap"
+caption: "Leica M6 with Horween Leather Strap"
 tags:
 - photography
 - leathercraft
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1597752707/camera-strap.jpg" alt="leica m6 with leather camera strap" caption="Leica M6 - Taken with Fuji X-Pro 1" >}}
 
 I had a photo walk scheduled this past weekend with a couple local photographers but the weather had other plans. I was pretty bummed, but I've had the idea of making a camera strap for a while. A week prior I had already ordered a couple Horween CXL leather strips but I needed a few other things. So off to Tandy Leather we go! Went. We went, past tense.
 

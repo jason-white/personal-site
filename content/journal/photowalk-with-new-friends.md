@@ -3,11 +3,13 @@ type: "journal"
 title: "Photowalk With New Friends"
 date: 2021-01-09T21:30:29-05:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1610591299/2021%20Posts/2021-01-13/01-11-21_gold200-1.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1610591299/2021%20Posts/2021-01-13/01-11-21_gold200-1.jpg"
+alt: "picnic table with various cameras and drinks"
+caption: "Olympus XA 2 / Kodak Gold @ 400"
 tags:
 - photowalks
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1610591299/2021%20Posts/2021-01-13/01-11-21_gold200-1.jpg" alt="picnic table with various cameras and drinks" caption="Kodak Gold 200 pushed to 400" >}}
 
 Jesse and I have been trying to meetup for months to go on a photowalk. Finally the stars aligned, and so did good weather on a Saturday. A few more people in his photo group showed up and we took off around the neighborhood to make some photos. It's always nice to get out and shoot, and meeting new people while doing it is a huge bonus. And I can't forget Otis, the most goodest boy, a golden retriever.
 

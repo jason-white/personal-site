@@ -3,12 +3,14 @@ type: "journal"
 title: "Last Day of 2020"
 date: 2020-12-31T20:32:07-05:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1609726315/2021%20Posts/2021-01-03/selects-1.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1609726315/2021%20Posts/2021-01-03/selects-1.jpg"
+alt: "small dock half under murky water in fog"
+caption: "35mm Nokton / Kodak Portra 400"
 tags:
 - 2020
 - newyearseve
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1609726315/2021%20Posts/2021-01-03/selects-1.jpg" alt="small dock half under murky water in fog" caption="Kodak Portra 400" >}}
 
 The last day of 2020, here at least, was covered in a dense fog for most of the day. I kept eyeing it out the window thinking McAlpine Creek Park would be really fun to make photographs at right now. It didn't look like it was going away so I packed my gear and headed out the door. I could of rode my bike but the drive is a little faster. 
 

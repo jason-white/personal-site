@@ -3,11 +3,13 @@ type: "journal"
 title: "Quarantine Days II"
 date: 2020-04-23T21:19:58-04:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1587692634/000003270036.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1587692634/000003270036.jpg"
+alt: "feet in the sun"
+caption: "35mm Nokton / Kodak Portra 400"
 tags:
 - covid-19
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1587692634/000003270036.jpg" alt="feet in the sun" caption="Kodak Portra 400" >}}
 
 Learned from friends today that the stay at home order in North Carolina is being extended until May 8th. Reopening will happen in three phases with the possibility to go backwards. The curve is "flattening" around Charlotte according to data a kind redditor keeps posting in /r/charlotte.
 

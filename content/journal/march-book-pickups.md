@@ -3,12 +3,14 @@ type: "journal"
 title: "March Book Pickups"
 date: 2021-03-09T20:37:46-05:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/ar_4:6,c_fill,f_auto,h_467,q_auto:good,w_700/v1615342363/2021%20Posts/2021-03-09/IMG_1508_1.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1615342363/2021%20Posts/2021-03-09/IMG_1508_1.jpg"
+alt: "stack of photo books on a desk"
+caption: "iPhone 12 Pro"
 tags:
 - photography
 - books
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1615342363/2021%20Posts/2021-03-09/IMG_1508_1.jpg" alt="stack of photo books on a desk" caption="iPhone 12 Pro" >}}
 
 Picked up a few books this month. A few of these I've wanted for many years. The Jim Marshall book I'd only heard of recently. There's also a {{< link href="https://www.youtube.com/watch?v=cpNHlrM0erg" text="documentary of the same title" >}}, but I believe due to Covid the release date was pushed back to sometime this year.
 

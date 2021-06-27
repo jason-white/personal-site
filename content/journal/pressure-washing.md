@@ -3,11 +3,13 @@ type: "journal"
 title: "Pressure Washing"
 date: 2020-07-22T23:00:32-04:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1595473722/2020-07-22_26-flickr.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1595473722/2020-07-22_26-flickr.jpg"
+alt: "man pressure washing driveway"
+caption: "35mm Nokton / Ilford HP5 @ 1600"
 tags:
 - house
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1595473722/2020-07-22_26-flickr.jpg" alt="man pressure washing driveway" caption="Ilford HP5 pushed to 1600" >}}
 
 We bought a pressure washer the other day. Well, a few weeks ago at this point. I've been pretty slow to get to film development lately.
 

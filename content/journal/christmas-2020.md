@@ -3,12 +3,14 @@ type: "journal"
 title: "Christmas 2020"
 date: 2020-12-24T05:42:17-05:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_fill,cs_srgb,f_auto,h_467,q_auto:good,w_700/v1608806865/xmas-tree-midtown.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1608806865/xmas-tree-midtown.jpg"
+alt: "close up of xmas tree"
+caption: "80mm Planar / Kodak Portra 400"
 tags:
 - 2020
 - christmas
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1608806865/xmas-tree-midtown.jpg" alt="close up of xmas tree" caption="Kodak Portra 400" >}}
 
 It's safe to say that 2020 has been a shit year for most, if not everyone. The timeline a seemingly never-ending rollercoaster of ups and downs, and downs...and downs. So not really a rollercoaster at all. More like one of those rides that just drop you.
 

@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 
 exports.handler = async (event, context) => {
-  const url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=${process.env.LASTFM_API_KEY}&format=json&limit=10`;
+  const url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=qbertqbert&api_key=${process.env.LASTFM_API_KEY}&format=json&limit=9`;
 
   const options = {
     method: "GET",

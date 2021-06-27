@@ -3,12 +3,14 @@ type: "journal"
 title: "Gatlinburg, TN"
 date: 2020-12-16T21:25:40-05:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1608171874/gatlinburg.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1608171874/gatlinburg.jpg"
+alt: "cabins in the mountains during fall"
+caption: "35mm Nokton / Kodak Gold 200"
 tags:
 - gatlinburg
 - vacation
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1608171874/gatlinburg.jpg" alt="cabins in the mountains during fall" caption="Kodak Gold 200" >}}
 
 We took a nice trip to Gatlinburg TN in November. The photo above was shot from one of the balconies of our cabin. It was an excellent, refreshing trip. I haven't developed or scanned all of the photos just yet, but I will update this post with some shots from Clingman's Dome when I do. I can't _properly_ scan 120 film at this time. I ordered an {{< link href="https://clifforth.co.uk/" text="Essential Film Holder" >}} but it seems to have been lost in the mail. The seller has been notified and is on it. He seems like a fantastic person and is very responsive. I'm sure it'll turn up eventually.
 

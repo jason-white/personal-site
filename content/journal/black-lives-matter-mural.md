@@ -3,11 +3,13 @@ type: "journal"
 title: "Black Lives Matter Mural"
 date: 2020-06-09T13:22:56-04:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1592076097/blm-mural-flickr-6.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1592076097/blm-mural-flickr-6.jpg"
+alt: "little girl dancing in a crowd viewing black lives matter mural"
+caption: "35mm Nokton / Ilford HP5 @ 1600"
 tags:
 - blm
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1592076097/blm-mural-flickr-6.jpg" alt="little girl dancing in a crowd viewing black lives matter mural" caption="Ilford HP5 pushed to 1600" >}}
 
 Tuesday, June 9, multiple local artists were commissioned by the city of Charlotte to create a large mural that read "BLACK LIVES MATTER" between 3rd and 4th streets on S. Tryon. Each artist or team of artists took a letter and went to work. The entire mural was finished in a day and from what I've read they had little time to prepare. The result is quite amazing. Each letter very different reflecting each artist or artists' styles.
 

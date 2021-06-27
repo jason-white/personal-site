@@ -1,22 +1,28 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<div class="about-page columns">
-  <main class="about-page__content">
+<section class="about-page">
+  <main class="about__content">
     <article>
       {{ .Content }}
     </article>
   </main>
-  <section class="blog-roll">
-    <h3>Blog Roll</h3>
-    <ul class="list list-reset">
+  <aside class="about__sidebar">
+    <h2>More Info</h2>
+    <ul>
+      <li>
+        <a href="/uses/">Uses</a>
+      </li>
+      <li>
+        <a href="https://pinboard.in/u:jasonwhite">Links</a>
+      </li>
+    </ul>
+    <h2>Blog Roll</h2>
+    <ul>
       <li>
         <a href="http://nikkiblair.com" target="_blank">Nikki Blair</a>
       </li>
       <li>
         <a href="https://www.nduboisphotos.com/" target="_blank">Nicole Du Bois</a>
-      </li>
-      <li>
-        <a href="https://frankchimero.com/" target="_blank">Frank Chimero</a>
       </li>
       <li>
         <a href="https://johncranford.com/" target="_blank">John Cranford</a>
@@ -40,6 +46,6 @@
         <a href="https://scottyperry.co/" target="_blank">Scotty Perry</a>
       </li>
     </ul>
-  </section>
-</div>
+  </aside>
+</section>
 {{ partial "footer.html" . }}

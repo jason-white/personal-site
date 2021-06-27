@@ -3,12 +3,14 @@ type: "journal"
 title: "Spring in the South"
 date: 2021-04-25T08:59:36-04:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1619355338/2021%20Posts/2021-04-25/04-24_portra400-14-positive.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1619355338/2021%20Posts/2021-04-25/04-24_portra400-14-positive.jpg"
+alt: "photo of tree with pink flowers"
+caption: "Olympus XA 2 / Kodak Portra 400"
 tags:
 - spring
 - olympusxa2
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1619355338/2021%20Posts/2021-04-25/04-24_portra400-14-positive.jpg" alt="photo of tree with pink flowers" caption="Kodak Portra 400 / Olympus XA 2" >}}
 
 Spring has certainly sprung here in the south. All three of the photos in this post are from different areas of North Carolina. Charlotte, Jacksonville and Raleigh. I wish I had a more pleasant reason for traveling all over the state this month, but the truth is, April was a tough one. I lost four people in my life. Losing someone is never easy. Losing multiple people within days apart from each other is especially hard. 
 

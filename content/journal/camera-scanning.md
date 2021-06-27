@@ -3,13 +3,15 @@ type: "journal"
 title: "Camera Scanning"
 date: 2021-04-30T22:19:04-04:00
 draft: false
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/ar_4:6,c_fill,f_auto,h_467,q_auto:good,w_700/v1619835355/2021%20Posts/Camera%20Scanning/IMG_1732.heic"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1619835355/2021%20Posts/Camera%20Scanning/IMG_1732.heic"
+alt: "camera scanning setup in the dark"
+caption: "iPhone 12 Pro"
 tags:
 - scanning
 - film
 - photography
 ---
-
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1619835355/2021%20Posts/Camera%20Scanning/IMG_1732.heic" alt="camera scanning set up in the dark" caption="Digital camera scanning / iPhone 12 Pro" >}}
 
 #### Why Use a Digital Camera for Scanning?
 
