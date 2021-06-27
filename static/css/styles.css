@@ -28,7 +28,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  /*box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.3);*/
+  /* box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.3); */
 }
 
 ::selection {
@@ -614,7 +614,8 @@ img {
   }
 
   .post__tags li,
-  .post__tags a {
+  .post__tags a,
+  .post__tags a:visited {
     color: var(--color-cream);
   }
 
