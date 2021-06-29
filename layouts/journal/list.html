@@ -1,11 +1,11 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<main class="journal-list">
+<main class="journal-list" role="main">
   <h1>{{ .Title }}</h1>
   <ul class="post-list">
     {{ range (.Paginator 9).Pages }}
     <li class="post-card">
-      <article>
+      <article role="article">
         <img src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}">
         <a href="{{ .Permalink }}">{{ .Title }}</a><br />
         <time>{{ .Date.Format "Jan 2, 2006" }}</time>

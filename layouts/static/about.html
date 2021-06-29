@@ -1,13 +1,13 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
 <section class="about-page">
-  <main class="about__content">
+  <main class="about__content" role="main">
     <h1>{{ .Title }}</h1>
     <article>
       {{ .Content }}
     </article>
   </main>
-  <aside class="about__sidebar">
+  <aside class="about__sidebar" role="complementary">
     <h2>More Info</h2>
     <ul>
       <li>
