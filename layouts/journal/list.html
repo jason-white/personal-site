@@ -1,6 +1,7 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
 <main class="journal-list">
+  <h1 style="display: none">{{ .Title }}</h1>
   <ul class="post-list">
     {{ range (.Paginator 9).Pages }}
     <li class="post-card">
