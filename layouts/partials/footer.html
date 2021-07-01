@@ -56,7 +56,9 @@
             tracks.innerHTML += `
               <li>
                 <div class="track">
-                  <img class="track__img" src="${track.track.album.images[1].url}" alt="">
+                  <div class="track__img">
+                    <img src="${track.track.album.images[1].url}" alt="">
+                  </div>
                   <div class="track__info">
                     <a href="${track.track.artists[0].external_urls.spotify}" target="blank_">
                       ${track.track.artists[0].name}
