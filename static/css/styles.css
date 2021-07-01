@@ -226,7 +226,7 @@ img {
 }
 
 .track__img {
-  flex: 0 1 200px;
+  flex: 0 1 50%;
   height: auto;
 }
 
