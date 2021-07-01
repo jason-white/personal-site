@@ -1,8 +1,12 @@
+const fetch = require("node-fetch");
+
 exports.handler = async (event, context) => {
   const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN;
+
   const auth = Buffer.from(
     `${process.env.SPOTIFY_CLIENT_ID}:${process.env.SPOTIFY_CLIENT_SECRET}`
   ).toString("base64");
+
   const tokenEndpoint = `https://accounts.spotify.com/api/token`;
   const playerEndpoint = `https://api.spotify.com/v1/me/player/recently-played`;
 
@@ -26,14 +30,23 @@ exports.handler = async (event, context) => {
     .catch((err) => {
       console.err(err);
     });
-  return fetch(`${playerEndpoint}?limit=1`, {
-    method: "GET",
-    headers: {
-      Authorization: `Bearer ${accessToken}`,
-    },
-  })
+    return fetch(`${playerEndpoint}?limit=1`, {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+      },
+    })
     .then((res) => res.json())
-    .then(({ items }) => {
+    .then(json => {
+      console.log(json);
+      return {
+        statusCode: 200,
+        body: JSON.stringify(json),
+      }
+    }).catch((err) => {
+      console.error(err);
+    });
+      /*
       const {
         artists: artistsArray,
         name,
@@ -46,15 +59,7 @@ exports.handler = async (event, context) => {
       }));
       const trackUrl = urls.spotify;
       const artworkUrl = album.images[1].url;
+      */
 
-      return {
-        statusCode: 200,
-        body: JSON.stringify({
-          artists: simplifiedArtists,
-          name,
-          trackUrl,
-          artworkUrl,
-        }),
-      };
-    });
+      
 };

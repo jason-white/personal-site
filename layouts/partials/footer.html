@@ -1,4 +1,8 @@
     <footer class="footer wrapper" role="contentinfo">
+      <div class="footer__spotify">
+        <h2>Now Playing</h2>
+        <ul id="recent-tracks" class="recent-tracks"></ul>
+      </div>
       <div class="footer__elsewhere">
         <h2>Elsewhere</h2>
         <ul class="">
@@ -16,7 +20,20 @@
           </li>
         </ul>
       </div>
-      <p class="footer__copyright">Made with Hugo &amp; Netlify<br /> &copy; {{ now.Year }} {{ .Site.Title }}</p>
+      <p class="footer__copyright">Made with <a href="https://gohugo.io" target="blank_">Hugo</a> &amp; <a href="https://netlify.com/" target="blank_">Netlify</a><br /> &copy; {{ now.Year }} {{ .Site.Title }}</p>
+      <nav class="footer__nav" role="navigation">
+        <h2>Pages</h2>
+        <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main.ByWeight }}
+          <li>
+            <a class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}" href="{{ .URL }}">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+        </ul>
+      </nav>
     </footer>
   </div>
 </body>
@@ -27,7 +44,7 @@
     body.onload = getTracks();
 
     function getTracks() {
-      return fetch('/api/lastfm', {
+      return fetch('/api/spotify', {
         method: "GET",
         headers: {
           "Content-Type": "application/json"
@@ -35,14 +52,19 @@
       })
         .then((res) => res.json())
         .then(res => {
-          res.recenttracks.track.forEach((track) => {
+          res.items.forEach((track) => {
             tracks.innerHTML += `
               <li>
                 <div class="track">
-                  <img class="track__img" src="${track.image[1]['#text']}" alt="generated album cover - non-descript">
+                  <img class="track__img" src="${track.track.album.images[1].url}" alt="">
                   <div class="track__info">
-                    <p>${track.artist['#text']}</p>
-                    <a href="${track.url}" target="_blank">${track.name}</a>
+                    <a href="${track.track.artists[0].external_urls.spotify}" target="blank_">
+                      ${track.track.artists[0].name}
+                    </a>
+                    <p>${track.track.name}</p>
+                    <a href="${track.track.album.external_urls.spotify}" target="blank_">
+                      ${track.track.album.name}
+                    </a>
                   </div>
                 </div>
               </li>
