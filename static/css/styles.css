@@ -226,11 +226,12 @@ img {
 }
 
 .track__img {
-  flex: 0 1 50%;
+  flex: 1 1 25%;
   height: auto;
 }
 
 .track__info {
+  flex: 1 1 75%;
   font-size: var(--base-font-size);
   margin-left: var(--base-spacing);
 }
