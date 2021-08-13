@@ -2,13 +2,43 @@
 {{ partial "header.html" . }}
 
 <main class="portfolio-page" role="main">
-  <section class="portfolio__content">
+  <section class="portfolio__intro">
     <h1>{{ .Title }}</h1>
     <article>
       {{ .Content }}
     </article>
-    <section class="portfolio__work">
-      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgchoBSLZY6OSJkR4wG3MqK%2FStores-Checklist%3Fpage-id%3D687%253A1200%26node-id%3D689%253A1353%26viewport%3D241%252C48%252C0.45%26scaling%3Dscale-down%26starting-point-node-id%3D689%253A1353" allowfullscreen></iframe>
-    </section>
+  </section>
+  <section class="portfolio">
+    <ul class="projects">
+      <li class="project">
+        <h3>IT Academy Support</h3>
+        <p>
+          A central repository for all things IT Academy. This portal helps the IT Academy team keep all of their documents in one place with features that making it easy to find documents and specific IT jargon via their own custom dictionary with administrative portal.
+        </p>
+        <a href="https://www.figma.com/proto/olA5VkrQgGw9ngSDQGa5WN/IT-Academy-Walkthough?page-id=0%3A1&node-id=2%3A4&viewport=241%2C48%2C0.5&scaling=scale-down&starting-point-node-id=2%3A4&hotspot-hints=0" target="_blank">
+          View detailed overview
+        </a>
+      </li>
+      <li class="project">
+        <h3>Spectrum Mobile Stores Checklists</h3>
+        <p>
+          Application built to be used while walking around the Spectrum Mobile Stores retail locations, allowing employees to keep track of daily tasks, synced across all retail store locations. It also allows Spectrum Mobile Operations managers with specific permissions to edit and approve checklist updates whenever necessary.
+        </p>
+        <a href="https://www.figma.com/proto/gchoBSLZY6OSJkR4wG3MqK/Stores-Checklist?page-id=687%3A1200&node-id=689%3A1353&viewport=241%2C48%2C0.66&scaling=scale-down&starting-point-node-id=689%3A1353&hotspot-hints=0" target="_blank">
+          View detailed overview
+        </a>
+      </li>
+      <li class="project">
+        <h3>Leadership Development Center of Excellence</h3>
+        <p>
+          A beautiful yet very functional brochure website full of content for leaders of all levels to self-serve themselves to any course offerings that the Leadership Development team may offer. Their course catalog is easily filtered to assist in finding exactly what the user may be looking for.
+        </p>
+        <a href="https://www.figma.com/proto/BIRptr8rZ6OolDoq2FcWN8XS/LDCOE?page-id=246%3A181&node-id=246%3A185&viewport=241%2C48%2C0.56&scaling=scale-down&starting-point-node-id=246%3A185" target="_blank">
+          View detailed overview</a>
+      </li>
+    </ul>
   </section>
 </main>
+
+
+{{ partial "footer.html" . }}
