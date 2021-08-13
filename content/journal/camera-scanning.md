@@ -33,12 +33,12 @@ The most important thing that I've found next to keeping the film flat is that _
 
 I like to capture images of the film while tethered to my laptop. This has a couple of advantages. One is that the files will be captured to my hard drive rather than a card to transfer from later. Two, I can use software to control my digital camera. This helps me frame, check focus and make changes accordingly without having to touch my camera that I just got nice and level. Pretty much every major camera manufacturer makes software that does this, but I like to use {{< link href="https://tethertools.com/product/smart-shooter-4/" text="Smart Shooter." >}} It isn't perfect but it was a helluva lot cheaper than Nikon's ancient software.
 
-After I set the camera up and get it tethered, I like to target a specific folder to capture images to for each roll. This is important for my Lightroom workflow and I took some of this info from a {{< link href="https://www.youtube.com/watch?v=29dkdx-MfW8" text="Kyle McDougall video on his workflow." >}} It's very informative and I highly recommend it. I point Smart Shooter to a folder in my default Pictures folder; `Film Scans/2021/Misc/MM-DD_FILMSTOCKISO/Scans`. This _misc_ folder is used for general rolls shot. If this were for a specific project or trip I would capture to a folder named something like `Film Scans/2021/OBX Vacation/MM-DD_FILMSTOCKISO/Scans`. The date is the date of development, which is _usually_ the same day of scanning if I time things right. If there's more than one roll per session I like to add the roll number as well. At this point I also like to create a folder named _Exports_ to keep any kind of exported images contained in the same area. This folder could then branch off into subfolders like _Web_, _For Print_ etc. So a working example of a session could look something like:
+After I set the camera up and get it tethered, I like to target a specific folder to capture images to for each roll. This is important for my Lightroom workflow and I took some of this info from a {{< link href="https://www.youtube.com/watch?v=29dkdx-MfW8" text="Kyle McDougall video on his workflow." >}} It's very informative and I highly recommend it. I point Smart Shooter to a folder in my default Pictures folder; `Film Scans/YYYY/Misc/YYYY-MM-DD_FILMSTOCKISO/Scans`. This _misc_ folder is used for general rolls shot. If this were for a specific project or trip I would capture to a folder named something like `Film Scans/YYYY/OBX Vacation/YYYY-MM-DD_FILMSTOCKISO/Scans`. The date is the date of development, which is _usually_ the same day of scanning if I time things right. If there's more than one roll per session I like to add the roll number as well. At this point I also like to create a folder named _Exports_ to keep any kind of exported images contained in the same area. This folder could then branch off into subfolders like _Web_, _For Print_ etc. So a working example of a session could look something like:
 
-* Film Scans/2021/OBX Vacation/05-12_PORTRA400_01/Scans
-* Film Scans/2021/OBX Vacation/05-12_PORTRA400_02/Scans
-* Film Scans/2021/OBX Vacation/05-12_EKTAR160/Scans
-* Film Scans/2021/Misc/05-12_HP5400/Scans
+* Film Scans/2021/OBX Vacation/2021-05-12_PORTRA400_01/Scans
+* Film Scans/2021/OBX Vacation/2021-05-12_PORTRA400_02/Scans
+* Film Scans/2021/OBX Vacation/2021-05-12_EKTAR160/Scans
+* Film Scans/2021/Misc/2021-05-12_HP5400/Scans
 
 I don't usually scan that much film per session, just displaying how a single session with multiple film stocks and organization could look like.
 
