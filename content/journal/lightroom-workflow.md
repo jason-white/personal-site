@@ -36,7 +36,7 @@ After the profile, white balance and crop of the first image is set, select all 
 
 ## Negative Lab Pro
 
-The Negative Lab Pro dialog should open and here you have a choice of different color profiles; Noritsu, Frontier and Black and White. If converting color, the choice of Noritsu or Frontier is personal preference. Black and White is just black and white. Saturation I always keep at the default of 3, which doesn't matter for black and white. And, because the images were cropped before, the border buffer can be set to 0 (zero.) Click the apply button and let Negative Lab Pro do it's thing.
+The Negative Lab Pro dialog should open and here you have a choice of different color profiles; Noritsu, Frontier and Black and White. If converting color, the choice of Noritsu or Frontier is personal preference, but here's a {{< link href="https://www.richardphotolab.com/blog/post/its-back-noritsu-vs-frontier" text="blog post" >}} that goes over both in pretty good detail. Black and White is just black and white. Saturation I always keep at the default of 3, which doesn't matter for black and white. And, because the images were cropped before, the border buffer can be set to 0 (zero.) Click the _Convert Negative(s)_ button and let Negative Lab Pro do it's thing.
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1629040708/2021%20Posts/Lightroom%20Workflow/nlp-dialog.jpg" alt="negative lab pro dialog in lightroom" caption="Negative Lab Pro" >}}
 
@@ -45,6 +45,8 @@ After Negative Lab Pro finishes I like to set the tones to Linear Flat. This loo
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1629040951/2021%20Posts/Lightroom%20Workflow/nlp-settings.jpg" alt="negative lab pro dialog in lightroom" caption="Negative Lab Pro" >}}
 
 Now that all of the negatives are converted I like to reset the crop on all of the images. This is as easy as uncropping one image and then syncing just the crop like we did earlier. Now I like to use Lightroom and batch rename all of the photos. I name them based on the folder, so `YYYY-MM-DD_FILMSTOCKISO-#`. I like to take the organization even further and use Negative Lab Pro's meta data editor. This allows me to tag each set of images by camera body, lens, focal length, scanning method, development method etc. This is also great for organizing all photos with Lightroom's Smart Collections. Makes it very easy to find what you're looking for later.
+
+**_One note_** I will make when converting negatives is that if you are converting something that maybe had a _lot_ of light. Think of a photo at the beach, or somewhere where there's no shade in the photo at all, you may end up with some very saturated colors. Trust me, if it happens, you'll notice. Don't freak out. You just need to uncrop that specific image to allow for Negative Lab Pro to use some of the film mask for black, as your cropped image may be lacking any pure blacks. This is something you just kind of learn along the way. Also, the {{< link href="https://forums.negativelabpro.com/" text="Negative Lab Pro forums" >}} is a great resource if you run into any kind of weird issues like this. People will definitely help if they can.
 
 ## Editing
 
