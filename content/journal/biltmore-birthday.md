@@ -4,7 +4,7 @@ title: "Biltmore Birthday"
 date: 2021-05-17T18:35:44-04:00
 draft: false
 thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1624840466/2021%20Posts/2021-05-17/biltmore-gardens_2021-1.jpg"
-image: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_2048/v1624840466/2021%20Posts/2021-05-17/biltmore-gardens_2021-1.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1634954853/2021%20Posts/2021-05-17/05-17_portra800_01-26-positive.jpg"
 alt: "biltmore mansion"
 caption: "90mm Tele-Elmarit / Kodak Portra 800"
 tags:

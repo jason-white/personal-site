@@ -54,6 +54,12 @@ After advancing the film to the first frame, I like to make sure that I'm zoomed
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1620001204/2021%20Posts/Camera%20Scanning/smart-shooter_loupe.png" alt="preview of film negative" caption="Loupe view in Smart Shooter / Screen capture" >}}
 
-Now it's just as easy as advancing the film and snapping a photo. With re-focusing and blowing air on each frame I'm looking at about 5-10 minutes to finish an entire roll. I could easily breeze through a roll in about two minutes if I'm being less careful. This is incredibly fast compared to a flat bed scanner or even a dedicated film scanner and the results are _stunning_.
+Now it's just as easy as advancing the film and snapping a photo. With re-focusing and blowing air on each frame I'm looking at about 5-10 minutes to finish an entire roll. I could easily breeze through a roll in about two minutes if I'm being less careful. This is incredibly fast compared to a flat bed scanner or even a dedicated film scanner and the results are really good. Here's an image of the Biltmore Estate I took from across the lawn with a 90mm lens, followed by a 100% crop.
+
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1634954853/2021%20Posts/2021-05-17/05-17_portra800_01-26-positive.jpg" alt="photograph of biltmore estate" caption="Kodak Portra 800 / Leica 90mm Tele-Elmarit" >}}
+
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1634954328/2021%20Posts/Camera%20Scanning/Screen_Shot_2021-10-22_at_9.56.19_PM.png" alt="close up crop of biltmore estate" caption="100% crop of a dSLR scan" >}}
 
 The next post will go over my workflow in Lightroom. How I import, convert and organize my film negatives. I'll also go over current and future plans on backing files up as well. I didn't want to combine the two posts as this one is pretty long already. If you read through everything I hope this was helpful and you learned something.
+
+*Update*: Here's part two, <a href="/journal/lightroom-workflow/">my Lightroom Workflow</a> for editing my scans.
