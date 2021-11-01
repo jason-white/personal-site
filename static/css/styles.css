@@ -116,6 +116,20 @@ img {
 	vertical-align: middle;
 }
 
+blockquote {
+  margin: 2rem;
+  padding: 0 1rem;
+  border-left: 0.4rem solid var(--color-black);
+}
+
+blockquote p {
+  margin: 0;
+}
+
+blockquote p + p {
+  margin-top: 1rem;
+}
+
 
 
 
@@ -666,6 +680,10 @@ img {
   a:focus {
     outline: 0.250rem solid var(--color-orange); 
     outline-offset: .125rem;
+  }
+
+  blockquote {
+    border-color: var(--color-cream);
   }
 
   .nav__menu li a {
