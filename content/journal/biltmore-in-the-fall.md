@@ -3,8 +3,8 @@ type: "journal"
 title: "Biltmore in the Fall"
 date: 2021-10-09T21:52:27-04:00
 draft: false
-thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1635472575/2021%20Posts/2021-10-09/2021-10-11_portra400_02-11.jpg"
-image: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_2048/v1635472575/2021%20Posts/2021-10-09/2021-10-11_portra400_02-11.jpg"
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1636336024/2021%20Posts/2021-10-09/2021-10-11_portra400_02-11-positive-2.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1636336024/2021%20Posts/2021-10-09/2021-10-11_portra400_02-11-positive-2.jpg"
 alt: "view of pond from top of hill"
 caption: "35mm Summicron ASPH / Kodak Portra 400"
 tags:
