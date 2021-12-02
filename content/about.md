@@ -13,7 +13,7 @@ My name is Jason. Professionally I'm a web designer and developer, but outside o
 
 In 2020 I decided I wanted to be a little more hands-on. I enjoyed the days when everyone had a website and shared little snippets of their personal life or hobbies. Before services and web applications became the norm. 
 
-So that's what this website is, really. Getting back to doing a lot of the things I used to enjoy and documenting them. Sure, there are many other ways of documenting every day life. 
+So that's what this website is, really. Getting back to doing a lot of the things I used to enjoy and documenting them. Sure, there are many other ways of documenting every day life, but those are kinda boring. And social media has become a bit of a cancer. 
 
 ## About This Site
 
