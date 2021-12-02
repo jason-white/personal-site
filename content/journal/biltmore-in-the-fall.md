@@ -18,8 +18,16 @@ The one from the Hasselblad, however, I haven't seen. I loaded it with Velvia 50
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1635472621/2021%20Posts/2021-10-09/untitled-17-positive.jpg" alt="man standing at fence holding bottle of cheerwine" caption="50mm Summilux ASPH / Kodak Portra 400" >}}
 
-If the Velvia looks good, I'll update this post with some of those images. I'm excited to see the results!
+> If the Velvia looks good, I'll update this post with some of those images. I'm excited to see the results!
+
+So I got the Velvia 50 back...and I'm in love 😍 This changes things. I was actually thinking about selling my Hassleblad because I don't use it very often. But now I just want to put more slide through it. I mean...just look:
+
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,h_2048,q_auto:good,w_2048,x_0/v1638478397/2021%20Posts/2021-10-09/2021-10-21_velvia50-3-Edit.jpg" alt="view of pond from top of hill" caption="80mm Planar / FujiFilm Velvia 50" >}}
+
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1638478400/2021%20Posts/2021-10-09/2021-10-21_velvia50-2-Edit.jpg" alt="brick bridge crossing a pond" caption="80mm Planar / FujiFilm Velvia 50" >}}
+
+Yeah I'm definitely going to try more slide in the future. Probably going to start stock-piling any FujiFilm slide I can get before they discontinue anything else!
 
 Also of note, but nothing really related to our trip, we saw a _lot_ of Camel Trophy Land Rover Defenders at Antler Village. There must have been some sort of off-road competition as later we saw a few decked-out Ford Explorers, too. 
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1635474243/2021%20Posts/2021-10-09/2021-10-11_portra400_02-19-positive.jpg" alt="row of identical yellow trucks" caption="50mm Summilux ASPH / Kodak Portra" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1635474243/2021%20Posts/2021-10-09/2021-10-11_portra400_02-19-positive.jpg" alt="row of identical yellow trucks" caption="50mm Summilux ASPH / Kodak Portra 400" >}}
