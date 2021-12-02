@@ -10,7 +10,7 @@ caption: "50mm Summilux ASPH / Kodak Portra 800"
 tags:
 - elk
 - chataloochee
-- greatsmokymountains
+- great-smoky-mountains
 ---
 
 After hanging out in Asheville and Biltmore, the next stop on our trip was camping in Chataloochee Valley. From the {{< link href="https://www.nps.gov/grsm/planyourvisit/cataloochee.htm" text="Great Smoky Mountains National Park site:" >}}
