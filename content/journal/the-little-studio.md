@@ -17,5 +17,7 @@ For our anniversary this year we took a ceramics course at {{< link href="https:
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1638496315/2021%20Posts/2021-12-01/2021-10-30_ricoh-griii-5.jpg" alt="man teaching another man how to make pottery" caption="Ricoh GR III" >}}
 
+This was back in late October and we just got our pieces after being glazed and fired. I think they came out pretty good!
+
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_2048/v1638496225/2021%20Posts/2021-12-01/2021-12-01_ricoh-griii-7.jpg" alt="two clay cups by window" caption="Ricoh GR III" >}}
 
