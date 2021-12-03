@@ -3,8 +3,8 @@ type: "journal"
 title: "The Little Studio"
 date: 2021-12-02T20:25:26-05:00
 draft: false
-thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1638496225/2021%20Posts/2021-12-01/2021-12-01_ricoh-griii-7.jpg"
-image: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_2048/v1638496225/2021%20Posts/2021-12-01/2021-12-01_ricoh-griii-7.jpg"
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_700/v1638496315/2021%20Posts/2021-12-01/2021-10-30_ricoh-griii-6.jpg"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1638496315/2021%20Posts/2021-12-01/2021-10-30_ricoh-griii-6.jpg"
 alt: "two clay cups"
 caption: "Ricoh GR III"
 tags:
@@ -17,4 +17,5 @@ For our anniversary this year we took a ceramics course at {{< link href="https:
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1638496315/2021%20Posts/2021-12-01/2021-10-30_ricoh-griii-5.jpg" alt="man teaching another man how to make pottery" caption="Ricoh GR III" >}}
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1638496315/2021%20Posts/2021-12-01/2021-10-30_ricoh-griii-6.jpg" alt="two clay cups by window" caption="Ricoh GR III" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_2048/v1638496225/2021%20Posts/2021-12-01/2021-12-01_ricoh-griii-7.jpg" alt="two clay cups by window" caption="Ricoh GR III" >}}
+
