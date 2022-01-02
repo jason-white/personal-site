@@ -695,6 +695,10 @@ blockquote p + p {
     color: var(--color-black);
   }
 
+  .post__meta time {
+    color: var(--color-cream);
+  }
+
   .post__tags li,
   .post__tags a,
   .post__tags a:visited {
