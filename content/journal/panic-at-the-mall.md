@@ -18,4 +18,4 @@ As we were exiting out of Lululemon, walking towards the luxury quad of the Sout
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1646541968/2022%20Posts/2022-02-26-Panic-at-the-Mall/untitled-19.jpg" alt="parking lot full of pedestrians, police and a fire truck" caption="Leica M10-P / 35mm Summicron ASPH" >}}
 
-It was a bit of a scare, for certain. I sould also mention that South Park has the worst possibly designed emergency exit route. Turns out some guy accidentally shot himself in the leg while carrying a gun in his pocket. And that's what we get for being stupid, isn't it?
+It was a bit of a scare, for certain. I should also mention that South Park has possibly the _worst_ designed emergency exit route. Turns out some guy accidentally shot himself in the leg while carrying a gun in his pocket. And that's what we get for being stupid, isn't it?
