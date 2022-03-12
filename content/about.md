@@ -7,7 +7,7 @@ layout: "about"
 weight: 3
 ---
 
-## About Me
+## Me
 
 My name is Jason. Professionally I'm a web designer and developer, but outside of work I really enjoy photographing things. I live in Charlotte, North Carolina with my husband. Dog is pending.
 
@@ -15,7 +15,7 @@ In 2020 I decided I wanted to be a little more hands-on. I enjoyed the days when
 
 So that's what this website is, really. Getting back to doing a lot of the things I used to enjoy and documenting them. Sure, there are many other ways of documenting every day life, but those are kinda boring. And social media has become a bit of a cancer. 
 
-## About This Site
+## This Site
 
 The site is built using {{< link href="https://gohugo.io/" text="Hugo" >}}, a static site generator. Hugo is built using Golang and boy is it _fast_ with near-instant build times. It took a little while to get used to. This post from {{< link href="https://www.sarasoueidan.com/blog/jekyll-ghpages-to-hugo-netlify/" text="Sara Soueidan's" >}} site helped a lot in understanding just how Hugo's templating works. Once you get the hang of it you will soon realize how endless the possibilities are.
 
