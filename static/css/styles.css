@@ -203,19 +203,19 @@ blockquote p + p {
   padding: 0 var(--base-spacing);
 }
 
-.home__intro {
+.home__intro, .music__content {
   font-size: var(--med-font-size);
   max-width: 50ch;
   margin-bottom: calc(var(--base-spacing) * 8);
 }
 
 @media (min-width: 50rem) {
-  .home__intro {
+  .home__intro, .music__content {
     font-size: var(--large-font-size);
   }
 }
 
-.home__intro p {
+.home__intro p, .music__content p {
   line-height: 1.5;
 }
 
@@ -591,6 +591,41 @@ blockquote p + p {
 }
 
 
+
+/********************
+ * Music Page
+ */
+
+.music-page {
+  padding: 0 var(--base-spacing);
+}
+
+.music-page__playlists {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 calc(var(--base-spacing) * 3) 0 0;
+}
+
+.playlist + .playlist {
+  margin-top: calc(var(--base-spacing) * 2);
+}
+
+@media (min-width: 50rem) {
+  .music-page__playlists {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-gap: calc(var(--base-spacing) * 3);
+  }
+
+  .playlist {
+    grid-column: span 3;
+  }
+
+  .playlist + .playlist {
+    margin-top: 0;
+  }
+}
 
 /********************
  * Footer
