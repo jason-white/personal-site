@@ -18,14 +18,14 @@ Later we headed to VTGCLT ({{< link href="http://vintage-charlotte.com/" text="V
 
 Here are some photos from walking around Camp Northend where VTGCLT was held.
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929786/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-2.jpg" alt="sideview of white food truck" caption="35mm Summicron / Leica M10-P" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929786/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-2.jpg" alt="sideview of white food truck" caption="35mm Summicron ASPH / Leica M10-P" >}}
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929786/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-5.jpg" alt="ping pong ball dispenser in front of yellow brick wall" caption="35mm Summicron / Leica M10-P" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929786/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-5.jpg" alt="ping pong ball dispenser in front of yellow brick wall" caption="35mm Summicron ASPH / Leica M10-P" >}}
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929786/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-4.jpg" alt="mans hand holding ice cream popsicle dipped in crushed cinnamon toast crunch cereal" caption="35mm Summicron / Leica M10-P" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929786/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-4.jpg" alt="mans hand holding ice cream popsicle dipped in crushed cinnamon toast crunch cereal" caption="35mm Summicron ASPH / Leica M10-P" >}}
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929787/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-13.jpg" alt="front driver-side corner of turqoise vintage car" caption="35mm Summicron / Leica M10-P" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929787/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-13.jpg" alt="front driver-side corner of turqoise vintage car" caption="35mm Summicron ASPH / Leica M10-P" >}}
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929787/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-11.jpg" alt="black and white photo vintage sports car" caption="35mm Summicron / Leica M10-P" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1651929787/2022%20Posts/2022-04-16_VTG-CLT/2022-04-16_leica-m10p-11.jpg" alt="black and white photo vintage sports car" caption="35mm Summicron ASPH / Leica M10-P" >}}
 
 Also, I _finally_ caught a {{< link href="https://www.charlottefootballclub.com/" text="Charlotte Football Club" >}} game! We lost 🙃. 
