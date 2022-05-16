@@ -1,3 +1,4 @@
+/*
 const fetch = require("node-fetch");
 
 exports.handler = async (event, context) => {
@@ -16,7 +17,7 @@ exports.handler = async (event, context) => {
       "Content-Type": "application/json"
     },
   })
-    .then((res) => res.json())
+    .then((res) => await res.json())
     .then(json => {
       return {
         statusCode: 200,
@@ -25,4 +26,4 @@ exports.handler = async (event, context) => {
     }).catch((err) => {
       console.error(err)
     });
-}
+}*/
