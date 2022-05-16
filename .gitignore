@@ -1,9 +1,8 @@
 .DS_Store
-/node_modules/
-/functions/node_modules/
-/themes/blank/node_modules/
-/public
-.DS_Store
+node_modules/
+functions/node_modules/
+themes/blank/node_modules/
+public/
 
 # Local Netlify folder
 .netlify
