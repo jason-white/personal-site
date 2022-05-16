@@ -6,5 +6,7 @@ To do:
 
 * Get up and running on Netlify ✅
 * Setup Cloudinary for serving media ✅
-* Design site
-* Write!
+* Design site ✅
+* Write! ✅
+* Cleanup styles
+* Add books section
