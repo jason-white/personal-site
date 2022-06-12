@@ -3,6 +3,9 @@
   command = "hugo --gc --minify"
   functions = "functions"
 
+[dev]
+  framework = "hugo"
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
