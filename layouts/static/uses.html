@@ -12,12 +12,9 @@
     <h3>Cameras</h3>
     <div class="uses__block-content">
       <ul class="uses__list">
-        <li class="uses__item">Leica M10-P</li>
-        <li class="uses__item">Leica M6</li>
-        <li class="uses__item">Hasselblad 500c</li>
-        <li class="uses__item">Olympus XA 2</li>
-        <li class="uses__item">Ricoh GR III</li>
-        <li class="uses__item">Nikon D800E</li>
+        {{ range $.Site.Data.Uses.cameras }}
+          <li class="uses__item">{{ .cameras }}</li>
+        {{ end }}
       </ul>
     </div>
   </section>
