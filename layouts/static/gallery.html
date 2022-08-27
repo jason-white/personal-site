@@ -1,0 +1,14 @@
+{{ range $.Site.Data.gallery }}
+<ul>
+  {{ range .images }}
+    <li>
+      <figure>
+        <img src="{{ .thumb }}" alt="{{ .alt }}">
+        <figcaption>
+          {{ .title }}
+        </figcaption>
+      </figure>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

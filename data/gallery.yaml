@@ -1,0 +1,13 @@
+gallery:
+  images:
+    image1:
+      title: Neon Church
+      alt: building at night with glowing trim
+      thumb: https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_500/v1610245818/IMG_0980.jpg
+      img: https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_500/v1610245818/IMG_0980.jpg
+
+    image2:
+      title: McAlpine Park
+      alt: large cross-like figure in swampy water
+      thumb: https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_500/v1610245818/IMG_0980.jpg
+      img: https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_500/v1610245818/IMG_0980.jpg
