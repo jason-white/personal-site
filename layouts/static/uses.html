@@ -8,59 +8,72 @@
       {{ .Content }}
     </article>
   </section>
-  <section class="uses__block">
-    <h3>Cameras</h3>
-    <div class="uses__block-content">
-      <ul class="uses__list">
-        {{ range $.Site.Data.Uses.cameras }}
-          <li class="uses__item">{{ .cameras }}</li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
-  
-  <section class="uses__block">
-    <h3>Lenses</h3>
-    <div class="uses__block-content">
-      <ul class="uses__list">
-        <li class="uses__item">Leica 35mm Summicron ASPH</li>
-        <li class="uses__item">Leica 50mm Summilux ASPH</li>
-        <li class="uses__item">Leica (Leitz Canada) 90mm Tele-Elmarit 90mm</li>
-        <li class="uses__item">Carl Zeiss 80mm Planar f/2.8 C</li>
-        <li class="uses__item">Carl Zeiss 150mm Sonnar f/4 C T*</li>
-        <li class="uses__item">Sigma 70mm f/2.8 DG Macro</li>
-      </ul>
-    </div>
-  </section>
 
-  <section class="uses__block">
-    <h3>Scanning Rig</h3>
-    <div class="uses__block-content">
-      <ul class="uses__list">
-        <li class="uses__item">Nikon D800E &amp; Sigma 70mm DG Macro</li>
-        <li class="uses__item">ALZO copy stand</li>
-        <li class="uses__item">Negative Supply 5x7 99cri Light</li>
-        <li class="uses__item">Negative Supply MK1</li>
-        <li class="uses__item">Negative Supply 120</li>
-        <li class="uses__item">Negative Supply MK2</li>
-      </ul>
-    </div>
-  </section>
+  {{ range $.Site.Data.uses }}
+    <section class="uses__block">
+      <h3>Workstation</h3>
+      <div class="uses__block-content">
+        <ul class="uses__list">
+          {{ range .workstation }}
+            <li>
+              {{ . }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
 
-  <section class="uses__block">
-    <h3>Workstation</h3>
-    <div class="uses__block-content">
-      <ul class="uses__list">
-        <li>2021 14" MacBook Pro</li>
-        <li>A desktop running Manjaro Linux. It needs to be converted into a gaming machine</li>
-        <li>Happy Hacking Pro2 Keyboard - Black on black</li>
-        <li>Logitech MX Master 3</li>
-        <li>Uplift Commercial standing desk with a 6' butcher block countertop. I love this way more than I thought I would. So much room for activities!</li>
-        <li>Old Eames Aluminum Group chair. Still going strong for a 1983 model.</li>
-        <li>Vivo rigid single-arm monitor mount. I've tried multiple articulating monitor arms and disliked all of them. This one is cheap and simple.
-      </ul>
-    </div>
-  </section>
+    <section class="uses__block">
+      <h3>Apps</h3>
+      <div class="uses__block-content">
+        <ul class="uses__list">
+          {{ range .apps }}
+            <li>
+              <a href="{{ .url }}" target="_blank">
+                <h4>{{ .name }}</h4>
+              </a>
+              <p>{{ .desc | markdownify }}</p>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+
+    <section class="uses__block">
+      <h3>Cameras</h3>
+      <div class="uses__block-content">
+        <ul class="uses__list">
+          {{ range .cameras }}
+            <li class="uses__item">{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+    
+    <section class="uses__block">
+      <h3>Lenses</h3>
+      <div class="uses__block-content">
+        <ul class="uses__list">
+          {{ range .lenses }}
+          <li class="uses__item">{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+
+    <section class="uses__block">
+      <h3>Scanning Rig</h3>
+      <div class="uses__block-content">
+        <ul class="uses__list">
+          {{ range .scanning }}
+            <li class="uses__item">
+              {{ . }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+  {{ end }}
 </main>
 
 {{ partial "footer.html" . }}

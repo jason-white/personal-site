@@ -569,8 +569,23 @@ blockquote p + p {
 }
 
 .uses__list {
+  list-style-type: none;
   margin-top: 0;
-  padding-left: var(--base-spacing);
+  padding: 0;
+}
+
+.uses__list h4 {
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+  margin-bottom: 0;
+}
+
+.uses__list p {
+  margin-top: 0;
+}
+
+.uses__list li + li {
+  margin-top: var(--base-grid-gap);
 }
 
 @media (min-width: 50rem) {
@@ -586,7 +601,7 @@ blockquote p + p {
   }
 
   .uses__block-content {
-    grid-column: 3 / 7;
+    grid-column: 3 / 6;
   }
 }
 

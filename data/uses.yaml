@@ -15,7 +15,7 @@ Uses:
     - Carl Zeiss 150mm Sonnar f/4 C T*
     - Sigma 70mm f/2.8 DG Macro
   scanning:
-    - Nikon D800E &amp; Sigma 70mm DG Macro
+    - Nikon D800E & Sigma 70mm DG Macro
     - ALZO copy stand
     - Negative Supply 5x7 99cri Light
     - Negative Supply MK1
@@ -23,9 +23,44 @@ Uses:
     - Negative Supply MK2
   workstation:
     - 2021 14" MacBook Pro
-    - A desktop running Manjaro Linux. It needs to be converted into a gaming machine
+    - PC tower running Unraid as a NAS/media server
     - Happy Hacking Pro2 Keyboard - Black on black
     - Logitech MX Master 3
     - Uplift Commercial standing desk with a 6' butcher block countertop. I love this way more than I thought I would. So much room for activities!
-    - Old Eames Aluminum Group chair. Still going strong for a 1983 model.
+    - Old Eames Aluminum Group chair. Still going strong for a 1986 model.
     - Vivo rigid single-arm monitor mount. I've tried multiple articulating monitor arms and disliked all of them. This one is cheap and simple.
+  apps:
+    -
+      name: Cloudinary
+      url: https://cloudinary.com
+      desc: Cloud hosted media platform that lets you transform images and videos to load faster.
+    -
+      name: Lightroom
+      url: https://adobe.com
+      desc: Lightroom catalogs is how I organize and edit all of my images, film or digital.
+    -
+      name: Negative Lab Pro
+      url: https://www.negativelabpro.com/
+      desc: A Lightroom plugin that does a fantastic job at converting digitized negatives into positives.
+    -
+      name: Smart Shooter
+      url: https://tethertools.com/product/smart-shooter-4/
+      desc: Tethered capturing app. I like using this when digitizing negatives. It isn't perfect but it works well enough and the price is fair.
+    -
+      name: Things 3
+      url: https://culturedcode.com/things/
+      desc: Things is how I remember everything. Setup for the Getting Things Done method of _getting things done_. I use it all day every day for work and personal.
+    -
+      name: Obsidian
+      url: https://obsidian.md/
+      desc: A very good markdown notes editor. New addition to my workflow but I'm loving it. Mostly using Obsidian for keeping track of work notes but will likely incorporate it into personal use soon. I highly recommend checking out plugins and customizing it.
+    -
+      name: Reeder
+      url: https://www.reederapp.com/
+      desc: My goto RSS feed reader. I admittedly do not use it enough and sometimes I don't like how it displays posts, but I love that it uses iCloud and I don't have to pay for some extra subscription.
+    -
+      name: Magnet
+      url: https://magnet.crowdcafe.com/
+      desc: A simple app for macOS that I _shouldn't_ need, but Apple can't seem to get window management right.
+
+
