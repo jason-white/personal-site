@@ -2,6 +2,7 @@
 type: "page"
 title: "Home"
 description: "Jason White - Web design & developer"
+rss_ignore: true
 ---
 
 # Hello
