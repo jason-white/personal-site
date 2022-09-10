@@ -1,11 +1,14 @@
 baseurl = "https://jasonwhite.us/"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+languageCode = "en-us"
+rssLimit = 20
+title = 'Jason White'
+
 [author]
   name = "Jason White"
-languageCode = "en-us"
-title = "Jason White"
+
 [markup.goldmark.renderer]
-unsafe= true
-rssLimit = 20
+  unsafe= true
+
 [outputs]
-  journal = ["HTML", "RSS"]
+  home = ["HTML"]
