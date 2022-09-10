@@ -32,11 +32,15 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      <image>
-        <url>{{ .Params.image | safeHTML }}</url>
-        <title>{{ .Params.caption }}</title>
-      </image>
-      <description>{{ .Content | html }}</description>
+      <content:encoded>
+        <![CDATA[
+          <figure>
+            <img src="{{ .Params.image }}" alt="{{ .Params.alt }}">
+            <figcaption>{{ .Params.caption }}</figcaption>
+          </figure>
+        ]]>
+        <description>{{ .Content | html }}</description>
+      </content:encoded>
     </item>
     {{ end }}
   </channel>
