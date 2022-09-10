@@ -8,3 +8,5 @@ title = "Jason White"
 [markup.goldmark.renderer]
 unsafe= true
 rssLimit = 20
+[outputs]
+  journal = ["HTML", "RSS"]
