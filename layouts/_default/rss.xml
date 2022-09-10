@@ -26,8 +26,6 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
     {{ range first 20 (where .Site.Pages "Type" "journal") }}
-
-    <image src="{{ .Params.image }}" alt="{{ .Params.alt }}">
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
