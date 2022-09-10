@@ -37,7 +37,12 @@
         <title>{{ .Params.alt }}</title>
         <link>{{ .Permalink }}</link>
       </image>
-      <description>{{ .Content | html }}</description>
+      <description>
+        <![CDATA[
+          <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+          {{ .Content | html }}
+        ]]>
+      </description>
     </item>
     {{ end }}
   </channel>
