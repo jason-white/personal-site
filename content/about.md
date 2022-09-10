@@ -5,7 +5,6 @@ menu: "main"
 type: "static"
 layout: "about"
 weight: 3
-rss_ignore: true
 ---
 
 ## Me
