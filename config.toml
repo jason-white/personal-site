@@ -11,5 +11,4 @@ title = 'Jason White'
   unsafe= true
 
 [outputs]
-  home = ["HTML"]
-  journal = ["HTML", "RSS"]
+  home = ["HTML", "RSS"]
