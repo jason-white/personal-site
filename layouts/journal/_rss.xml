@@ -25,7 +25,7 @@
     {{- with .OutputFormats.Get "RSS" -}}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
-    {{ range first 20 $pages }}
+    {{ range first 20 (where .Site.Pages "Type" "journal") }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -33,7 +33,7 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
-        <![CDATA[test this text as <strong>bold</strong>]]>
+        <![CDATA[test test test test]]>
         {{ .Content | html }}
       </description>
     </item>
