@@ -584,8 +584,21 @@ blockquote p + p {
   margin-top: 0;
 }
 
-.uses__list li + li {
+.uses__list > ul li + li {
   margin-top: var(--base-grid-gap);
+}
+
+.uses__item {
+  margin-bottom: var(--base-spacing);
+}
+
+.uses__item > ul {
+  margin: var(--base-spacing) 0 var(--base-spacing) var(--base-spacing);
+  padding: 0;
+}
+
+.uses__item--film + .uses__item--film {
+  margin-top: calc(var(--base-spacing) * 2);
 }
 
 @media (min-width: 50rem) {

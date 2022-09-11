@@ -62,5 +62,38 @@ Uses:
       name: Magnet
       url: https://magnet.crowdcafe.com/
       desc: A simple app for macOS that I _shouldn't_ need, but Apple can't seem to get window management right.
+  film:
+    -
+      type: C-41 color negative
+      stocks:
+        - Kodak Portra 160, 400, 800
+        - Kodak Ektar 100
+        - Kodak Gold 200
+        - Fuji Superia Xtra 400
+        - Lomography 800
+      desc: I'm really just listing stocks that I like. There are so many different C-41 color negative film stocks available these days. But, it's getting expensive and the quality isn't amazing enough to justify current prices so I won't be buying anymore.
+      dev: For C-41 I've always had good results with CineStill's liquid kit. It looks like it's been replaced with [this 'color simplified' 2-bath kit](https://cinestillfilm.com/collections/laboratory-supplies/products/cs41-simplified-color-processing-at-home-quart-kit-c-41-chemistry?variant=30376678593).
+    -
+      type: ECN-2 color negative
+      stocks:
+        - Kodak Vision3 500T 5219
+      desc: If you don't mind the extra steps of developing ECN-2 film, I cannot recommend this stock enough. It's cheap, the colors are beautiful and it looks fantastic indoors as it is a tungsten balanced film. If the process doesn't scare you away (it isn't that bad) this is the best color negative film you can buy.
+      dev: For cinema film I really like the kit from [Quiet We're Dreaming](https://www.freestylephoto.biz/9120002-QWD-ECN-2-Home-Processing-Kit-to-make-1-Liter).
+    -
+      type: E6 Color positive
+      stocks:
+        - Fuji Velvia 50
+        - Fuji Prova 100f
+      desc: I don't have a ton of experience so far with color positive or 'slide' film. I plan on shooting more of it in the future, especially 4x5. So I've started to hoard and freeze it.
+      dev: I've not yet developed E6 at home.
+    -
+      type: Black and white negative
+      stocks:
+        - Ilford HP5 Plus 400
+        - Kodak Tri-X 400
+        - Kodak Double-X 5222
+      desc: Again, really just listing what I like. But honestly I haven't tried a lot of black and white film stocks. I pretty much only bulk roll Ilford HP5 and Kodak Double-X. It's affordable and flexible.
+      dev: HP5 pushed to 1600 in Ilford's [Ilfotec DD-X](https://www.ilfordphoto.com/catalog/product/view/id/1727/s/1177857/category/90/) is my favorite, but it's pricey. I also use Kodak's [HC110](https://www.bhphotovideo.com/c/product/1493206-REG/kodak_1058692_professional_hc_110_1l_developer.html) for everything. Mostly at 'box' speed but Double-X is really flexible. I've used Ilford's rapid fixer in the past but these days I really like [The Photographer's Formulary TF-5](https://www.bhphotovideo.com/c/product/774852-REG/Photographers_Formulary_03_0200_TF_5_Archival_Rapid_Fixer.html). Great shelf-life.
+
 
 

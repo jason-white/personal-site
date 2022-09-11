@@ -15,7 +15,7 @@
       <div class="uses__block-content">
         <ul class="uses__list">
           {{ range .workstation }}
-            <li>
+            <li class="uses__item">
               {{ . }}
             </li>
           {{ end }}
@@ -68,6 +68,28 @@
           {{ range .scanning }}
             <li class="uses__item">
               {{ . }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+    <section class="uses__block">
+      <h3>Film</h3>
+      <div class="uses__block-content">
+        <ul class="uses__list">
+          {{ range .film }}
+            <li class="uses__item uses__item--film">
+              <h4>{{ .type }}</h4>
+              <ul>
+                {{ range .stocks }}
+                  <li>
+                    {{ . }}
+                  </li>
+                {{ end }}
+              </ul>
+              <p>{{ .desc | markdownify }}</p>
+              
+              <p><strong>Development: </strong>{{ .dev | markdownify }}</p>
             </li>
           {{ end }}
         </ul>
