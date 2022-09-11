@@ -10,5 +10,6 @@ title = 'Jason White'
 [markup.goldmark.renderer]
   unsafe= true
 
-#[outputs]
-  #home = ["HTML"]
+[outputs]
+  home = ["HTML"]
+  journal = ["HTML", "RSS"]
