@@ -375,6 +375,7 @@ blockquote p + p {
 	margin: 0.25rem 0 0 0;
 	padding: 0;
 	display: flex;
+  flex-wrap: wrap;
 	align-items: center;
 	justify-content: flex-end;
 }
@@ -388,6 +389,10 @@ blockquote p + p {
 		padding: 0;
     grid-column: 2 / 6;
 	}
+
+  .post__tags {
+    flex-wrap: nowrap;
+  }
 }
 
 
