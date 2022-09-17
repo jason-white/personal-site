@@ -10,3 +10,6 @@ To do:
 * Write! ✅
 * Cleanup styles
 * Add books section
+* Add gallery ✅
+* Start converting data for existing pages to use content from YAML files.
+* Clean up RSS output ✅

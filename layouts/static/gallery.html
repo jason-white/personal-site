@@ -1,14 +1,27 @@
-{{ range $.Site.Data.gallery }}
-<ul>
-  {{ range .images }}
-    <li>
-      <figure>
-        <img src="{{ .thumb }}" alt="{{ .alt }}">
-        <figcaption>
-          {{ .title }}
-        </figcaption>
-      </figure>
-    </li>
-  {{ end }}
-</ul>
-{{ end }}
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<section class="gallery-page">
+  <main class="gallery-content" role="main">
+    <h1>{{ .Title }}</h1>
+    <article>
+      {{ .Content }}
+    </article>
+    {{ range $.Site.Data.gallery }}
+    <ul class="gallery__list">
+      {{ range .images }}
+        <li>
+          <figure class="gallery__item">
+            <img src="{{ .img }}" alt="{{ .alt }}" loading="lazy">
+            <figcaption>
+              <p>{{ .location }}</p>
+            </figcaption>
+          </figure>
+        </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </main>
+</section>
+
+{{ partial "footer.html" . }}

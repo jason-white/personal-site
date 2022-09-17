@@ -716,6 +716,63 @@ blockquote p + p {
 
 
 
+.gallery-page {
+  position: relative;
+  padding: 0 var(--base-spacing);
+}
+
+.gallery-content h1 {
+  margin-top: 0;
+}
+
+.gallery article {
+  margin-bottom: calc(var(--base-spacing) * 4);
+}
+
+.gallery__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery__item figcaption {
+  text-align: left;
+  padding: var(--base-spacing) 0;
+}
+
+.gallery__list li + li {
+  margin-top: calc(var(--base-spacing) * 3);
+}
+
+@media (min-width: 50rem) {
+  .gallery__item {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    align-items: start;
+    grid-gap: var(--base-spacing);
+  }
+
+  .gallery__list li + li {
+    margin-top: calc(var(--base-spacing) * 2);
+  }
+
+  .gallery__item img {
+    grid-column: 1 / span 4;
+  }
+
+  .gallery__item figcaption {
+    grid-column: span 2;
+    position: sticky;
+    top: var(--base-spacing);
+    padding: 0;
+  }
+
+  .gallery__item figcaption p {
+    line-height: 1.5;
+  }
+}
+
+
 
 /********************
  * Dark Mode
