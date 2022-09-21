@@ -14,7 +14,7 @@ tags:
 - rnr
 ---
 
-Fun day. The weather wasn't bad...at first! We went to Black Sheep Skate Shop to look at shoes with Mitch. We ate at {{< link href="https://jjsredhots.com/" text="JJ's Red Hot's." >}} Haven't been in a while. It's still as good as ever. It's been much more busy and has expanded to a couple of locations since it was featured on {{< link href="https://www.dinersdriveinsdiveslocations.com/jjs-red-hots-north-carolina.html" text="Diner's Drive-ins and Dives." >}} The recognition is well-deserved as the food is always great.
+Fun day. The weather wasn't bad...at first! Went to Black Sheep Skate Shop to look at shoes with Mitch. We ate at {{< link href="https://jjsredhots.com/" text="JJ's Red Hot's." >}} Haven't been in a while. It's still as good as ever. It's been much more busy and has expanded to a couple of locations since it was featured on {{< link href="https://www.dinersdriveinsdiveslocations.com/jjs-red-hots-north-carolina.html" text="Diner's Drive-ins and Dives." >}} The recognition is well-deserved as the food is always great.
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1663727309/2022%20Posts/2022-07-30_pool-party-at-rnrs/2022-07-30_leicam-m10p-2.jpg" alt="man in white shirt smiling in conversation, sitting at picnic table outside, man in yellow shirt sipping from thermos in the background. another man sitting with back to camera" caption="50mm Summilux ASPH / Leica M10-P" >}}
 
