@@ -4,7 +4,6 @@ gallery:
       location: Charlotte, North Carolina
       alt: building at night with glowing trim
       img: https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1663294283/Gallery/neon-church.jpg
-
     image2:
       location: Jacksonville, North Carolina
       alt: rooster grazing in a suburban yard with american flag in the foreground
@@ -17,3 +16,7 @@ gallery:
       location: Charlotte, North Carolina 
       alt: large cross-like figure in swampy water
       img: https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1663378838/Gallery/mcalpine-creek-park.jpg
+    image4:
+      location: Charlotte, North Carolina
+      atl: profile of mans face inside of car at night
+      img: https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1663811864/Gallery/2022-01-28_leica-m10p-13.jpg
