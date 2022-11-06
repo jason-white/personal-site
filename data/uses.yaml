@@ -8,6 +8,7 @@ Uses:
     - Ricoh GR III
     - Nikon D800E
   lenses:
+    - Leica 28mm Elmarit ASPH
     - Leica 35mm Summicron ASPH
     - Leica 50mm Summilux ASPH
     - Leica (Leitz Canada) 90mm Tele-Elmarit 90mm
@@ -37,7 +38,7 @@ Uses:
     -
       name: Lightroom
       url: https://adobe.com
-      desc: Lightroom catalogs is how I organize and edit all of my images, film or digital.
+      desc: Lightroom catalogs is how I organize and edit all of my images. Film or digital.
     -
       name: Negative Lab Pro
       url: https://www.negativelabpro.com/
