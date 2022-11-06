@@ -8,9 +8,11 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v16
 alt: "two men from behind looking over the railing of a fishing pier with various equipment around them"
 caption: "35mm Summicron ASPH / Ilford HP5 @ 1600"
 tags:
+- alligatorbay
 - pier
 - leica
 - hp5
+- m10p
 ---
 
 Dad took Mitch and I to Greg's pier. Greg wasn't around but we though it would be fun to walke up and down the pier, anyway. I wanted to get photos of people fishing. I really liked how my film photos looked, other than the sunset shot reflecting off my car before dinner. The digital ones were just kinda...meh. Not sure how to describe it.

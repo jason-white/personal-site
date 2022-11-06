@@ -9,7 +9,7 @@ alt: "wooded inlet coast during sunset with incomplete beach house in the distan
 caption: "50mm Summilux ASPH / Leica M10-P"
 tags:
 - dadsbirthday
-- beach
+- alligatorbay
 - leica
 - m10p
 ---
