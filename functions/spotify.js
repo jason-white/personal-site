@@ -46,20 +46,4 @@ exports.handler = async (event, context) => {
     }).catch((err) => {
       console.error(err);
     });
-      /*
-      const {
-        artists: artistsArray,
-        name,
-        external_urls: urls,
-        album,
-      } = items[0].track;
-      const simplifiedArtists = artistsArray.map((artist) => ({
-        name: artist.name,
-        url: artist.href,
-      }));
-      const trackUrl = urls.spotify;
-      const artworkUrl = album.images[1].url;
-      */
-
-      
 };

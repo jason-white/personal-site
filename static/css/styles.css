@@ -24,6 +24,10 @@ html {
 	box-sizing: border-box;
 }
 
+.className {
+	font-size: clamp()
+}
+
 *,
 *::before,
 *::after {
