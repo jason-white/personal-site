@@ -14,7 +14,9 @@ tags:
 - m10p
 ---
 
-We had to head back home from the coast fairly early, but hung out with some family on my uncles dock while Bill net-fished, Chandler brought his boat in that was having some engine trouble. While my dad, uncle and Chandler were troubleshooting the boat problems I snapped a few photos.
+Woke up fairly early and went to Salty Sista's for breakfast. This place is incredibly good. This was the first time we've had the breakfast and whoooaa. If I had a whole day I wouldn't be able to finish that plate of food. Massive pancakes, perfectly cooked eggs and sausage and the grits. Oh my god, the cheese grits. Probably 80% cheese but who cares?
+
+After breakfast we hung out with some family on my uncles dock. While Bill net-fished, Chandler brought his boat in that was having some engine trouble. While my dad, uncle and Chandler were troubleshooting the boat problems I snapped a few photos.
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1667762270/2022%20Posts/2022-09-18_quick-family-time/2022-09-18_leica-m10p-10.jpg" alt="man removing hook from a flouders mouth lying in an outdoor sink" caption="50mm Summilux ASPH / Leica M10-P" >}}
 

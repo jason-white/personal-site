@@ -15,6 +15,8 @@ tags:
 - m10p
 ---
 
-This was originally going to be another photo walk post, but the images from that day were basically the same as the last one. I do really like this photo I snapped of Mitch. I've been playing with these film presets from {{< link href="https://www.reallyniceimages.com/" text="RNI">}}. This one is "Kodak Gold 800." Did they ever even make Kodak Gold in 800 iso? {{< link href="http://www.photographyreview.com/product/film/print-film/kodak/gold-max-800.html" text="Guess so">}}. Doesn't look like it was too well received.
+This was originally going to be another photo walk post, but the images from that day were basically the same as the last one. We did run into a buddy of ours in the park and we found out there are more coyotes roaming around. I'm not sure if I mentioned it before, but coyotes have been spotted in the park by our house. First rumor was one, then two, now two with pups. So that's fun. I assumed eventually all of the deer would attract some sort of predator.
+
+I do really like this photo I snapped of Mitch. I've been playing with these film presets from {{< link href="https://www.reallyniceimages.com/" text="RNI">}}. This one is "Kodak Gold 800." Did they ever even make Kodak Gold in 800 iso? {{< link href="http://www.photographyreview.com/product/film/print-film/kodak/gold-max-800.html" text="Guess so">}}. Doesn't look like it was too well received.
 
 Anyway, I really like how this came out. The grain was added in Photoshop which I like doing more than using Lightroom's built in grain adjustments. I find those settings to be terribly unnatural.

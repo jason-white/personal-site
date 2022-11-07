@@ -19,3 +19,5 @@ This was a lot of fun and we certainly need to do it again. We also need a large
 I've been hesitant to get back into the game because it means buying stuff, stuff that takes up a lot of space, stuff that you have to _continue_ to buy if you want to keep up. But is that really so bad if you're having fun?
 
 I played one of Adam's decks and I gotta make one of my own. The only Commander deck that I have is a pre-constructed one and it was kind of clunky in performance. Very slow to take off.
+
+Afterwards I finished meal prep, a nice Japanese beef curry that was on going in the crockpot all day. We ate some of the stew and watched Rings of Power Episode 1. I like it so far, the quality outstanding.

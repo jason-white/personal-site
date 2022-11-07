@@ -30,3 +30,5 @@ I chose to keep it subtle and went with a 1/4 stop filter but you can go nuts wi
 From here on out if there are any digital photos posted on this site it will be with this filter. I may tag promist for all of them just so it's a bit organized.
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1667743938/2022%20Posts/2022-08-29_Photo-Walk/2022-08-29_leica-m10p-22.jpg" alt="the side of a house with electrical meters and a satelight dish on the roof" caption="50mm Summilux ASPH / Leica M10-P" >}}
+
+Later this evening we finished Sandman. I enjoyed the extra closers. I guess we will start GoT House of Dragon next.

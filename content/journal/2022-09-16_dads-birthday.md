@@ -14,7 +14,7 @@ tags:
 - m10p
 ---
 
-We made a quick trip to the coast to see my parents for my dad's birthday. His birthday is technically next week but we have a trip that was already planned in advanced.
+Spent most of the morning getting ready to drive to my parents place by the beach for my dad's birthday. Picked up some medications at Costco and it was so busy I had to park at the Lowe's Hardware next door. Never seen it so busy on a Friday. Mitch worked a half day so after around 1:00 we hit the road.
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1667753934/2022%20Posts/2022-09-16_Dads-birthday/2022-09-16_leica-m10p-19.jpg" alt="older man wearing glasses posing for a photo holding a bundle of packaged guitar strings" caption="50mm Summilux ASPH / Leica M10-P" >}}
 
