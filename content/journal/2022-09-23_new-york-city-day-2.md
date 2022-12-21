@@ -3,7 +3,7 @@ type: "journal"
 title: "New York: Day 2"
 date: 2022-09-23T21:39:41-05:00
 draft: false
-thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_740/v1671590531/2022%20Posts/2022-09-23_new-york-day-2/IMG_0139_1.jpg"
+thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_fill,h_493,w_740/v1671590531/2022%20Posts/2022-09-23_new-york-day-2/IMG_0139_1.jpg"
 image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1671590531/2022%20Posts/2022-09-23_new-york-day-2/IMG_0139_1.jpg"
 alt: "the band pet shop boys playing live on stage in front of a large crowd of people"
 caption: "iPhone 14 Pro"
