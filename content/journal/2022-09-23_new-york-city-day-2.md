@@ -9,11 +9,11 @@ alt: "the band pet shop boys playing live on stage in front of a large crowd of 
 caption: "iPhone 14 Pro"
 tags:
 - new-york
-- leica
-- m10p
+- pet-shop-boys
+- new-order
 ---
 
-Started the day grabbing a coffee at Black Fox. It's closer to our hotel than I thought. Very good Guatemalan on drip. Probably better than any pour over I've made. That may be a slight exaggeration. We went to Leo's for bagels. The bagel was fantastic. Worth the wait in line. Plus the people watching is top-notch in this city. 
+Started the day grabbing a coffee at {{< link href="https://blackfoxcoffee.com/" text="Black Fox" >}}. It's closer to our hotel than I thought. Very good Guatemalan on drip. Probably better than any pour over I've made. That may be a slight exaggeration. We went to Leo's for bagels. The bagel was fantastic. Worth the wait in line. Plus the people watching is top-notch in this city. 
 
 Walked back to the hotel to eat real quick before taking the train up to 5th Avenue. We checked out both MoMA stores and Uniqlo. The flagship NYC Uniqlo is _massive_. The LEGO store was also pretty amazing. After shopping we went to the Top of the Rock to get a 360 degree view of the city. Pretty fun experience, but $40? Damn.
 
