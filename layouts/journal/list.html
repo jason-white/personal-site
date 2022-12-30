@@ -2,7 +2,7 @@
 {{ partial "header.html" . }}
 <main class="journal-list" role="main">
   <h1>{{ .Title }}</h1>
-  <ul class="post-list">
+  <ul class="grid post-list">
     {{ range (.Paginator 9).Pages }}
     <li class="post-card">
       <article role="article">

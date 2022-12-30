@@ -44,7 +44,7 @@
       <div class="uses__block-content">
         <ul class="uses__list">
           {{ range .cameras }}
-            <li class="uses__item">{{ . }}</li>
+            <li class="uses__item">{{ . | markdownify }}</li>
           {{ end }}
         </ul>
       </div>
@@ -55,7 +55,7 @@
       <div class="uses__block-content">
         <ul class="uses__list">
           {{ range .lenses }}
-          <li class="uses__item">{{ . }}</li>
+          <li class="uses__item">{{ . | markdownify }}</li>
           {{ end }}
         </ul>
       </div>

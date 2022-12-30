@@ -11,30 +11,30 @@
   </section>
 
   <!-- Pages column -->
-  <section class="home__posts">
-    <h2>Recent Posts</h2>
-    <ul class="recent-posts">
-      {{ range first 3 (where .Site.Pages "Type" "journal") }}
-        <li class="post-card">
-          <img src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}">
-          <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
-          <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-        </li>
-      {{ end }}
-    </ul>
-    <p>
-      More posts available on the <a href="/journal/">journal</a>
-    </p>
-  </section>
+	<section class="home__posts">
+		<h2>Photos</h2>
+		<ul class="grid recent-posts">
+			{{ range first 3 (where .Site.RegularPages "Type" "in" "journal") }}
+				<li class="post-card">
+					<img src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}">
+					<a href="{{ .Permalink }}">{{ .Title }}</a><br/>
+					<time>{{ .Date.Format "Jan 2, 2006" }}</time>
+				</li>
+			{{ end }}
+		</ul>
+		<p>
+			More posts available on the <a href="/journal/">journal</a>
+		</p>
+	</section>
 
-  <!-- Links column -->
-  <section class="home__links">
-    <h2>Recent Finds</h2>
-    <script language="javascript" src="https://pinboard.in//widgets/v1/linkroll/?user=jasonwhite&count=8"></script>
-    <p>
-      More links can be found at <a href="https://pinboard.in/u:jasonwhite">Pinboard</a>
-    </p>
-  </section>
+	<!-- Links column -->
+	<section class="home__links">
+		<h2>Links</h2>
+		<script language="javascript" src="https://pinboard.in//widgets/v1/linkroll/?user=jasonwhite&count=6"></script>
+		<p>
+			More links can be found at <a href="https://pinboard.in/u:jasonwhite">Pinboard</a>
+		</p>
+	</section>
 
   <!-- Tracks column -->
   <!-- <section class="home__tracks">

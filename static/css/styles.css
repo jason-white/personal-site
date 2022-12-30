@@ -137,10 +137,12 @@ blockquote p + p {
 
 
 
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  grid-column-gap: var(--base-grid-gap);
+@media (min-width: 50rem) {
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(6, minmax(0, 1fr));
+		grid-column-gap: var(--base-grid-gap);
+	}
 }
 
 
@@ -163,15 +165,11 @@ blockquote p + p {
 }
 
 @media (min-width: 50rem) {
-  /*
   .header__nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(6, minmax(0, 1fr));
     grid-column-gap: var(--base-grid-gap);
-    align-items: center;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-  */
 }
 
 .logo {
@@ -260,9 +258,6 @@ blockquote p + p {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: calc(var(--base-grid-gap) * 2);
 }
 
 .post-card time {
@@ -271,26 +266,33 @@ blockquote p + p {
   font-weight: 600;
 }
 
+
 .post-card + .post-card {
-  /*margin-top: var(--base-spacing);*/
+	margin-top: var(--base-grid-gap);
+}
+
+.post-card p {
+	margin-top: 0;
+}
+
+.pin-item + .pin-item {
+	margin-top: var(--base-spacing);
 }
 
 @media (min-width: 50rem) {
-  .recent-posts {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-column-gap: var(--base-grid-gap);
-    justify-content: start;
-  }
+	.post-card {
+		grid-column: span 2;
+	}
 
   .post-card + .post-card {
     margin-top: 0;
   }
 }
 
-#pinboard_linkroll {
-  display: grid;
-  grid-row-gap: var(--base-grid-gap);
+.pin-item {
+	grid-column: span 2;
 }
+
 
 .pin-item p {
   margin: 0;
@@ -302,9 +304,15 @@ blockquote p + p {
 
 @media (min-width: 50rem) {
   #pinboard_linkroll {
-    grid-template-columns: repeat(4, 1fr);
+		display: grid;
+		grid-template-columns: repeat(6, minmax(0, 1fr));
     grid-column-gap: var(--base-grid-gap);
+		grid-row-gap: var(--base-grid-gap);
   }
+
+	.pin-item + .pin-item {
+		margin-top: 0;
+	}
 }
 
 
@@ -408,7 +416,6 @@ blockquote p + p {
 .journal-list {
   padding: 0 var(--base-spacing);
 }
-
 .post-list {
   list-style-type: none;
   padding: 0;
@@ -420,14 +427,14 @@ blockquote p + p {
 
 @media (min-width: 30rem) {
   .post-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-column-gap: var(--base-grid-gap);
   }
 }
 
 @media (min-width: 50rem) {
   .post-list {
-    grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 }
 
