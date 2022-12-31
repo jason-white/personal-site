@@ -29,4 +29,4 @@ I didn't get any solid photos. Still stuck with the 50mm only until the custom t
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1672505242/2022%20Posts/2022-10-15_nc-state-fair/2022-10-15_leica-m10p-42.jpg" alt="a blurry photo of a ginger haired boy" caption="50mm Summilux ASPH / Leica M10-P" >}}
 
-I am very upset that I missed focus on this very candid fair portrait.
+I am very upset that I missed focus on this fair portrait.
