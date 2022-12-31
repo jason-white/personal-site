@@ -1,6 +1,6 @@
 ---
 type: "journal"
-title: "Quick Trip to Austin"
+title: "A Trip to Austin"
 date: 2022-10-06T15:18:14-05:00
 draft: false
 thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_740/v1671653862/2022%20Posts/2022-10-03_austin-trip/2022-10-06_hp5-01-1.jpg"
