@@ -691,6 +691,7 @@ blockquote p + p {
 .footer__nav {
   grid-row: 2 / 3;
   grid-column: 4 / 7;
+  margin-top: calc(var(--base-spacing) * 2);
 }
 
 .footer__spotify {
@@ -730,6 +731,7 @@ blockquote p + p {
   .footer__nav {
     grid-row: 1 / 2;
     grid-column: 6 / 7;
+		margin-top: 0;
   }
 }
 
