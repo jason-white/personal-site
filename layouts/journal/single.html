@@ -16,6 +16,7 @@
     </header>
     <section class="post__body">
       {{ .Content }}
+			{{ partial "post_gallery.html" . }}
     </section>
     <div class="post__meta">
       <a href="{{ .RelPermalink }}">

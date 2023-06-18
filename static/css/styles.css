@@ -81,6 +81,19 @@ h4:first-of-type {
 	}
 }
 
+button {
+	border: none;
+	border-radius: 0.125rem;
+	padding: 0.25rem 0.5rem;
+	background-color: var(--color-cream);
+	color: var(--color-black);
+	font-weight: 600;
+}
+
+button:active {
+	transform: translateY(0.063rem);
+}
+
 a {
   color: #111;
   font-weight: 600;
@@ -90,7 +103,7 @@ a:visited {
   color: #111;
 }
 
-a:focus {
+a:focus, button:focus {
   outline: 0.250rem solid #111; 
   outline-offset: .125rem;
 }
@@ -343,6 +356,8 @@ blockquote p + p {
   .post__header h1 {
     max-width: 20ch;
   }
+
+
 }
 
 .post__body {
@@ -350,7 +365,7 @@ blockquote p + p {
   grid-column: 1 / -1;
 }
 
-.post__body figure {
+.post__body > figure {
 	margin: 2rem 0 var(--base-spacing) 0;
 }
 
@@ -359,6 +374,22 @@ blockquote p + p {
   padding: 0.125rem;
   border-radius: 0.125rem;
 }
+
+.post__gallery {
+	grid-column: 1 / -1;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: var(--base-grid-gap);
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+/*
+ * The rest of the post gallery
+ * styles are in the `post__gallery.html`
+ * partial file
+ */
 
 .post__meta {
   margin-top: 3rem;
@@ -818,7 +849,7 @@ blockquote p + p {
     color: var(--color-orange);
   }
 
-  a:focus {
+  a:focus, button:focus {
     outline: 0.250rem solid var(--color-orange); 
     outline-offset: .125rem;
   }

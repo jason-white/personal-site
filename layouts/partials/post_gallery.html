@@ -1,0 +1,136 @@
+{{ with .Params.gallery }}
+	<ul id="Gallery" class="post__gallery">
+		{{ range .images }}
+			<gallery-image
+				img="{{ .img }}"
+				alt="{{ .alt }}"
+				caption="{{ .caption }}"
+				></gallery-image>
+		{{ end }}
+	</ul>
+	<script type="module">
+		import { createApp, ref } from "https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js";
+
+		const app = createApp();
+
+		app.component('GalleryImage', {
+			props: ['img', 'alt', 'caption'],
+			directives: {
+				'focus-on-load': {
+					mounted(element) {
+						element.focus();
+					}
+				}
+			},
+			setup(props) {
+				const isOpen = ref(false);
+				return {
+					isOpen
+				};
+			},
+			template: `
+					<li>
+						<button @click="isOpen = true" type="button" class="gallery__button">
+							<img
+								class="gallery__thumb"
+								:src="img"
+								:alt="alt"
+								loading="lazy"
+								title="Click to zoom"
+							>
+						</button>
+						<Transition name="fade">
+							<div v-if="isOpen" @keyup.esc="isOpen = false" v-focus-on-load class="gallery__overlay" tabindex="0">
+								<div>
+									<div class="gallery__close">
+										<button @click="isOpen = false" type="button">
+											Close image
+										</button>
+									</div>
+									<figure class="gallery__figure">
+										<img :src="img" :alt="alt" loading="lazy">
+										<figcaption class="gallery__caption">
+											<p>{% caption %}</p>
+										</figcaption>
+									</figure>
+								</div>
+							</Transition>
+						</div>
+					</li>
+			`,
+			delimiters: ['{%', '%}']
+		});
+
+		app.mount('#Gallery');
+	</script>
+
+	<style scoped>
+		.gallery__overlay {
+			z-index: 10;
+			position: fixed;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin: 0;
+			padding: 0 calc(var(--base-spacing) * 2);
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: rgba(0, 0, 0, 0.90);
+			opacity: 1;
+		}
+
+		.gallery__button {
+			padding: 0;
+			border: none;
+			border-radius: 0;
+		}
+
+		.gallery__overlay > div {
+			max-width: 1280px;
+		}
+
+		.gallery__overlay:focus {
+			border: none;
+			outline: none;
+		}
+
+		.gallery__close {
+			display: flex;
+			justify-content: flex-end;
+			width: 100%;
+			padding: calc(var(--base-spacing) / 2) 0;
+		}
+
+		.gallery__figure img {
+			width: 100%;
+			height: auto;
+			object-fit: contain;
+		}
+
+		.gallery__caption {
+			color: var(--color-cream);
+			padding: 0;
+		}
+
+		.gallery__caption p {
+			text-align: left;
+			padding: 0;
+			margin-top: calc(var(--base-spacing) / 2);
+			font-size: var(--base-font-size);
+		}
+
+		.fade-enter-active,
+		.fade-leave-active {
+			transition: opacity 0.25s ease;
+		}
+
+		.fade-enter-from,
+		.fade-leave-to {
+			opacity: 0;
+		}
+
+	</style>
+{{ end }}
