@@ -3,6 +3,7 @@
 		{{ range .images }}
 			<gallery-image
 				img="{{ .img }}"
+				thumb="{{ .thumb }}"
 				alt="{{ .alt }}"
 				caption="{{ .caption }}"
 				></gallery-image>
@@ -14,7 +15,7 @@
 		const app = createApp();
 
 		app.component('GalleryImage', {
-			props: ['img', 'alt', 'caption'],
+			props: ['img', 'thumb', 'alt', 'caption'],
 			directives: {
 				'focus-on-load': {
 					mounted(element) {
@@ -33,7 +34,7 @@
 						<button @click="isOpen = true" type="button" class="gallery__button">
 							<img
 								class="gallery__thumb"
-								:src="img"
+								:src="thumb"
 								:alt="alt"
 								loading="lazy"
 								title="Click to zoom"
@@ -83,9 +84,16 @@
 		}
 
 		.gallery__button {
+			width: 100%;
 			padding: 0;
 			border: none;
 			border-radius: 0;
+			cursor: pointer;
+		}
+
+		.gallery__thumb {
+			width: 100%;
+			height: auto;
 		}
 
 		.gallery__overlay > div {
@@ -116,7 +124,7 @@
 		}
 
 		.gallery__caption p {
-			text-align: left;
+			text-align: right;
 			padding: 0;
 			margin-top: calc(var(--base-spacing) / 2);
 			font-size: var(--base-font-size);
