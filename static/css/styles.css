@@ -436,6 +436,10 @@ blockquote p + p {
   .post__tags {
     flex-wrap: nowrap;
   }
+
+	.post__gallery {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 
