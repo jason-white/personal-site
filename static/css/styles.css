@@ -379,17 +379,18 @@ blockquote p + p {
 	grid-column: 1 / -1;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: 1fr;
 	grid-gap: var(--base-grid-gap);
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-/*
- * The rest of the post gallery
- * styles are in the `post__gallery.html`
- * partial file
- */
+.gallery__thumb {
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	border-radius: 0.125rem;
+}
 
 .post__meta {
   margin-top: 3rem;
@@ -563,14 +564,6 @@ blockquote p + p {
 .portfolio__intro p {
   line-height: 1.5;
 }
-
-/*
-@media (min-width: 50rem) {
-  .portfolio__intro {
-    font-size: var(--large-font-size);
-  }
-}
-*/
 
 .projects {
   list-style-type: none;
@@ -769,8 +762,6 @@ blockquote p + p {
 		margin-top: 0;
   }
 }
-
-
 
 .gallery-page {
   position: relative;
