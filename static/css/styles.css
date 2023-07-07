@@ -65,6 +65,10 @@ h3:first-of-type {
   margin-top: 0;
 }
 
+h3 {
+	margin-top: calc(var(--base-spacing) * 2);
+}
+
 h4 {
   font-size: var(--med-font-size);
   margin: calc(var(--base-spacing) * 3) 0 var(--base-spacing) 0;
