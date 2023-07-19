@@ -42,6 +42,11 @@
           &lt;/figcaption&gt;
         &lt;/figure&gt;
         {{ .Content | html }}
+				{{ with .Params.gallery }}
+					{{ range .images }}
+						<img src="{{ .img }}" alt="{{ .alt }}" />
+					{{ end }}
+				{{ end }}
       </description>
     </item>
     {{ end }}
