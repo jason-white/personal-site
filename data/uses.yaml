@@ -6,17 +6,23 @@ Uses:
     - ~~Hasselblad 500c~~
     - Olympus XA 2
     - Ricoh GR III
-    - Nikon D800E
+    - ~~Nikon D800E~~
+    - Sony A7R IV
+    - Chamonix 45F2
   lenses:
     - Leica 28mm Elmarit ASPH
     - Leica 35mm Summicron ASPH
     - Leica 50mm Summilux ASPH
     - Leica (Leitz Canada) 90mm Tele-Elmarit 90mm
     - ~~Carl Zeiss 80mm Planar f/2.8 C~~
-    - Carl Zeiss 150mm Sonnar f/4 C T*
+    - ~~Carl Zeiss 150mm Sonnar f/4 C T*~~
     - Sigma 70mm f/2.8 DG Macro
+    - Sony FE 200-600mm f/5.6-6.3 G OSS
+    - Rodenstock 75mm f/4.5 Apo Rodagon D 2x
+    - Rodenstock 210mm f/5.6 Sironar-N
   scanning:
-    - Nikon D800E & Sigma 70mm DG Macro
+    - ~~Nikon D800E & Sigma 70mm DG Macro~~
+    - Sony A7R IV & Rodenstock 75mm Apo Rodagon D 2x
     - ALZO copy stand
     - Negative Supply 5x7 99cri Light
     - Negative Supply MK1
@@ -44,9 +50,9 @@ Uses:
       url: https://www.negativelabpro.com/
       desc: A Lightroom plugin that does a fantastic job at converting digitized negatives into positives.
     -
-      name: Smart Shooter
-      url: https://tethertools.com/product/smart-shooter-4/
-      desc: Tethered capturing app. I like using this when digitizing negatives. It isn't perfect but it works well enough and the price is fair.
+      name: Imaging Edge Desktop
+      url: https://support.d-imaging.sony.co.jp/app/imagingedge/en/
+      desc: This is Sony's tethering tools. It isn't perfect, but it is free. I really just use it to scan film. It has everything I need, and maybe a lot of things I don't. But it works.
     -
       name: Things 3
       url: https://culturedcode.com/things/
@@ -95,6 +101,3 @@ Uses:
         - Kodak Double-X 5222
       desc: Again, really just listing what I like. But honestly I haven't tried a lot of black and white film stocks. I pretty much only bulk roll Ilford HP5 and Kodak Double-X. It's affordable and flexible.
       dev: HP5 pushed to 1600 in Ilford's [Ilfotec DD-X](https://www.ilfordphoto.com/catalog/product/view/id/1727/s/1177857/category/90/) is my favorite, but it's pricey. I also use Kodak's [HC110](https://www.bhphotovideo.com/c/product/1493206-REG/kodak_1058692_professional_hc_110_1l_developer.html) for everything. Mostly at 'box' speed but Double-X is really flexible. I've used Ilford's rapid fixer in the past but these days I really like [The Photographer's Formulary TF-5](https://www.bhphotovideo.com/c/product/774852-REG/Photographers_Formulary_03_0200_TF_5_Archival_Rapid_Fixer.html). Great shelf-life.
-
-
-

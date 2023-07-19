@@ -67,7 +67,7 @@
         <ul class="uses__list">
           {{ range .scanning }}
             <li class="uses__item">
-              {{ . }}
+              {{ . | markdownify }}
             </li>
           {{ end }}
         </ul>
