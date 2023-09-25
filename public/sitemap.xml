@@ -2,192 +2,696 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//jasonwhite.us/journal/</loc>
-    <lastmod>2021-05-24T21:03:15-04:00</lastmod>
+    <loc>https://jasonwhite.us/journal/</loc>
+    <lastmod>2023-06-27T11:03:00-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/uses/</loc>
+    <loc>https://jasonwhite.us/uses/</loc>
     <lastmod>2020-05-25T19:29:16-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/about/</loc>
+    <loc>https://jasonwhite.us/about/</loc>
     <lastmod>2020-04-10T22:30:27-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/archives/</loc>
+    <loc>https://jasonwhite.us/gallery/</loc>
+    <lastmod>2022-08-24T21:42:49-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/archives/</loc>
     <lastmod>2021-02-16T22:57:15-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/birthday/</loc>
+    <loc>https://jasonwhite.us/tags/birds/</loc>
+    <lastmod>2023-06-27T11:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/</loc>
+    <lastmod>2023-06-27T11:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/06/2023-06-27_red-shouldered-hawk/</loc>
+    <lastmod>2023-06-27T11:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/sony/</loc>
+    <lastmod>2023-06-27T11:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/</loc>
+    <lastmod>2023-06-27T11:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/50mmsummiluxasph/</loc>
+    <lastmod>2023-06-03T22:23:52-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/beach/</loc>
+    <lastmod>2023-06-03T22:23:52-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/leica/</loc>
+    <lastmod>2023-06-03T22:23:52-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/06/2023-06-03_north-topsail/</loc>
+    <lastmod>2023-06-03T22:23:52-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/28mmelmaritasph/</loc>
+    <lastmod>2023-06-02T22:34:56-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/m10p/</loc>
+    <lastmod>2023-06-02T22:34:56-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/06/2023-06-02_surf-city-pier/</loc>
+    <lastmod>2023-06-02T22:34:56-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/04/2023-04-22_washington-dc/</loc>
+    <lastmod>2023-04-22T11:28:22-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/washington-dc/</loc>
+    <lastmod>2023-04-22T11:28:22-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/04/2023-04-21_restaurant/</loc>
+    <lastmod>2023-04-21T11:04:58-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/04/2023-04-20_aaron-draplin/</loc>
+    <lastmod>2023-04-20T17:56:29-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/draplin/</loc>
+    <lastmod>2023-04-20T17:56:29-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/03/2023-03-23_bird-photography/</loc>
+    <lastmod>2023-03-23T22:11:54-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/03/2023-03-05_pepperbox-doughnuts/</loc>
+    <lastmod>2023-03-05T10:50:41-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/03/2023-03-03_power-outage/</loc>
+    <lastmod>2023-03-03T10:31:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/games/</loc>
+    <lastmod>2023-02-24T19:08:22-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/02/24_tantrum-con-2023/</loc>
+    <lastmod>2023-02-24T19:08:22-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/tantrumcon/</loc>
+    <lastmod>2023-02-24T19:08:22-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/02/2023-02-19_chili-cookoff/</loc>
+    <lastmod>2023-02-19T21:51:08-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/griii/</loc>
+    <lastmod>2023-02-19T21:51:08-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/haw-river/</loc>
+    <lastmod>2023-02-19T21:51:08-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/kodakxx/</loc>
+    <lastmod>2023-02-19T21:51:08-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/02/2023-02-04_dinner-at-yume/</loc>
+    <lastmod>2023-02-04T22:22:10-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/birthday/</loc>
+    <lastmod>2023-01-28T15:13:06-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/01/2023-01-28_so-much-salt/</loc>
+    <lastmod>2023-01-28T15:13:06-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2023/01/2023-01-13_cabin-trip/</loc>
+    <lastmod>2023-01-13T17:46:43-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/gatlinburg/</loc>
+    <lastmod>2023-01-13T17:46:43-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/vacation/</loc>
+    <lastmod>2023-01-13T17:46:43-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/christmas/</loc>
+    <lastmod>2022-12-18T20:12:25-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/12/2022-12-18_xmas-cookies/</loc>
+    <lastmod>2022-12-18T20:12:25-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/11/2022-11-27_new-faucet/</loc>
+    <lastmod>2022-11-27T22:34:57-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/11/2022-11-25_aunt-rita-bday_matt-allen-friendsgiving/</loc>
+    <lastmod>2022-11-25T10:30:07-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/thanksgiving/</loc>
+    <lastmod>2022-11-25T10:30:07-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/11/2022-11-24_thanksgiving/</loc>
+    <lastmod>2022-11-24T22:01:05-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/11/2022-11-19_jasons-housewarming-friendsgiving/</loc>
+    <lastmod>2022-11-19T12:27:17-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/halloween/</loc>
+    <lastmod>2022-10-29T11:22:10-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/10/2022-10-29_halloween/</loc>
+    <lastmod>2022-10-29T11:22:10-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/live-music/</loc>
+    <lastmod>2022-10-26T21:55:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/10/2022-10-26_youth-league/</loc>
+    <lastmod>2022-10-26T21:55:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/youth-league/</loc>
+    <lastmod>2022-10-26T21:55:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/10/2022-10-24_foggy-morning/</loc>
+    <lastmod>2022-10-24T22:26:09-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/hp5/</loc>
+    <lastmod>2022-10-24T22:26:09-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/10/2022-10-16_fixed-lens-broken-camera/</loc>
+    <lastmod>2022-10-16T21:59:28-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/10/2022-10-15_nc-state-fair/</loc>
+    <lastmod>2022-10-15T11:47:43-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/state-fair/</loc>
+    <lastmod>2022-10-15T11:47:43-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/atl-pride/</loc>
+    <lastmod>2022-10-09T23:23:34-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/10/2022-10-09_atl-pride-day-3/</loc>
+    <lastmod>2022-10-09T23:23:34-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/10/2022-10-08_atl-pride-day-2/</loc>
+    <lastmod>2022-10-08T22:53:24-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/10/2022-10-07_atl-pride-day-1/</loc>
+    <lastmod>2022-10-07T22:28:11-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/10/2022-10-06_austin-team-onsite/</loc>
+    <lastmod>2022-10-03T15:18:14-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/austin/</loc>
+    <lastmod>2022-10-03T15:18:14-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/moma/</loc>
+    <lastmod>2022-09-25T23:22:38-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-25_new-york-day-4/</loc>
+    <lastmod>2022-09-25T23:22:38-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/new-york/</loc>
+    <lastmod>2022-09-25T23:22:38-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-24_new-york-day-3/</loc>
+    <lastmod>2022-09-24T22:19:23-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-23_new-york-city-day-2/</loc>
+    <lastmod>2022-09-23T21:39:41-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/new-order/</loc>
+    <lastmod>2022-09-23T21:39:41-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/pet-shop-boys/</loc>
+    <lastmod>2022-09-23T21:39:41-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-22_new-york-city/</loc>
+    <lastmod>2022-09-22T20:27:58-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/alligatorbay/</loc>
+    <lastmod>2022-09-18T14:10:02-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/family/</loc>
+    <lastmod>2022-09-18T14:10:02-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-18_quick-family-time-before-heading-home/</loc>
+    <lastmod>2022-09-18T14:10:02-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/pier/</loc>
+    <lastmod>2022-09-17T13:42:25-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-17_seaview-pier/</loc>
+    <lastmod>2022-09-17T13:42:25-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-16_dads-birthday/</loc>
+    <lastmod>2022-09-16T11:49:12-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/dadsbirthday/</loc>
+    <lastmod>2022-09-16T11:49:12-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/music/</loc>
+    <lastmod>2022-09-06T10:39:57-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/pacific/</loc>
+    <lastmod>2022-09-06T10:39:57-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-06_pacific-album/</loc>
+    <lastmod>2022-09-06T10:39:57-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/vinyl/</loc>
+    <lastmod>2022-09-06T10:39:57-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-05_mtg-with-brian-and-adam/</loc>
+    <lastmod>2022-09-05T10:10:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/mtg/</loc>
+    <lastmod>2022-09-05T10:10:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/filmpreset/</loc>
+    <lastmod>2022-09-03T09:50:41-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/mitch/</loc>
+    <lastmod>2022-09-03T09:50:41-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/09/2022-09-03_portrait-of-mitch/</loc>
+    <lastmod>2022-09-03T09:50:41-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/promist/</loc>
+    <lastmod>2022-09-03T09:50:41-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/08/2022-08-29_photo-walk/</loc>
+    <lastmod>2022-08-29T09:00:13-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/photowalks/</loc>
+    <lastmod>2022-08-29T09:00:13-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/charlotte/</loc>
+    <lastmod>2022-08-20T22:04:58-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/08/2022-08-20_charlotte-pride/</loc>
+    <lastmod>2022-08-20T22:04:58-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/pride/</loc>
+    <lastmod>2022-08-20T22:04:58-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/catan/</loc>
+    <lastmod>2022-08-13T21:13:45-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/08/2022-08-13_i-finally-learned-catan/</loc>
+    <lastmod>2022-08-13T21:13:45-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/ricoh/</loc>
+    <lastmod>2022-08-13T21:13:45-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/bee/</loc>
+    <lastmod>2022-07-31T21:40:46-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/07/2022-07-31_chonky-bee-covered-in-pollen/</loc>
+    <lastmod>2022-07-31T21:40:46-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/07/2022-07-30_pool-party-at-rnr/</loc>
+    <lastmod>2022-07-30T22:31:02-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/pool-party/</loc>
+    <lastmod>2022-07-30T22:31:02-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/rnr/</loc>
+    <lastmod>2022-07-30T22:31:02-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/m10/</loc>
+    <lastmod>2022-07-11T22:29:01-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/07/2022-07-11_sisters-visit-summer/</loc>
+    <lastmod>2022-07-11T22:29:01-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/gr/</loc>
+    <lastmod>2022-07-09T22:06:24-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/unraid/</loc>
+    <lastmod>2022-07-09T22:06:24-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/07/2022-07-09_unraid-rack/</loc>
+    <lastmod>2022-07-09T22:06:24-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/july-4/</loc>
+    <lastmod>2022-07-04T18:13:25-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/07/2022-07-04_kings-mountain-state-park/</loc>
+    <lastmod>2022-07-04T18:13:25-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/kings-mountain/</loc>
+    <lastmod>2022-07-04T18:13:25-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/m-a/</loc>
+    <lastmod>2022-07-04T18:13:25-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/summicron/</loc>
+    <lastmod>2022-07-04T18:13:25-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/ilford/</loc>
+    <lastmod>2022-07-02T07:42:49-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/07/2022-07-02_pool-party/</loc>
+    <lastmod>2022-07-02T07:42:49-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/06/2022-06-25_mitch-first-softball-tournament/</loc>
+    <lastmod>2022-06-25T19:57:38-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/softball/</loc>
+    <lastmod>2022-06-25T19:57:38-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/06/2022-06-19_351-mustang/</loc>
+    <lastmod>2022-06-19T10:50:44-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/cars/</loc>
+    <lastmod>2022-06-19T10:50:44-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/mustang/</loc>
+    <lastmod>2022-06-19T10:50:44-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/atlanta/</loc>
+    <lastmod>2022-05-29T12:17:13-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/blue-ghost-arcade/</loc>
+    <lastmod>2022-05-29T12:17:13-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/05/2022-05-29_chunk-party-and-woodstock/</loc>
+    <lastmod>2022-05-29T12:17:13-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/chunk-party/</loc>
+    <lastmod>2022-05-29T12:17:13-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/alligator-bay/</loc>
+    <lastmod>2022-05-21T20:28:14-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/05/2022-05-21_sunsets-at-the-bay/</loc>
+    <lastmod>2022-05-21T20:28:14-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/04/2022-04-23_exploring-atlanta/</loc>
+    <lastmod>2022-04-23T17:19:52-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/vtgclt/</loc>
+    <lastmod>2022-04-16T09:18:27-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/04/2022-04-16_vtg-clt/</loc>
+    <lastmod>2022-04-16T09:18:27-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/04/2022-04-15_my-first-you-day/</loc>
+    <lastmod>2022-04-15T07:37:42-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/optimist-hall/</loc>
+    <lastmod>2022-04-15T07:37:42-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/you-day/</loc>
+    <lastmod>2022-04-15T07:37:42-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/charlotte-royals/</loc>
+    <lastmod>2022-04-02T20:47:53-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/04/2022-04-02_charlottey-royals-round-robin/</loc>
+    <lastmod>2022-04-02T20:47:53-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/rugby/</loc>
+    <lastmod>2022-04-02T20:47:53-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/terrarium/</loc>
+    <lastmod>2022-03-27T11:34:15-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/03/2022-03-27_twigs-and-figs/</loc>
+    <lastmod>2022-03-27T11:34:15-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/twigs-and-figs/</loc>
+    <lastmod>2022-03-27T11:34:15-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/music/</loc>
+    <lastmod>2022-03-27T10:36:24-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/mall/</loc>
+    <lastmod>2022-02-26T23:46:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/02/2022-02-26_panic-at-the-mall/</loc>
+    <lastmod>2022-02-26T23:46:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/shooting/</loc>
+    <lastmod>2022-02-26T23:46:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/02/2022-02-12_day-at-the-bay/</loc>
+    <lastmod>2022-02-12T22:33:57-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/shows/</loc>
+    <lastmod>2022-02-11T11:14:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/thunderlip/</loc>
+    <lastmod>2022-02-11T11:14:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/02/2022-02-11_tim-toke-benefit/</loc>
+    <lastmod>2022-02-11T11:14:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/toke/</loc>
+    <lastmod>2022-02-11T11:14:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/worsen/</loc>
+    <lastmod>2022-02-11T11:14:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/02/2022-02-05_beef-and-bottle/</loc>
+    <lastmod>2022-02-05T10:33:25-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/beef-n-bottle/</loc>
+    <lastmod>2022-02-05T10:33:25-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/01/2022-01-29_pierogi-night/</loc>
+    <lastmod>2022-01-29T09:18:21-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/pierogis/</loc>
+    <lastmod>2022-01-29T09:18:21-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/january-birthdays/</loc>
+    <lastmod>2022-01-27T20:13:33-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/01/2022-01-27_korean-bbq-birthday-dinner/</loc>
+    <lastmod>2022-01-27T20:13:33-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/korean-bbq/</loc>
+    <lastmod>2022-01-27T20:13:33-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/snow/</loc>
+    <lastmod>2022-01-21T20:06:19-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/01/2022-01-21_we-got-snow/</loc>
+    <lastmod>2022-01-21T20:06:19-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/greensboro/</loc>
+    <lastmod>2022-01-08T19:48:32-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2022/01/2022-01-08_trip-to-greensboro/</loc>
+    <lastmod>2022-01-08T19:48:32-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/12/2021-12-12_christmas-cookies/</loc>
+    <lastmod>2021-12-12T23:52:06-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/cookies/</loc>
+    <lastmod>2021-12-12T23:52:06-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/anniversary/</loc>
+    <lastmod>2021-12-02T20:25:26-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/ceramics/</loc>
+    <lastmod>2021-12-02T20:25:26-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/12/2021-12-02_the-little-studio/</loc>
+    <lastmod>2021-12-02T20:25:26-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/the-little-studio/</loc>
+    <lastmod>2021-12-02T20:25:26-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/10/2021-10-16_state-fair/</loc>
+    <lastmod>2021-10-16T20:48:33-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/chataloochee/</loc>
+    <lastmod>2021-10-10T12:31:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/10/2021-10-10_chataloochee-nc/</loc>
+    <lastmod>2021-10-10T12:31:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/elk/</loc>
+    <lastmod>2021-10-10T12:31:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/great-smoky-mountains/</loc>
+    <lastmod>2021-10-10T12:31:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/biltmore/</loc>
+    <lastmod>2021-10-09T21:52:27-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/10/2021-10-09_biltmore-in-the-fall/</loc>
+    <lastmod>2021-10-09T21:52:27-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/fall/</loc>
+    <lastmod>2021-10-09T21:52:27-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/09/2021-09-26_crowders-mountain/</loc>
+    <lastmod>2021-09-26T23:18:24-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/crowdersmountain/</loc>
+    <lastmod>2021-09-26T23:18:24-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/lightroom/</loc>
+    <lastmod>2021-07-26T18:32:57-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/07/2021-07-26_lightroom-workflow/</loc>
+    <lastmod>2021-07-26T18:32:57-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/workflow/</loc>
+    <lastmod>2021-07-26T18:32:57-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/art/</loc>
+    <lastmod>2021-07-17T21:18:59-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/exhibit/</loc>
+    <lastmod>2021-07-17T21:18:59-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/07/2021-07-17_van-gogh-immersive-experience/</loc>
+    <lastmod>2021-07-17T21:18:59-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/vangogh/</loc>
+    <lastmod>2021-07-17T21:18:59-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/fireworks/</loc>
+    <lastmod>2021-07-04T00:48:52-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/07/2021-07-04_july-4-2021/</loc>
+    <lastmod>2021-07-04T00:48:52-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/july4/</loc>
+    <lastmod>2021-07-04T00:48:52-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/06/2021-06-06_first-night-out/</loc>
+    <lastmod>2021-06-06T10:45:39-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/post-covid/</loc>
+    <lastmod>2021-06-06T10:45:39-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/tags/raleigh/</loc>
+    <lastmod>2021-06-06T10:45:39-04:00</lastmod>
+  </url><url>
+    <loc>https://jasonwhite.us/journal/2021/05/2021-05-24_riverbanks-zoo/</loc>
     <lastmod>2021-05-24T21:03:15-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/</loc>
+    <loc>https://jasonwhite.us/tags/zoo/</loc>
     <lastmod>2021-05-24T21:03:15-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/riverbanks-zoo/</loc>
-    <lastmod>2021-05-24T21:03:15-04:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/tags/</loc>
-    <lastmod>2021-05-24T21:03:15-04:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/tags/zoo/</loc>
-    <lastmod>2021-05-24T21:03:15-04:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/tags/biltmore/</loc>
+    <loc>https://jasonwhite.us/journal/2021/05/2021-05-17_biltmore-birthday/</loc>
     <lastmod>2021-05-17T18:35:44-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/biltmore-birthday/</loc>
-    <lastmod>2021-05-17T18:35:44-04:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/journal/matt-allen-engagement/</loc>
+    <loc>https://jasonwhite.us/journal/2021/05/2021-05-10_matt-allen-engagement/</loc>
     <lastmod>2021-05-10T22:18:03-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/engagement/</loc>
+    <loc>https://jasonwhite.us/tags/engagement/</loc>
     <lastmod>2021-05-10T22:18:03-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/friends/</loc>
+    <loc>https://jasonwhite.us/tags/friends/</loc>
     <lastmod>2021-05-10T22:18:03-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/camera-scanning/</loc>
+    <loc>https://jasonwhite.us/journal/2021/04/2021-04-30_camera-scanning/</loc>
     <lastmod>2021-04-30T22:19:04-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/film/</loc>
+    <loc>https://jasonwhite.us/tags/film/</loc>
     <lastmod>2021-04-30T22:19:04-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/photography/</loc>
+    <loc>https://jasonwhite.us/tags/photography/</loc>
     <lastmod>2021-04-30T22:19:04-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/scanning/</loc>
+    <loc>https://jasonwhite.us/tags/scanning/</loc>
     <lastmod>2021-04-30T22:19:04-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/april-book-pickups-2021/</loc>
+    <loc>https://jasonwhite.us/journal/2021/04/2021-04-25_april-book-pickups/</loc>
     <lastmod>2021-04-25T22:53:18-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/books/</loc>
+    <loc>https://jasonwhite.us/tags/books/</loc>
     <lastmod>2021-04-25T22:53:18-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/olympusxa2/</loc>
+    <loc>https://jasonwhite.us/tags/olympusxa2/</loc>
     <lastmod>2021-04-25T08:59:36-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/spring/</loc>
+    <loc>https://jasonwhite.us/tags/spring/</loc>
     <lastmod>2021-04-25T08:59:36-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/spring-in-the-south/</loc>
+    <loc>https://jasonwhite.us/journal/2021/04/2021-04-25_spring-in-the-south/</loc>
     <lastmod>2021-04-25T08:59:36-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/march-book-pickups/</loc>
+    <loc>https://jasonwhite.us/journal/2021/03/2021-03-09_march-book-pickups/</loc>
     <lastmod>2021-03-09T20:37:46-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/banana-pudding-and-a-new-lens/</loc>
+    <loc>https://jasonwhite.us/journal/2021/02/2021-02-08_banana-pudding-and-a-new-lens/</loc>
     <lastmod>2021-02-08T20:11:10-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/leica/</loc>
+    <loc>https://jasonwhite.us/tags/superbowl/</loc>
     <lastmod>2021-02-08T20:11:10-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/summicron/</loc>
-    <lastmod>2021-02-08T20:11:10-05:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/tags/superbowl/</loc>
-    <lastmod>2021-02-08T20:11:10-05:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/journal/photowalk-with-new-friends/</loc>
+    <loc>https://jasonwhite.us/journal/2021/01/2021-01-09_photowalk-with-new-friends/</loc>
     <lastmod>2021-01-09T21:30:29-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/photowalks/</loc>
-    <lastmod>2021-01-09T21:30:29-05:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/tags/2020/</loc>
+    <loc>https://jasonwhite.us/tags/2020/</loc>
     <lastmod>2020-12-31T20:32:07-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/last-day-of-2020/</loc>
+    <loc>https://jasonwhite.us/journal/2020/12/2020-12-31_last-day-of-2020/</loc>
     <lastmod>2020-12-31T20:32:07-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/newyearseve/</loc>
+    <loc>https://jasonwhite.us/tags/newyearseve/</loc>
     <lastmod>2020-12-31T20:32:07-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/adams-school-house/</loc>
+    <loc>https://jasonwhite.us/journal/2020/12/2020-12-25_adams-school-house/</loc>
     <lastmod>2020-12-25T19:45:19-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/home/</loc>
+    <loc>https://jasonwhite.us/tags/home/</loc>
     <lastmod>2020-12-25T19:45:19-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/richlands/</loc>
+    <loc>https://jasonwhite.us/tags/richlands/</loc>
     <lastmod>2020-12-25T19:45:19-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/christmas/</loc>
+    <loc>https://jasonwhite.us/journal/2020/12/2020-12-24_christmas-2020/</loc>
     <lastmod>2020-12-24T05:42:17-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/christmas-2020/</loc>
-    <lastmod>2020-12-24T05:42:17-05:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/journal/mcalpine-creek-park/</loc>
+    <loc>https://jasonwhite.us/journal/2020/12/2020-12-19_mcalpine-creek-park/</loc>
     <lastmod>2020-12-19T20:59:50-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/parks/</loc>
+    <loc>https://jasonwhite.us/tags/parks/</loc>
     <lastmod>2020-12-19T20:59:50-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/gatlinburg/</loc>
+    <loc>https://jasonwhite.us/journal/2020/12/2020-12-16_gatlinburg/</loc>
     <lastmod>2020-12-16T21:25:40-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/gatlinburg/</loc>
-    <lastmod>2020-12-16T21:25:40-05:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/tags/vacation/</loc>
-    <lastmod>2020-12-16T21:25:40-05:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/journal/bald-head-island/</loc>
+    <loc>https://jasonwhite.us/journal/2020/08/2020-08-23_bald-head-island/</loc>
     <lastmod>2020-08-23T23:36:26-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/baldhead/</loc>
+    <loc>https://jasonwhite.us/tags/baldhead/</loc>
     <lastmod>2020-08-23T23:36:26-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/beach/</loc>
-    <lastmod>2020-08-23T23:36:26-04:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/tags/sunset/</loc>
+    <loc>https://jasonwhite.us/tags/sunset/</loc>
     <lastmod>2020-08-22T22:31:27-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/sunset-beach/</loc>
+    <loc>https://jasonwhite.us/journal/2020/08/2020-08-22_sunset-beach/</loc>
     <lastmod>2020-08-22T22:31:27-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/i-made-a-camera-strap/</loc>
+    <loc>https://jasonwhite.us/journal/2020/08/2020-08-18_i-made-a-camera-strap/</loc>
     <lastmod>2020-08-18T08:13:07-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/leathercraft/</loc>
+    <loc>https://jasonwhite.us/tags/leathercraft/</loc>
     <lastmod>2020-08-18T08:13:07-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/house/</loc>
+    <loc>https://jasonwhite.us/tags/house/</loc>
     <lastmod>2020-07-22T23:00:32-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/pressure-washing/</loc>
+    <loc>https://jasonwhite.us/journal/2020/07/2020-07-22_pressure-washing/</loc>
     <lastmod>2020-07-22T23:00:32-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/black-lives-matter-mural/</loc>
+    <loc>https://jasonwhite.us/journal/2020/06/2020-06-09_black-lives-matter-mural/</loc>
     <lastmod>2020-06-09T13:22:56-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/blm/</loc>
+    <loc>https://jasonwhite.us/tags/blm/</loc>
     <lastmod>2020-06-09T13:22:56-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/covid-19/</loc>
+    <loc>https://jasonwhite.us/tags/covid-19/</loc>
     <lastmod>2020-05-21T13:22:40-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/quarantine-days-iii/</loc>
+    <loc>https://jasonwhite.us/journal/2020/05/2020-05-21_quarantine-days-iii/</loc>
     <lastmod>2020-05-21T13:22:40-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/quarantine-days-ii/</loc>
+    <loc>https://jasonwhite.us/journal/2020/04/2020-04-23_quarantine-days-ii/</loc>
     <lastmod>2020-04-23T21:19:58-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/quartine-days-i/</loc>
+    <loc>https://jasonwhite.us/journal/2020/04/2020-04-12_quartine-days-i/</loc>
     <lastmod>2020-04-12T14:31:31-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/dog-sitting/</loc>
+    <loc>https://jasonwhite.us/journal/2020/03/2020-03-31_dog-sitting/</loc>
     <lastmod>2020-03-31T20:46:58-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/dogs/</loc>
+    <loc>https://jasonwhite.us/tags/dogs/</loc>
     <lastmod>2020-03-31T20:46:58-04:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/journal/deadmau5-in-dc/</loc>
+    <loc>https://jasonwhite.us/journal/2019/12/2019-12-02_deadmau5-in-dc/</loc>
     <lastmod>2019-12-02T19:00:00-05:00</lastmod>
   </url><url>
-    <loc>//jasonwhite.us/tags/shows/</loc>
-    <lastmod>2019-12-02T19:00:00-05:00</lastmod>
-  </url><url>
-    <loc>//jasonwhite.us/categories/</loc>
+    <loc>https://jasonwhite.us/categories/</loc>
   </url>
 </urlset>

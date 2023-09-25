@@ -1,8 +1,8 @@
   <header class="header" role="banner">
-    <nav class="header__nav" role="navigation">
-      <a href="//jasonwhite.us">
+    <nav class="grid header__nav" role="navigation">
+      <a href="https://jasonwhite.us/">
         <svg class="logo" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" stroke-linejoin="round" stroke-miterlimit="1.414">
-          <title>Logo - click to return to the home page</title>
+          <title>Return to homepage</title>
           <path fill="none" d="M0 0h192v192H0z"/>
           <clipPath id="a">
             <path d="M0 0h192v192H0z"/>
@@ -25,6 +25,12 @@
           </a>
         </li>
       
+        <li>
+          <a class="" href="/gallery/">
+            Gallery
+          </a>
+        </li>
+      
       </ul>
     </nav>
   </header>
@@ -43,10 +49,17 @@
     	
 	</aside>
 
-    <footer class="footer wrapper" role="contentinfo">
+    <footer class="grid footer" role="contentinfo">
+      <div class="footer__spotify">
+        <h2>Now Playing</h2>
+        <ul id="recent-tracks" class="recent-tracks"></ul>
+      </div>
       <div class="footer__elsewhere">
         <h2>Elsewhere</h2>
-        <ul class="">
+        <ul>
+          <li>
+						<a rel="me" href="https://mas.to/@nux" target="_blank">Mastodon</a>
+          </li>
           <li>
             <a href="https://instagram.com/qbrt" target="_blank">Instagram</a>
           </li>
@@ -61,43 +74,36 @@
           </li>
         </ul>
       </div>
-      <p class="footer__copyright">Made with Hugo &amp; Netlify<br /> &copy; 2021 Jason White</p>
+      <nav class="footer__nav" role="navigation">
+        <h2>Pages</h2>
+        <ul>
+        
+        
+          <li>
+            <a class="" href="/journal/">
+              Journal
+            </a>
+          </li>
+        
+          <li>
+            <a class="" href="/about/">
+              About
+            </a>
+          </li>
+        
+          <li>
+            <a class="" href="/gallery/">
+              Gallery
+            </a>
+          </li>
+        
+        </ul>
+      </nav>
+      <p class="footer__copyright">Made with <a href="https://gohugo.io" target="blank_">Hugo</a> &amp; <a href="https://netlify.com/" target="blank_">Netlify</a><br /> &copy; 2023 Jason White</p>
     </footer>
   </div>
+	<script src="https://jasonwhite.us//js/spotify.js"></script>
+	<script src="https://jasonwhite.us//js/pinboard.js"></script>
 </body>
-  <script>
-    
-    const body = document.body;
-    const tracks = document.getElementById("recent-tracks");
-    body.onload = getTracks();
-
-    function getTracks() {
-      return fetch('/api/lastfm', {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json"
-        }
-      })
-        .then((res) => res.json())
-        .then(res => {
-          res.recenttracks.track.forEach((track) => {
-            tracks.innerHTML += `
-              <li>
-                <div class="track">
-                  <img class="track__img" src="${track.image[1]['#text']}" alt="generated album cover - non-descript">
-                  <div class="track__info">
-                    <p>${track.artist['#text']}</p>
-                    <a href="${track.url}" target="_blank">${track.name}</a>
-                  </div>
-                </div>
-              </li>
-            `
-          });
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    }
-  </script>
 </html>
 
