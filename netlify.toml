@@ -11,6 +11,9 @@
   to = "/.netlify/functions/:splat"
   status = 200
 
+[functions]
+	node_bundler = "esbuild"
+
 [context.production.environment]
 HUGO_VERSION = "0.59.1"
 HUGO_ENV = "production"

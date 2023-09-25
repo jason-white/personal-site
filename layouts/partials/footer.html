@@ -39,46 +39,7 @@
       <p class="footer__copyright">Made with <a href="https://gohugo.io" target="blank_">Hugo</a> &amp; <a href="https://netlify.com/" target="blank_">Netlify</a><br /> &copy; {{ now.Year }} {{ .Site.Title }}</p>
     </footer>
   </div>
+	<script src="{{ .Site.BaseURL }}/js/spotify.js"></script>
+	<script src="{{ .Site.BaseURL }}/js/pinboard.js"></script>
 </body>
-  <script>
-    // Get last.fm recent tracks
-    const body = document.body;
-    const tracks = document.getElementById("recent-tracks");
-    body.onload = getTracks();
-
-    function getTracks() {
-      return fetch('/api/spotify', {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json"
-        }
-      })
-        .then((res) => res.json())
-        .then(res => {
-          res.items.forEach((track) => {
-            tracks.innerHTML += `
-              <li>
-                <div class="track">
-                  <div class="track__img">
-                    <img src="${track.track.album.images[1].url}" alt="">
-                  </div>
-                  <div class="track__info">
-                    <a href="${track.track.artists[0].external_urls.spotify}" target="blank_">
-                      ${track.track.artists[0].name}
-                    </a>
-                    <p>${track.track.name}</p>
-                    <a href="${track.track.album.external_urls.spotify}" target="blank_">
-                      ${track.track.album.name}
-                    </a>
-                  </div>
-                </div>
-              </li>
-            `
-          });
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    }
-  </script>
 </html>

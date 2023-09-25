@@ -306,21 +306,22 @@ blockquote p + p {
   }
 }
 
-.pin-item {
+.recent-links {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.link {
 	grid-column: span 2;
 }
 
-
-.pin-item p {
-  margin: 0;
-}
-
-#pinboard_linkroll .pin-tag {
-  display: none;
+.link p {
+	margin: 0;
 }
 
 @media (min-width: 50rem) {
-  #pinboard_linkroll {
+  #recent-links {
 		display: grid;
 		grid-template-columns: repeat(6, minmax(0, 1fr));
     grid-column-gap: var(--base-grid-gap);
