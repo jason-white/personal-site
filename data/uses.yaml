@@ -5,7 +5,7 @@ Uses:
     - Leica M6
     - ~~Hasselblad 500c~~
     - Olympus XA 2
-    - Ricoh GR III
+    - ~~Ricoh GR III~~
     - ~~Nikon D800E~~
     - Sony A7R IV
     - Chamonix 45F2
@@ -16,14 +16,15 @@ Uses:
     - Leica (Leitz Canada) 90mm Tele-Elmarit 90mm
     - ~~Carl Zeiss 80mm Planar f/2.8 C~~
     - ~~Carl Zeiss 150mm Sonnar f/4 C T*~~
-    - Sigma 70mm f/2.8 DG Macro
+    - Sigma 70mm f/2.8 DG Macro (Nikon F mount)
     - Sony FE 200-600mm f/5.6-6.3 G OSS
     - Rodenstock 75mm f/4.5 Apo Rodagon D 2x
     - Rodenstock 210mm f/5.6 Sironar-N
   scanning:
     - ~~Nikon D800E & Sigma 70mm DG Macro~~
-    - Sony A7R IV & Rodenstock 75mm Apo Rodagon D 2x
-    - ALZO copy stand
+    - Sony A7R IV >> Nikon PB-4 bellows >> Rodenstock 75mm Apo Rodagon D 2x
+    - ~~ALZO copy stand~~
+    - Copy Stand (that's the name, <a href="https://copy-stand.com" target="_blank">copy-stand.com</a>)
     - Negative Supply 5x7 99cri Light
     - Negative Supply MK1
     - Negative Supply 120
@@ -44,7 +45,7 @@ Uses:
     -
       name: Lightroom
       url: https://adobe.com
-      desc: Lightroom catalogs is how I organize and edit all of my images. Film or digital.
+      desc: Lightroom catalogs is how I organize and edit all of my images.
     -
       name: Negative Lab Pro
       url: https://www.negativelabpro.com/
