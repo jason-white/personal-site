@@ -1,5 +1,4 @@
-//import fetch from "node-fetch";
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
 
 exports.handler = async (event, context) => {
   const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN;
