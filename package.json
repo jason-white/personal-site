@@ -9,8 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
     "netlify-cli": "^16.4.2",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.7.0"
   }
 }
