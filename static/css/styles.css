@@ -248,9 +248,7 @@ blockquote p + p {
 }
 
 .recent-tracks {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	grid: 1 / 4;
 }
 
 .track {

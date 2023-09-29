@@ -4,7 +4,7 @@ date: 2020-04-10T22:30:27-04:00
 menu: "main"
 type: "static"
 layout: "about"
-weight: 2
+weight: 3
 ---
 
 ## Me

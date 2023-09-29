@@ -1,11 +1,22 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<main class="single-page">
-  <div class="layout__center">
-    <h3>{{ .Title }}</h3>
-    <article class="article__content">
+
+<main class="wrapper">
+  <article class="post">
+    <header class="post__header">
+      <h1>{{ .Title }}</h1>
+			<figure>
+        <img src="{{ .Params.image }}" alt="{{ .Params.alt }}">
+        <figcaption>
+          <p>
+            {{ .Params.caption }}
+          </p>
+        </figcaption>
+      </figure>
+		</header>
+		<section class="post__body">
       {{ .Content }}
-    </article>
-  </div>
+    </section>
+	</article>
 </main>
 {{ partial "footer.html" . }}

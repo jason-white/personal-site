@@ -30,7 +30,7 @@ exports.handler = async (event, context) => {
     .catch((err) => {
       console.err(err);
     });
-    return fetch(`${playerEndpoint}?limit=1`, {
+    return await fetch(`${playerEndpoint}?limit=1`, {
       method: "GET",
       headers: {
         Authorization: `Bearer ${accessToken}`,
@@ -38,7 +38,6 @@ exports.handler = async (event, context) => {
     })
     .then((res) => res.json())
     .then(json => {
-      console.log(json);
       return {
         statusCode: 200,
         body: JSON.stringify(json),
