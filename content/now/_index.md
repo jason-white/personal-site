@@ -31,6 +31,6 @@ Still reading Tomorrow and Tomorrow and Tomorrow because, well, because I can't 
 Some albums currently on repeat:
 - Nolan Potter's Nightmare Band - Nightmare Forever
 - Nolan Potter's Nightmare Band - Music Is Dead
-- Impending Joy
+- Impending Joy (still just the one single at the writing of this page)
 - Blood Incantation - Luminescent Bridge
-- Tombmold - The Enduring Spirit
+- Tomb Mold - The Enduring Spirit
