@@ -5,5 +5,5 @@ type: "static"
 layout: "music"
 ---
 
-Every year I create a new playlist called "New Listens", which is a terrible title, really. I may change it later, I don't know. These playlists aren't necessarily new music of that particular year but rather new music to me. Bit of a mixed bag, really.
+Each year, I curate a playlist titled "New Listens," though I admit the title could use some improvement. It's not limited to music from that specific year, but a diverse collection of tracks that are new to me.
 

@@ -310,11 +310,11 @@ blockquote p + p {
 	margin: 0;
 }
 
-.link {
-	grid-column: span 2;
+.recent-link + .recent-link {
+	margin-top: var(--base-grid-gap);
 }
 
-.link p {
+.recent-link p {
 	margin: 0;
 }
 
@@ -326,7 +326,11 @@ blockquote p + p {
 		grid-row-gap: var(--base-grid-gap);
   }
 
-	.pin-item + .pin-item {
+	.recent-link {
+		grid-column: span 2;
+	}
+
+	.recent-link + .recent-link {
 		margin-top: 0;
 	}
 }
@@ -455,6 +459,7 @@ blockquote p + p {
 .journal-list {
   padding: 0 var(--base-spacing);
 }
+
 .post-list {
   list-style-type: none;
   padding: 0;

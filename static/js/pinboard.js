@@ -12,8 +12,8 @@ function getLinks() {
 		.then(res => {
 			res.posts.forEach((post) => {
 				posts.innerHTML += `
-						<li class="link">
-							<div class="link__info">
+						<li class="recent-link">
+							<div class="recent-link__info">
 								<a href="${post.href}" target="blank_">
 									${post.description}
 								</a>
