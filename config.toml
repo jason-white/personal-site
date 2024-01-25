@@ -7,6 +7,25 @@ title = 'Jason White'
 [author]
   name = "Jason White"
 
+[permalinks]
+	journal = "/journal/:year/:month/:title/"
+
+[[menus.main]]
+	name = 'Home'
+	pageRef = '/'
+	weight = 10
+
+[[menus.main]]
+	name = 'Journal'
+	pageRef = '/journal'
+	weight = 20
+
+[[menus.main]]
+	name = 'Now'
+	pageRef = '/now'
+	weight = 30
+
+
 [markup.goldmark.renderer]
   unsafe= true
 

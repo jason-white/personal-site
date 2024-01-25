@@ -4,7 +4,6 @@ date: 2023-09-28T21:26:54-04:00
 menu: "main"
 type: "static"
 layout: "single"
-weight: 2
 image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1695951745/now-posts/2023-09-28/untitled-13-Pano.jpg"
 alt: "a man, woman and younger man pose for a photograph"
 caption: "Rodenstock 210mm Sironar-N / Ilford HP5+ @ 400"
