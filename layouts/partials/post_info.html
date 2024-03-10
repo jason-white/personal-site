@@ -1,0 +1,12 @@
+<footer class="post__info">
+    <div class="post-date">
+        <a href="{{ .RelPermalink }}">
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
+            {{ if .Params.External }} -
+            <span> for {{ .Params.External.Host }}</span>
+            {{ end }}
+        </a>
+    </div>
+    <!-- tags -->
+    {{ partial "tags.html" . }}
+</footer>

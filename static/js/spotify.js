@@ -2,16 +2,16 @@
 const tracks = document.getElementById("recent-tracks");
 
 const getTracks = async () => {
-	return await fetch('/api/spotify', {
-		method: "GET",
-		headers: {
-			"Content-Type": "application/json"
-		}
-	})
-		.then((res) => res.json())
-		.then(res => {
-			res.items.forEach((track) => {
-				tracks.innerHTML = `
+    return await fetch("/api/spotify", {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json",
+        },
+    })
+        .then((res) => res.json())
+        .then((res) => {
+            res.items.forEach((track) => {
+                tracks.innerHTML = `
 					<div class="track">
 						<div class="track__img">
 							<img src="${track.track.album.images[1].url}" alt="Cover art for ${track.track.artists[0].name}'s album titled ${track.track.album.name}">
@@ -26,13 +26,17 @@ const getTracks = async () => {
 							</a>
 						</div>
 					</div>
-				`
-			});
-		})
-		.catch((err) => {
-			console.log(err);
-		});
-}
+				`;
+            });
+        })
+        .catch((err) => {
+            console.log(err);
+            tracks.innerHTML = `
+                <div class="track-error">
+                    <p>There was an error retrieving the last song played.</p>
+                </div>
+            `;
+        });
+};
 
 document.body.onload = getTracks();
-

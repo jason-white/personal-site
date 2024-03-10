@@ -1,24 +1,9 @@
-{{ $paginator := .Paginator }}
-{{ if gt $paginator.TotalPages 1 }}
+{{ $paginator := .Paginator }} {{ if gt $paginator.TotalPages 1 }}
 <nav class="pagination">
-  {{ if $paginator.HasPrev }}
-  <a href="{{ $paginator.Prev.URL }}" title="Previous">
-    <svg viewBox="0 0 177 189" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <title>Click to view previous journal entries</title>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M126.5 2.80411C126.5 1.15569 124.618 0.215014 123.299 1.20453L1.13118 92.8986C0.0652696 93.6986 0.065267 95.2977 1.13118 96.0977L123.299 187.792C124.618 188.781 126.5 187.841 126.5 186.192L126.5 145.998C126.5 144.894 127.395 143.998 128.5 143.998L175 143.998C176.105 143.998 177 143.103 177 141.998L177 45.9981C177 44.8936 176.105 43.9981 175 43.9981L128.5 43.9981C127.395 43.9981 126.5 43.1027 126.5 41.9981L126.5 2.80411Z"/>
-    </svg>
-  </a>
-  {{ end }}
-
-  {{ if $paginator.HasNext }}
-    <a href="{{ $paginator.Next.URL }}" title="Next">
-      <svg viewBox="0 0 177 189" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <title>Click to view next journal entries</title>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M50.5 186.194C50.5 187.842 52.3822 188.783 53.7006 187.794L175.869 96.0996C176.935 95.2995 176.935 93.7005 175.869 92.9004L53.7006 1.20639C52.3822 0.216871 50.5 1.15755 50.5 2.80596V43C50.5 44.1046 49.6046 45 48.5 45H2C0.895431 45 0 45.8954 0 47V143C0 144.105 0.89543 145 2 145H48.5C49.6046 145 50.5 145.895 50.5 147V186.194Z"/>
-      </svg>
-    </a>
-  {{ end }}
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}"> Previous </a>
+    {{ end }} {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}"> Next </a>
+    {{ end }}
 </nav>
 {{ end }}
-
-

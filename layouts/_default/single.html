@@ -1,8 +1,5 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ partial "head.html" . }} {{ partial "header.html" . }}
 <main class="single-page">
-  <section class="single-page__content">
-    {{ .Content }}
-  </section>
+    <section class="single-page__content">{{ .Content }}</section>
 </main>
 {{ partial "footer.html" . }}

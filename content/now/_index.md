@@ -1,35 +1,29 @@
 ---
-title: "Now"
-date: 2023-09-28T21:26:54-04:00
-menu: "main"
-type: "static"
+title: "Now: March 3, 2024"
+date: 2024-03-7T21:26:54-04:00
+type: "now"
 layout: "single"
-image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1695951745/now-posts/2023-09-28/untitled-13-Pano.jpg"
-alt: "a man, woman and younger man pose for a photograph"
-caption: "Rodenstock 210mm Sironar-N / Ilford HP5+ @ 400"
+image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1707965555/now-posts/untitled-1.jpg"
+alt: "an arm from the left of the frame uses a gooseneck kettle to water flowers inside of a glass vase-like chemex coffee maker. there is a large wall calendar in the background"
+caption: "iPhone 14 Pro"
 ---
 
-September 28, 2023
+The photo above was originally for an update on January 14, when I hit seven years without a drop of alcohol.
 
-Thought I'd give the {{< link href="https://nownownow.com/about" text="Now" >}} page a go, an idea I got from the wonderful {{< link href="https://chrisglass.com/" text="Chris Glass" >}}.
+Been redesigning this site since early (earlier than now) this year. It's going. I've scrapped a few ideas and decided to worry about fixing all the bugs and accessibility issues first. There are a lot of things I was sort of manually doing in Hugo that could have been setup in a more programmatic way. Also, I had a few accessibility issues to fix. I'd rather these things be addressed before worrying about a pretty layout.
 
-I like this photo of my parents and I from earlier this month. I'm trying to use the 4x5 more. I'll probably switch it out when I develop the sheet of the three of us with Mitch.
+I guess the other day I got to {{< link href="https://www.todepond.com/wikiblogarden/research/bite/" text="the Bite" >}} and just started knocking things out.
 
-Fall weather is settling in. Something always welcome when you live in the South. I was able to run a 5k today fairly easy.
+## Some other things
 
-Excited for a few things coming up. Atlanta Pride in October, seeing Hällas and going camping in November with a few friends.
+The weather is getting nice.
 
-We're starting a fairly large home project. Building a shed with a deck around it, and the goal is to have a home gym with storage above.
+Our shed is up (yay!) and the deck should start soon!
 
-Planning for a trip to Berlin next year.
+Heading to Berlin in a couple of weeks.
 
-Watched Bottoms last night. So random. So many unanswered questions. I loved it.
+Can't stop listening to {{< link href="https://open.spotify.com/album/7nAFPtoN75FBt8WA0CQoBQ?si=2IX-Tch-TxeddvQ-jBk9PQ" text="1999 Write the Future." >}}
 
-Still reading Tomorrow and Tomorrow and Tomorrow because, well, because I can't focus on anything anymore apparently.
+Watched Dune 2. Liked it a whole lot.
 
-Some albums currently on repeat:
-- Nolan Potter's Nightmare Band - Nightmare Forever
-- Nolan Potter's Nightmare Band - Music Is Dead
-- Impending Joy (still just the one single at the writing of this page)
-- Blood Incantation - Luminescent Bridge
-- Tomb Mold - The Enduring Spirit
+I did finish {{< link href="https://www.librarything.com/work/27351724" text="Tomorrow and Tomorrow and Tomorrow" >}}, and it was very good. Picked up the {{< link href="https://www.librarything.com/work/11640" text="Contortionist's Handbook" >}} for January. Fantastic and very Palahniuk. Then decided for February I'd finally read a book from a high school friend, Chris; {{< link="https://www.librarything.com/work/25444039" text="Calling Mr. Nelson Pugh." >}} It takes quite a turn. I really enjoyed it, and I hope he writes more! For March, I think I'll finally finish Seth Godin's {{< link href="https://www.librarything.com/work/25614330" text="The Practice." >}} I read about half and then seemed to have moved onto something else and forgotten about it. I do have quite a few pages dog-eared. Maybe I should start the book over. I've been doing so much accessibility reading for work, that I should probably count all of it for my March "book."

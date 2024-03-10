@@ -1,72 +1,44 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ partial "head.html" . }} {{ partial "header.html" . }}
 <section class="about-page">
-  <main class="about__content" role="main">
-    <h1>{{ .Title }}</h1>
-    <article>
-      {{ .Content }}
-    </article>
-  </main>
-  <aside class="about__sidebar" role="complementary">
-    <h2>More Info</h2>
-    <ul>
-      <li>
-        <a href="/uses/">Uses</a>
-      </li>
-      <li>
-        <a href="https://pinboard.in/u:jasonwhite">Links</a>
-      </li>
-      <li>
-        <a href="/music/">Playlists</a>
-      </li>
-    </ul>
-    <h2>Blog Roll</h2>
-    <ul>
-      <li>
-        <a href="https://www.olcanakcay.de/" target="_blank">Olcan Akcay</a>
-      <li>
-        <a href="http://nikkiblair.com" target="_blank">Nikki Blair</a>
-      </li>
-      <li>
-        <a href="https://www.nduboisphotos.com/" target="_blank">Nicole Du Bois</a>
-      </li>
-      <li>
-        <a href="https://johncranford.com/" target="_blank">John Cranford</a>
-      </li>
-      <li>
-        <a href="https://chrisglass.com/" target="_blank">Chris Glass</a>
-      </li>
-      <li>
-        <a href="https://little-deaths.com/" target="_blank">Vince Griffin</a>
-      </li>
-      <li>
-        <a href="https://kyuh.net" target="_blank">Kyu Han</a>
-      </li>
-      <li>
-        <a href="https://mattheslop.com/" target="_blank">Matt Heslop</a>
-      </li>
-      <li>
-        <a href="https://bkvmedia.com/" target="_blank">Blaine Karper</a>
-      </li>
-      <li>
-        <a href="https://benmacphotos.com/" target="_blank">Benjamin MacMaster</a>
-      </li>
-      <li>
-        <a href="https://www.ewenjm.com/" target="_blank">Ewen J Marjoribanks</a>
-      </li>
-      <li>
-        <a href="https://thesarahmartin.com/" target="_blank">Sarah Martin</a>
-      </li>
-      <li>
-        <a href="https://scottyperry.co/" target="_blank">Scotty Perry</a>
-      </li>
-      <li>
-        <a href="https://rene.fm/" target="_blank">Rene Ramos</a>
-      </li>
-      <li>
-        <a href="https://thegeektographer.myportfolio.com/work" target="_blank">Filipe Vidal</a>
-      </li>
-    </ul>
-  </aside>
+    <main class="about__content" role="main">
+        <h1>{{ .Title }}</h1>
+        <article>{{ .Content }}</article>
+    </main>
+    <aside class="about__sidebar" role="complementary">
+        <h2>More Stuff</h2>
+        <ul>
+            <li>
+                <a href="/uses/">Uses</a>
+            </li>
+            <li>
+                <a href="/music/">Playlists</a>
+            </li>
+        </ul>
+        <h2>Blog Roll! (they're not all blogs)</h2>
+        {{ range $.Site.Data.about }}
+        <ul>
+            {{ range .blogs }}
+            <li>
+                <a
+                    aria-label="{{ .name }} (opens in new window)"
+                    href="{{ .url }}"
+                    target="_blank"
+                    >{{ .name }}</a
+                >
+                <svg
+                    aria-hidden="true"
+                    class="external-link-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z"
+                    />
+                </svg>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </aside>
 </section>
 {{ partial "footer.html" . }}

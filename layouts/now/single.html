@@ -1,0 +1,24 @@
+{{ partial "head.html" . }} {{ partial "header.html" . }}
+
+<main>
+    <article class="single single--photo">
+        <header class="single--photo__header">
+            <figure class="single--photo__figure">
+                <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+                <figcaption>
+                    <p>{{ .Params.caption }}</p>
+                </figcaption>
+            </figure>
+        </header>
+
+        <h1 class="single--photo__title">{{ .Title }}</h1>
+        <section class="post__body">
+            {{ .Content }} {{ partial "post_gallery.html" . }}
+        </section>
+    </article>
+    {{ range (where .Site.RegularPages "Section" "now") }} Previously:
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ end }}
+</main>
+
+{{ partial "footer.html" . }}

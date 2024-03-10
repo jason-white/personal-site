@@ -1,0 +1,11 @@
+<nav class="post-pagination" aria-label="blog post pagination">
+    {{ if .PrevInSection }}
+    <a href="{{ .PrevInSection.Permalink }}" class="prev-post"
+        >Previous: {{ .PrevInSection.Title }}</a
+    >
+    {{ end }} {{ if .NextInSection }}
+    <a href="{{ .NextInSection.Permalink }}" class="next-post"
+        >Next: {{ .NextInSection.Title }}</a
+    >
+    {{ end }}
+</nav>

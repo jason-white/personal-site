@@ -1,35 +1,23 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ partial "head.html" . }} {{ partial "header.html" . }}
 
-<main class="wrapper">
-  <article class="post">
-    <header class="post__header">
-      <h1>{{ .Title }}</h1>
-      <figure>
-        <img src="{{ .Params.image }}" alt="{{ .Params.alt }}">
-        <figcaption>
-          <p>
-            {{ .Params.caption }}
-          </p>
-        </figcaption>
-      </figure>
-    </header>
-    <section class="post__body">
-      {{ .Content }}
-			{{ partial "post_gallery.html" . }}
-    </section>
-    <div class="post__meta">
-      <a href="{{ .RelPermalink }}">
-        <time>
-          {{ .Date.Format "January 2, 2006" }}
-        </time>
-        {{ if .Params.External }} - <span> for {{ .Params.External.Host }}</span>
-        {{ end }}
-      </a>
-      <!-- tags -->
-      {{ partial "tags.html" . }}
-    </div>
-  </article>
+<main>
+    <article class="single single--photo">
+        <header class="single--photo__header">
+            <figure class="single--photo__figure">
+                <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+                <figcaption>
+                    <p>{{ .Params.caption }}</p>
+                </figcaption>
+            </figure>
+        </header>
+
+        <h1 class="single--photo__title">{{ .Title }}</h1>
+        <section class="post__body">
+            {{ .Content }} {{ partial "post_gallery.html" . }}
+        </section>
+        {{ partial "post_info.html" . }}
+    </article>
+    {{ partial "single-pagination.html" .}}
 </main>
 
 {{ partial "footer.html" . }}

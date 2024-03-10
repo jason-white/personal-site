@@ -1,104 +1,70 @@
 Uses:
-  cameras:
-    - Leica M10-P
-    - Leica M-A
-    - Leica M6
-    - ~~Hasselblad 500c~~
-    - Olympus XA 2
-    - ~~Ricoh GR III~~
-    - ~~Nikon D800E~~
-    - Sony A7R IV
-    - Chamonix 45F2
-  lenses:
-    - Leica 28mm Elmarit ASPH
-    - Leica 35mm Summicron ASPH
-    - Leica 50mm Summilux ASPH
-    - Leica (Leitz Canada) 90mm Tele-Elmarit 90mm
-    - ~~Carl Zeiss 80mm Planar f/2.8 C~~
-    - ~~Carl Zeiss 150mm Sonnar f/4 C T*~~
-    - Sigma 70mm f/2.8 DG Macro (Nikon F mount)
-    - Sony FE 200-600mm f/5.6-6.3 G OSS
-    - Rodenstock 75mm f/4.5 Apo Rodagon D 2x
-    - Rodenstock 210mm f/5.6 Sironar-N
-  scanning:
-    - ~~Nikon D800E & Sigma 70mm DG Macro~~
-    - Sony A7R IV >> Nikon PB-4 bellows >> Rodenstock 75mm Apo Rodagon D 2x
-    - ~~ALZO copy stand~~
-    - Copy Stand (that's the name, <a href="https://copy-stand.com" target="_blank">copy-stand.com</a>)
-    - Negative Supply 5x7 99cri Light
-    - Negative Supply MK1
-    - Negative Supply 120
-    - Negative Supply MK2
-  workstation:
-    - 2021 14" MacBook Pro
-    - PC tower running Unraid as a NAS/media server
-    - Happy Hacking Pro2 Keyboard - Black on black
-    - Logitech MX Master 3
-    - Uplift Commercial standing desk with a 6' butcher block countertop. I love this way more than I thought I would. So much room for activities!
-    - Old Eames Aluminum Group chair. Still going strong for a 1986 model.
-    - Vivo rigid single-arm monitor mount. I've tried multiple articulating monitor arms and disliked all of them. This one is cheap and simple.
-  apps:
-    -
-      name: Cloudinary
-      url: https://cloudinary.com
-      desc: Cloud hosted media platform that lets you transform images and videos to load faster.
-    -
-      name: Lightroom
-      url: https://adobe.com
-      desc: Lightroom catalogs is how I organize and edit all of my images.
-    -
-      name: Negative Lab Pro
-      url: https://www.negativelabpro.com/
-      desc: A Lightroom plugin that does a fantastic job at converting digitized negatives into positives.
-    -
-      name: Imaging Edge Desktop
-      url: https://support.d-imaging.sony.co.jp/app/imagingedge/en/
-      desc: This is Sony's tethering tools. It isn't perfect, but it is free. I really just use it to scan film. It has everything I need, and maybe a lot of things I don't. But it works.
-    -
-      name: Things 3
-      url: https://culturedcode.com/things/
-      desc: Things is how I remember everything. Setup for the Getting Things Done method of _getting things done_. I use it all day every day for work and personal.
-    -
-      name: Obsidian
-      url: https://obsidian.md/
-      desc: A very good markdown notes editor. New addition to my workflow but I'm loving it. Mostly using Obsidian for keeping track of work notes but will likely incorporate it into personal use soon. I highly recommend checking out plugins and customizing it.
-    -
-      name: Reeder
-      url: https://www.reederapp.com/
-      desc: My goto RSS feed reader. I admittedly do not use it enough and sometimes I don't like how it displays posts, but I love that it uses iCloud and I don't have to pay for some extra subscription.
-    -
-      name: Magnet
-      url: https://magnet.crowdcafe.com/
-      desc: A simple app for macOS that I _shouldn't_ need, but Apple can't seem to get window management right.
-  film:
-    -
-      type: C-41 color negative
-      stocks:
-        - Kodak Portra 160, 400, 800
-        - Kodak Ektar 100
-        - Kodak Gold 200
-        - Fuji Superia Xtra 400
-        - Lomography 800
-      desc: I'm really just listing stocks that I like. There are so many different C-41 color negative film stocks available these days. But, it's getting expensive and the quality isn't amazing enough to justify current prices so I won't be buying anymore.
-      dev: For C-41 I've always had good results with CineStill's liquid kit. It looks like it's been replaced with [this 'color simplified' 2-bath kit](https://cinestillfilm.com/collections/laboratory-supplies/products/cs41-simplified-color-processing-at-home-quart-kit-c-41-chemistry?variant=30376678593).
-    -
-      type: ECN-2 color negative
-      stocks:
-        - Kodak Vision3 500T 5219
-      desc: If you don't mind the extra steps of developing ECN-2 film, I cannot recommend this stock enough. It's cheap, the colors are beautiful and it looks fantastic indoors as it is a tungsten balanced film. If the process doesn't scare you away (it isn't that bad) this is the best color negative film you can buy.
-      dev: For cinema film I really like the kit from [Quiet We're Dreaming](https://www.freestylephoto.biz/9120002-QWD-ECN-2-Home-Processing-Kit-to-make-1-Liter).
-    -
-      type: E6 Color positive
-      stocks:
-        - Fuji Velvia 50
-        - Fuji Provia 100f
-      desc: I don't have a ton of experience so far with color positive or 'slide' film. I plan on shooting more of it in the future, especially 4x5. So I've started to hoard and freeze it.
-      dev: I've not yet developed E6 at home.
-    -
-      type: Black and white negative
-      stocks:
-        - Ilford HP5 Plus 400
-        - Kodak Tri-X 400
-        - Kodak Double-X 5222
-      desc: Again, really just listing what I like. But honestly I haven't tried a lot of black and white film stocks. I pretty much only bulk roll Ilford HP5 and Kodak Double-X. It's affordable and flexible.
-      dev: HP5 pushed to 1600 in Ilford's [Ilfotec DD-X](https://www.ilfordphoto.com/catalog/product/view/id/1727/s/1177857/category/90/) is my favorite, but it's pricey. I also use Kodak's [HC110](https://www.bhphotovideo.com/c/product/1493206-REG/kodak_1058692_professional_hc_110_1l_developer.html) for everything. Mostly at 'box' speed but Double-X is really flexible. I've used Ilford's rapid fixer in the past but these days I really like [The Photographer's Formulary TF-5](https://www.bhphotovideo.com/c/product/774852-REG/Photographers_Formulary_03_0200_TF_5_Archival_Rapid_Fixer.html). Great shelf-life.
+    cameras:
+        - Leica M10-P
+        - Leica M-A
+        - Leica M6
+        - ~~Hasselblad 500c~~
+        - Olympus XA 2
+        - ~~Ricoh GR III~~
+        - Ricoh GR III X
+        - ~~Nikon D800E~~
+        - Sony A7R IV
+        - Chamonix 45F2
+    lenses:
+        - Leica 28mm Elmarit ASPH
+        - Leica 35mm Summicron ASPH
+        - Leica 50mm Summilux ASPH
+        - Leica (Leitz Canada) 90mm Tele-Elmarit 90mm
+        - ~~Carl Zeiss 80mm Planar f/2.8 C~~
+        - ~~Carl Zeiss 150mm Sonnar f/4 C T*~~
+        - Sigma 70mm f/2.8 DG ART Macro (Sony E mount)
+        - Sigma 70mm f/2.8 DG Macro (Nikon F mount)
+        - Sony FE 200-600mm f/5.6-6.3 G OSS
+        - Rodenstock 75mm f/4.5 Apo Rodagon D 2x
+        - Rodenstock 210mm f/5.6 Sironar-N
+    scanning:
+        - ~~Nikon D800E & Sigma 70mm DG Macro~~
+        - Sony A7R IV >> Nikon PB-4 bellows >> Rodenstock 75mm Apo Rodagon D 2x
+        - ~~ALZO copy stand~~
+        - Copy Stand (that's the name, <a aria-label="copy-stand.com (opens in a new window)" href="https://copy-stand.com" target="_blank">copy-stand.com</a><svg aria-hidden="true" class="external-link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" > <path d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" /></svg>)
+        - Negative Supply 5x7 99cri Light
+        - Negative Supply MK1
+        - Negative Supply 120
+        - Negative Supply MK2
+    workstation:
+        - 2021 14" MacBook Pro
+        - PC tower running Unraid as a NAS/media server
+        - Happy Hacking Pro2 Keyboard - Black on black
+        - Logitech MX Master 3
+        - Uplift Commercial standing desk with a 6' butcher block countertop. I love this way more than I thought I would. So much room for activities!
+        - Old Eames Aluminum Group chair. Still going strong for a 1986 model.
+        - LG 5k display. It's kinda busted, but work gave it to me for free. I still want a Studio Display, but this is fine. Apple should make a 27" XDR.
+        - Vivo rigid single-arm monitor mount. I've tried multiple articulating monitor arms and disliked all of them. This one is cheap and simple.
+    apps:
+        - name: Neovim
+          url: https://neovim.io/
+          desc: Text editor of choice for a long time now. And I'm still terrible at using it efficiently.
+        - name: Cloudinary
+          url: https://cloudinary.com
+          desc: Cloud hosted media platform that lets you transform images.
+        - name: Lightroom
+          url: https://adobe.com
+          desc: Lightroom catalogs is how I organize and edit all of my images.
+        - name: Negative Lab Pro
+          url: https://www.negativelabpro.com/
+          desc: A Lightroom plugin that does a fantastic job at converting digitized negatives into positives.
+        - name: Imaging Edge Desktop
+          url: https://support.d-imaging.sony.co.jp/app/imagingedge/en/
+          desc: This is Sony's tethering tools. It isn't perfect, but it is free. I really just use it to scan film. It has everything I need, and maybe a lot of things I don't. But it works.
+        - name: Things 3
+          url: https://culturedcode.com/things/
+          desc: Things is how I remember everything. Setup for the Getting Things Done method of _getting things done_. I use it all day every day for work and personal.
+        - name: Obsidian
+          url: https://obsidian.md/
+          desc: A very good markdown notes editor. New addition to my workflow but I'm loving it. Mostly using Obsidian for keeping track of work notes but will likely incorporate it into personal use soon. I highly recommend checking out plugins and customizing it.
+        - name: Reeder
+          url: https://www.reederapp.com/
+          desc: My goto RSS feed reader. I admittedly do not use it enough and sometimes I don't like how it displays posts, but I love that it uses iCloud and I don't have to pay for some extra subscription.
+        - name: Magnet
+          url: https://magnet.crowdcafe.com/
+          desc: A simple app for macOS that I _shouldn't_ need, but Apple can't seem to get window management right.
