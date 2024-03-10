@@ -12,13 +12,8 @@
         </header>
 
         <h1 class="single--photo__title">{{ .Title }}</h1>
-        <section class="post__body">
-            {{ .Content }} {{ partial "post_gallery.html" . }}
-        </section>
+        <section class="post__body">{{ .Content }}</section>
     </article>
-    {{ range (where .Site.RegularPages "Section" "now") }} Previously:
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-    {{ end }}
 </main>
 
 {{ partial "footer.html" . }}

@@ -27,3 +27,5 @@ Can't stop listening to {{< link href="https://open.spotify.com/album/7nAFPtoN75
 Watched Dune 2. Liked it a whole lot.
 
 I did finish {{< link href="https://www.librarything.com/work/27351724" text="Tomorrow and Tomorrow and Tomorrow" >}}, and it was very good. Picked up the {{< link href="https://www.librarything.com/work/11640" text="Contortionist's Handbook" >}} for January. Fantastic and very Palahniuk. Then decided for February I'd finally read a book from a high school friend, Chris; {{< link="https://www.librarything.com/work/25444039" text="Calling Mr. Nelson Pugh." >}} It takes quite a turn. I really enjoyed it, and I hope he writes more! For March, I think I'll finally finish Seth Godin's {{< link href="https://www.librarything.com/work/25614330" text="The Practice." >}} I read about half and then seemed to have moved onto something else and forgotten about it. I do have quite a few pages dog-eared. Maybe I should start the book over. I've been doing so much accessibility reading for work, that I should probably count all of it for my March "book."
+
+Previously: [September 28, 2023](/2023/09/28/now-september-28-2023/)
