@@ -17,7 +17,7 @@ I've been itching to redesign this site for a while now, and finally started to 
 
 As I was digging in, though, I started to notice that I was doing some things "wrong" in Hugo (the static site generator that builds this page.) I also started to notice a lot of accessibility issues. Nothing major, but there were a couple of things I was not doing and a couple of things I was doing that wasn't necessary.
 
-So the other day I decided to (once again) scrap all of the styles, but this time purposely implement a very simple layout to get started on fixing things from the inside out. This worked well, and now the site is in a usable state. I can start making posts again and stop worrying about how it looks.
+So the other day I decided to (once again) scrap all of the styles, but this time purposefully set up a very simple layout to get started on fixing things from the inside out. This worked well, and now the site is in a usable state. I can start making posts again and stop worrying about how it looks.
 
 ## Some things so far
 
