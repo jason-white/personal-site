@@ -64,6 +64,22 @@ figcaption p {
     margin-block-end: 8rem;
 }
 
+.skip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: calc(var(--base-spacing) / 2);
+    background: black;
+    color: white;
+    transform: translateY(-125%);
+    transition: transform 0.3s;
+    z-index: 10;
+}
+
+.skip:focus {
+    transform: translateY(-5%);
+}
+
 .logo {
     width: 2.5rem;
     height: 2.5rem;
