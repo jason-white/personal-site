@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://reaganray.com/2020/05/12/sci-fi-movie-lettering.html"
 tags:
+- design
 ---
 
 Nice collection of Sci-Fi movie logos. via Dave Rupurt

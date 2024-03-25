@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "https://www.theolympicdesign.com/olympic-design/pictograms/tokyo-1964/"
 tags:
+- tokyo
+- olympics
+- design
 ---
 
 I was not aware until the 2020 Tokyo Olympics that the 1964 Tokyo Olympics were the first time pictograms were introduced to get over the language barrier.

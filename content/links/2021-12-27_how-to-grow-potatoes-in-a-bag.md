@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://gardzenonline.com/blogs/gardzen/how-to-grow-potatoes-in-a-grow-bag"
 tags:
+- potatoes
 ---
 
 This needs to be added to the ole to-do list. via horttube (Jim Putnam)

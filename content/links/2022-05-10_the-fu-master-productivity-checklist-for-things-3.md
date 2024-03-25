@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://productivewithapurpose.com/2019/05/21/the-fu-master-productivity-checklist-using-things3/"
 tags:
+- things3
+- productivity
 ---
 
 I use Things 3 for almost everything but I've kind of lost my way with it. This is a really great post on getting hyper-focused with Things 3.

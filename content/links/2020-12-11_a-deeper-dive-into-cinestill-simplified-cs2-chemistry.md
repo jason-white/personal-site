@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://emulsive.org/articles/a-deeper-dive-into-cinestill-simplified-cs2-chemistry-ecn-2-cinestill"
 tags:
+- photography
+- cinestill
 ---
 
 The creators/owners of Cinestill break down motion picture film development.

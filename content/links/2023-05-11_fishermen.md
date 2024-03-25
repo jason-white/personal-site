@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=bq4Sb9qpMys"
 tags:
+- animation
+- youtube
 ---
 
 A concept trailer of a series by Daniels Gulbis

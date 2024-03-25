@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.newyorker.com/culture/the-new-yorker-interview/cory-doctorow-wants-you-to-know-what-computers-can-and-cant-do"
 tags:
+- corydoctorow
 ---
 
 Very good interview with Cory Doctorow from the New Yorker. Computers, Big Tech, cyberpunk and artificial intelligence.

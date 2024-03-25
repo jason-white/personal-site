@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=iUpVGO_Ss3U"
 tags:
+- leica
+- monochrom
 ---
 
 Chan-Wook Park talks about his experience with Leica cameras and the Monochrom specifically. via Jon

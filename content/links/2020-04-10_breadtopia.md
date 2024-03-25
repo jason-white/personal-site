@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://breadtopia.com/bread-recipes/"
 tags:
+- bread
+- recipe
 ---
 
 Loads of bread recipes to look into while in lockdown. via Anestis

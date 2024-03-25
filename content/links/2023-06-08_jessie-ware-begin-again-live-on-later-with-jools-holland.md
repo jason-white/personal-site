@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=LacihEWcFBY"
 tags:
+- youtube
+- music
 ---
 
 Live Jessie! via Ryan

@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=udvYSd2TIkg"
 tags:
+- daftpunk
+- youtube
 ---
 
 Gotta be the highest quality video of a Daft Punk set. via Ryan

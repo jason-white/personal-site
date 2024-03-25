@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://m.youtube.com/watch?v=L61SJbLhTqE"
 tags:
+- david-bowie
+- youtube
 ---
 
 Official teaser trailer for a film about David Bowie. Very excited to see this!

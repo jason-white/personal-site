@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=AzmKvVrs21M"
 tags:
+- hallas
+- music
+- youtube
 ---
 
 A well put together behind the scenes movie of Hallas creating their third studio album, Conundrum.

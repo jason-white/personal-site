@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://jackdavison.co.uk/"
 tags:
+- photography
 ---
 
 London-based photographer Jack Davison's portfolio website. Beautiful work.

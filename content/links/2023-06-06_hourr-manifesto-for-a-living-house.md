@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.collectifencore.com/hourre"
 tags:
+- house
 ---
 
 An old Basque farmhouse transformed into an incredibly beautiful living space. via Dense Discovery

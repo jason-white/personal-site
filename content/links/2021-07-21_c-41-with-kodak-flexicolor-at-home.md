@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.kabbottphoto.com/c-41-with-kodak-flexicolor-at-home/"
 tags:
+- photography
 ---
 
 Detailed post on getting up and running with Kodak Flexicolor chemicals at home. via Nicotine

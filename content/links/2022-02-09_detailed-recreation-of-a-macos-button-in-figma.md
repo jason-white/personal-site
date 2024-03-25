@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=n7bYra1uaTs"
 tags:
+- figma
+- macos
+- design
 ---
 
 We Deserve Less - Recreates a macOS button in Figma going over every little detail.

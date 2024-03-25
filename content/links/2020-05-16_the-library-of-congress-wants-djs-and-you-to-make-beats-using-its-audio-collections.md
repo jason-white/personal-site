@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://wamu.org/story/20/04/24/the-library-of-congress-wants-djs-and-you-to-make-beats-using-its-audio-collections/"
 tags:
+- music
+- samples
 ---
 
 Open-source web application allows people to create new music using the Library of Congress’ vast audio collections via Ryan

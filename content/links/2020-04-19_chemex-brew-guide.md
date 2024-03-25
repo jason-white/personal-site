@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.intelligentsiacoffee.com/chemex-brew-guide"
 tags:
+- chemex
+- coffee
 ---
 
 Great starting point if you’re just getting into brewing coffee with a Chemex.

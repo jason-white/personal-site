@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.locknesters.com/bear"
 tags:
+- puzzle
+- bear
 ---
 
 Neat little 3D puzzle bear statue. Comes in three different sizes.

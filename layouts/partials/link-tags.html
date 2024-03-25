@@ -1,0 +1,15 @@
+{{ $section := .Site.GetPage "section" "links" }}
+
+{{ $tags := slice }}
+
+{{ range $section.RegularPages }}
+    {{ $tags = union $tags .Params.tags }}
+{{ end }}
+
+{{ $sortedTags := sort $tags }}
+
+<ul class="tag-cloud list-reset">
+    {{ range $sortedTags }}
+    <li><a href="{{ "/tags/" | relLangURL}}{{ . | urlize }}">{{ . }}</a></li>
+    {{ end }}
+</ul>

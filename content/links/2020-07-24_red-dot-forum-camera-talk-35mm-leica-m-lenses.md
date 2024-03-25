@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=F2xWJhrIFrA&feature=youtu.be"
 tags:
+- leica
+- youtube
 ---
 
 Really gotta sit down and watch this. I'm interested in picking up a 35mm Summicron at some point, but unsure about the differences between versions over the years. via John

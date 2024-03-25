@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.upbeatcode.com/productivity/10-life-changing-books-every-developer-should-read/"
 tags:
+- books
+- development
 ---
 
 Filing this for later

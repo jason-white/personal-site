@@ -10,6 +10,10 @@ alt: ""
 caption: ""
 href: "https://jwst.nasa.gov/content/webbLaunch/whereIsWebb.html"
 tags:
+- space
+- nasa
+- webb
+- JWST
 ---
 
 "Data-driven infographic shows the status of Webb on its journey to L2 orbit. The page constantly updates as Webb travels, deploys, and cools to operating temperature." Really cool!

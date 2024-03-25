@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=_-LZudHEk7k"
 tags:
+- japanese
+- jazz
+- youtube
 ---
 
 The Mystery Kindaichi Band. I stumbled upon this on the YouTubes, and I was *not* expecting this amazing album based on the cover art. I have to find a copy of this for myself.

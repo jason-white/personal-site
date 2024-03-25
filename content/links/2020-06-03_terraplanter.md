@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.terraplanter.com/"
 tags:
+- plants
 ---
 
 Interesting planter that only uses water. They've blown their Kickstarter goal away by about $4 mil. via Mitch

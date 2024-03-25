@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=8qMsr7jjQF0"
 tags:
+- genesis
+- youtube
 ---
 
 Crystal clear Genesis live set. 16mm remaster in 4k

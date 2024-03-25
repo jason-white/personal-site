@@ -10,6 +10,10 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=LjHcHTJ8D5k"
 tags:
+- interview
+- andre3000
+- youtube
+- rickrubin
 ---
 
 Rick Rubin interviews Andre 3000. Really great conversation. Have an awful lot of respect for these two. This randomly popped up in my YouTube feed.

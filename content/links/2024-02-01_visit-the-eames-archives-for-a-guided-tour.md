@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.eamesinstitute.org/visit/"
 tags:
+- eames
 ---
 
 The Eames Archive is open. Located in Richmond, California, the Eames Archives holds one of the world’s most significant Eames collections—40,000+ objects. via Naz Hamid

@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=7LwnTdrX9Vg"
 tags:
+- photography
+- youtube
 ---
 
 Paulie B's series finally lands on Daniel Arnold. I've been waiting for this episode since the series started.

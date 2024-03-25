@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.nickkolenda.com/psychological-pricing-strategies/"
 tags:
+- pricing
+- psychology
 ---
 
 A list of pricing techniques. via Dense Discovery

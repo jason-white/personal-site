@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://sugarspunrun.com/easy-homemade-biscuits/"
 tags:
+- recipe
+- biscuits
 ---
 
 I’ve been wanting to take a stab at making some biscuits. via Brian

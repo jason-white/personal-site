@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.noemamag.com/modernity-has-made-us-allergic/"
 tags:
+- immune-system
 ---
 
 Article going over possible immune system issues for us (and our pets!) from living in a modern society. via Dense Discovery

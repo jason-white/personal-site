@@ -10,6 +10,10 @@ alt: ""
 caption: ""
 href: "https://youtu.be/iMHSk5AEvBQ"
 tags:
+- ghost
+- music
+- youtube
+- cover
 ---
 
 Covers by the band Ghost on YouTube. From ABBA to Simian Mobile Disco. via Ryan

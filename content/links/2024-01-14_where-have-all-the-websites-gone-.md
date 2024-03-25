@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://fromjason.xyz/p/notebook/where-have-all-the-websites-gone/"
 tags:
+- blog
 ---
 
 Jason Velazquez writes that the websites didn’t go away, but we did. via Chris Coyier

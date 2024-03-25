@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://ironeko.com/posts/how-to-set-up-a-modern-terminal-for-developers"
 tags:
+- terminal
+- development
 ---
 
 Few things in here are interesting. Never heard of Starship. And I don't use a lot of Zsh plugins so I'd like to go back to this some time

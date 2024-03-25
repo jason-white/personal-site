@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://youtu.be/thPE2IgnSiI"
 tags:
+- blackstone
+- youtube
 ---
 
 If your Blackstone griddle has been a bit too neglected, this is a solid recovery process.

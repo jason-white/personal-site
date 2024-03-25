@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=rFRQ0VC1uX8"
 tags:
+- bonobo
+- boiler-room
+- youtube
 ---
 
 Have always loved Bonobo. Recently he's gone from chill to bangers and this set is all banger. via Ryan

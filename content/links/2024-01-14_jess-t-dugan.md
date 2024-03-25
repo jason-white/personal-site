@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.jessdugan.com/"
 tags:
+- photography
 ---
 
 Jess T. Dugan is an artist whose work explores identity through photography, video, and writing.

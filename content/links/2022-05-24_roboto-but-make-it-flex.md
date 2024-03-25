@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://material.io/blog/roboto-flex"
 tags:
+- roboto
+- fonts
 ---
 
 Roboto Flex, a new addition to the Roboto family. via Dense Discovery

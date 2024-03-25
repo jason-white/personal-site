@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=WexZ0f6To5c"
 tags:
+- jazz
+- youtube
+- sesame-street
 ---
 
 A compilation of the Sesame Street Monster Band playing some easy listening jazz. via Laughing Squid

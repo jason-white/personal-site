@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://film.kolve.org/darkroomdiy/polaroid-110-convert-to-4x5/"
 tags:
+- cameras
+- polaroid
 ---
 
 Just heard about people doing this on a live Instagram feed with Matt Day.

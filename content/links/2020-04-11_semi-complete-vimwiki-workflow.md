@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?reload=9&v=9Bb8Ljyqpt4&feature=share"
 tags:
+- vim
+- vimwiki
+- youtube
 ---
 
 Bryan Jenks' VimWiki workflow. via /r/vim

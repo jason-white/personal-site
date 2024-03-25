@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://classnames.paulrobertlloyd.com/"
 tags:
+- webdev
 ---
 
 A small dictionary of words to help you name things.

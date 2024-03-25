@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://orangecrush.art/products/ryan-loco-a-victorious-jon-moxley-backstage?variant=37957062721720"
 tags:
+- wrestling
 ---
 
 I love this photo. Found this a while back and lost the link. I'm happy to see that it looks to still be available, however I haven't bought it just yet. via Instagram

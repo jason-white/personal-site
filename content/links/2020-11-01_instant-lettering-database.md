@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://instantlettering.com/"
 tags:
+- letraset
 ---
 
 A Letraset database. Via Chris Glass

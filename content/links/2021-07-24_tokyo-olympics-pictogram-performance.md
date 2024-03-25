@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=CQ9OyYA-bAM"
 tags:
+- tokyo
+- olympics
+- design
 ---
 
 This was incredibly fun to watch and amazing performance!

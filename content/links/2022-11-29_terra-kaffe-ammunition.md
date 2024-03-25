@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://ammunitiongroup.com/projects_pt/terra-kaffe/"
 tags:
+- coffee
 ---
 
 If it makes a shot of espresso half as good as it looks then it’s worth it. Maybe.

@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "http://blog.presentandcorrect.com/rams-palettes"
 tags:
+- dieter
+- rams
+- color
 ---
 
 Colors taken from Dieter Rams products for Braun. via Chris Glass

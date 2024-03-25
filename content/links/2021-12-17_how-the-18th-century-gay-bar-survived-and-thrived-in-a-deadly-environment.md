@@ -10,6 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.atlasobscura.com/articles/regency-gay-bar-molly-houses"
 tags:
+- gay
+- molly-house
 ---
 
 Great article on how Molly Houses came to be in 18th-to-early-19th-century Britain

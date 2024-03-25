@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.presentandcorrect.com/collections/organise/products/classic-photo-album#"
 tags:
+- photography
 ---
 
 Now these are some beautiful photo albums!

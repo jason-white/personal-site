@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://blog.williams-sonoma.com/how-to-make-your-home-smell-like-a-williams-sonoma-store/"
 tags:
+- william-sonoma
 ---
 
 Filing away for the holidays

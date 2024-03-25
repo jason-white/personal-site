@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.stacykranitz.com/new-page-4"
 tags:
+- photography
 ---
 
 Photographer Stacy Kranitz’ (probably) first book. If I ever find a copy I’m sure I’ll never be able to afford it. Beautiful work.

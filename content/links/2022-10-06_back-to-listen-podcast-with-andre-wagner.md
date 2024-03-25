@@ -10,6 +10,9 @@ alt: ""
 caption: ""
 href: "https://www.backtolisten.co/andre-wagner"
 tags:
+- andrewagner
+- photography
+- podcast
 ---
 
 Andre Wagner, in my opinion, is one of the best photographers working right now.

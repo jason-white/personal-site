@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.classcentral.com/search?q=ux"
 tags:
+- learning
 ---
 
 Thousands of free online courses. Definitely need to dig into this at some point and see what I can find.

@@ -10,6 +10,7 @@ alt: ""
 caption: ""
 href: "https://www.lifewire.com/netflix-secret-codes-find-and-watch-hidden-movies-4583157"
 tags:
+- netflix
 ---
 
 Learned the other day that you can enter codes into Netflix to pull up specific genres and sub-genres. Neat! via Mitch
