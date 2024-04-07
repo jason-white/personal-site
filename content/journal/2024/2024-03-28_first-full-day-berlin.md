@@ -79,11 +79,11 @@ We then walked over the Spree river via the Spreebrücke Bahnhof Friedrichstraß
 
 We decided now would be a good time to hit a grocery store before taking on the rest of our itinerary for the day. There was an Aldi on the way back. I absolutely had to grab one of these cute, tiny shopping buggies.
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435570/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-25.jpg" alt="looking down at a small shopping buggy containing some drinks and a bag of chips" caption="Leica M10-P / 35mm Summicron ASPH" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435570/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-25.jpg" alt="looking down at a small shopping buggy containing some drinks and a bag of chips" caption="35mm Summicron ASPH / Leica M10-P" >}}
 
 Dropped off groceries, and then it was time to visit the {{< link href="https://www.schwulesmuseum.de/" text="Schwules Museum" >}}, an LGBT museum located just north of Schöneberg. The current exhibit covers the history of sex work in Berlin. I think the rest of the gallery towards the back of the space is their permanent collection, but I could be wrong. Some very interesting pieces.
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435562/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-43.jpg" alt="a man and woman sitting on a small bench watching a projected art film" caption="Leica M10-P / 35mm Summicron ASPH" >}}
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435562/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-43.jpg" alt="a man and woman sitting on a small bench watching a projected art film" caption="35mm Summicron ASPH / Leica M10-P" >}}
 
 I don't know how I forgot to mention this in my offline journal, but we made it over to this Japanese denim shop, {{< link href="https://dc4.de/" text="DC4" >}}. I've never set foot in a place like this. The space alone was really cool. I've been a bit of a denim head for many years. I knew of every brand they carried, but it was so cool to see some of these pieces in person. I wasn't planning on buying anything, but I saw this really cool t-shirt from Samurai Jeans that was extremely heavy weight for a t-shirt. It was made from their own cotton fields in Japan. Very slubby in texture. I love it. The guy running the shop was very polite and informative. I will be back, for sure.
 
