@@ -1,6 +1,6 @@
 ---
 type: "journal"
-title: "Charlotte → München → Berlin"
+title: "Charlotte to Munich to Berlin"
 date: 2024-03-26T07:18:50-04:00
 draft: false
 thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_740/v1712315850/2024%20Posts/2024-03-26_charlotte-to-munic-to-berlin/untitled-1-2.jpg"

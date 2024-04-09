@@ -2,4 +2,6 @@
     "singleQuote": false,
     "tabWidth": 4,
     "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "ignore",
+    "singleAttributePerLine": true
 }

@@ -1,23 +1,10 @@
 {{ with .Params.gallery }}
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.8/photoswipe.min.css"
-/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.8/photoswipe.min.css" />
 <section id="Gallery" class="post__gallery">
     {{ range .images }}
-    <a
-        href="{{ .img }}"
-        target="_blank"
-        data-pswp-width="{{ .width }}"
-        data-pswp-height="{{ .height }}"
-        data-cropped="true"
-    >
-        <img
-            src="{{ .img }}"
-            alt="{{ .alt }}"
-            class="gallery__thumb"
-            loading="lazy"
-        />
+    <a href="{{ .img }}" target="_blank" data-pswp-width="{{ .width }}" data-pswp-height="{{ .height }}"
+        data-cropped="true">
+        <img src="{{ .img }}" alt="{{ .alt }}" class="gallery__thumb" loading="lazy" />
     </a>
     {{ end }}
 </section>
