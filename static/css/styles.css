@@ -186,6 +186,10 @@ figcaption p {
     margin-block: 3rem 1rem;
 }
 
+.content p + p {
+    margin-block-start: 0;
+}
+
 @media (min-width: 53rem) {
     .content--photo-post > figure {
         grid-column: feature;
