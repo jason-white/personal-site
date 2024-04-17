@@ -64,7 +64,7 @@ figcaption p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-block-end: 8rem;
+    margin-block-end: 3rem;
     padding: 1rem;
 }
 
