@@ -1,3 +1,7 @@
+:root {
+    --base-font-size: 1rem;
+}
+
 html {
     font-size: 100%;
 }
@@ -21,7 +25,6 @@ body {
         "Open Sans",
         "Helvetica Neue",
         sans-serif;
-    font-size: 1.25rem;
     max-width: 2048px;
     margin-inline: auto;
     line-height: 1.5;
@@ -61,11 +64,12 @@ figcaption p {
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding-block-start: 1rem;
     margin-block-end: 3rem;
-    padding: 1rem;
+}
+
+.header__logo {
+    margin-block-end: 2rem;
 }
 
 .skip {
@@ -95,7 +99,7 @@ figcaption p {
 }
 
 .home__section {
-    margin-block-end: 8rem;
+    margin-block-end: 2rem;
     grid-column: content;
 }
 
@@ -106,11 +110,8 @@ figcaption p {
 }
 
 .recent-posts li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-block: 0.5rem;
-    margin-block-end: 2rem;
+    margin-block-end: 1rem;
 }
 
 .recent-posts li p {
@@ -121,6 +122,12 @@ figcaption p {
     margin-inline-end: auto;
 }
 
+.recent-posts__photo {
+}
+
+.recent-posts__photo img {
+}
+
 .pagination,
 .post-pagination {
     display: flex;
@@ -129,8 +136,9 @@ figcaption p {
 }
 
 .footer {
-    margin-block-start: 8rem;
-    padding-inline: 1rem;
+    margin-block-start: 3rem;
+    padding: 1rem;
+    background-color: mistyrose;
 }
 
 .footer-list {
@@ -159,60 +167,111 @@ figcaption p {
     margin: 0;
 }
 
-.content {
-    --gap: 1rem;
-    --full: minmax(var(--gap), 1fr);
-    --content: min(50ch, 100% - var(--gap) * 2);
-    --popout: minmax(0, 2rem);
-    --feature: minmax(0, 5rem);
+.content-layout > *,
+.full-width > * {
+    grid-column: content;
+}
+.content-layout,
+.full-width {
+    --minimum-content-padding: 1rem;
+
+    /** TRACK WIDTHS **/
+    --full-max-width: 1fr;
+    --popout-max-width: 90rem;
+    --content-max-width: 80ch;
+    --inset-content-max-width: 40rem;
+
+    /** TRACK SIZES **/
+    --full: minmax(var(--minimum-content-padding), 1fr);
+    --popout: minmax(
+        0,
+        calc((var(--popout-max-width) - var(--content-max-width)) * 0.5)
+    );
+    --content: minmax(
+        0,
+        calc((var(--content-max-width) - var(--inset-content-max-width)) * 0.5)
+    );
+    --inset-content: min(
+        var(--inset-content-max-width),
+        100% - var(--minimum-content-padding) * 2
+    );
 
     display: grid;
     grid-template-columns:
-        [full-start] var(--full)
-        [feature-start] var(--feature)
-        [popout-start] var(--popout)
-        [content-start] var(--content) [content-end]
-        var(--popout) [popout-end]
-        var(--feature) [feature-end]
-        var(--full) [full-end];
+        [full-start]
+        var(--full)
+        [popout-start]
+        var(--popout)
+        [content-start]
+        var(--content)
+        [inset-content-start]
+        var(--inset-content)
+        [inset-content-end]
+        var(--content)
+        [content-end]
+        var(--popout)
+        [popout-end]
+        var(--full)
+        [full-end];
 }
 
-.content > :not(figure):not(header) {
-    grid-column: content;
-}
-
-.content--photo-post > figure {
+/** CLASSES **/
+.full {
     grid-column: full;
-    margin-block: 3rem 1rem;
 }
-
-.content p + p {
-    margin-block-start: 0;
+.full-start {
+    grid-column-start: full-start;
 }
-
-@media (min-width: 53rem) {
-    .content--photo-post > figure {
-        grid-column: feature;
-    }
+.full-end {
+    grid-column-end: full-end;
 }
 
 .popout {
     grid-column: popout;
 }
-
-.feature {
-    grid-column: feature;
+.popout-start {
+    grid-column-start: popout-start;
+}
+.popout-end {
+    grid-column-end: popout-end;
 }
 
-.full {
+.content {
+    grid-column: content;
+}
+.content-start {
+    grid-column-start: content-start;
+}
+.content-end {
+    grid-column-end: content-end;
+}
+
+.inset-content {
+    grid-column: inset-content;
+}
+.inset-content-start {
+    grid-column-start: inset-content-start;
+}
+.inset-content-end {
+    grid-column-end: inset-content-end;
+}
+
+.full-width {
     grid-column: full;
+}
+.full-content,
+.full-content-nopad {
+    grid-column: full;
+}
+.full-content {
+    padding-inline: var(--minimum-content-padding);
 }
 
 .post__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-    gap: 0.5rem;
-    margin-block: 2rem 4rem;
+    gap: 1rem;
+    margin-block-start: 3rem;
 }
 
 .gallery__thumb {
@@ -252,4 +311,10 @@ figcaption p {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+}
+
+.home--2-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
 }

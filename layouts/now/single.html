@@ -1,15 +1,13 @@
 {{ partial "head.html" . }} {{ partial "header.html" . }}
-
+<header class="full">
+    <figure class="content__figure">
+        <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+        <figcaption>
+            <p>{{ .Params.caption }}</p>
+        </figcaption>
+    </figure>
+</header>
 <article class="content single--photo">
-    <header class="full">
-        <figure class="content__figure">
-            <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
-            <figcaption>
-                <p>{{ .Params.caption }}</p>
-            </figcaption>
-        </figure>
-    </header>
-
     <h1 class="single--photo__title">{{ .Title }}</h1>
     {{ .Content }}
 </article>
