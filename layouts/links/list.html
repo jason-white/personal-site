@@ -1,10 +1,10 @@
 {{ partial "head.html" . }} {{ partial "header.html" . }}
 
+<h1 class="page-heading content">{{ .Title }}</h1>
 <div class="content">
-    <h1>{{ .Title }}</h1>
-    <ul class="recent-posts list-reset">
+    <ul class="link-posts list-reset">
         {{ range (.Paginator 20).Pages }}
-        <li class="post-card">
+        <li class="link-post">
             <article>
                 <a aria-label="{{ .Title }} (opens in a new window)" href="{{ .Params.href }}" rel="noopener"
                     target="_blank">{{ .Title }}</a>

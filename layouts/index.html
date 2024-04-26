@@ -4,7 +4,8 @@
 
 <!-- Begin page -->
 <!-- Hello -->
-<section class="home__section">
+
+<section class="content home__intro">
     <h1>Hello</h1>
     {{.Content}}
 </section>
@@ -17,8 +18,10 @@
             {{ range first 3 (where .Site.RegularPages "Section" "journal") }}
             <li class="recent-posts__photo">
                 <img src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}">
-                <a href="{{ .Permalink }}">{{ .Title }}</a><br />
-                <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+                <div class="recent-posts__meta">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a><br />
+                    <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+                </div>
             </li>
             {{ end }}
         </ul>
@@ -29,8 +32,8 @@
     <section class="">
         <h2>Links</h2>
         <ul class="recent-posts list-reset">
-            {{ range first 10 (where .Site.RegularPages "Section" "links") }}
-            <li>
+            {{ range first 5 (where .Site.RegularPages "Section" "links") }}
+            <li class="recent-posts__link">
                 <div>
                     <a aria-label="{{ .Title }} (opens in new window)" href="{{ .Params.href }}" rel="noopener"
                         target="_blank">{{ .Title }}</a>
@@ -40,7 +43,7 @@
                             d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" />
                     </svg>
                 </div>
-                <p>{{ .Content }}</p>
+                {{ .Content }}
                 <time>{{ .Date.Format "Jan 2, 2006" }}</time>
             </li>
             {{ end }}
@@ -48,7 +51,6 @@
         <p>More can be found on the <a href="/links">links page</a></p>
     </section>
 </div>
-
 
 <!-- Import footer -->
 {{ partial "footer.html" . }}

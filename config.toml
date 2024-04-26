@@ -23,9 +23,14 @@ title = 'Jason White'
 	weight = 20
 
 [[menus.main]]
+    name = 'Links'
+    pageRef = '/links'
+    weight = 30
+
+[[menus.main]]
 	name = 'Now'
 	pageRef = '/now'
-	weight = 30
+	weight = 40
 
 [[menus.elsewhere]]
     name = 'Mastodon'

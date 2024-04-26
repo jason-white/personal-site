@@ -1,15 +1,17 @@
 {{ partial "head.html" . }} {{ partial "header.html" . }}
+
+<h1 class="page-heading content">{{ .Title }}</h1>
 <div class="content">
-    <h1>{{ .Title }}</h1>
-    <ul class="recent-posts list-reset">
-        {{ range (.Paginator 9).Pages }}
-        <li class="post-card">
-            <article role="article">
-                <img src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}" />
-                <a href="{{ .Permalink }}">{{ .Title }}</a><br />
-                <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-            </article>
-            <!-- meta -->
+    <ul class="photo-posts list-reset">
+        {{ range (.Paginator 20).Pages }}
+        <li class="photo-post">
+            <a href="{{ .Permalink }}">
+                <article>
+                    <img loading="lazy" src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}" />
+                    <h2>{{ .Title }}</h2>
+                    <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+                </article>
+            </a>
         </li>
         {{ end }}
     </ul>
