@@ -11,5 +11,8 @@
     <h1 class="single--photo__title">{{ .Title }}</h1>
     {{ .Content }}
 </article>
+<div class="post__meta">
+    {{ partial "single-pagination.html" .}}
+</div>
 
 {{ partial "footer.html" . }}

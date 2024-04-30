@@ -6,11 +6,11 @@
         {{ range (.Paginator 20).Pages }}
         <li class="photo-post">
             <a href="{{ .Permalink }}">
-                <article>
+                <div class="photo-post__card">
                     <img loading="lazy" src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}" />
-                    <h2>{{ .Title }}</h2>
+                    <span>{{ .Title }}</span>
                     <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-                </article>
+                </div>
             </a>
         </li>
         {{ end }}

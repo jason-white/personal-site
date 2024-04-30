@@ -1,9 +1,9 @@
 {{ $paginator := .Paginator }} {{ if gt $paginator.TotalPages 1 }}
 <nav class="pagination">
     {{ if $paginator.HasPrev }}
-    <a href="{{ $paginator.Prev.URL }}"> Previous </a>
+    <a href="{{ $paginator.Prev.URL }}">Previous</a>
     {{ end }} {{ if $paginator.HasNext }}
-    <a href="{{ $paginator.Next.URL }}"> Next </a>
+    <a class="pagination__next" href="{{ $paginator.Next.URL }}">Next</a>
     {{ end }}
 </nav>
 {{ end }}

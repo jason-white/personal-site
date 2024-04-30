@@ -37,7 +37,7 @@ Uses:
         - Happy Hacking Pro2 Keyboard - Black on black
         - Logitech MX Master 3
         - Uplift Commercial standing desk with a 6' butcher block countertop. I love this way more than I thought I would. So much room for activities!
-        - Old Eames Aluminum Group chair. Still going strong for a 1986 model.
+        - Old Eames Aluminum Group chair. I've sat in this chair almost every day for 15+ years. Still going strong for a 1986 model.
         - LG 5k display. It's kinda busted, but work gave it to me for free. I still want a Studio Display, but this is fine. Apple should make a 27" XDR.
         - Vivo rigid single-arm monitor mount. I've tried multiple articulating monitor arms and disliked all of them. This one is cheap and simple.
     apps:
@@ -49,13 +49,13 @@ Uses:
           desc: Cloud hosted media platform that lets you transform images.
         - name: Lightroom
           url: https://adobe.com
-          desc: Lightroom catalogs is how I organize and edit all of my images.
+          desc: Photo editor of choice. Lightroom smart catalogs is how I organize everything. I can quickly find something by lens, film stock, etc.
         - name: Negative Lab Pro
           url: https://www.negativelabpro.com/
           desc: A Lightroom plugin that does a fantastic job at converting digitized negatives into positives.
         - name: Imaging Edge Desktop
           url: https://support.d-imaging.sony.co.jp/app/imagingedge/en/
-          desc: This is Sony's tethering tools. It isn't perfect, but it is free. I really just use it to scan film. It has everything I need, and maybe a lot of things I don't. But it works.
+          desc: This is Sony's tethering tools. It isn't perfect, but it is free. I really just use it to control the Sony A7R when scanning film.
         - name: Things 3
           url: https://culturedcode.com/things/
           desc: Things is how I remember everything. Setup for the Getting Things Done method of _getting things done_. I use it all day every day for work and personal.
@@ -64,7 +64,7 @@ Uses:
           desc: A very good markdown notes editor. New addition to my workflow but I'm loving it. Mostly using Obsidian for keeping track of work notes but will likely incorporate it into personal use soon. I highly recommend checking out plugins and customizing it.
         - name: Reeder
           url: https://www.reederapp.com/
-          desc: My goto RSS feed reader. I admittedly do not use it enough and sometimes I don't like how it displays posts, but I love that it uses iCloud and I don't have to pay for some extra subscription.
+          desc: My goto RSS feed reader.
         - name: Magnet
           url: https://magnet.crowdcafe.com/
           desc: A simple app for macOS that I _shouldn't_ need, but Apple can't seem to get window management right.

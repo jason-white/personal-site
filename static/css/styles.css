@@ -126,6 +126,10 @@ time {
     gap: 2rem;
 }
 
+.recent-posts {
+    margin-block-end: 3rem;
+}
+
 .recent-posts__meta {
     display: flex;
     justify-content: space-between;
@@ -165,14 +169,10 @@ time {
     text-decoration: none;
 }
 
-.photo-post article {
+.photo-post__card {
     display: flex;
     align-items: center;
     gap: 2rem;
-}
-
-.photo-post h2 {
-    font-size: 1rem;
 }
 
 .photo-post img {
@@ -197,6 +197,10 @@ time {
     display: flex;
     justify-content: space-between;
     margin-block: 2rem;
+}
+
+.pagination__next {
+    margin-inline-start: auto;
 }
 
 .footer {
@@ -390,4 +394,11 @@ time {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+}
+
+.now-explanation {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #f4f4f4;
+    margin-block-start: 3rem;
 }
