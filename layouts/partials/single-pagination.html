@@ -1,8 +1,11 @@
-<nav class="post-pagination" aria-label="blog post pagination">
+<nav aria-label="Pagination Navigation" class="post-pagination" aria-label="blog post pagination">
     {{ if .PrevInSection }}
-    <a href="{{ .PrevInSection.Permalink }}" class="prev-post">Previous: {{ .PrevInSection.Title }}</a>
+    <span>Previous: <a aria-label="Navigate to the previous article" href="{{ .PrevInSection.Permalink }}"
+            class="prev-post">
+            {{ .PrevInSection.Title }}</a></span>
     {{ end }} {{ if .NextInSection }}
-    <a class="pagination__next" href="{{ .NextInSection.Permalink }}" class="next-post">Next: {{ .NextInSection.Title
-        }}</a>
+    <span class="pagination__next">Next: <a aria-label="Navigate to the next article" class="pagination__next"
+            href="{{ .NextInSection.Permalink }}" class="next-post">{{ .NextInSection.Title
+            }}</a></span>
     {{ end }}
 </nav>
