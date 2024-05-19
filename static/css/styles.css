@@ -445,3 +445,11 @@ time {
     background-color: #f4f4f4;
     margin-block-start: 3rem;
 }
+
+.music-page__playlists li {
+    margin-block-start: 3rem;
+}
+
+.playlist * + * {
+    margin-block-start: 2rem;
+}
