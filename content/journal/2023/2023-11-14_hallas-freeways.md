@@ -1,6 +1,6 @@
 ---
 type: "journal"
-title: "Hällas & Freeways at the Pour House"
+title: "Hallas & Freeways at the Pour House"
 date: 2023-11-14T11:33:02-05:00
 draft: false
 thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1702226153/2023%20Posts/11/2023-11-14_hallas-freeways/untitled-382-Enhanced-NR.jpg"

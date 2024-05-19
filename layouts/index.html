@@ -12,7 +12,7 @@
 
 <div class="home--2-col">
     <!-- Photos -->
-    <section class="">
+    <section>
         <h2>Blog</h2>
         <ul class="recent-posts list-reset">
             {{ range first 3 (where .Site.RegularPages "Section" "journal") }}
@@ -29,7 +29,7 @@
     </section>
 
     <!-- Links -->
-    <section class="">
+    <section>
         <h2>Links</h2>
         <ul class="recent-posts list-reset">
             {{ range first 5 (where .Site.RegularPages "Section" "links") }}

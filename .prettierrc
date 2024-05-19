@@ -4,4 +4,12 @@
     "bracketSpacing": true,
     "htmlWhitespaceSensitivity": "ignore",
     "singleAttributePerLine": true
+    "overrides": [
+    {
+        "files": ["*.html"],
+        "options": {
+            "parser": "go-template"
+        }
+    }
+]
 }
