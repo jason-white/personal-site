@@ -35,7 +35,7 @@ watching:
       href: "https://myanimelist.net/manga/121496/Solo_Leveling"
 ---
 
-Been meaning to update the ole Now Page for a minute. Mostly just waiting to get the site design updated and implemented. I think I want to treat the Now section more like a "vibe check" as Dave Rupert calls it.
+Been meaning to update the ole Now Page for a minute. Mostly just waiting to get the site design updated and implemented. I think I want to treat the Now section more like a "vibe check" as {{< link href="https://daverupert.com/" text="Dave Rupert" >}} calls it.
 
 The vibes have been up and down since the March post. Had a wonderful trip to Berlin. Those posts have been up for a while now, so I won't get into it. But, I'd go back for sure. Berlin was a lot of fun.
 
