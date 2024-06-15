@@ -1,12 +1,23 @@
-<footer class="post__info">
-    <div class="post-date">
-        <a href="{{ .RelPermalink }}">
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
-            {{ if .Params.External }} -
-            <span> for {{ .Params.External.Host }}</span>
+<aside class="jp__info flow">
+    {{ if or .Params.jammin .Params.watching }}
+    <div class="jp__media flow--sm">
+        {{ if .Params.jammin }}
+        <h3>Jammin'</h3>
+        <p>
+            <a href="{{ .Params.jammin.href}}">
+                <span>{{ .Params.jammin.title }}</span>
+            </a>
+        </p>
+        {{ else if .Params.watching }}
+        <h3>Watching</h3>
+        <p>
+            <a href="{{ .Params.watching.href}}">
+                <span>{{ .Params.watching.title }}</span>
+            </a>
+        <p>
             {{ end }}
-        </a>
     </div>
+    {{ end }}
     <!-- tags -->
     {{ partial "tags.html" . }}
-</footer>
+</aside>

@@ -3,6 +3,7 @@ type: "journal"
 title: "Southern Tradition"
 date: 2024-01-01T16:20:51-05:00
 draft: false
+columns: true
 thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_740/v1704230325/2024%20Posts/2024-01-01_new-year-day/2024-01-01_leica-m10p-34.jpg"
 image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1704230325/2024%20Posts/2024-01-01_new-year-day/2024-01-01_leica-m10p-34.jpg"
 alt: "a bowl of collards washing in the sink, on the counter sits a bowl of black eye peas on a cutting board draining next to some minced garlic"

@@ -1,11 +1,20 @@
 ---
-type: "now"
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+type: "now"
 draft: true
-thumbnail: ""
 image: ""
 alt: ""
 caption: ""
 tags:
+- now
+jammin:
+    - title: ""
+      href: ""
+reading:
+    - title: ""
+      href: ""
+watching:
+    - title: ""
+      href: ""
 ---

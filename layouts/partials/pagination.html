@@ -1,7 +1,8 @@
 {{ $paginator := .Paginator }} {{ if gt $paginator.TotalPages 1 }}
-<nav aria-label="Pagination Navigation" class="pagination">
+<nav aria-label="Pagination Navigation grid" class="pagination">
     {{ if $paginator.HasPrev }}
-    <a aria-label="Navigate to the previous article" rel="previous" href="{{ $paginator.Prev.URL }}">Previous</a>
+    <a aria-label="Navigate to the previous article" rel="previous" class="pagination__prev"
+        href="{{ $paginator.Prev.URL }}">Previous</a>
     {{ end }} {{ if $paginator.HasNext }}
     <a aria-label="Navigate to the next article" rel="next" class="pagination__next"
         href="{{ $paginator.Next.URL }}">Next</a>
