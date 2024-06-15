@@ -1,75 +1,77 @@
 {{ partial "head.html" . }} {{ partial "header.html" . }}
 
-<main class="uses-page" role="main">
-    <h1 class="page-heading">{{ .Title }}</h1>
-    <article class="stack">
-        {{ .Content }} {{ range $.Site.Data.uses }}
-        <section class="uses__block stack">
-            <h2>Hardware</h2>
-            <div class="uses__block-content">
-                <ul class="uses__list">
-                    {{ range .workstation }}
-                    <li class="uses__item">{{ . }}</li>
-                    {{ end }}
-                </ul>
-            </div>
-        </section>
+<article class="uses-page grid flow--lg">
+    <div class="up__intro flow">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
 
-        <section class="uses__block stack">
-            <h2>Software</h2>
-            <div class="uses__block-content">
-                <ul class="uses__list">
-                    {{ range .apps }}
-                    <li>
-                        <a aria-label="{{ .name }} (opens in new window)" href="{{ .url }}" target="_blank">
-                            {{ .name }}
-                        </a>
-                        <svg aria-hidden="true" class="external-link-icon" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24">
-                            <path
-                                d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" />
-                        </svg>
-                        <p>{{ .desc | markdownify }}</p>
-                    </li>
-                    {{ end }}
-                </ul>
-            </div>
-        </section>
+    {{ range $.Site.Data.uses }}
+    <section class="uses__block flow">
+        <h2>Hardware</h2>
+        <div class="uses__block-content">
+            <ul class="list-reset flow--sm">
+                {{ range .workstation }}
+                <li class="uses__item">{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
 
-        <section class="uses__block stack">
-            <h2>Cameras</h2>
-            <div class="uses__block-content">
-                <ul class="uses__list">
-                    {{ range .cameras }}
-                    <li class="uses__item">{{ . | markdownify }}</li>
-                    {{ end }}
-                </ul>
-            </div>
-        </section>
+    <section class="uses__block flow">
+        <h2>Software</h2>
+        <div class="uses__block-content">
+            <ul class="list-reset flow--sm">
+                {{ range .apps }}
+                <li>
+                    <a aria-label="{{ .name }} (opens in new window)" href="{{ .url }}" target="_blank">
+                        {{ .name }}
+                    </a>
+                    <svg aria-hidden="true" class="external-link-icon" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" />
+                    </svg>
+                    <p>{{ .desc | markdownify }}</p>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
 
-        <section class="uses__block stack">
-            <h2>Lenses</h2>
-            <div class="uses__block-content">
-                <ul class="uses__list">
-                    {{ range .lenses }}
-                    <li class="uses__item">{{ . | markdownify }}</li>
-                    {{ end }}
-                </ul>
-            </div>
-        </section>
+    <section class="uses__block flow">
+        <h2>Cameras</h2>
+        <div class="uses__block-content">
+            <ul class="list-reset flow--sm">
+                {{ range .cameras }}
+                <li class="uses__item">{{ . | markdownify }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
 
-        <section class="uses__block stack">
-            <h2>Scanning Rig</h2>
-            <div class="uses__block-content">
-                <ul class="uses__list">
-                    {{ range .scanning }}
-                    <li class="uses__item">{{ . | markdownify }}</li>
-                    {{ end }}
-                </ul>
-            </div>
-        </section>
-        {{ end }}
-    </article>
-</main>
+    <section class="uses__block flow">
+        <h2>Lenses</h2>
+        <div class="uses__block-content">
+            <ul class="list-reset flow--sm">
+                {{ range .lenses }}
+                <li class="uses__item">{{ . | markdownify }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+
+    <section class="uses__block flow">
+        <h2>Scanning Rig</h2>
+        <div class="uses__block-content">
+            <ul class="list-reset flow--sm">
+                {{ range .scanning }}
+                <li class="uses__item">{{ . | markdownify }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+    {{ end }}
+</article>
 
 {{ partial "footer.html" . }}

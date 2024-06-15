@@ -1,20 +1,18 @@
 {{ partial "head.html" . }} {{ partial "header.html" . }}
 
-<section class="list-page grid flow">
+<section class="list-page grid">
     <h1>{{ .Title }}</h1>
-    <ul class="list-reset flow">
-        {{ range (.Paginator 18).Pages }}
+    <ul class="list-reset">
+        {{ range (.Paginator 20).Pages }}
         {{ if .Params.image }}
-        <li class="post flow--sm">
-            <div class="fp__img-wrap border-radius">
+        <li class="photo-post flow--sm">
+            <div class="img__bg-accent">
                 <img loading="lazy" class="fp__img fit-img" src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}" />
             </div>
-            <p>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </p>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
         {{ else if .Params.href }}
-        <li class="post flow--sm">
+        <li class="link-post flow--sm">
             <div class="external-link">
                 <a aria-label="{{ .Title }} (opens in new window)" href="{{ .Params.href }}" rel="noopener"
                     target="_blank">{{ .Title }}</a>
@@ -29,8 +27,9 @@
         {{ end }}
         {{ end }}
     </ul>
-    {{ partial "pagination.html" . }}
 </section>
 <!-- pagination -->
-
+<section class="list-page-pagination grid">
+    {{ partial "pagination.html" . }}
+</section>
 {{ partial "footer.html" . }}

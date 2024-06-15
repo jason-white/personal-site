@@ -1,18 +1,25 @@
 {{ partial "head.html" . }} {{ partial "header.html" . }}
-<header class="popout">
-    <figure class="content__figure">
-        <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
-        <figcaption>
-            <p>{{ .Params.caption }}</p>
-        </figcaption>
+
+<article class="now__post grid">
+    <figure class="now__figure">
+        <img class="border-radius--lg" src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
     </figure>
-</header>
-<article class="content single--photo stack">
-    <h1 class="single--photo__title">{{ .Title }}</h1>
-    {{ .Content }}
-</article>
-<div class="post__meta">
+    <div class="post__title flow">
+        <h1>{{ .Title }}</h1>
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
+    <div class="post__content flow">
+        {{ .Content }}
+    </div>
+    <!-- Post info partial. Parent class ".jp__info" -->
+    {{ if or .Params.jammin .Params.watching .Params.reading }}
+    {{ partial "now_info.html" . }}
+    {{ end }}
+
+    <!-- Pagination partial. Parent class ".jp__pagination"-->
     {{ partial "single-pagination.html" .}}
-</div>
+
+
+</article>
 
 {{ partial "footer.html" . }}

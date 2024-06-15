@@ -24,7 +24,8 @@ Uses:
         - Rodenstock 210mm f/5.6 Sironar-N
     scanning:
         - ~~Nikon D800E & Sigma 70mm DG Macro~~
-        - Sony A7R IV >> Nikon PB-4 bellows >> Rodenstock 75mm Apo Rodagon D 2x
+        - Sony A7R IV >> Nikon PB-4 bellows >> Rodenstock 75mm Apo Rodagon D 2x or...
+        - Sony A7R IV with the Sigma 70mm DG ART Macro lens
         - ~~ALZO copy stand~~
         - Copy Stand (that's the name, <a aria-label="copy-stand.com (opens in a new window)" href="https://copy-stand.com" target="_blank">copy-stand.com</a><svg aria-hidden="true" class="external-link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" > <path d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" /></svg>)
         - Negative Supply 5x7 99cri Light
@@ -43,7 +44,7 @@ Uses:
     apps:
         - name: Neovim
           url: https://neovim.io/
-          desc: Text editor of choice for a long time now. And I'm still terrible at using it efficiently.
+          desc: Text editor of choice for a long time now. And I'm still terribly inefficient with it.
         - name: Cloudinary
           url: https://cloudinary.com
           desc: Cloud hosted media platform that lets you transform images.
@@ -65,6 +66,6 @@ Uses:
         - name: Reeder
           url: https://www.reederapp.com/
           desc: My goto RSS feed reader.
-        - name: Magnet
-          url: https://magnet.crowdcafe.com/
-          desc: A simple app for macOS that I _shouldn't_ need, but Apple can't seem to get window management right.
+        - name: Yabai
+          url: https://github.com/koekeishiya/yabai
+          desc: A tiling window manager. Combined with desktop spaces + hotkeys, this has been a really comfy setup.

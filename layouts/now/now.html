@@ -1,36 +1,27 @@
 {{ partial "head.html" . }} {{ partial "header.html" . }}
 
-
-{{ range first 1 .Pages }}
-<header class="popout">
-    <figure class="content__figure">
-        <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
-        <figcaption>
-            <p>{{ .Params.caption }}</p>
-        </figcaption>
+<article class="now__post grid">
+    {{ range first 1 .Pages }}
+    <figure class="now__figure">
+        <img class="border-radius--lg" src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
     </figure>
-</header>
+    <div class="post__title flow">
+        <h1>{{ .Title }}</h1>
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
+    <div class="post__content flow">
+        {{ .Content }}
+    </div>
+    <!-- Post info partial. Parent class ".jp__info" -->
+    {{ if or .Params.jammin .Params.watching .Params.reading }}
+    {{ partial "now_info.html" . }}
+    {{ end }}
 
-<article class="content single--photo stack">
-    <h1 class="single--photo__title">{{ .Title }}</h1>
-    {{ .Content }}
-</article>
-
-<div class="post__meta">
+    <!-- Pagination partial. Parent class ".jp__pagination"-->
     {{ partial "single-pagination.html" .}}
-</div>
-{{ end}}
+    {{ end}}
 
-<div class="now-explanation">
-    What is a <a aria-label="link opens in new window" href="https://nownownow.com/about" rel="noopener"
-        target="_blank">
-        now page?
-    </a>
-    <svg aria-hidden="true" class="external-link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <path
-            d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" />
-    </svg>
 
-</div>
+</article>
 
 {{ partial "footer.html" . }}
