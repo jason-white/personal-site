@@ -5,7 +5,6 @@ date: {{ .Date }}
 draft: true
 thumbnail: ""
 alt: ""
-caption: ""
 href: ""
 tags:
 ---
