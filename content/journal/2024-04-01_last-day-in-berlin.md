@@ -7,9 +7,6 @@ thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_a
 image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1714833063/2024%20Posts/2024-04-01_last-day-in-berlin/untitled-1-4.jpg"
 alt: "Brandenburg Gate, an 18th century monument, during the day surrounded by a large crowd of tourists"
 caption: "iPhone 14 Pro"
-jammin:
-    href: "https://song.link/s/4ZgfhvVCeTXYFcKyLRWg8g"
-    title: "Decemberists - Joan in the Garden"
 gallery:
     images:
         image0:

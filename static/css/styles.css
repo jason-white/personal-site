@@ -418,7 +418,8 @@ img {
 }
 
 .now__post .post__title,
-.now__figure {
+.now__figure,
+.now__info {
     grid-column: 1 / -1;
 }
 
@@ -446,18 +447,22 @@ img {
         order: 3;
     }
 
+    .now__info {
+        order: 4;
+        grid-column: 4 / 5;
+    }
+
     .now__post .jp__pagination {
         order: 5;
     }
 
-    .now__info {
-        order: 4;
-    }
+
 }
 
 .about-page h1,
 .ap__profile-pic,
-.about__content {
+.about__content,
+.about__sidebar {
     grid-column: 1 / -1;
 }
 

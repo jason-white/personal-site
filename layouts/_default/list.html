@@ -7,7 +7,8 @@
         {{ if .Params.image }}
         <li class="post flow--sm">
             <div class="fp__img-wrap border-radius">
-                <img loading="lazy" class="fp__img fit-img" src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}" />
+                <img loading="lazy" class="fp__img fit-img" src="{{ .Params.thumbnail }}"
+                    alt="thumbnail for {{ .Title }}" />
             </div>
             <p>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
