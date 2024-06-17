@@ -11,7 +11,7 @@ tags:
 jammin:
     - title: "Kiesza - Dancing and Crying Vol. 1"
       href: "https://album.link/s/6uWuAum9VpqxPx84PgvCsY"
-    - title: "ULTRAKUNST - Brutalismus 3000"
+    - title: "Brutalismus 3000 - ULTRAKUNST"
       href: "https://album.link/s/1OegF0mIizsl36EVw1y1SW"
     - title: "BADBADNOTGOOD - Mid Spiral: Chaos"
       href: "https://album.link/s/4jSXr6It6ARLX8iDOHbwaJ"
