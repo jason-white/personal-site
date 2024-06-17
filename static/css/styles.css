@@ -1,44 +1,22 @@
 :root {
     --base-font-size: clamp(1rem, 0.8904rem + 0.4494vw, 1.25rem);
     --small-font-size: 0.8875rem;
+
     --accent-color: #ffd600;
     --secondary-color: #05d9c0;
     --fg-color: #f1f1f1;
     --fg-color--darker: #999;
     --mg-color: #555;
     --bg-color: #111;
+    --gradient: linear-gradient(45deg, rgba(255,214,0,1) 0%, rgba(5,217,192,1) 100%);
+
     --font-stack: "Inter", system-ui, sans-serif;
 
     --border-radius: 0.25rem;
     --border-radius--lg: 0.5rem;
     --border-radius--full: 100%;
 
-    /* We just need to know these 3 values up front: */
 	--gutter: 1rem;
-	--wrapper: calc(100vw - ( 2 * var(--gutter)));
-	
-	--noOfColumns: 2;
-	
-	/* Number of gutters is columns minus 1: */
-	--noOfGutters: calc(var(--noOfColumns) - 1);
-	
-	/* Aspect ratio goes here: */
-	--ratioA: 3;
-	--ratioB: 2;
-	
-	/* Use the aspect ratio to calculate the factor for multiplication: */
-	--factor: calc(var(--ratioB) / var(--ratioA));
-	
-	/*Calculating the row height:*/
-	--rowHeight: calc(( (var(--wrapper) - (var(--noOfGutters) * var(--gutter))) 
-		/ var(--noOfColumns)) * var(--factor));
-}
-
-@media (min-width: 820px) {
-    :root {
-        --gutter: 2rem;
-    }
-}
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -118,7 +96,7 @@ img {
 
 .fp__img-wrap {
     background-color: var(--accent-color);
-    background: linear-gradient(90deg, rgba(255,214,0,1) 35%, rgba(5,217,192,1) 100%);
+    background: var(--gradient);
     overflow: hidden;
 }
 
@@ -133,9 +111,13 @@ img {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: var(--gutter);
+    column-gap: var(--gutter);
     row-gap: var(--gutter, 0);
 }
+
+@media (min-width: 820px) {
+        --gutter: 2rem;
+    }
 
 .flow > *+* {
     margin-block-start: var(--gutter);
@@ -158,11 +140,8 @@ img {
     font-weight: 600;
 }
 
-.external-link-icon {
-    width: 1.125rem;
-    height: 1.125rem;
-    vertical-align: middle;
-    fill: var(--secondary-color);
+.link-icon {
+    color: var(--secondary-color);
 }
 
 .page-header {
@@ -292,6 +271,13 @@ img {
 
     .fp__section-desc {
         grid-column: span 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .fp__section-desc p {
+        margin-block-end: auto;
     }
 
     .fp__section ul {
