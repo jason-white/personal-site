@@ -507,6 +507,7 @@ img {
         grid-column: span 1;
         position: sticky;
         top: var(--gutter);
+        align-self: self-start;
     }
 
     .uses__block-content {
