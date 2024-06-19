@@ -44,7 +44,7 @@ Uses:
     apps:
         - name: Neovim
           url: https://neovim.io/
-          desc: Text editor of choice for a long time now. And I'm still terribly ineficient with it.
+          desc: Text editor of choice for a long time now. And I'm still terribly inefficient with it.
         - name: Cloudinary
           url: https://cloudinary.com
           desc: Cloud hosted media platform that lets you transform images.
