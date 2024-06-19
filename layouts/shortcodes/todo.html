@@ -1,0 +1,20 @@
+<section class="todo-list flow--lg">
+    {{ range $.Site.Data.todo }}
+    <div class="todo__section">
+        <h2>Not done</h2>
+        <ul class="list-reset">
+            {{ range .NotDone }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+    <div class="todo__section">
+        <h2>Done</h2>
+        <ul class="list-reset">
+            {{ range .Done }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</section>

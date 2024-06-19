@@ -1,6 +1,7 @@
 :root {
     --base-font-size: clamp(1rem, 0.8904rem + 0.4494vw, 1.25rem);
     --small-font-size: 0.8875rem;
+    /*--tracking: ;*/
 
     --accent-color: #ffd600;
     --secondary-color: #05d9c0;
@@ -17,6 +18,13 @@
     --border-radius--full: 100%;
 
 	--gutter: 1rem;
+}
+
+@media (min-width: 820px) {
+    * {
+        --gutter: 2rem;
+    }
+}
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -30,7 +38,6 @@ body {
     font-size: var(--base-font-size);
     line-height: 1.6;
     padding: var(--gutter);
-    /* letter-spacing: var(--tracking); */
 }
 
 a {
@@ -115,9 +122,7 @@ img {
     row-gap: var(--gutter, 0);
 }
 
-@media (min-width: 820px) {
-        --gutter: 2rem;
-    }
+
 
 .flow > *+* {
     margin-block-start: var(--gutter);
@@ -328,7 +333,6 @@ img {
     line-height: 1.6;
 }
 
-
 .gallery__thumb {
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -351,17 +355,11 @@ img {
 } 
 
 @media (min-width: 820px) {
-    /*.journal-post > *:not(.jp__figure):not(.jp__gallery) {
-        grid-column: 2 / 4;
-    }*/
-
     .jp__gallery h2,
     .jp__gallery ul {
         grid-column: span 2;
         margin-block-start: 0;
     }
-
-
 }
 
 @media (min-width: 1400px) {
@@ -441,8 +439,6 @@ img {
     .now__post .jp__pagination {
         order: 5;
     }
-
-
 }
 
 .about-page h1,
@@ -564,6 +560,42 @@ img {
 
     .post {
         grid-column: span 1;
+        margin-block-start: 0;
+    }
+}
+
+.todo__intro {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
+}
+
+.todo__intro > *,
+.todo__block > * {
+    grid-column: 1 / -1;
+}
+
+.todo__block {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
+    border-top: 0.063rem solid var(--mg-color);
+    padding-block-start: var(--gutter);
+}
+
+.todo__block h2 {
+    font-size: var(--base-font-size);
+}
+
+@media (min-width: 820px) {
+    .todo__intro h1,
+    .todo__block h2 {
+        grid-column: 1 / 2;
+    }
+
+    .todo__intro >:not(h1),
+    .todo__block ul {
+        grid-column: 2 / 5;
         margin-block-start: 0;
     }
 }
