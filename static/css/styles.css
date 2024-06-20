@@ -163,6 +163,10 @@ img {
     fill: var(--accent-color);
 }
 
+.logo:hover {
+    fill: var(--secondary-color);
+}
+
 .skip {
     position: absolute;
     top: 0;
@@ -179,11 +183,20 @@ img {
     transform: translateY(-5%);
 }
 
+.nav__list > li {
+    line-height: 1;
+}
+
 .nav__list a {
-    color: var(--fg-color);
-    text-decoration: none;
     text-transform: uppercase;
+    color: var(--fg-color);
+    text-decoration: underline;
+    font-size: calc(var(--base-font-size) * 1.5);
     font-weight: 500;
+}
+
+.nav__list a.nav--active {
+    color: var(--accent-color);
 }
 
 @media (min-width: 820px) {
