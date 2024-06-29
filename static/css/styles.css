@@ -711,7 +711,6 @@ img {
 
     .hr-item img {
         grid-column: span 2;
-        border-radius: var(--border-radius);
         margin-block-end: var(--gutter);
     }
 
