@@ -12,7 +12,7 @@ music:
     albums:
         album1:
             id: 1
-            art: "https://i.discogs.com/i5c8UrIZ99OMTwMLjPZ_m1IovU8mlNfZTZYEGfp4Bcc/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDE4/NDY4LTE3MTg5NjI5/NDMtNDY3NS5qcGVn.jpeg"
+            art: "/img/hr/alcest-leschants.jpg"
             artist: "Alcest"
             title: "Les Chants de l'Aurore"
             genre: "Black Metal"
@@ -20,7 +20,7 @@ music:
             songlink: "https://album.link/s/24nGcIMJdnThRbgxpovlpy"
         album2:
             id: 2
-            art: "https://i.discogs.com/_kdCiQlELA7EdULbBl7YdDaaetXcC8hO4bR9mH592pE/rs:fit/g:sm/q:90/h:554/w:554/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMjU2/Mjc3LTE3MTg5MTQx/MTItMzcxNS5qcGVn.jpeg"
+            art: "/img/hr/pond-stung.jpg"
             artist: "Pond"
             title: "Stung!"
             genre: "Indie Rock"
@@ -28,7 +28,7 @@ music:
             songlink: "https://album.link/s/5bZ876MvlpW4MQhAZFBBdp"
         album3:
             id: 3
-            art: "https://i.discogs.com/f99gUiGdzwrMo2KQzq7WS46A087yBbX35m8H4gNkuFo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDIx/OTg3LTE3MTg5ODk3/MTctNzY3My5qcGVn.jpeg"
+            art: "/img/hr/jamiexx-life.jpg"
             artist: "Jamie XX & Robyn"
             title: "Life"
             genre: "Electronic"
@@ -36,7 +36,7 @@ music:
             songlink: "https://album.link/s/7r1qqHjaLvoHU3Mwsh1kkl"
         album4:
             id: 4
-            art: "https://i.discogs.com/dq0ubD-ZTX4qpOuz4rZiUqlKgGpvd5O9TKoR3r243_s/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MTg4/OC0xMzAzNTEwNzkz/LmpwZWc.jpeg"
+            art: "/img/hr/replacements-letitbe.jpg"
             artist: "The Replacements"
             title: "Let It Be"
             genre: "Alternative Rock"
