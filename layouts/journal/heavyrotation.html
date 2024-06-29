@@ -1,0 +1,20 @@
+{{ partial "head.html" . }} {{ partial "header.html" . }}
+
+<article class="heavy-rotation-post grid">
+    <div class="heavy-rotation__title">
+        <h1>{{ .Title }}</h1>
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
+    <div class="heavy-rotation__content flow">{{ .Content }}</div>
+
+    <!-- Heavy Rotation album/track review partial -->
+    {{ partial "heavy_rotation_list.html" . }}
+
+    <!-- Post info partial. Parent class ".jp__info" -->
+    {{ partial "post_info.html" . }}
+
+    <!-- Pagination partial. Parent class ".jp__pagination" -->
+    {{ partial "single-pagination.html" .}}
+</article>
+
+{{ partial "footer.html" . }}

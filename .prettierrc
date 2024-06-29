@@ -3,13 +3,8 @@
     "tabWidth": 4,
     "bracketSpacing": true,
     "htmlWhitespaceSensitivity": "ignore",
-    "singleAttributePerLine": true
-    "overrides": [
+    "singleAttributePerLine": true,
     {
-        "files": ["*.html"],
-        "options": {
-            "parser": "go-template"
-        }
+      "plugins": ["prettier-plugin-go-template"]
     }
-]
 }

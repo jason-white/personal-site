@@ -10,7 +10,7 @@ caption: "35mm Summilux Pre ASPH / Leica M10-P"
 gallery:
   images:
     image1:
-      id: 
+      id: 1
       img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1702226265/2023%20Posts/11/2023-11-14_hallas-freeways/untitled-283-Enhanced-NR.jpg"
       alt: "two long-haired men playing guitars on stage, the singer is wearing a cape"
       width: 2048
