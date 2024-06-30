@@ -1,0 +1,10 @@
+/* TEAM */
+Your title: Jason White
+Mastodon: nux@mas.to
+Instagram: qbrt
+Location: Charlotte, NC. United States
+
+/* SITE */
+Last update: 2024/06/30 
+Standards: HTML5, CSS, JS
+Software: Hugo, Neovim, Figma

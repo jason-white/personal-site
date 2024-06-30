@@ -25,6 +25,7 @@
     {{ if .Params.description }}
     <meta property="og:description" content="{{ .Params.description }}">
     {{ end }}
+    <link rel="author" href="humans.txt" />
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/reset.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
     {{ with .OutputFormats.Get "rss" -}}
