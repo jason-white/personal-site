@@ -1,10 +1,7 @@
 {
     "singleQuote": false,
-    "tabWidth": 4,
     "bracketSpacing": true,
     "htmlWhitespaceSensitivity": "ignore",
     "singleAttributePerLine": true,
-    {
-      "plugins": ["prettier-plugin-go-template"]
-    }
+    { "plugins": ["prettier-plugin-go-template"] },
 }
