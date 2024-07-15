@@ -6,9 +6,6 @@
     <div class="intro flow">
         <h1>Hello</h1>
         {{.Content}}
-        <div class="page-header__msg">
-            <span class="rainbow" aria-label="Happy Pride!">Happy Pride!</span>
-        </div>
     </div>
     {{ range first 1 (where .Site.RegularPages "Section" "now")}}
     <figure class="flow">
