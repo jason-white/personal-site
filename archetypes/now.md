@@ -1,20 +1,20 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "{{ replace .Name '-' ' ' | title }}"
+date: "{{ .Date }}"
 type: "now"
 draft: true
 image: ""
 alt: ""
 caption: ""
 tags:
-- now
+  - now
 jammin:
-    - title: ""
-      href: ""
+  - title: ""
+    href: ""
 reading:
-    - title: ""
-      href: ""
+  - title: ""
+    href: ""
 watching:
-    - title: ""
-      href: ""
+  - title: ""
+    href: ""
 ---

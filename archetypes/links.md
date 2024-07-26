@@ -1,7 +1,7 @@
 ---
-type: "links"
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+type: "link"
+title: "{{ replace .Name '-' ' ' | title }}"
+date: "{{ .Date }}"
 draft: true
 thumbnail: ""
 alt: ""
