@@ -10,6 +10,7 @@
     <meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}
     <meta name="author" content="{{ . }}">{{ end }}
+    <meta property="fediverse:creator" content="@nux@mas.to" />
     <meta property="og:locale" content="en_US">
     <meta property="og:updated_time" content="{{ .Date.Format " January 2, 2006" }}">
     <meta property="og:title" content="{{ .Title }}">

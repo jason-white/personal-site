@@ -1,33 +1,34 @@
 Todo:
-    NotDone:
-        - Work on typography
-        - Sort out my awful tags
-        - Consolidate some CSS
-        - 404 page
-        - Light mode
-        - Custom layouts for some internal pages
-        - Concert list
-        - Book page
-        - Redo blogroll
-        - Redo playlist page
-        - Micro post format (maybe)
-        - Break up more components into Hugo partials
-        - Explore using web components for some features
-        - Mobile styles need a little TLC
-        - Add more to the footer
-        - Some kind of Mastodon integration?
-        - Add some arrows to pagination links
-        - All-time favorite songs post with custom layout
-        - All-time favorite albums post with custom layout
-        - Workout/training log?
-        - Join a webring
-    Done:
-        - Skip to content button
-        - Fix external links
-        - Start using `lang` attribute in posts
-        - Fix how the Now section functions with pagination
-        - Move to GitHub pages
-        - To-do page
-        - Open Graph social link
-        - Robot.txt
-        - Human.txt
+  NotDone:
+    - Work on typography
+    - Sort out my awful tags
+    - Consolidate some CSS
+    - 404 page
+    - Light mode
+    - Custom layouts for some internal pages
+    - Concert list
+    - Book page
+    - Redo blogroll
+    - Redo playlist page
+    - Micro post format (maybe)
+    - Break up more components into Hugo partials
+    - Explore using web components for some features
+    - Mobile styles need a little TLC
+    - Add more to the footer
+    - Some kind of Mastodon integration?
+    - Add some arrows to pagination links
+    - All-time favorite songs post with custom layout
+    - All-time favorite albums post with custom layout
+    - Workout/training log?
+    - Join a webring
+  Done:
+    - Skip to content button
+    - Fix external links
+    - Start using `lang` attribute in posts
+    - Fix how the Now section functions with pagination
+    - Move to GitHub pages
+    - To-do page
+    - Open Graph social link
+    - Robot.txt
+    - Human.txt
+    - Add OpenGraph author meta tag
