@@ -1,0 +1,13 @@
+---
+type: "links"
+title: "Southern Style Hotdog Chili"
+date: 2024-08-07T18:50:26-0400
+draft: false
+thumbnail: ""
+alt: ""
+href: "https://www.youtube.com/watch?v=zBb5i5s2rIc"
+tags:
+  - recipe
+---
+
+I made this the other day without the onions or hot sauce and it was _very_ good.
