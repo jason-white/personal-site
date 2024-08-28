@@ -1,12 +1,9 @@
 ---
 type: "journal"
-layout: "heavyrotation"
 title: "Heavy Rotation Vol. 2"
 date: 2024-07-05T00:12:14-04:00
-draft: false
+draft: true
 thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_740/v1719681794/2024%20Posts/heavy-rotation/untitled-1.jpg"
-image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1719681794/2024%20Posts/heavy-rotation/untitled-1.jpg"
-alt: "a shelf of vinyl records"
 caption: ""
 music:
   albums:
@@ -43,8 +40,8 @@ music:
       comments: "This is another record that I learned of from the Conductor William's What's In My Bag episode. I don't know if this is a great comparison but Your Old Droog's voice, style and music production reminds me a lot of MF DOOM, but not in a copy-cat sort of way. Kinda like Ghostface Killah, too. On this album at least. Underground hip-hop at it's best."
       songlink: "https://album.link/s/4NoXIbNMpg24qQw7Pc70y6"
 jammin:
-  title: "Jessie Ware & Romy - Lift You Up"
-  href: "https://song.link/s/4dUCnam5rLVdrQHYWEIx0e"
+  - title: "Jessie Ware & Romy - Lift You Up"
+    href: "https://song.link/s/4dUCnam5rLVdrQHYWEIx0e"
 tags:
   - heavy-rotation
 ---

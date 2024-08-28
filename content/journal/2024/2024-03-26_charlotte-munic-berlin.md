@@ -8,7 +8,7 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v17
 alt: "a screen on the back of an airplane seat displays a view of the plane from the tail"
 caption: "iPhone 14 Pro"
 tags:
-    - travel
+  - travel
 ---
 
 The whole day was basically trying to finalize packing, make sure the house is tidy, and schedule a Lyft to the airport.

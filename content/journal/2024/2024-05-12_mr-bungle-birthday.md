@@ -8,14 +8,14 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v17
 alt: "a dog sunning itself by the backdoor window light"
 caption: "35mm Summilux Pre-Aspherical / Leica M10-P"
 jammin:
-    title: "Drab Majesty - Dot in the Sky"
+  - title: "Drab Majesty - Dot in the Sky"
     href: "https://song.link/s/2JDYNDcTJVpkuqKiJrIghn"
 tags:
-    - raleigh
-    - leica
-    - 35mmpreasph
-    - iphone
-    - concerts
+  - raleigh
+  - leica
+  - 35mmpreasph
+  - iphone
+  - concerts
 ---
 
 Woke up pretty late. Davis and Patrick went out and got everyone some tasty bagels. Mitch and I headed back downtown a little later. I wanted to hit up Black & White again, as well as check out Sorry State Records. It's a small record shop with a really great selection. Especially the used section. I snagged a copy of {{< link href="https://album.link/s/57h5IDkgYnV5AZV5PU97xN" text="Drab Majesty's The Demonstration" >}} and really nice copy of {{< link href="https://album.link/s/1weenld61qoidwYuZ1GESA" text="Miles Davis' Kind of Blue." >}}

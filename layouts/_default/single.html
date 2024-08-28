@@ -1,6 +1,27 @@
-{{ partial "head.html" . }} {{ partial "header.html" . }}
-<section class="single-page grid">
+<!-- Import Header -->
+{{ partial "header.html" . }}
+
+<article class="post grid">
+  <!-- If feature image exists... -->
+  {{ if .Params.image }}
+  <!-- Render feature partial -->
+  {{ partial "feature.html" .}}
+  <!-- End -->
+  {{ end }}
+  <header class="post__title flow--sm">
     <h1>{{ .Title }}</h1>
-    {{ .Content }}
-</section>
+    <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+  </header>
+  <div class="post__content">{{ .Content }}</div>
+
+  <!-- Post gallery partial. -->
+  {{ if .Params.gallery }} {{ partial "post_gallery.html" . }} {{ end }}
+
+  <!-- Post info partial. -->
+  {{ partial "meta.html" . }}
+
+  <!-- Pagination partial. Parent class ".jp__pagination" -->
+  {{ partial "single-pagination.html" . }}
+</article>
+
 {{ partial "footer.html" . }}

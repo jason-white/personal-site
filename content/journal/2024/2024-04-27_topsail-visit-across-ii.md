@@ -9,8 +9,8 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v17
 alt: "a man is lying on the floor of a shed working underneath a golf cart"
 caption: "50mm Summilux ASPH / Neopan 100 Acros II"
 jammin:
-  title: "BeatPete - The Time Machine (mix)"
-  href: "https://soundcloud.com/beatpetemixtapes/beatpete-the-time-machine"
+  - title: "BeatPete - The Time Machine (mix)"
+    href: "https://soundcloud.com/beatpetemixtapes/beatpete-the-time-machine"
 tags:
   - leica
   - acros

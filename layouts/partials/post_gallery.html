@@ -1,34 +1,42 @@
 {{ with .Params.gallery }}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.8/photoswipe.min.css" />
-<section id="Gallery" class="jp__gallery grid flow">
-    <h2>Gallery</h2>
-    <ul class="list-reset flow">
-        {{ range .images }}
-        <li class="gallery__item">
-            <a href="{{ .img }}" target="_blank" data-pswp-width="{{ .width }}" data-pswp-height="{{ .height }}"
-                data-cropped="true">
-                <img src="{{ .img }}" alt="{{ .alt }}" class="gallery__thumb" loading="lazy" />
-            </a>
-        </li>
-        {{ end }}
-    </ul>
+<section
+  id="Gallery"
+  class="post__gallery"
+>
+  <ul class="list-reset gallery__images">
+    {{ range .images }}
+    <li class="gallery__item">
+      <a
+        href="{{ .img }}"
+        target="_blank"
+        data-pswp-width="{{ .width }}"
+        data-pswp-height="{{ .height }}"
+        data-cropped="true"
+      >
+        <img
+          src="{{ .img }}"
+          alt="{{ .alt }}"
+          class="gallery__thumb"
+          loading="lazy"
+        />
+      </a>
+    </li>
+    {{ end }}
+  </ul>
 </section>
 <script type="module">
-    import PhotoSwipeLightBox from "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.8/photoswipe-lightbox.esm.min.js";
+  import PhotoSwipeLightBox from "/js/photoswipe-lightbox.esm.min.js";
 
-    const lightbox = new PhotoSwipeLightBox({
-        gallery: "#Gallery",
-        children: "a",
-        initialZoomLevel: "fit",
-        secondaryZoomLevel: 1,
-        maxZoomLevel: 1,
-        showHideAnimationType: "fade",
-        pswpModule: () =>
-            import(
-                "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.8/photoswipe.esm.min.js"
-            ),
-    });
+  const lightbox = new PhotoSwipeLightBox({
+    gallery: "#Gallery",
+    children: "a",
+    initialZoomLevel: "fit",
+    secondaryZoomLevel: 1,
+    maxZoomLevel: 1,
+    showHideAnimationType: "fade",
+    pswpModule: () => import("/js/photoswipe.esm.min.js"),
+  });
 
-    lightbox.init();
+  lightbox.init();
 </script>
 {{ end }}

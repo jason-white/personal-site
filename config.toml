@@ -3,6 +3,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 languageCode = "en-us"
 rssLimit = 20
 title = 'Jason White'
+buildDrafts = false
 
 [author]
   name = "Jason White"
@@ -61,8 +62,12 @@ title = 'Jason White'
     url = 'https://www.discogs.com/user/qbrt/collection?page=1&sort=artist%2Casc&folder=0&limit=25'
     weight = 50
 
-[markup.goldmark.renderer]
-  unsafe= true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe= true
+    [markup.goldmark.extensions]
+      attributes = true
 
 [outputs]
   home = ["HTML", "RSS"]

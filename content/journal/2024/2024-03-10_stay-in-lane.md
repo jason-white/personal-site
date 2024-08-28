@@ -8,7 +8,7 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v17
 alt: "the view from a passenger seat driving through a tunnel at night. there are repeating signs that read 'stay in lane'"
 caption: "Ricoh GR III X"
 tags:
-    - griiix
+  - griiix
 ---
 
 The photo and title are unrelated.
@@ -21,16 +21,16 @@ So the other day I decided to (once again) scrap all of the styles, but this tim
 
 ## Some things so far
 
--   Made the [Now](/now) pages a section of posts. Mainly for archiving, organization and maybe RSS. I'm still unsure on this. Maybe it should just be its own page, but I like the idea of archiving too much.
--   Made [Links](/links) a section of posts rather than using Pinboard. The idea here is to roll them into RSS. Either one big RSS feed or separate everything into individual feeds. Or both!
--   Used Hugo menus properly so that I can add them anywhere and loop over them.
--   External links are now accessible
--   Removed unnecessary role properties from landmark regions
+- Made the [Now](/now) pages a section of posts. Mainly for archiving, organization and maybe RSS. I'm still unsure on this. Maybe it should just be its own page, but I like the idea of archiving too much.
+- Made [Links](/links) a section of posts rather than using Pinboard. The idea here is to roll them into RSS. Either one big RSS feed or separate everything into individual feeds. Or both!
+- Used Hugo menus properly so that I can add them anywhere and loop over them.
+- External links are now accessible
+- Removed unnecessary role properties from landmark regions
 
 ## Future (maybe) things
 
--   Convert the journal section into a photos section, and then create a section for smaller posts. Similar to Colly's {{< link href="https://colly.com/stream" text="secondary 'stream'" >}} of posts. Having different post types is starting to make me feel like I'm building my own custom Tumblr page. I kinda miss Tumblr. I know it's still there, but I'm not interested in using it anymore.
--   Add all of my books to {{< link href="https://www.librarything.com/" text="Library Thing" >}} and pull in books with their API. Or just make a yaml file of my books and loop over that. I sort of want to stay clear of APIs in case they change something.
--   Revisit adding some sort of gallery or favorite photos page. Or maybe a proper portfolio? I'm not sure just yet. I don't really have "work", just a bunch of snapshits.
+- Convert the journal section into a photos section, and then create a section for smaller posts. Similar to Colly's {{< link href="https://colly.com/stream" text="secondary 'stream'" >}} of posts. Having different post types is starting to make me feel like I'm building my own custom Tumblr page. I kinda miss Tumblr. I know it's still there, but I'm not interested in using it anymore.
+- Add all of my books to {{< link href="https://www.librarything.com/" text="Library Thing" >}} and pull in books with their API. Or just make a yaml file of my books and loop over that. I sort of want to stay clear of APIs in case they change something.
+- Revisit adding some sort of gallery or favorite photos page. Or maybe a proper portfolio? I'm not sure just yet. I don't really have "work", just a bunch of snapshits.
 
 The possibilities of a personal site are endless. You can do as much or as little as you want.

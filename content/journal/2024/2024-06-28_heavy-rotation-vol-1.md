@@ -1,12 +1,9 @@
 ---
 type: "journal"
-layout: "heavyrotation"
 title: "Heavy Rotation Vol. 1"
 date: 2024-06-28T09:40:38-04:00
-draft: false
+draft: true
 thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_auto:good,w_740/v1719681794/2024%20Posts/heavy-rotation/untitled-1.jpg"
-image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1719681794/2024%20Posts/heavy-rotation/untitled-1.jpg"
-alt: "a shelf of vinyl records"
 caption: ""
 music:
   albums:

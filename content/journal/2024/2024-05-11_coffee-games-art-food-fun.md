@@ -8,7 +8,7 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v17
 alt: "a monitor in an art museum displays a pixelated live feed of the person taking a photograph of the piece"
 caption: "35mm Summilux Pre-Aspherical / Leica M10-P"
 jammin:
-    title: "DR. Moriarity, A-F-R-O, MF DOOM - Super Villains"
+  - title: "DR. Moriarity, A-F-R-O, MF DOOM - Super Villains"
     href: "https://song.link/s/6iMfUuHZN1RybfUGuncTeL"
 gallery:
   images:
@@ -25,7 +25,7 @@ gallery:
       width: 2048
       height: 1365
     image3:
-      id: 3 
+      id: 3
       img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1718971228/2024%20Posts/2024-05-10-12/2024-05-11_m10p-28.jpg"
       alt: "a view between two sculptures of a boy looking at young women in prom dresses being photographed"
       width: 2048
@@ -37,9 +37,9 @@ gallery:
       width: 1365
       height: 2048
 tags:
-    - raleigh
-    - leica
-    - 35mmpreasph
+  - raleigh
+  - leica
+  - 35mmpreasph
 ---
 
 Had a fantastic day around Raleigh. Started with a big breakfast at Barry's, a fireman-themed joint. Everything was super good, I ate so much.

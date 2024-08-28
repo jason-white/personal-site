@@ -8,11 +8,11 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v17
 alt: "people playing a tabletop game involving towers and wizard meeples"
 caption: "Ricoh GRIII X"
 jammin:
-    title: "Charli XCX - The girl, so confusing version with Lorde"
+  - title: "Charli XCX - The girl, so confusing version with Lorde"
     href: "https://song.link/s/2YFhqZvhTpyK13gKXMKV7R"
 tags:
-    - raleigh
-    - griii
+  - raleigh
+  - griii
 ---
 
 Spent a good bit of the day packing and cleaning around the house. I don't have a lot of this day recorded, as I wrote it in my offline journal a few days late. I'm also logging it to the site in late June. Eh, it happens.

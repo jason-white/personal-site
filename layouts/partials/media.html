@@ -1,0 +1,77 @@
+{{ if .Params.albums }}
+<div class="post__now flow">
+  <h2 class="secondary">Music Rotation</h2>
+  <ul class="list-reset">
+    {{ range .Params.albums }}
+    <li>
+      <a
+        href="{{ .href }}"
+        target="_blank"
+        rel="noopener"
+      >
+        {{ .title }}
+      </a>
+      <span class="link-icon">&#8599;</span>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }} {{ if .Params.books }}
+  <h2 class="secondary">Books</h2>
+  <ul class="list-reset">
+    {{ range .Params.books }}
+    <li>
+      <a
+        href="{{ .href }}"
+        target="_blank"
+        rel="noopener"
+      >
+        {{ .title }}
+      </a>
+      <span class="link-icon">&#8599;</span>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+
+<!-- Movies -->
+{{ if .Params.movies }}
+<div class="flow--sm">
+  <h2>Movies</h2>
+  <ul class="list-reset">
+    {{ range .Params.movies }}
+    <li>
+      <a
+        href="{{ .href }}"
+        target="_blank"
+        rel="noopener"
+      >
+        {{ .title }}
+      </a>
+      <span class="link-icon">&#8599;</span>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+
+<!-- Shows -->
+{{ if .Params.shows }}
+<div class="flow--sm">
+  <h2>Shows</h2>
+  <ul class="list-reset">
+    {{ range .Params.shows }}
+    <li>
+      <a
+        href="{{ .href }}"
+        target="_blank"
+        rel="noopener"
+      >
+        {{ .title }}
+      </a>
+      <span class="link-icon">&#8599;</span>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

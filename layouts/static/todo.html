@@ -1,26 +1,26 @@
-{{ partial "head.html" . }} {{ partial "header.html" . }}
+{{ partial "header.html" . }}
 <section class="todo-page grid flow--lg">
-    <div class="todo__intro flow">
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
-    </div>
-    {{ range $.Site.Data.todo }}
-    <div class="todo__block flow">
-        <h2>Not done</h2>
-        <ul class="list-reset">
-            {{ range .NotDone }}
-            <li>{{ . }}</li>
-            {{ end }}
-        </ul>
-    </div>
-    <div class="todo__block flow">
-        <h2>Done</h2>
-        <ul class="list-reset">
-            {{ range .Done }}
-            <li>{{ . }}</li>
-            {{ end }}
-        </ul>
-    </div>
-    {{ end }}
+  <div class="todo__intro flow">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </div>
+  {{ range $.Site.Data.todo }}
+  <div class="todo__block flow">
+    <h2>Not done</h2>
+    <ul class="list-reset">
+      {{ range .NotDone }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="todo__block flow">
+    <h2>Done</h2>
+    <ul class="list-reset">
+      {{ range .Done }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
 </section>
 {{ partial "footer.html" . }}

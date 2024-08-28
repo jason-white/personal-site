@@ -1,21 +1,21 @@
 {{ partial "head.html" . }} {{ partial "header.html" . }}
 
 <article class="single single--photo">
-    <header class="single--photo__header">
-        <figure class="single--photo__figure">
-            <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
-            <figcaption>
-                <p>{{ .Params.caption }}</p>
-            </figcaption>
-        </figure>
-    </header>
+  <header class="single--photo__header">
+    <figure class="single--photo__figure">
+      <img
+        src="{{ .Params.image }}"
+        alt="{{ .Params.alt }}"
+      />
+      <figcaption>
+        <p>{{ .Params.caption }}</p>
+      </figcaption>
+    </figure>
+  </header>
 
-    <h1 class="single--photo__title">{{ .Title }}</h1>
-    <section class="post__body">
-        {{ .Content }} {{ partial "post_gallery.html" . }}
-    </section>
-    {{ partial "post_info.html" . }}
+  <h1 class="single--photo__title">{{ .Title }}</h1>
+  <section class="post__body">
+    {{ .Content }} {{ partial "post_gallery.html" . }}
+  </section>
 </article>
-{{ partial "single-pagination.html" .}}
-
-{{ partial "footer.html" . }}
+{{ partial "single-pagination.html" .}} {{ partial "footer.html" . }}

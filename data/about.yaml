@@ -1,32 +1,32 @@
 About:
-    blogs:
-        - name: Olcan Akcay
-          url: https://www.olcanakcay.de/
-        - name: Nikki Blair
-          url: http://nikkiblair.com/
-        - name: Nicole Du Bois
-          url: https://www.nduboisphotos.com/
-        - name: John Cranford
-          url: https://johncranford.com/
-        - name: Chris Glass
-          url: https://chrisglass.com/
-        - name: Vince Griffin
-          url: https://little-deaths.com/
-        - name: Kyu Han
-          url: https://kyuh.net/
-        - name: Matt Heslop
-          url: https://mattheslop.com/
-        - name: Blaine Karper
-          url: https://bkvmedia.com/
-        - name: Benjamin MacMaster
-          url: https://benmacphotos.com/
-        - name: Ewen J Marjoribanks
-          url: https://www.ewenjm.com/
-        - name: Sarah Martin
-          url: https://thesarahmartin.com/
-        - name: Scotty Perry
-          url: https://scottyperry.co/
-        - name: Rene Ramos
-          url: https://rene.fm/
-        - name: Filipe Vidal
-          url: https://thegeektographer.myportfolio.com/work
+  blogs:
+    - name: Olcan Akcay
+      url: https://www.olcanakcay.de/
+    - name: Nikki Blair
+      url: http://nikkiblair.com/
+    - name: Nicole Du Bois
+      url: https://www.nduboisphotos.com/
+    - name: John Cranford
+      url: https://johncranford.com/
+    - name: Chris Glass
+      url: https://chrisglass.com/
+    - name: Vince Griffin
+      url: https://little-deaths.com/
+    - name: Kyu Han
+      url: https://kyuh.net/
+    - name: Matt Heslop
+      url: https://mattheslop.com/
+    - name: Blaine Karper
+      url: https://bkvmedia.com/
+    - name: Benjamin MacMaster
+      url: https://benmacphotos.com/
+    - name: Ewen J Marjoribanks
+      url: https://www.ewenjm.com/
+    - name: Sarah Martin
+      url: https://thesarahmartin.com/
+    - name: Scotty Perry
+      url: https://scottyperry.co/
+    - name: Rene Ramos
+      url: https://rene.fm/
+    - name: Filipe Vidal
+      url: https://thegeektographer.myportfolio.com/work

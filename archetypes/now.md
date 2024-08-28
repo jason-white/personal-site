@@ -9,12 +9,12 @@ caption: ""
 tags:
   - now
 jammin:
-  - title: ""
-    href: ""
+  title: ""
+  href: ""
 reading:
-  - title: ""
-    href: ""
+  title: ""
+  href: ""
 watching:
-  - title: ""
-    href: ""
+  title: ""
+  href: ""
 ---

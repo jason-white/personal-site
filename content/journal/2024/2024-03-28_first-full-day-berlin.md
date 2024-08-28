@@ -8,69 +8,69 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v17
 alt: "a symphony on stage stands to address the crowd's applause at the end of their show"
 caption: "Ricoh GRIII X"
 gallery:
-    images:
-        image0:
-            id: 1
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712503523/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-11.jpg"
-            alt: "sun pours through the window of a rustic cafe, spilling onto flowers on the window sill and cutlery on a table"
-            width: 2048
-            height: 1365
-        image1:
-            id: 2
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435583/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-10.jpg"
-            alt: "a cover of a vintage Berlin gay magazine: Berlin from Behind"
-            width: 1365
-            height: 2048
-        image2:
-            id: 3
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435575/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-42.jpg"
-            alt: "a shelf with various corked bottles and a small bottle of poppers that reads 'dumb bitch juice'"
-            width: 2048
-            height: 1365
-        image3:
-            id: 4
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435579/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-13.jpg"
-            alt: "a small note on a gallery wall that reads: 'Poppers - I first got into poppers at work and now they are my drug of choice. I had this French client who always showed up to my flat immaculately dressed on a Monday afternoon. He liked to listen to Edith Piaf, huff poppers and get fisted. I'd be there, elbow-deep in his hairy ass, thinking 'what is my life?!' I've since introduced them to a lot of straight clients. You have to be careful though. I once passed the bottle to a client, looked over and he was drinking them!'"
-            width: 2048
-            height: 1365
-        image4:
-            id: 5
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435566/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-32.jpg"
-            alt: "a still from an art film where a man replaced his eyes with anuses. he is in a threesome with two other men"
-            width: 2048
-            height: 1365
-        image5:
-            id: 6
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435581/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-63.jpg"
-            alt: "a simple store front of a clothing shop reads 'riveted garments - DC4 - genuine quality'"
-            width: 2048
-            height: 1365
-        image6:
-            id: 7
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435564/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-77.jpg"
-            alt: "a fancy beverage in a stemmed glass with chili powder dusted on the right side"
-            width: 1365
-            height: 2048
-        image7:
-            id: 8
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435568/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-81.jpg"
-            alt: "a mixed drink in a tall glass with berries and mint leaves"
-            width: 1365
-            height: 2048
-        image8:
-            id: 9
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435574/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-85.jpg"
-            alt: "a ferrari sports car parked on the street"
-            width: 2048
-            height: 1365
-        image9:
-            id: 10
-            img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435572/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-88.jpg"
-            alt: "reflection of four men in a mirrored elevator"
-            width: 1365
-            height: 2048
+  images:
+    image0:
+      id: 1
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712503523/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-11.jpg"
+      alt: "sun pours through the window of a rustic cafe, spilling onto flowers on the window sill and cutlery on a table"
+      width: 2048
+      height: 1365
+    image1:
+      id: 2
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435583/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-10.jpg"
+      alt: "a cover of a vintage Berlin gay magazine: Berlin from Behind"
+      width: 1365
+      height: 2048
+    image2:
+      id: 3
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435575/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-42.jpg"
+      alt: "a shelf with various corked bottles and a small bottle of poppers that reads 'dumb bitch juice'"
+      width: 2048
+      height: 1365
+    image3:
+      id: 4
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435579/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-13.jpg"
+      alt: "a small note on a gallery wall that reads: 'Poppers - I first got into poppers at work and now they are my drug of choice. I had this French client who always showed up to my flat immaculately dressed on a Monday afternoon. He liked to listen to Edith Piaf, huff poppers and get fisted. I'd be there, elbow-deep in his hairy ass, thinking 'what is my life?!' I've since introduced them to a lot of straight clients. You have to be careful though. I once passed the bottle to a client, looked over and he was drinking them!'"
+      width: 2048
+      height: 1365
+    image4:
+      id: 5
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435566/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-32.jpg"
+      alt: "a still from an art film where a man replaced his eyes with anuses. he is in a threesome with two other men"
+      width: 2048
+      height: 1365
+    image5:
+      id: 6
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435581/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-63.jpg"
+      alt: "a simple store front of a clothing shop reads 'riveted garments - DC4 - genuine quality'"
+      width: 2048
+      height: 1365
+    image6:
+      id: 7
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435564/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-77.jpg"
+      alt: "a fancy beverage in a stemmed glass with chili powder dusted on the right side"
+      width: 1365
+      height: 2048
+    image7:
+      id: 8
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435568/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-81.jpg"
+      alt: "a mixed drink in a tall glass with berries and mint leaves"
+      width: 1365
+      height: 2048
+    image8:
+      id: 9
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435574/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-85.jpg"
+      alt: "a ferrari sports car parked on the street"
+      width: 2048
+      height: 1365
+    image9:
+      id: 10
+      img: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1712435572/2024%20Posts/2024-03-28_first-full-day-berlin/untitled-88.jpg"
+      alt: "reflection of four men in a mirrored elevator"
+      width: 1365
+      height: 2048
 tags:
-    - travel
+  - travel
 ---
 
 Slept in, as expected. We had quite a day planned so there was no time for dillying _or_ dallying, no. We showered up and popped over to a cafe a couple of doors down. The coffee was OK.

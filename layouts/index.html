@@ -1,13 +1,83 @@
-<!-- Import head & header -->
-{{ partial "head.html" . }}
+<!-- Import header -->
 {{ partial "header.html" . }}
 
+<div class="home-page grid">
+  <section class="intro">
+    <h1>Hello</h1>
+    {{.Content}}
+  </section>
+
+  <section class="hp__posts">
+    <ul class="list-reset">
+      {{ range first 20 (where .Site.RegularPages "Section" "in" (slice
+      "journal" "links")).ByDate.Reverse }} {{ if eq .Section "journal" }}
+      <li>
+        <img
+          src="{{ .Params.image }}"
+          alt="{{ .Params.alt }}"
+        />
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ else if eq .Section "links" }}
+      <li class="post__meta">
+        <a href="">{{ .Title }}</a>
+        <p>{{ .Content }}</p>
+      </li>
+      {{ end }}
+      <!-- Add more fields as needed -->
+      {{ end }}
+    </ul>
+  </section>
+
+  <!--     <h2>Blog</h2> -->
+  <!--     <ul class="list-reset"> -->
+  <!--       {{ range first 5 (where .Site.RegularPages "Section" "journal") }} -->
+  <!--       <li class="fp__section-post flow--sm"> -->
+  <!--         <article> -->
+  <!--           <figure> -->
+  <!--             <img -->
+  <!--               class="fp__img fit-img img-1-1" -->
+  <!--               src="{{ .Params.Image }}" -->
+  <!--               alt="thumbnail for {{ .Title }}" -->
+  <!--             /> -->
+  <!--           </figure> -->
+  <!--           <h3 href="{{ .Permalink }}">{{ .Title }}</h3> -->
+  <!--         </article> -->
+  <!--       </li> -->
+  <!--       {{ end }} -->
+  <!--     </ul> -->
+  <!--   </section> -->
+  <!---->
+  <!--   <section class="hp__links"> -->
+  <!--     <h2>Links</h2> -->
+  <!--     <ul class="list-reset"> -->
+  <!--       {{ range first 10 (where .Site.RegularPages "Section" "links") }} -->
+  <!--       <li class="hp__link"> -->
+  <!--         <div class="external-link"> -->
+  <!--           <a -->
+  <!--             aria-label="{{ .Title }} (opens in new window)" -->
+  <!--             href="{{ .Params.href }}" -->
+  <!--             rel="noopener" -->
+  <!--             target="_blank" -->
+  <!--           > -->
+  <!--             {{ .Title }} -->
+  <!--           </a> -->
+  <!--           <span class="link-icon">&#8599;</span> -->
+  <!--         </div> -->
+  <!--         {{ .Content }} -->
+  <!--       </li> -->
+  <!--       {{ end }} -->
+  <!--     </ul> -->
+  <!--   </section> -->
+  <!-- </div> -->
+
+  <!--
 <section class="fp__intro grid">
-    <div class="intro flow">
+    <div class="intro">
         <h1>Hello</h1>
         {{.Content}}
     </div>
-    {{ range first 1 (where .Site.RegularPages "Section" "now")}}
+    {{ range first 1 (where .Site.RegularPages ".Params.type" "now")}}
     <figure class="flow">
         <div class="fp__img-wrap border-radius--lg img-3-2">
             <img class="fp__img fit-img" src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
@@ -18,8 +88,8 @@
     {{ end }}
 </section>
 
-<section class="fp__section grid flow">
-    <div class="fp__section-desc flow--sm">
+<section class="fp__section">
+    <div class="fp__section-desc">
         <h2>Journal</h2>
         <p>Where I like to share some photos and a little bit about the day.</p>
         <span>
@@ -59,7 +129,8 @@
         </li>
         {{ end }}
     </ul>
-</section>
+</section>-->
 
-<!-- Import footer -->
-{{ partial "footer.html" . }}
+  <!-- Import footer -->
+  {{ partial "footer.html" . }}
+</div>

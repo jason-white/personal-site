@@ -1,0 +1,32 @@
+{{ with .Params.music }}
+<ul class="hr__reviews subgrid list-reset">
+  {{ range .albums }}
+  <li class="hr__album">
+    <img
+      class="border-radius"
+      src="{{ .art }}"
+      alt="Album artwork for {{ .title }} by {{ .artist }}"
+    />
+    <div class="hr__info">
+      <h4>{{ .artist }}</h4>
+      <span class="hr-title">{{ .title }}</span>
+      <span class="hr-genre">{{ .genre }}</span>
+      <p>{{ .comments }}</p>
+
+      <span class="external-link">
+        Listen to
+        <a
+          aria-label="{{ .title }} (opens in new window)"
+          href="{{ .songlink }}"
+          rel="noopener"
+          target="_blank"
+        >
+          {{ .title }}
+        </a>
+        <span class="link-icon">&#8599;</span>
+      </span>
+    </div>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

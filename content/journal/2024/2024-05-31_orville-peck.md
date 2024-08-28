@@ -8,8 +8,8 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v17
 alt: "a masked country singer performs on stage with his band"
 caption: "Ricoh GRIII X"
 tags:
-    - concerts
-    - griii
+  - concerts
+  - griii
 ---
 
 Had a decent day. Ran another 5k and had a chat with Stephanie. Our monthly coffee chat lives on! It was great catching up.

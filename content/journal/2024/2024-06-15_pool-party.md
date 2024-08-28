@@ -8,10 +8,10 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/v1718669137/2024%20Pos
 alt: "Four towels and a disco ball hanging on towel hooks"
 caption: "Ricoh GRIII X"
 jammin:
-    title: "Jamie XX - Life (ft. Robyn)"
+  - title: "Jamie XX - Life (ft. Robyn)"
     href: "https://song.link/s/0sJMoIcWlkdSqnADm5Q2am"
 tags:
-    - griii
+  - griii
 ---
 
 First pool party of the season at Robbie and Ryan's, and it was a good one. I ate way too much junk food (Matt and Allen's Nutter Butter Banana Pudding was _too_ good.) We left a little late. I was tired so the best option was to order pizza. I waited for it to arrive, but fell asleep soon after. I woke up around 2:30am completely thinking I closed my eyes for maybe five minutes.

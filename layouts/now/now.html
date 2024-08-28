@@ -1,27 +1,24 @@
-{{ partial "head.html" . }} {{ partial "header.html" . }}
+{{ partial "header.html" . }}
 
-<article class="now__post grid">
-    {{ range first 1 .Pages }}
-    <figure class="now__figure">
-        <img class="border-radius--lg" src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
-    </figure>
-    <div class="post__title flow">
-        <h1>{{ .Title }}</h1>
-        <time>{{ .Date.Format "January 2, 2006" }}</time>
-    </div>
-    <div class="post__content flow">
-        {{ .Content }}
-    </div>
-    <!-- Post info partial. Parent class ".jp__info" -->
-    {{ if or .Params.jammin .Params.watching .Params.reading }}
+<article class="post grid">
+  {{ range first 1 (where (where .Site.RegularPages "Section" "journal")
+  ".Params.type" "now") }} {{ partial "feature.html" . }}
+
+  <div class="post__title">
+    <h1>{{ .Title }}</h1>
+    <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+  </div>
+
+  <div class="post__content">
+    {{ .Content }}
+    <!-- Now info partial -->
     {{ partial "now_info.html" . }}
-    {{ end }}
+  </div>
 
-    <!-- Pagination partial. Parent class ".jp__pagination"-->
-    {{ partial "single-pagination.html" .}}
-    {{ end}}
+  <!-- Post info partial. -->
+  {{ partial "meta.html" . }} {{ end }}
 
-
+  <!-- Close the range loop -->
 </article>
 
 {{ partial "footer.html" . }}

@@ -1,14 +1,16 @@
-{{ partial "head.html" . }} {{ partial "header.html" . }}
+{{ partial "header.html" . }}
 <article class="about-page grid">
-    <h1>{{ .Title }}</h1>
-    <div class="ap__profile-pic fp__img-wrap border-radius--full">
-        <img class="fp__img" src="/img/profilepic.jpg" />
-    </div>
-    <div class="about__content flow">
-        {{ .Content }}
+  <h1>{{ .Title }}</h1>
+  <div class="ap__profile-pic fp__img-wrap border-radius--full">
+    <img
+      class="fp__img"
+      src="/img/profilepic.jpg"
+    />
+  </div>
+  <div class="about__content flow">
+    {{ .Content }}
 
-
-        <!--<h2>Blog Roll! (they're not all blogs)</h2>
+    <!--<h2>Blog Roll! (they're not all blogs)</h2>
         {{ range $.Site.Data.about }}
         <ul>
             {{ range .blogs }}
@@ -23,33 +25,35 @@
             {{ end }}
         </ul>
         {{ end }}-->
-    </div>
+  </div>
 
-    <aside class="about__sidebar flow">
-        <h3>More Stuff</h3>
-        <ul class="list-reset">
-            <li>
-                <a href="/uses/">Uses</a>
-            </li>
-            <li>
-                <a href="/todo/">To-do list</a>
-            </li>
-            <li>
-                🏗️ Blogroll
-            </li>
-            <li>
-                🧱 Playlists
-            </li>
-            <li>
-                <div class="external-link">
-                    🧰 More
-                    <a aria-label="{{ .Title }} (opens in new window)" href="https://slashpages.net/" rel="noopener"
-                        target="_blank">
-                        Slash pages
-                    </a>
-                    <span class="link-icon">&#8599;</span> soon
-                </div>
-        </ul>
-    </aside>
+  <aside class="about__sidebar flow">
+    <h3>More Stuff</h3>
+    <ul class="list-reset">
+      <li>
+        <a href="/uses/">Uses</a>
+      </li>
+      <li>
+        <a href="/todo/">To-do list</a>
+      </li>
+      <li>🏗️ Blogroll</li>
+      <li>🧱 Playlists</li>
+      <li>
+        <div class="external-link">
+          🧰 More
+          <a
+            aria-label="{{ .Title }} (opens in new window)"
+            href="https://slashpages.net/"
+            rel="noopener"
+            target="_blank"
+          >
+            Slash pages
+          </a>
+          <span class="link-icon">&#8599;</span>
+          soon
+        </div>
+      </li>
+    </ul>
+  </aside>
 </article>
 {{ partial "footer.html" . }}

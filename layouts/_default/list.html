@@ -1,32 +1,40 @@
-{{ partial "head.html" . }} {{ partial "header.html" . }}
+{{ partial "header.html" . }}
 
 <section class="list-page grid flow">
-    <h1>{{ .Title }}</h1>
-    <ul class="list-reset flow">
-        {{ range (.Paginator 18).Pages }}
-        {{ if .Params.image }}
-        <li class="post flow--sm">
-            <div class="fp__img-wrap border-radius">
-                <img loading="lazy" class="fp__img fit-img" src="{{ .Params.thumbnail }}"
-                    alt="thumbnail for {{ .Title }}" />
-            </div>
-            <p>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </p>
-        </li>
-        {{ else if .Params.href }}
-        <li class="post flow--sm">
-            <span class="external-link">
-                <a aria-label="{{ .Title }} (opens in new window)" href="{{ .Params.href }}" rel="noopener"
-                    target="_blank">{{ .Title }}</a>
-                <span class="link-icon">&#8599;</span>
-            </span>
-            {{ .Content }}
-        </li>
-        {{ end }}
-        {{ end }}
-    </ul>
-    {{ partial "pagination.html" . }}
+  <h1>{{ .Title }}</h1>
+  <ul class="list-reset flow">
+    {{ range (.Paginator 18).Pages }} {{ if .Params.image }}
+    <li class="post flow--sm">
+      <div class="fp__img-wrap border-radius">
+        <img
+          loading="lazy"
+          class="fp__img fit-img"
+          src="{{ .Params.thumbnail }}"
+          alt="thumbnail for {{ .Title }}"
+        />
+      </div>
+      <p>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </p>
+    </li>
+    {{ else if .Params.href }}
+    <li class="post flow--sm">
+      <span class="external-link">
+        <a
+          aria-label="{{ .Title }} (opens in new window)"
+          href="{{ .Params.href }}"
+          rel="noopener"
+          target="_blank"
+        >
+          {{ .Title }}
+        </a>
+        <span class="link-icon">&#8599;</span>
+      </span>
+      {{ .Content }}
+    </li>
+    {{ end }} {{ end }}
+  </ul>
+  {{ partial "pagination.html" . }}
 </section>
 <!-- pagination -->
 

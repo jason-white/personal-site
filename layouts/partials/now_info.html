@@ -1,54 +1,16 @@
-<aside class="now__info flow">
-    {{ if or .Params.jammin .Params.reading .Params.watching }}
-    {{ with .Params.jammin }}
-    <div class="flow--sm">
-        <h3>Jammin'</h3>
-        <ul class="list-reset">
-            {{ range . }}
-            <li>
-                <a aria-label="This link opens in a new window" href="{{ .href }}" rel="noopener" target="_blank">
-                    <span>{{ .title }}</span>
-                </a>
-                <span class="link-icon">&#8599;</span>
-            </li>
-            {{ end }}
-        </ul>
-        {{ end }}
-    </div>
-
-    {{ with .Params.reading }}
-    <div class="flow--sm">
-        <h3>Reading</h3>
-        <ul class="list-reset">
-            {{ range . }}
-            <li>
-                <a aria-label="This link opens in a new window" href="{{ .href }}" rel="noopener" target="_blank">
-                    <span>{{ .title }}</span>
-                </a>
-                <span class="link-icon">&#8599;</span>
-            </li>
-            {{ end }}
-        </ul>
-    </div>
-    {{ end }}
-
-    {{ with .Params.watching }}
-    <div class="flow--sm">
-        <h3>Watching</h3>
-        <ul class="list-reset">
-            {{ range . }}
-            <li>
-                <a aria-label="This link opens in a new window" href="{{ .href }}" rel="noopener" target="_blank">
-                    <span>{{ .title }}</span>
-                </a>
-                <span class="link-icon">&#8599;</span>
-            </li>
-            {{ end }}
-        </ul>
-    </div>
-    {{ end }}
-    </div>
-    {{ end }}
-    <!-- tags -->
-    {{ partial "tags.html" . }}
-</aside>
+<div class="now__info">
+  <p>
+    This is a
+    <span class="external-link">
+      <a
+        aria-label="Now page (opens in new window)"
+        href="https://nownownow.com/about"
+      >
+        Now page,
+      </a>
+    </span>
+    <span class="link-icon">&#8599;</span>
+    a little update one what I've been up to and into lately. You can
+    <a href="/tags/now">view more of them here.</a>
+  </p>
+</div>

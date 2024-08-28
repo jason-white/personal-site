@@ -1,14 +1,32 @@
 </main>
-<footer class="footer grid">
-    <span class="footer__cr"> &copy; {{ now.Year }} {{ .Site.Title }}</span>
-    <span class="footer__mw">
-        <span class="external-link">
-            Made with <a aria-label="Hugo website (opens in new window)" href="https://gohugo.io"
-                target="blank_">Hugo</a>
-            <span class="link-icon">&#8599;</span>
-        </span>
+<footer class="footer">
+  <nav aria-label="Secondary">
+  <span class="footer__cr">&copy; {{ now.Year }} {{ .Site.Title }}</span>
+  <p>RSS: <a class="" href="">Posts</a>
+  <a href="">Links</a>
+  <a href="">Everything</a></p>
+  <span class="footer__mw">
+    <span class="external-link">
+      Made with
+      <a
+        aria-label="Hugo website (opens in new window)"
+        href="https://gohugo.io"
+        target="blank_"
+      >
+        Hugo
+      </a>
+      <span class="link-icon">&#8599;</span>
     </span>
+  </span>
+  <span>Hosted on <a class="external-link" aria-label="Github pages website (opens in new window)" href="https://pages.github.com/" target="blank_">GitHub</a>
+
+      <span class="link-icon">&#8599;</span>
+    </span>
+  <span>Sometimes posting on <a class="external-link" aria-label="Mastodon profile (opens in new window)" href="https://mas.to/@nux">Mastodon</a>
+
+      <span class="link-icon">&#8599;</span>
+    </span>
+  </nav>
 </footer>
 </body>
-
 </html>

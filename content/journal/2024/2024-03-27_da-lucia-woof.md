@@ -8,7 +8,7 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v17
 alt: "a dessert served in a Moka Pot coffee maker sits on a dining table surrounded by various glasses and dinnerware"
 caption: "Ricoh GRIII X"
 tags:
-    - travel
+  - travel
 ---
 
 Tuesday kind of blends into Wednesday because we time traveled into the future via Airbus.
