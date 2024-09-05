@@ -1,71 +1,72 @@
 Uses:
-    cameras:
-        - Leica M10-P
-        - Leica M-A
-        - Leica M6
-        - ~~Hasselblad 500c~~
-        - Olympus XA 2
-        - ~~Ricoh GR III~~
-        - Ricoh GR III X
-        - ~~Nikon D800E~~
-        - Sony A7R IV
-        - Chamonix 45F2
-    lenses:
-        - Leica 28mm Elmarit ASPH
-        - Leica 35mm Summicron ASPH
-        - Leica 50mm Summilux ASPH
-        - Leica (Leitz Canada) 90mm Tele-Elmarit 90mm
-        - ~~Carl Zeiss 80mm Planar f/2.8 C~~
-        - ~~Carl Zeiss 150mm Sonnar f/4 C T*~~
-        - Sigma 70mm f/2.8 DG ART Macro (Sony E mount)
-        - Sigma 70mm f/2.8 DG Macro (Nikon F mount)
-        - Sony FE 200-600mm f/5.6-6.3 G OSS
-        - Rodenstock 75mm f/4.5 Apo Rodagon D 2x
-        - Rodenstock 210mm f/5.6 Sironar-N
-    scanning:
-        - ~~Nikon D800E & Sigma 70mm DG Macro~~
-        - Sony A7R IV >> Nikon PB-4 bellows >> Rodenstock 75mm Apo Rodagon D 2x or...
-        - Sony A7R IV with the Sigma 70mm DG ART Macro lens
-        - ~~ALZO copy stand~~
-        - Copy Stand (that's the name, <a aria-label="copy-stand.com (opens in a new window)" href="https://copy-stand.com" target="_blank">copy-stand.com</a> <span class="link-icon">&#8599;</span>
-        - Negative Supply 5x7 99cri Light
-        - Negative Supply MK1
-        - Negative Supply 120
-        - Negative Supply MK2
-    workstation:
-        - 2021 14" MacBook Pro
-        - PC tower running Unraid as a NAS/media server
-        - Happy Hacking Pro2 Keyboard - Black on black
-        - Logitech MX Master 3
-        - Uplift Commercial standing desk with a 6' butcher block countertop. I love this way more than I thought I would. So much room for activities!
-        - Old Eames Aluminum Group chair. I've sat in this chair almost every day for 15+ years. Still going strong for a 1986 model.
-        - LG 5k display. It's kinda busted, but work gave it to me for free. I still want a Studio Display, but this is fine. Apple should make a 27" XDR.
-        - Vivo rigid single-arm monitor mount. I've tried multiple articulating monitor arms and disliked all of them. This one is cheap and simple.
-    apps:
-        - name: Neovim
-          url: https://neovim.io/
-          desc: Text editor of choice for a long time now. And I'm still terribly inefficient with it.
-        - name: Cloudinary
-          url: https://cloudinary.com
-          desc: Cloud hosted media platform that lets you transform images.
-        - name: Lightroom
-          url: https://adobe.com
-          desc: Photo editor of choice. Lightroom smart catalogs is how I organize everything. I can quickly find something by lens, film stock, etc.
-        - name: Negative Lab Pro
-          url: https://www.negativelabpro.com/
-          desc: A Lightroom plugin that does a fantastic job at converting digitized negatives into positives.
-        - name: Imaging Edge Desktop
-          url: https://support.d-imaging.sony.co.jp/app/imagingedge/en/
-          desc: This is Sony's tethering tools. It isn't perfect, but it is free. I really just use it to control the Sony A7R when scanning film.
-        - name: Things 3
-          url: https://culturedcode.com/things/
-          desc: Things is how I remember everything. Setup for the Getting Things Done method of _getting things done_. I use it all day every day for work and personal.
-        - name: Obsidian
-          url: https://obsidian.md/
-          desc: A very good markdown notes editor. New addition to my workflow but I'm loving it. Mostly using Obsidian for keeping track of work notes but will likely incorporate it into personal use soon. I highly recommend checking out plugins and customizing it.
-        - name: Reeder
-          url: https://www.reederapp.com/
-          desc: My goto RSS feed reader.
-        - name: Yabai
-          url: https://github.com/koekeishiya/yabai
-          desc: A tiling window manager. Combined with desktop spaces + hotkeys, this has been a really comfy setup.
+  cameras:
+    - Leica M10-P
+    - Leica M-A
+    - Leica M6
+    - ~~Hasselblad 500c~~
+    - Olympus XA 2
+    - ~~Ricoh GR III~~
+    - Ricoh GR III X
+    - ~~Nikon D800E~~
+    - Sony A7R IV
+    - Chamonix 45F2
+  lenses:
+    - Leica 28mm Elmarit ASPH
+    - Leica 35mm Summicron ASPH
+    - Leica 50mm Summilux ASPH
+    - Leica (Leitz Canada) 90mm Tele-Elmarit 90mm
+    - ~~Carl Zeiss 80mm Planar f/2.8 C~~
+    - ~~Carl Zeiss 150mm Sonnar f/4 C T*~~
+    - Sigma 70mm f/2.8 DG ART Macro (Sony E mount)
+    - Sigma 70mm f/2.8 DG Macro (Nikon F mount)
+    - Sony FE 200-600mm f/5.6-6.3 G OSS
+    - Rodenstock 75mm f/4.5 Apo Rodagon D 2x
+    - Rodenstock 210mm f/5.6 Sironar-N
+  scanning:
+    - ~~Nikon D800E & Sigma 70mm DG Macro~~
+    - Sony A7R IV >> Nikon PB-4 bellows >> Rodenstock 75mm Apo Rodagon D 2x or...
+    - Sony A7R IV with the Sigma 70mm DG ART Macro lens
+    - ~~ALZO copy stand~~
+    - Copy Stand (that's the name, <a aria-label="copy-stand.com (opens in a new window)" href="https://copy-stand.com" target="_blank">copy-stand.com</a> <span class="link-icon">&#8599;</span>
+    - Negative Supply 5x7 99cri Light
+    - Negative Supply MK1
+    - Negative Supply 120
+    - Negative Supply MK2
+  workstation:
+    - Main driver - 2021 14" MacBook Pro
+    - Server - PC tower running Unraid as a NAS/media server
+    - Keyboard - Happy Hacking Pro2 Keyboard - Black on black
+    - ~~Mouse - Apple Magic Mouse - Black~~
+    - ~~Mouse - Logitech MX Master 3 - Black~~
+    - Mouse - Endgame Gear OP1 8k - Black on black. Incredibly smooth, light and most importantly, wired!
+    - Desk - Uplift Commercial standing desk with a 6' butcher block countertop. I love this way more than I thought I would. So much room for activities!
+    - Chair - Old Eames Aluminum Group chair. I've sat in this chair almost every day for 15+ years. Still going strong for a 1986 model.
+    - Monitor - LG 5k display. It's kinda busted, but work gave it to me for free. I still want a Studio Display, but this is fine. Apple should make a 27" XDR. Vivo rigid single-arm monitor mount. I've tried multiple articulating monitor arms and disliked all of them. This one is cheap and simple.
+  apps:
+    - name: Neovim
+      url: https://neovim.io/
+      desc: Text editor of choice for a long time now. And I'm still terribly inefficient with it.
+    - name: Cloudinary
+      url: https://cloudinary.com
+      desc: Cloud hosted media platform that lets you transform images.
+    - name: Lightroom
+      url: https://adobe.com
+      desc: Photo editor of choice. Lightroom smart catalogs is how I organize everything. I can quickly find something by lens, film stock, etc.
+    - name: Negative Lab Pro
+      url: https://www.negativelabpro.com/
+      desc: A Lightroom plugin that does a fantastic job at converting digitized negatives into positives.
+    - name: Imaging Edge Desktop
+      url: https://support.d-imaging.sony.co.jp/app/imagingedge/en/
+      desc: This is Sony's tethering tools. It isn't perfect, but it is free. I really just use it to control the Sony A7R when scanning film.
+    - name: Things 3
+      url: https://culturedcode.com/things/
+      desc: Things is how I remember everything. Setup for the Getting Things Done method of _getting things done_. I use it all day every day for work and personal.
+    - name: Obsidian
+      url: https://obsidian.md/
+      desc: A very good markdown notes editor. New addition to my workflow but I'm loving it. Mostly using Obsidian for keeping track of work notes but will likely incorporate it into personal use soon. I highly recommend checking out plugins and customizing it.
+    - name: Reeder
+      url: https://www.reederapp.com/
+      desc: My goto RSS feed reader.
+    - name: Yabai
+      url: https://github.com/koekeishiya/yabai
+      desc: A tiling window manager. Combined with desktop spaces + hotkeys, this has been a really comfy setup.

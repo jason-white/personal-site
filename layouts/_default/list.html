@@ -1,41 +1,41 @@
 {{ partial "header.html" . }}
 
-<section class="list-page grid flow">
-  <h1>{{ .Title }}</h1>
-  <ul class="list-reset flow">
-    {{ range (.Paginator 18).Pages }} {{ if .Params.image }}
-    <li class="post flow--sm">
-      <div class="fp__img-wrap border-radius">
-        <img
-          loading="lazy"
-          class="fp__img fit-img"
-          src="{{ .Params.thumbnail }}"
-          alt="thumbnail for {{ .Title }}"
-        />
-      </div>
-      <p>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </p>
-    </li>
-    {{ else if .Params.href }}
-    <li class="post flow--sm">
+<section class="list-page grid">
+  <h1 class="lp__title">{{ .Title }}</h1>
+  <section class="post-list">
+    {{ range (.Paginator 16).Pages }} {{ if eq .Section "journal" }}
+    <article class="lp__post lp__post--blog">
+      <img
+        loading="lazy"
+        src="{{ .Params.thumbnail }}"
+        alt="thumbnail for {{ .Title }}"
+      />
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Summary | truncate 120 }}</p>
+      <span>
+        <a href="{{ .Permalink }}">Read more</a>
+        &#8594;
+      </span>
+    </article>
+    {{ else if eq .Section "links" }}
+    <article class="lp__post lp__post--link">
+      <h3>{{ .Title }}</h3>
+      {{ .Content }}
       <span class="external-link">
         <a
           aria-label="{{ .Title }} (opens in new window)"
-          href="{{ .Params.href }}"
+          href="{{ .Params.href}}"
           rel="noopener"
           target="_blank"
         >
-          {{ .Title }}
+          View
         </a>
         <span class="link-icon">&#8599;</span>
       </span>
-      {{ .Content }}
-    </li>
+    </article>
     {{ end }} {{ end }}
-  </ul>
-  {{ partial "pagination.html" . }}
+  </section>
+  {{ partial "pagination" . }}
 </section>
-<!-- pagination -->
 
 {{ partial "footer.html" . }}

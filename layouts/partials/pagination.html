@@ -1,25 +1,25 @@
 {{ $paginator := .Paginator }} {{ if gt $paginator.TotalPages 1 }}
 <nav
-  aria-label="Pagination Navigation"
-  class="pagination grid"
+  aria-label="Pagination navigation"
+  class="pagination"
 >
   {{ if $paginator.HasPrev }}
   <a
-    aria-label="Navigate to the previous article"
-    rel="previous"
+    aria-label="Navigate to a list of more recent articles"
+    rel="newer"
     class="pagination__prev"
     href="{{ $paginator.Prev.URL }}"
   >
-    Previous
+    Newer
   </a>
   {{ end }} {{ if $paginator.HasNext }}
   <a
-    aria-label="Navigate to the next article"
-    rel="next"
+    aria-label="Navigate to a list of older articles"
+    rel="older"
     class="pagination__next"
     href="{{ $paginator.Next.URL }}"
   >
-    Next
+    Older
   </a>
   {{ end }}
 </nav>

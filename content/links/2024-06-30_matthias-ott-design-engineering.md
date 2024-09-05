@@ -10,8 +10,8 @@ alt: ""
 caption: ""
 href: "https://www.youtube.com/watch?v=su6WA0kUUJE"
 tags:
-    - css
-    - youtube
+  - css
+  - youtube
 ---
 
 Matthias Ott gives a fantastic talk on designing with CSS, and utilizing all of the new functions and features we have available today.

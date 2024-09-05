@@ -8,10 +8,10 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v16
 alt: "mounds of dirt scattered through creek surrounded by lush trees"
 caption: "50mm Summilux ASPH / Leica M10"
 tags:
-- photowalks
-- leica
-- m10p
-- promist
+  - photowalks
+  - leica
+  - m10p
+  - promist
 ---
 
 I've been wanting to try a black pro mist filter for a while now, but they were previously only available in larger sizes. Tiffen finally released a few more sizes, 39mm included, so I snagged a 39mm and a 46mm. 39mm filters or e39 are common sizes for Leica lenses so I was really happy they released one.
@@ -22,8 +22,7 @@ A pro mist filter will bloom the highlights in your photos. These are common in 
 
 For stills photography, especially digital, a black pro mist filter will help you achieve a look that's closer to film. Film handles highlights a lot better than digital does, but digital handles shadow detail better than film. This kinda gives you the best of both worlds, preventing harsh highlights and letting the light fall onto a subject or spill into the frame more softly. {{< link href="https://www.youtube.com/watch?v=Ne5htfQiccs" text="Kyle McDougall" >}} has a great video explaining the use in both video and photo.
 
-I chose to keep it subtle and went with a 1/4 stop filter but you can go nuts with these. I think a half stop or more could be really fun for night photography.
-
+I chose to keep it subtle and went with a 1/8 stop filter but you can go nuts with these. I think a half stop or more could be really fun for night photography.
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1667743939/2022%20Posts/2022-08-29_Photo-Walk/2022-08-29_leica-m10p-19.jpg" alt="two street signs with the top one being banged up" caption="50mm Summilux ASPH / Leica M10-P" >}}
 

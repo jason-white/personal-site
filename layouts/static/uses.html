@@ -1,78 +1,10 @@
 {{ partial "header.html" . }}
 
-<article class="uses-page grid flow--lg">
-  <div class="up__intro flow">
+<article class="uses-page grid">
+  <header class="post__title">
     <h1>{{ .Title }}</h1>
-    {{ .Content }}
-  </div>
-
-  {{ range $.Site.Data.uses }}
-  <section class="uses__block flow">
-    <h2>Hardware</h2>
-    <div class="uses__block-content">
-      <ul class="list-reset flow--sm">
-        {{ range .workstation }}
-        <li class="uses__item">{{ . }}</li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
-
-  <section class="uses__block flow">
-    <h2>Software</h2>
-    <div class="uses__block-content">
-      <ul class="list-reset flow--sm">
-        {{ range .apps }}
-        <li>
-          <a
-            aria-label="{{ .name }} (opens in new window)"
-            href="{{ .url }}"
-            target="_blank"
-          >
-            {{ .name }}
-          </a>
-          <span class="link-icon">&#8599;</span>
-
-          <p>{{ .desc | markdownify }}</p>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
-
-  <section class="uses__block flow">
-    <h2>Cameras</h2>
-    <div class="uses__block-content">
-      <ul class="list-reset flow--sm">
-        {{ range .cameras }}
-        <li class="uses__item">{{ . | markdownify }}</li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
-
-  <section class="uses__block flow">
-    <h2>Lenses</h2>
-    <div class="uses__block-content">
-      <ul class="list-reset flow--sm">
-        {{ range .lenses }}
-        <li class="uses__item">{{ . | markdownify }}</li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
-
-  <section class="uses__block flow">
-    <h2>Scanning Rig</h2>
-    <div class="uses__block-content">
-      <ul class="list-reset flow--sm">
-        {{ range .scanning }}
-        <li class="uses__item">{{ . | markdownify }}</li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
-  {{ end }}
+  </header>
+  <div class="post__content">{{ .Content }}</div>
 </article>
 
 {{ partial "footer.html" . }}

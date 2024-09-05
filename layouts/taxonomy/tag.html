@@ -1,22 +1,41 @@
-{{ partial "head.html" . }}
 {{ partial "header.html" . }}
 
-<main class="journal-list" role="main">
-  <h1>Posts tagged "{{ .Title }}"</h1>
-  <ul class="post-list">
-    {{ range (.Paginator 9).Pages }}
-    <li class="post-card">
-      <article role="article">
-        <img src="{{ .Params.thumbnail }}" alt="{{ .Params.alt }}">
-        <a href="{{ .Permalink }}">{{ .Title }}</a><br />
-        <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-      </article>
-      <!-- meta -->
-    </li>
-    {{ end }}
-  </ul>
-  <!-- pagination -->
-  {{ partial "pagination.html" . }}
-</main>
+<section class="list-page grid">
+  <h1 class="lp__title">Filed under: {{ .Title }}</h1>
+  <section class="post-list">
+    {{ range (.Paginator 12).Pages }} {{ if eq .Section "journal" }}
+    <article class="lp__post lp__post--blog">
+      <img
+        loading="lazy"
+        src="{{ .Params.thumbnail }}"
+        alt="thumbnail for {{ .Title }}"
+      />
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Summary | truncate 120 }}</p>
+      <span>
+        <a href="{{ .Permalink }}">Read more</a>
+        &#8594;
+      </span>
+    </article>
+    {{ else if eq .Section "links" }}
+    <article class="lp__post lp__post--link">
+      <h3>{{ .Title }}</h3>
+      {{ .Content }}
+      <span class="external-link">
+        <a
+          aria-label="{{ .Title }} (opens in new window)"
+          href="{{ .Params.href}}"
+          rel="noopener"
+          target="_blank"
+        >
+          View
+        </a>
+        <span class="link-icon">&#8599;</span>
+      </span>
+    </article>
+    {{ end }} {{ end }}
+  </section>
+  {{ partial "pagination" . }}
+</section>
 
 {{ partial "footer.html" . }}

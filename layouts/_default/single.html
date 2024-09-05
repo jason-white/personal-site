@@ -8,20 +8,34 @@
   {{ partial "feature.html" .}}
   <!-- End -->
   {{ end }}
-  <header class="post__title flow--sm">
+  <header class="post__title">
     <h1>{{ .Title }}</h1>
     <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
   </header>
   <div class="post__content">{{ .Content }}</div>
 
-  <!-- Post gallery partial. -->
-  {{ if .Params.gallery }} {{ partial "post_gallery.html" . }} {{ end }}
+  <!-- If the gallery images exist -->
+  {{ if .Params.gallery }}
+  <!-- Render post__gallery partial -->
+  {{ partial "post_gallery.html" . }}
+  <!-- End if -->
+  {{ end }}
 
-  <!-- Post info partial. -->
+  <!-- If type == Journal, Links or Now -->
+  {{ if or (eq .Params.type "journal") (eq .Params.type "now") }}
+  <!-- Render meta.html partial -->
   {{ partial "meta.html" . }}
+  <!-- End if -->
+  {{ end }}
 
-  <!-- Pagination partial. Parent class ".jp__pagination" -->
+  <!-- Render pagination -->
+
+  <!-- If type == Journal, Links or Now -->
+  {{ if or (eq .Params.type "journal") (eq .Params.type "now") }}
+  <!-- Render single post pagination partial -->
   {{ partial "single-pagination.html" . }}
+  <!-- End if -->
+  {{ end }}
 </article>
 
 {{ partial "footer.html" . }}
