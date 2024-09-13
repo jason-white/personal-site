@@ -1,6 +1,6 @@
 ---
 type: "links"
-title: "Soft Cabinets - Dewi van de Klomp"
+title: "Soft Cabinets by Dewi van de Klomp"
 date: 2024-08-10T11:12:12-0400
 draft: false
 thumbnail: ""

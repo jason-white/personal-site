@@ -2,16 +2,18 @@
 {{ partial "header.html" . }}
 
 <article class="post grid">
+  <header class="post__title">
+    <h1>{{ .Title }}</h1>
+    <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+  </header>
+
   <!-- If feature image exists... -->
   {{ if .Params.image }}
   <!-- Render feature partial -->
   {{ partial "feature.html" .}}
   <!-- End -->
   {{ end }}
-  <header class="post__title">
-    <h1>{{ .Title }}</h1>
-    <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
-  </header>
+
   <div class="post__content">{{ .Content }}</div>
 
   <!-- If the gallery images exist -->

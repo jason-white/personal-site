@@ -1,6 +1,6 @@
 ---
 type: "links"
-title: "Southern Style Hotdog Chili"
+title: "Southern Style Hotdog Chili Recipe"
 date: 2024-08-07T18:50:26-0400
 draft: false
 thumbnail: ""

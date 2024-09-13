@@ -1,46 +1,156 @@
 <!-- Import header -->
 {{ partial "header.html" . }}
 
-<div class="home-page grid">
-  <section class="hp__intro">{{.Content}}</section>
+<!--<div class="home-page grid">
+  <section class="intro2">
+    <h2>Hello</h2>
+    {{ .Content }}
+  </section>
 
-  <section class="hp__feature">
+  <section class="photos">
+    <h2>Photos</h2>
+    <div class="photo-posts">
+      {{ range first 4 (where .Site.RegularPages "Section" "journal") }}
+      <article class="photo-post">
+        <div class="image-wrap border-radius">
+          <img
+            loading="lazy"
+            src="{{ .Params.thumbnail }}"
+            alt="{{ .Params.alt }}"
+          />
+        </div>
+        <div class="photo-title">
+          <h3>{{ .Title }}</h3>
+          <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+        </div>
+        <p>{{ .Summary | truncate 250 }}</p>
+
+        <span>
+          <a href="{{ .Permalink }}">View photo</a>
+          <span>&#8594;</span>
+        </span>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="links">
+    <h2>Links</h2>
+    <ul class="link-posts list-reset">
+      {{ range first 18 (where .Site.RegularPages "Section" "links") }}
+      <li>
+        <article class="link-post">
+          <span class="external-link">
+            <a
+              href="{{ .Params.href }}"
+              target="_blank"
+            >
+              {{ .Title }}
+            </a>
+            <span class="link-icon">&#8599;</span>
+          </span>
+          {{ .Content }}
+          <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+        </article>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</div> -->
+
+<!-- COLUMN Layout -->
+<!--<div class="home-page grid">
+  <section class="intro2 border-radius--lg">{{ .Content }}</section>
+
+  <section class="latest-posts">
+    {{ range first 16 (where .Site.RegularPages "Section" "in" (slice "journal"
+    "links")) }} {{ if eq .Section "journal" }}
+    <article class="photo-post">
+      <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+
+      <div class="image-wrap border-radius">
+        <img
+          src="{{ .Params.thumbnail }}"
+          alt="{{ .Params.alt }}"
+        />
+      </div>
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Summary | truncate 250 }}</p>
+
+      <span>
+        <a href="{{ .Permalink }}">View photo</a>
+        <span>&#8594;</span>
+      </span>
+    </article>
+    {{ else if eq .Section "links" }}
+    <article class="link-post">
+      <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+      <span class="external-link">
+        <a
+          href="{{ .Params.href }}"
+          target="_blank"
+        >
+          {{ .Title }}
+        </a>
+        <span class="link-icon">&#8599;</span>
+      </span>
+      {{ .Content }}
+    </article>
+    {{ end }} {{ end }}
+  </section>
+</div> -->
+
+<!-- MEH Layout -->
+<div class="home-page grid">
+  <div class="intro">{{ .Content }}</div>
+  <article class="latest-photo subgrid">
     {{ range first 1 (where .Site.RegularPages "Section" "journal") }}
-    <div class="hp__img">
-      <img
-        src="{{ .Params.image }}"
-        alt="{{ .Params.alt }}"
-      />
+    <div class="image-wrap">
+      <img src="{{ .Params.image }}" />
     </div>
 
-    <div class="hp__meta grid">
-      <h2>{{ .Title }}</h2>
-      <div class="hp__post-summary">
-        {{ .Summary | truncate 130 }}
-        <span>
-          <a href="{{ .Permalink }}">Read more</a>
-          &#8594;
-        </span>
-      </div>
-      <!-- <p><time class="secondary">{{ .Date.Format "January 2, 2006" }}</time></p> -->
+    <div class="latest-photo-info">
+      <h2>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        &#8594;
+      </h2>
+      <p>{{ .Summary | truncate 200 }}</p>
       <span>
-        <a href="journal/">View more posts</a>
+        <a
+          class="secondary"
+          aria-label="View more blog posts"
+          href="/journal"
+        >
+          Blog
+        </a>
         &#8594;
       </span>
     </div>
-
     {{ end }}
-  </section>
+  </article>
 
-  <section class="hp__links">
-    {{ range first 12 (where .Site.RegularPages "Section" "links") }}
-    <article>
-      <article>
-        <a href="{{ .Params.href }}">{{ .Title }}</a>
-        <div>{{ .Content }}</div>
-      </article>
-    </article>
-    {{ end }}
+  <section class="latest-links">
+    <h2 class="secondary">Links</h2>
+    <ul class="post-list list-reset">
+      {{ range first 12 (where .Site.RegularPages "Section" "links") }}
+      <li>
+        <article>
+          <h3>{{ .Title }}</h3>
+          <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+          {{ .Content }}
+          <span class="external-link">
+            <a
+              aria-label="Visit {{ .Title }}"
+              href="{{ .Params.href }}"
+            >
+              View
+            </a>
+          </span>
+          <!-- </footer> -->
+        </article>
+      </li>
+      {{ end }}
+    </ul>
   </section>
   <!-- Import footer -->
   {{ partial "footer.html" . }}
