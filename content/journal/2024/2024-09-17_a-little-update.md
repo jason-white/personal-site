@@ -42,7 +42,7 @@ We're getting ready to head to Puerto Vallarta, Mexico to celebrate a friends 50
 
 ### 🎧 Heavy Rotation
 
-I'm dumping the Heavy Rotation series idea (the posts were set to drafts), and decided it can just go into a Now-releated post. I wasn't keeping up with it, and the format/layout was kind of annoying to work with the way I had it setup. I'm just trying to simplify things, here. Less friction == more posting.
+I'm dumping the Heavy Rotation series idea (the posts were set to drafts), and decided it can just go into a Now-related post. I wasn't keeping up with it, and the format/layout was kind of annoying to work with the way I had it setup. I'm just trying to simplify things, here. Less friction == more posting.
 
 **Greg Foat** - {{< link href="https://album.link/s/0grPZL92PfNTgDq2ElzT2O" text="The Glass Frog" >}} I've been really into Greg Foat, who I hadn't heard of until this year, but has a fairly massive catalog. Especially if you count his work with the Greg Foat Group, too. His latest solo album, The Glass Frog has been on repeat for the last few weeks. {{< link href="https://album.link/s/4xkiRm0LOS3AbdnFBJaG9D" text="Blue Lotus" >}}, an album from 2022 with his band has also been a pleasurable listening experience. They even did a {{< link href="https://www.youtube.com/watch?v=vEvuUBnurNA" text="Boiler Room" >}} set a long time ago!
 
