@@ -1,26 +1,30 @@
 {{ partial "header.html" . }}
-<article class="about-page grid">
+<article class="post about-page">
+  <header class="post__title">
+    <h1>{{ .Title }}</h1>
+  </header>
+
   <!-- If feature image exists... -->
   {{ if .Params.image }}
   <!-- Render feature partial -->
   {{ partial "feature.html" .}}
   <!-- End -->
   {{ end }}
-  <header class="post__title">
-    <h1>{{ .Title }}</h1>
-  </header>
+
   <div class="post__content">{{ .Content }}</div>
 
-  <aside class="about__sidebar">
-    <h3 class="secondary">More Stuff</h3>
-    <ul class="list-reset">
-      <li>
-        <a href="/uses/">Uses</a>
-      </li>
-      <li>
-        <a href="/todo/">To-do list</a>
-      </li>
-    </ul>
+  <aside class="post__meta">
+    <div class="slash-pages">
+      <h3 class="secondary">More Stuff</h3>
+      <ul class="list-reset">
+        <li>
+          <a href="/uses/">Uses</a>
+        </li>
+        <li>
+          <a href="/todo/">To-do list</a>
+        </li>
+      </ul>
+    </div>
   </aside>
 </article>
 {{ partial "footer.html" . }}

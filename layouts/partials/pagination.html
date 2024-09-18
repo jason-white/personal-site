@@ -4,23 +4,28 @@
   class="pagination"
 >
   {{ if $paginator.HasPrev }}
-  <a
-    aria-label="Navigate to a list of more recent articles"
-    rel="newer"
-    class="pagination__prev"
-    href="{{ $paginator.Prev.URL }}"
-  >
-    Newer
-  </a>
+  <span class="pagination__prev">
+    <a
+      aria-label="Navigate to a list of more recent articles"
+      rel="newer"
+      class="pagination__prev"
+      href="{{ $paginator.Prev.URL }}"
+    >
+      <span class="link-icon">&#8592;</span>
+      Newer
+    </a>
+  </span>
   {{ end }} {{ if $paginator.HasNext }}
-  <a
-    aria-label="Navigate to a list of older articles"
-    rel="older"
-    class="pagination__next"
-    href="{{ $paginator.Next.URL }}"
-  >
-    Older
-  </a>
+  <span class="pagination__next">
+    <a
+      aria-label="Navigate to a list of older articles"
+      rel="older"
+      href="{{ $paginator.Next.URL }}"
+    >
+      Older
+      <span class="link-icon">&#8594;</span>
+    </a>
+  </span>
   {{ end }}
 </nav>
 {{ end }}

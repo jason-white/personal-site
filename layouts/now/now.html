@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<article class="post grid">
+<article class="post">
   {{ range first 1 (where (where .Site.RegularPages "Section" "journal")
   ".Params.type" "now") }} {{ partial "feature.html" . }}
 

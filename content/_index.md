@@ -4,6 +4,6 @@ title: "Home"
 description: "Jason White"
 ---
 
-I'm Jason. Welcome to my little slice of the internet. ✌️
+Hello, I'm Jason. Welcome to my little slice of the internet!
 
-The [journal](/journal) is full of photos from documenting general life stuffs. I also like to share [links](/links) to things I find interesting.
+I like to post photography in the form of a [journal](/journal) and share [links](/links) to things that I find around the web. Feel free to click around! ✌️

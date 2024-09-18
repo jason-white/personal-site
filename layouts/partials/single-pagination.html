@@ -3,26 +3,25 @@
   class="post__pagination"
   aria-label="blog post pagination"
 >
-  {{ if .PrevInSection }}
+  {{ if .NextInSection }}
+  <span class="pagination__next">
+    <a
+      aria-label="Navigate to the next article"
+      rel="next"
+      href="{{ .NextInSection.Permalink }}"
+    >
+      <span class="link-icon">&#8592;</span>
+      Newer
+    </a>
+  </span>
+  {{ end }} {{ if .PrevInSection }}
   <span class="pagination__prev">
     <a
       aria-label="Navigate to the previous article"
       rel="previous"
       href="{{ .PrevInSection.Permalink }}"
     >
-      <span class="link-icon">&#8592;</span>
       Older
-    </a>
-  </span>
-  {{ end }} {{ if .NextInSection }}
-  <span class="pagination__next">
-    <a
-      aria-label="Navigate to the next article"
-      class="pagination__next"
-      rel="next"
-      href="{{ .NextInSection.Permalink }}"
-    >
-      Newer
       <span class="link-icon">&#8594;</span>
     </a>
   </span>

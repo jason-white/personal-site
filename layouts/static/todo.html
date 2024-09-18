@@ -1,26 +1,23 @@
 {{ partial "header.html" . }}
-<article class="todo-page grid flow--lg">
+<article class="post">
   <header class="post__title">
     <h1>{{ .Title }}</h1>
   </header>
+
   <section class="post__content">{{ .Content }}</section>
-  {{ range $.Site.Data.todo }}
-  <section class="todo__block todo__block--nd">
-    <h2>Not done</h2>
-    <ul class="list-reset">
-      {{ range .NotDone }}
-      <li>{{ . }}</li>
-      {{ end }}
-    </ul>
-  </section>
-  <section class="todo__block todo__block--d">
-    <h2>Done</h2>
-    <ul class="list-reset">
-      {{ range .Done }}
-      <li>{{ . }}</li>
-      {{ end }}
-    </ul>
-  </section>
-  {{ end }}
+
+  <aside class="post__meta">
+    <div class="slash-pages">
+      <h3 class="secondary">More Stuff</h3>
+      <ul class="list-reset">
+        <li>
+          <a href="/uses/">Uses</a>
+        </li>
+        <li>
+          <a href="/todo/">To-do list</a>
+        </li>
+      </ul>
+    </div>
+  </aside>
 </article>
 {{ partial "footer.html" . }}

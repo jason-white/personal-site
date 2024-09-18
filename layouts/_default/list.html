@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
-<section class="list-page grid">
-  <h1 class="lp__title">{{ .Title }}</h1>
+<section class="list-page">
+  <h1>{{ .Title }}</h1>
   <ul class="post-list list-reset">
     {{ range (.Paginator 16).Pages }} {{ if eq .Section "journal" }}
     <li>

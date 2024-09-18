@@ -1,23 +1,22 @@
 <aside class="post__meta">
   {{ if .Params.jammin }}
-  <div class="meta__media">
+  <div>
     <h3 class="secondary">Jammin'</h3>
-    <ul class="list-reset">
+    <span>
       {{ range .Params.jammin }}
-      <li>
-        <a
-          href="{{ .href }}"
-          target="_blank"
-          rel="noopener"
-        >
-          {{ .title }}
-        </a>
-        <span class="link-icon">&#8599;</span>
-      </li>
+      <a
+        aria-label="{{ .title }} (opens song link in new tab or window)"
+        href="{{ .href }}"
+        target="_blank"
+        rel="noopener"
+      >
+        {{ .title }}
+      </a>
+      <span class="link-icon">&#8599;</span>
       {{ end }}
-    </ul>
+    </span>
+    {{ end }}
   </div>
-  {{ end }}
   <!-- tags -->
   {{ partial "tags.html" . }}
 </aside>
