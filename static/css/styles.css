@@ -18,7 +18,7 @@
   --flow: var(--gap);
   --flow-lg: calc(var(--gap) * 2);
 
-  --font-stack: "Inter", system-ui, sans-serif;
+  --font-stack: "InterV", Georgia, serif;
 
   --border-top: 0.063rem solid var(--mg-color);
   --border-radius: 0.25rem;
@@ -34,6 +34,20 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "InterV";
+  src: url("../fonts/InterVariable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterV";
+  src: url("../fonts/InterVariable-Italic.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
 }
 
 body {
