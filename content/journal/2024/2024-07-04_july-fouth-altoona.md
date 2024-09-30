@@ -8,8 +8,8 @@ thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_a
 alt: "fireworks going off in multiple areas of a town down in a valley"
 caption: "50mm Summilux ASPH / Leica M10-P"
 jammin:
-  - title: ""
-    href: ""
+  - title: "Jamie XX - Waited All Night"
+    href: "https://song.link/s/4gBniy3TwR9o2JDBx48TlD"
 tags:
   - leica
   - 50mm-summilux-asph
