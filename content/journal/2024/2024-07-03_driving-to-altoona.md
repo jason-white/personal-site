@@ -8,8 +8,8 @@ thumbnail: "https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,f_auto,q_a
 alt: "a sign on the corner of a brick building reads 'Altoona Artificial Limb & Supply Company'"
 caption: "35mm Summilux Pre-Aspherical / Leica M10-P"
 jammin:
-  - title: "Greg Foat - The Glass Frog"
-    href: "https://song.link/s/30g9iFsQDFHGOYMavq4O4y"
+  - title: "Alcest - Améthyste"
+    href: "https://song.link/s/5i7bzDgRehQfktqxu7xHqV"
 tags:
   - road-trip
   - leica
@@ -18,7 +18,6 @@ tags:
 ---
 
 Finished packing while having coffee. Headed to Costco to get gas. I drove the first half of the trip, which was thankfully very easy, traffic-wise. Driving through rural Virginia, West Virginia and Pennsylvania provides you with some beautiful views.
-
 We headed up to Altoona, PA to see family for the July 4th holiday. The summers are much nicer up here than down south. Still hot, but nowhere near the same humidity.
 
 Heard fireworks all night, but never saw any.
