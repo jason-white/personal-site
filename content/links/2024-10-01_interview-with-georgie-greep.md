@@ -1,6 +1,6 @@
 ---
 type: "links"
-title: "Interview with Georgie Greep"
+title: "Interview with Geordie Greep"
 date: 2024-10-01T23:37:52-0400
 draft: false
 thumbnail: ""
