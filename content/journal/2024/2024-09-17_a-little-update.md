@@ -10,14 +10,6 @@ caption: "iPhone 14 Pro"
 jammin:
   - title: "DJ Sabrina the Teenage DJ - Deep Down"
     href: "https://song.link/s/3JGi5lBJygwKHWjLFANeBQ"
-# gallery:
-#   images:
-#     image1:
-#       id:
-#       img: ""
-#       alt: ""
-#       width:
-#       height:
 tags:
   - now
 ---
