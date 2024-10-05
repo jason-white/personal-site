@@ -100,7 +100,7 @@ hr {
 }
 
 hr::before {
-  content: "\2733\2733\2733";
+  content: "\2731\2731\2731";
   letter-spacing: 25px;
 }
 
