@@ -8,11 +8,11 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v16
 alt: "foggy tree line reflected in a pond"
 caption: "35mm Summicron ASPH / Ilford HP5 at 1600"
 tags:
-- leica
-- hp5
+  - leica
+  - hp5
 ---
 
-Never waste a foggy morning. They're kind of rare here. 
+Never waste a foggy morning. They're kind of rare here, so I grabbed the closest camera and headed over to the park. It's a quick drive, possibly shorter bike ride, but I didn't want to deal with getting the bike down and all that.
 
 {{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1672629920/2022%20Posts/2022-10-24_foggy-morning/2022-10-25_hp5-02-14-positive.jpg" alt="foggy view of two trees near the edge of a pond. there are two benches between the trees" caption="35mm Summicron ASPH / Ilford HP5 @ 1600" >}}
 

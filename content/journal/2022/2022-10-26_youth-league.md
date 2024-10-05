@@ -8,10 +8,10 @@ image: "https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v16
 alt: "three piece band plays live on a small stage"
 caption: "35mm Summicron ASPH / Kodak Double X @ 800 / Yellow filter"
 tags:
-- youth-league
-- live-music
-- leica
-- kodakxx
+  - youth-league
+  - live-music
+  - leica
+  - kodakxx
 ---
 
 Not a very eventful day. Just busy at work. After work I took a nap and then made sure my gear was setup the way I wanted.
