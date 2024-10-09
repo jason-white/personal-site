@@ -36,27 +36,45 @@ We're getting ready to head to Puerto Vallarta, Mexico to celebrate a friends 50
 
 I'm dumping the Heavy Rotation series idea (the posts were set to drafts), and decided it can just go into a Now-related post. I wasn't keeping up with it, and the format/layout was kind of annoying to work with the way I had it setup. I'm just trying to simplify things, here. Less friction == more posting.
 
-**Greg Foat** - {{< link href="https://album.link/s/0grPZL92PfNTgDq2ElzT2O" text="The Glass Frog" >}} I've been really into Greg Foat, who I hadn't heard of until this year, but has a fairly massive catalog. Especially if you count his work with the Greg Foat Group, too. His latest solo album, The Glass Frog has been on repeat for the last few weeks. {{< link href="https://album.link/s/4xkiRm0LOS3AbdnFBJaG9D" text="Blue Lotus" >}}, an album from 2022 with his band has also been a pleasurable listening experience. They even did a {{< link href="https://www.youtube.com/watch?v=vEvuUBnurNA" text="Boiler Room" >}} set a long time ago!
+#### Greg Foat - {{< link href="https://album.link/s/0grPZL92PfNTgDq2ElzT2O" text="The Glass Frog" >}}
 
-**DJ Sabrina the Teenage DJ** - {{< link href="https://album.link/s/30fDqUlDabI9105ZQwSvmn" text="Hex" >}} has been on heavy, heavy rotation. My god, I cannot get enough of this album! It's very lengthy, clocking in at over two hours. However, that's actually short compared to her other works. Do yourself a favor and jam this one straight through.
+I've been really into Greg Foat, who I hadn't heard of until this year, but has a fairly massive catalog. Especially if you count his work with the Greg Foat Group, too. His latest solo album, The Glass Frog has been on repeat for the last few weeks. {{< link href="https://album.link/s/4xkiRm0LOS3AbdnFBJaG9D" text="Blue Lotus" >}}, an album from 2022 with his band has also been a pleasurable listening experience. They even did a {{< link href="https://www.youtube.com/watch?v=vEvuUBnurNA" text="Boiler Room" >}} set a long time ago!
 
-**Misha Panfilov** - {{< link href="https://album.link/s/3mk8hSVLESxHdyYjiENTAn" text="To the Mesosphere and Beyond" >}} Misha Panfilov has already released three albums this year and that's not counting the work with his band Penza Penza. He's recently released a {{< link href="https://album.link/s/5Lp8X6bUIWROCRj6nhouMT" text="live" >}} album, which is really good, but it got me listening to his two-track EP _To the Mesosphere and Beyond_ a lot recently.
+#### DJ Sabrina the Teenage DJ - {{< link href="https://album.link/s/30fDqUlDabI9105ZQwSvmn" text="Hex" >}}
 
-**Letherette** - {{< link href="https://album.link/s/0mreFJxdUtO6SYUMJtl0Wh" text="EP6" >}} Letherette released a new EP. Never sleep on a Letherette EP. These guys have been dropping some of the best house and electronic music since the early 2010s. I'd say this one leans heavier into the French house side of the spectrum.
+has been on heavy, heavy rotation. My god, I cannot get enough of this album! It's very lengthy, clocking in at over two hours. However, that's actually short compared to her other works. Do yourself a favor and jam this one straight through.
 
-**Alex Kassian** - {{< link href="https://album.link/s/2iOsnbrjAkUzf7ici1Jb2X" text="E2-E4 (A reference to E2-E4 by Manuel Gottsching)" >}} Lastly, an EP by Alex Kassian which seems to be a rework or remix of this Manuel Gottsching album. I've never heard of either artist, and I can't even remember how I stumbled upon this one, but it's really good.
+#### Misha Panfilov - {{< link href="https://album.link/s/3mk8hSVLESxHdyYjiENTAn" text="To the Mesosphere and Beyond" >}}
+
+Misha Panfilov has already released three albums this year and that's not counting the work with his band Penza Penza. He's recently released a {{< link href="https://album.link/s/5Lp8X6bUIWROCRj6nhouMT" text="live" >}} album, which is really good, but it got me listening to his two-track EP _To the Mesosphere and Beyond_ a lot recently.
+
+#### Letherette - {{< link href="https://album.link/s/0mreFJxdUtO6SYUMJtl0Wh" text="EP6" >}}
+
+Letherette released a new EP. Never sleep on a Letherette EP. These guys have been dropping some of the best house and electronic music since the early 2010s. I'd say this one leans heavier into the French house side of the spectrum.
+
+#### Alex Kassian - {{< link href="https://album.link/s/2iOsnbrjAkUzf7ici1Jb2X" text="E2-E4 (A reference to E2-E4 by Manuel Gottsching)" >}}
+
+Lastly, an EP by Alex Kassian which seems to be a rework or remix of this Manuel Gottsching album. I've never heard of either artist, and I can't even remember how I stumbled upon this one, but it's really good.
 
 ### 📚 Reading
 
 I've been reading a lot more. The key has been to setup a specific time every day to make an afternoon cup of coffee and read for at least 45 minutes. It's been working really well, so far.
 
-{{< link href="https://www.librarything.com/work/27326233" text="Building a Second Brain" >}} by Tiago Forte. It was a pretty good read. I don't think I'll dive into using this setup any time soon as I've started a {{< link href="https://www.youtube.com/watch?v=o1NJYnZCfmY" text="Zettelkasten" >}} in Obsidian, complete with scripts to quickly start and save a note to my inbox from the terminal. It's working pretty well.
+#### {{< link href="https://www.librarything.com/work/27326233" text="Building a Second Brain" >}} by Tiago Forte
 
-{{< link href="https://www.librarything.com/work/30743605" text="Slow Productivity: The Lost Art of Accomplishment Without Burnout" >}} by Cal Newport. I enjoyed this one, and I'm trying to implement some of the ideas in my day-to-day.
+It was a pretty good read. I don't think I'll dive into using this setup any time soon as I've started a {{< link href="https://www.youtube.com/watch?v=o1NJYnZCfmY" text="Zettelkasten" >}} in Obsidian, complete with scripts to quickly start and save a note to my inbox from the terminal. It's working pretty well.
 
-{{< link href="https://www.librarything.com/work/49485" text="When Gravity Fails" >}} by George Alec Effinger. I stopped reading this for a bit, but I've jumped back on it and dividing my time between a fiction and non-fiction book.
+#### {{< link href="https://www.librarything.com/work/30743605" text="Slow Productivity: The Lost Art of Accomplishment Without Burnout" >}} by Cal Newport.
 
-{{< link href="https://www.librarything.com/work/32433688" text="Web Accessibility Cookbook" >}} by Manuel Matuzović. Really good so far. I've already learned a few new things and am trying to implement them where I can on my site. Accessibility is a top priority around these parts.
+I enjoyed this one, and I'm trying to implement some of the ideas in my day-to-day.
+
+#### {{< link href="https://www.librarything.com/work/49485" text="When Gravity Fails" >}} by George Alec Effinger
+
+I stopped reading this for a bit, but I've jumped back on it and dividing my time between a fiction and non-fiction book.
+
+#### {{< link href="https://www.librarything.com/work/32433688" text="Web Accessibility Cookbook" >}} by Manuel Matuzović.
+
+Really good so far. I've already learned a few new things and am trying to implement them where I can on my site. Accessibility is a top priority around these parts.
 
 ### 📺 Movies & Shows
 
