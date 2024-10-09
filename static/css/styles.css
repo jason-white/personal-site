@@ -80,6 +80,10 @@ a:focus {
   outline-offset: 0.25rem;
 }
 
+.external-link::after {
+  content: "\2197";
+}
+
 :is(h1, h2, h3, h4, h5, h6) {
   line-height: 1.15;
   font-weight: 400;
@@ -405,9 +409,6 @@ img {
     }
     span {
       margin-block-start: auto;
-    }
-    span::after {
-      content: "\2197";
     }
     time {
       display: block;
