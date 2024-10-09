@@ -518,8 +518,7 @@ img {
     margin-block-start: calc(var(--gap) * 2);
     margin-block-end: calc(var(--gap) * 1.5);
   }
-  * + :is(h2),
-  * + :is(h3) {
+  * + :is(h2, h3, h4) {
     margin-block-start: calc(var(--gap) * 3);
   }
   * + :is(hr) {
