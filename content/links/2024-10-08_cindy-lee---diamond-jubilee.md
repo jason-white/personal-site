@@ -10,4 +10,4 @@ tags:
   - music
 ---
 
-Cindy Lee aka Patrick Flegel's latest 32 track LP is only streaming on YouTube, or available to {{< link href="https://www.geocities.ws/ccqsk/" text="download from their site." >}} Hoping for a physical release soon!
+Cindy Lee aka Patrick Flegel's latest 32 track LP is only streaming on YouTube, or available to {{< link href="https://www.geocities.ws/ccqsk/" text="download from their site" >}}. Hoping for a physical release soon!
