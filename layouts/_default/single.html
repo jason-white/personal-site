@@ -14,7 +14,21 @@
   <!-- End -->
   {{ end }}
 
-  <div class="post__content">{{ .Content }}</div>
+  <div class="post__content">
+    {{ .Content }} {{ if eq .Section "links" }}
+
+    <div class="visit-link">
+      <span class="external-link">
+        <a
+          aria-label="Visit {{ .Title }}"
+          href="{{ .Params.href }}"
+        >
+          Visit link
+        </a>
+      </span>
+    </div>
+    {{ end }}
+  </div>
 
   <!-- If the gallery images exist -->
   {{ if .Params.gallery }}
@@ -33,7 +47,8 @@
   <!-- Render pagination -->
 
   <!-- If type == Journal, Links or Now -->
-  {{ if or (eq .Params.type "journal") (eq .Params.type "now") }}
+  {{ if or (eq .Params.type "journal") (eq .Params.type "now") (eq .Params.type
+  "links") }}
   <!-- Render single post pagination partial -->
   {{ partial "single-pagination.html" . }}
   <!-- End if -->

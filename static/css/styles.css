@@ -471,7 +471,15 @@ img {
   grid-template-areas:
     "title title title title"
     "content content content content"
-    "aside aside aside aside";
+    "pagination pagination pagination pagination";
+}
+
+.post:has(.post__meta) {
+  grid-template-areas:
+    "title title title title"
+    "content content content content"
+    "aside aside aside aside"
+    "pagination pagination pagination pagination";
 }
 
 .post:has(.post__feature) {
@@ -529,6 +537,10 @@ img {
   }
 }
 
+.visit-link {
+  margin-block-start: var(--fluid-gap);
+}
+
 .post__gallery {
   grid-area: gallery;
 }
@@ -559,6 +571,13 @@ img {
   }
 
   .post {
+    grid-template-areas:
+      "title title title ."
+      "content content content ."
+      "pagination pagination pagination .";
+  }
+
+  .post:has(.post__meta) {
     grid-template-areas:
       "title title title ."
       "content content content aside";
@@ -609,6 +628,12 @@ img {
 
 @container content (width > 1440px) {
   .post {
+    grid-template-areas:
+      "title content content ."
+      ". pagination pagination .";
+  }
+
+  .post:has(.post__meta) {
     grid-template-areas: "title content content aside";
   }
 
