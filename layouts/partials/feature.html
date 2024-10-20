@@ -1,9 +1,18 @@
+{{ if and (.Params.image) (.Params.thumbnail) }}
 <figure class="post__feature">
   <img
-    src="{{ .Params.image }}"
+    loading="lazy"
+    src="{{ .Params.thumbnail | safeURL }}"
+    srcset="
+      {{ .Params.thumbnail | safeURL }} 740w,
+      {{ .Params.image | safeURL }} 2048w"
+    sizes="(max-width: 740px) 100vw, 2048px"
     alt="{{ .Params.alt }}"
   />
   <figcaption>
     <p>{{ .Params.caption }}</p>
   </figcaption>
 </figure>
+{{ else }}
+<p>no image</p>
+{{ end }}
