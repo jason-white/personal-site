@@ -26,13 +26,22 @@
     <meta property="og:description" content="{{ .Params.description }}">
     {{ end }}
     <link rel="author" href="humans.txt" />
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/reset.css">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
-    <link
-      rel="stylesheet"
-      href="{{ .Site.BaseURL }}css/photoswipe.css"
-    />
-    {{ with .OutputFormats.Get "rss" -}}
+    {{ $css := slice 
+      (resources.Get "css/reset.css") 
+      (resources.Get "css/styles.css") 
+      (resources.Get "css/photoswipe.css") 
+        | resources.Concat "css/bundle.css" 
+        | resources.Minify 
+        | resources.Fingerprint
+    }}
+  
+    <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}" />
+    <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css"> -->
+    <!-- <link -->
+    <!--   rel="stylesheet" -->
+    <!--   href="{{ .Site.BaseURL }}css/photoswipe.css" -->
+    <!-- /> -->
+    {{ with .OutputFormats.Get "rss" }}
     {{ printf `
     <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
