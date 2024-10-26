@@ -1,0 +1,70 @@
+baseurl = "https://jasonwhite.us/"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+languageCode = "en-us"
+rssLimit = 20
+title = 'Jason White'
+buildDrafts = false
+
+[author]
+  name = "Jason White"
+
+[permalinks]
+	journal = "/:year/:month/:day/:title/"
+	links = "/:year/:month/:day/:title/"
+	now = "/:year/:month/:day/:title/"
+
+[taxonomies]
+  tag = "tags"
+
+[[menus.main]]
+	name = 'Journal'
+	pageRef = '/journal'
+	weight = 10
+
+[[menus.main]]
+    name = 'Links'
+    pageRef = '/links'
+    weight = 20
+
+[[menus.main]]
+	name = 'Now'
+	pageRef = '/now'
+	weight = 30
+[[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 40
+
+[[menus.elsewhere]]
+    name = 'Mastodon'
+    url = 'https://mas.to/@nux'
+    weight = 10
+
+[[menus.elsewhere]]
+    name = 'Instagram'
+    url = 'https://instagram.com/qbrt'
+    weight = 20
+
+[[menus.elsewhere]]
+    name = 'last.fm'
+    url = 'https://www.last.fm/user/qbertqbert'
+    weight = 40
+
+[[menus.elsewhere]]
+    name = 'Discogs'
+    url = 'https://www.discogs.com/user/qbrt/collection?page=1&sort=artist%2Casc&folder=0&limit=25'
+    weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe= true
+    [markup.goldmark.extensions]
+      attributes = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[[mounts]]
+  source = "assets"
+  target = "assets"

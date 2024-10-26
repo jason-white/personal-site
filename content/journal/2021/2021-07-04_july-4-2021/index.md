@@ -1,0 +1,18 @@
+---
+type: "journal"
+title: "July 4 2021"
+date: 2021-07-04T00:48:52-04:00
+draft: false
+image: "07-03_portra400-35-positive.jpg"
+alt: "fireworks"
+caption: "35mm Summicron ASPH / Kodak Portra 400"
+tags:
+- july4
+- fireworks
+---
+
+The weekend was spent hanging by pools, seeing friends from out of town and fireworks. Lots of (illegal) fireworks. A couple buddies of ours recently moved into a new house and their neighbors put on a bit of a fireworks show. A lot of them were impressive, however, the really impressive ones seemed to go off while not very high in the air. You should definitely _not_ be able to get a photograph of fireworks that close with a 35mm lens.
+
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1625461322/2021%20Posts/2021-07-04/07-03_portra400-23-positive.jpg" alt="man in pool with goggles" caption="50mm Summilux ASPH / Kodak Portra 400" >}}
+
+{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1625461319/2021%20Posts/2021-07-04/07-03_portra400-22-positive.jpg" alt="dog on bed by pool" caption="50mm Summilux ASPH / Kodak Portra 400" >}}

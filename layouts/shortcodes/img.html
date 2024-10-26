@@ -1,0 +1,9 @@
+{{- $src := .Get "src" -}} {{- $img := .Page.Resources.GetMatch $src -}} {{- if
+$img -}} {{- $processed := $img.Resize "800x" -}}
+<img
+  src="{{ $processed.RelPermalink }}"
+  alt="Processed Image"
+/>
+{{- else -}}
+<p>Image not found.</p>
+{{- end -}}

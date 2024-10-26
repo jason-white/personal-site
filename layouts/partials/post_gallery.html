@@ -1,29 +1,55 @@
-{{ with .Params.gallery }}
+{{ if .Params.gallery }}
 <section
   id="Gallery"
   class="post__gallery"
 >
-  <ul class="list-reset gallery__images">
-    {{ range .images }}
-    <li class="gallery__item">
-      <a
-        href="{{ .img }}"
-        target="_blank"
-        data-pswp-width="{{ .width }}"
-        data-pswp-height="{{ .height }}"
-        data-cropped="true"
-      >
-        <img
-          src="{{ .img }}"
-          alt="{{ .alt }}"
-          class="gallery__thumb"
-          loading="lazy"
-        />
-      </a>
-    </li>
-    {{ end }}
-  </ul>
+
+<ul class="list-reset gallery__images">
+    {{- range .Params.gallery -}}
+        {{- $src := .src -}} 
+        {{- $alt := .alt -}} 
+        {{- $respSizes := slice "375" "640" "960" "1280" "1600" "1920" -}}
+        {{- $dataSzes := "(min-width: 1024px) 50vw, 100vw" -}}
+
+        {{- if $.Page.Resources.GetMatch $src -}}  {{/* Check if the resource exists */}}
+            {{ with $.Page.Resources.GetMatch $src }}
+                {{- $imgRsc := . -}}
+                {{- $actualImg := $imgRsc.Process "resize 640x webp MitchellNetravali" -}}
+                <li class="gallery__item">
+                         <a
+                            href="{{ $actualImg.RelPermalink }}"
+                            target="_blank"
+                            data-pswp-width="{{ $imgRsc.Width }}"
+                            data-pswp-height="{{ $imgRsc.Height }}"
+                            data-cropped="true"
+                          >
+                          <img
+                              class="gallery__thumb"
+                              src="{{ $actualImg.RelPermalink }}"
+                              srcset="
+                                    {{- range $i, $e := $respSizes -}}
+                                        {{- if ge $imgRsc.Width $e -}}
+                                            {{- if $i }}, {{ end -}}
+                                            {{- ($imgRsc.Process (print "resize " $e "x webp photo MitchellNetravali")).RelPermalink }} {{ $e }}w
+                                        {{- end -}}
+                                    {{- end -}}"
+                                sizes="{{ $dataSzes }}"
+                                width="{{ $imgRsc.Width }}"
+                                height="{{ $imgRsc.Height }}"
+                                alt="{{ $alt }}"
+                                loading="lazy"
+                            />
+                    </a>
+                </li>
+            {{- end -}}
+        {{- else -}}
+            <p>No resource found for: {{ $src }}</p>  {{/* Debug output if no resource is found */}}
+        {{- end -}}
+    {{- end -}}
+</ul>
+
 </section>
+
 <script type="module">
   import PhotoSwipeLightBox from "/js/photoswipe-lightbox.esm.min.js";
 
