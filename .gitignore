@@ -1,4 +1,5 @@
 .DS_Store
+resources/
 node_modules/
 functions/node_modules/
 themes/blank/node_modules/
