@@ -1,6 +1,7 @@
 <!-- Import Header -->
 {{ partial "header.html" . }}
 
+
 <article class="post">
   <header class="post__title">
     <h1>{{ .Title }}</h1>
@@ -9,48 +10,53 @@
 
   <!-- If feature image exists... -->
   {{ if .Params.image }}
-  <!-- Render feature partial -->
-  {{ partial "feature.html" .}}
-  <!-- End -->
+    <!-- Render feature partial -->
+    {{ partial "feature.html" . }}
+    <!-- End -->
   {{ end }}
 
+
   <div class="post__content">
-    {{ .Content }} {{ if eq .Section "links" }}
-    <div class="visit-link">
-      <span class="external-link">
-        <a
-          aria-label="Visit {{ .Title }}"
-          href="{{ .Params.href }}"
-        >
-          Visit link
-        </a>
-      </span>
-    </div>
+    {{ .Content }}
+    {{ if eq .Section "links" }}
+      <div class="visit-link">
+        <span class="external-link">
+          <a
+            aria-label="Visit {{ .Title }}"
+            href="{{ .Params.href }}"
+          >
+            Visit link
+          </a>
+        </span>
+      </div>
     {{ end }}
   </div>
 
   <!-- If the gallery images exist -->
   {{ if .Params.gallery }}
-  <!-- Render post__gallery partial -->
-  {{ partial "post_gallery.html" . }}
-  <!-- End if -->
+    <!-- Render post__gallery partial -->
+    {{ partial "post_gallery.html" . }}
+    <!-- End if -->
   {{ end }}
+
 
   <!-- If type == Journal, Links or Now -->
   {{ if or (eq .Params.type "journal") (eq .Params.type "now") }}
-  <!-- Render meta.html partial -->
-  {{ partial "meta.html" . }}
-  <!-- End if -->
+    <!-- Render meta.html partial -->
+    {{ partial "meta.html" . }}
+    <!-- End if -->
   {{ end }}
+
 
   <!-- Render pagination -->
 
   <!-- If type == Journal, Links or Now -->
   {{ if or (eq .Params.type "journal") (eq .Params.type "now") (eq .Params.type
-  "links") }}
-  <!-- Render single post pagination partial -->
-  {{ partial "single-pagination.html" . }}
-  <!-- End if -->
+    "links")
+  }}
+    <!-- Render single post pagination partial -->
+    {{ partial "single-pagination.html" . }}
+    <!-- End if -->
   {{ end }}
 </article>
 

@@ -1,37 +1,35 @@
-{{/* Variables */}}
-
 {{- $respSizes := slice "375" "640" "960" "1280" "1600" "1920" -}}
 {{- $src := .Params.image -}}
+{{- $src := .Params.image -}}
+{{- $webpSrc := replaceRE "\\.[^.]+$" ".webp" $src -}}
 {{- $alt := .Params.alt -}}
 {{- $cap := .Params.caption -}}
+{{- $myCloud := "dpmsynxig" -}}
+{{- $cloudBase := print "https://res.cloudinary.com/" $myCloud "/image/upload/" -}}
+{{- $xFmPart1 := "q_auto,w_" -}}
+{{- $xFmPart2 := ",x_0,z_1/" -}}
 {{- $dataSzes := "(min-width: 1024px) 50vw, 100vw" -}}
 
-{{- if .Page.Resources.GetMatch $src -}}
-  {{ with .Page.Resources.GetMatch $src }}
+{{- if $.Page.Resources.GetMatch $src -}}
+  {{ with $.Page.Resources.GetMatch $src }}
     {{- $imgRsc := . -}}
-    {{- $actualImg := $imgRsc.Process "resize 640x jpg MitchellNetravali" -}}
     <figure class="post__feature">
-      <picture>
-        <source type="image/webp" srcset="
-          {{- with $respSizes -}}
-            {{- range $i, $e := . -}}
-              {{- if ge $imgRsc.Width . -}}
-                {{- if $i }}, {{ end -}}
-                {{- ($imgRsc.Process (print "resize " . "x webp photo MitchellNetravali")).RelPermalink }} {{ . }}w
-              {{- end -}}
+      <img
+        srcset="
+          {{- range $i, $e := $respSizes -}}
+            {{- if ge $imgRsc.Width $e -}}
+              {{- if $i }},{{ end -}}
+              {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $webpSrc }}
+              {{ $e }}w
             {{- end -}}
-          {{- end -}}" sizes="{{ $dataSzes }}" />
-        <source type="image/jpeg" srcset="
-          {{- with $respSizes -}}
-            {{- range $i, $e := . -}}
-              {{- if ge $imgRsc.Width . -}}
-                {{- if $i }}, {{ end -}}
-                {{- ($imgRsc.Process (print "resize " . "x jpg MitchellNetravali")).RelPermalink }} {{ . }}w
-              {{- end -}}
-            {{- end -}}
-          {{- end -}}" sizes="{{ $dataSzes }}" />
-        <img src="{{ $actualImg.RelPermalink }}" width="{{ $imgRsc.Width }}" height="{{ $imgRsc.Height }}" alt="{{ $alt }}" />
-      </picture>
+          {{- end -}}
+        "
+        sizes="{{ $dataSzes }}"
+        src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $webpSrc }}"
+        width="{{ $imgRsc.Width }}"
+        height="{{ $imgRsc.Height }}"
+        alt="{{ $alt }}"
+      />
       {{- if $cap -}}
         <figcaption><p>{{ $cap }}</p></figcaption>
       {{- end }}
