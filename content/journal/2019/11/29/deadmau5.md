@@ -4,7 +4,6 @@ title: "Deadmau5"
 date: 2019-11-29T19:00:00-05:00
 draft: false
 image: "deadmau5-live.jpg"
-test: "https://res.cloudinary.com/dpmsynxig/image/upload/2019/11/2019-11-29/deadmau5-live.jpg"
 alt: "deadmau5 performing live"
 caption: "iPhone 11 Pro"
 tags:
@@ -19,8 +18,8 @@ There ended up being eight of us and we decided to rent a shuttle van to make th
 
 The show was at the Anthem. A massive indoor venue on the waterfront, just south of the National Mall. I had no idea what to expect a Deadmau5 show to be like, and honestly I was kind of blown away. The sound, the [Cube V3](https://www.youtube.com/watch?v=waGzVes6PWY), the lights and the crowd were all just...perfect? Even Captain America showed up dressed as Deadmau5.
 
-{{< figure src="/2019/29/2019-11-29/captain-america-deadmau5.jpg" alt="deadmau5 captain america cosplay" caption="iPhone 11 Pro" >}}
+{{< figure src="captain-america-deadmau5.jpg" alt="deadmau5 captain america cosplay" caption="iPhone 11 Pro" >}}
 
-{{< figure src="/2019/29/2019-11-29/deadmau5-helmet.jpg" alt="deadmau5 live with helmet" caption="iPhone 11 Pro" >}}
+{{< figure src="deadmau5-helmet.jpg" alt="deadmau5 live with helmet" caption="iPhone 11 Pro" >}}
 
 As an aside, the iPhone 11's night mode feature is quite amazing.

@@ -1,61 +1,41 @@
 {{/* This shortcode is inspired by brycewray.com */}}
-{{/* Variables */}}
 
 {{- $respSizes := slice "375" "640" "960" "1280" "1600" "1920" -}}
 {{- $src := .Get "src" -}}
 {{- $alt := .Get "alt" -}}
 {{- $cap := .Get "caption" -}}
-{{- $hint := default "photo" (.Get "hint") -}}
-{{- $filter := default "MitchellNetravali" (.Get "filter") -}}
+
+{{- $webpSrc := replaceRE "\\.[^.]+$" ".webp" $src -}}
+
+{{- $myCloud := "dpmsynxig" -}}
+{{- $cloudBase := print "https://res.cloudinary.com/" $myCloud "/image/upload/" -}}
+{{- $xFmPart1 := "q_auto,w_" -}}
+{{- $xFmPart2 := ",x_0,z_1/" -}}
+{{- $dataSzes := "(min-width: 1024px) 50vw, 100vw" -}}
+{{- $pageDir := .Page.File.Dir -}}
+{{- $imagePath := print $pageDir $webpSrc -}}
+
 {{- $dataSzes := "(min-width: 1024px) 50vw, 100vw" -}}
 
-{{- if .Page.Resources.GetMatch $src -}}
-  {{ with .Page.Resources.GetMatch $src }}
-    {{- $imgRsc := . -}}
-    {{- $actualImg := $imgRsc.Process (print "resize 640x jpg " $filter) -}}
-    <figure>
-      <picture>
-        <source
-          type="image/webp"
-          srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $imgRsc.Width . -}}
-                  {{- if $i }},{{ end -}}
-                  {{- ($imgRsc.Process (print "resize " . "x webp " $hint " " $filter)).RelPermalink }}
-                  {{ . }}w
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}
-          "
-          sizes="{{ $dataSzes }}"
-        />
-        <source
-          type="image/jpeg"
-          srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $imgRsc.Width . -}}
-                  {{- if $i }},{{ end -}}
-                  {{- ($imgRsc.Process (print "resize " . "x jpg " $filter)).RelPermalink }}
-                  {{ . }}w
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}
-          "
-          sizes="{{ $dataSzes }}"
-        />
-        <img
-          src="{{ $actualImg.RelPermalink }}"
-          width="{{ $imgRsc.Width }}"
-          height="{{ $imgRsc.Height }}"
-          alt="{{ $alt }}"
-          loading="lazy"
-        />
-      </picture>
-      {{- if $cap -}}
-        <figcaption><p>{{ $cap }}</p></figcaption>
-      {{- end }}
-    </figure>
-  {{- end -}}
+{{- if  $src -}}
+  <figure>
+    <img
+      srcset="
+        {{- range $i, $e := $respSizes -}}
+          {{- if $i }},{{ end -}}
+          {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $imagePath }}
+          {{ $e }}w
+        {{- end -}}
+      "
+      sizes="{{ $dataSzes }}"
+      src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
+      width="600"
+      height="400"
+      alt="{{ $alt }}"
+      loading="lazy"
+    />
+    {{- if $cap -}}
+      <figcaption><p>{{ $cap }}</p></figcaption>
+    {{- end }}
+  </figure>
 {{- end -}}

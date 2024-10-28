@@ -11,32 +11,26 @@
 {{- $pageDir := .Page.File.Dir -}}
 {{- $imagePath := print $pageDir $webpSrc -}}
 
-{{- if $.Page.Resources.GetMatch $src -}}
-  {{ with $.Page.Resources.GetMatch $src }}
-    {{- print "Source Image Path: " $src -}}
-    {{- $imgRsc := . -}}
-    <figure class="post__feature">
-      <img
-        srcset="
-          {{- range $i, $e := $respSizes -}}
-            {{- if ge $imgRsc.Width $e -}}
-              {{- if $i }},{{ end -}}
-              {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $imagePath }}
-              {{ $e }}w
-            {{- end -}}
-          {{- end -}}
-        "
-        sizes="{{ $dataSzes }}"
-        src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
-        width="{{ $imgRsc.Width }}"
-        height="{{ $imgRsc.Height }}"
-        alt="{{ $alt }}"
-      />
-      {{- if $cap -}}
-        <figcaption><p>{{ $cap }}</p></figcaption>
-      {{- end }}
-    </figure>
-  {{- end -}}
+{{- if $src -}}
+  <figure class="post__feature">
+    <img
+      srcset="
+        {{- range $i, $e := $respSizes -}}
+          {{- if $i }},{{ end -}}
+          {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $imagePath }}
+          {{ $e }}w
+        {{- end -}}
+      "
+      sizes="{{ $dataSzes }}"
+      src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
+      width="600"
+      height="400"
+      alt="{{ $alt }}"
+    />
+    {{- if $cap -}}
+      <figcaption><p>{{ $cap }}</p></figcaption>
+    {{- end }}
+  </figure>
 {{- else -}}
   <p><em>Image unavailable.</em></p>
 {{- end -}}
