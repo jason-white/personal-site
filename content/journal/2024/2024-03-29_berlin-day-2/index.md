@@ -7,67 +7,26 @@ image: "untitled-73-Enhanced-NR.jpg"
 alt: "silhouette of a crowd of people under blue laser lights creating a geometic pattern"
 caption: "35mm Summicron ASPH / Leica M10-P"
 gallery:
-  images:
-    image0:
-      id: 0
-      image: untitled-31.jpg"
-      alt: "old architecture style building connected to a very modern style building at the edge of a river"
-      width: 2048
-      height: 1365
-    image1:
-      id: 1
-      image: untitled-117-Enhanced-NR.jpg"
-      alt: "an industrial concrete interior dimly lit by three large sphere-shaped lights on tall, narrow stands"
-      width: 2048
-      height: 1365
-    image2:
-      id: 2
-      image: untitled-60-Enhanced-NR.jpg"
-      alt: "people walking up a twisting concrete staircase, dimly lit by the tucked lights under the railing"
-      width: 2048
-      height: 1365
-    image3:
-      id: 3
-      image: untitled-61.jpg"
-      alt: "splotches and narrow beams of light scattered in a darkroom"
-      width: 2048
-      height: 1365
-    image4:
-      id: 4
-      image: untitled-94-Enhanced-NR.jpg"
-      alt: "very bright laser lights in a dark room creating silhouette's of the people below"
-      width: 2048
-      height: 1365
-    image5:
-      id: 5
-      image: untitled-103-Enhanced-NR.jpg"
-      alt: "laser lights creating geometic shapes appear to float high up in a large dark room"
-      width: 2048
-      height: 1365
-    image6:
-      id: 6
-      image: untitled-5.jpg"
-      alt: "a lovely presented salad of fennel sliced into strips like pasta in a rustic bowl on a wooden table"
-      width: 2048
-      height: 1365
-    image7:
-      id: 7
-      image: untitled-15.jpg"
-      alt: "a lovely presented bowl of sliced grilled pumpkin on top of a purée with sesame seeds"
-      width: 2048
-      height: 1365
-    image8:
-      id: 8
-      image: untitled-18.jpg"
-      alt: "a small cup of espresso sits on a matching plate"
-      width: 2048
-      height: 1365
-    image9:
-      id: 9
-      image: untitled-22.jpg"
-      alt: "four men standing in a mirrored elevator"
-      width: 2048
-      height: 1365
+  - src: "untitled-31.jpg"
+    alt: "old architecture style building connected to a very modern style building at the edge of a river"
+  - src: "untitled-117-Enhanced-NR.jpg"
+    alt: "an industrial concrete interior dimly lit by three large sphere-shaped lights on tall, narrow stands"
+  - src: "untitled-60-Enhanced-NR.jpg"
+    alt: "people walking up a twisting concrete staircase, dimly lit by the tucked lights under the railing"
+  - src: "untitled-61.jpg"
+    alt: "splotches and narrow beams of light scattered in a darkroom"
+  - src: "untitled-94-Enhanced-NR.jpg"
+    alt: "very bright laser lights in a dark room creating silhouette's of the people below"
+  - src: "untitled-103-Enhanced-NR.jpg"
+    alt: "laser lights creating geometic shapes appear to float high up in a large dark room"
+  - src: "untitled-5.jpg"
+    alt: "a lovely presented salad of fennel sliced into strips like pasta in a rustic bowl on a wooden table"
+  - src: "untitled-15.jpg"
+    alt: "a lovely presented bowl of sliced grilled pumpkin on top of a purée with sesame seeds"
+  - src: "untitled-18.jpg"
+    alt: "a small cup of espresso sits on a matching plate"
+  - src: "untitled-22.jpg"
+    alt: "four men standing in a mirrored elevator"
 tags:
   - travel
 ---

@@ -7,62 +7,24 @@ image: "untitled-76.jpg"
 alt: "a blossoming tree hangs over a simple white wall with a door. it's marked '21'. the trees petals scattered on the sidewalk"
 caption: "35mm Summicron ASPH / Leica M10-P"
 gallery:
-  images:
-    image0:
-      id: 0
-      image: untitled-77.jpg"
-      alt: "the leaves of one tree bunched up next to the blossoms of another"
-      width: 2048
-      height: 1365
-    image1:
-      id: 1
-      image: untitled-1.jpg"
-      alt: "a napkin with a print that reads 'romeo und romeo' sits on a cafe table next to coffee and an empty plate"
-      width: 2048
-      height: 1365
-    image2:
-      id: 2
-      image: untitled-138.jpg"
-      alt: "looking straight onto a non-descript metal door. an address number of '10' mounted to the far left"
-      width: 2048
-      height: 1365
-    image3:
-      id: 3
-      image: untitled-139.jpg"
-      alt: "a view of the side of a very small four door car parked on the street"
-      width: 2048
-      height: 1365
-
-    image4:
-      id: 4
-      image: untitled-137.jpg"
-      alt: "a cropped image of a door and wall creating an abstract composition"
-      width: 2048
-      height: 1365
-    image5:
-      id: 5
-      image: untitled-134.jpg"
-      alt: "the side view of a small, vintage car parked on the street"
-      width: 2048
-      height: 1365
-    image6:
-      id: 6
-      image: untitled-146.jpg"
-      alt: "a very large group of men socializing outside of a bar named 'prinzknecht'"
-      width: 2048
-      height: 1365
-    image7:
-      id: 7
-      image: untitled-15.jpg"
-      alt: "a view of a very crowded bar. people are in line to order drinks, there are four bearded men working on the other side of the bar"
-      width: 2048
-      height: 1365
-    image8:
-      id: 8
-      image: untitled-3.jpg"
-      alt: "a man takes a photo of himself and three friends in a mirrored elevator"
-      width: 2048
-      height: 1365
+  - src: "untitled-77.jpg"
+    alt: "the leaves of one tree bunched up next to the blossoms of another"
+  - src: "untitled-1.jpg"
+    alt: "a napkin with a print that reads 'romeo und romeo' sits on a cafe table next to coffee and an empty plate"
+  - src: "untitled-138.jpg"
+    alt: "looking straight onto a non-descript metal door. an address number of '10' mounted to the far left"
+  - src: "untitled-139.jpg"
+    alt: "a view of the side of a very small four door car parked on the street"
+  - src: "untitled-137.jpg"
+    alt: "a cropped image of a door and wall creating an abstract composition"
+  - src: "untitled-134.jpg"
+    alt: "the side view of a small, vintage car parked on the street"
+  - src: "untitled-146.jpg"
+    alt: "a very large group of men socializing outside of a bar named 'prinzknecht'"
+  - src: "untitled-15.jpg"
+    alt: "a view of a very crowded bar. people are in line to order drinks, there are four bearded men working on the other side of the bar"
+  - src: "untitled-3.jpg"
+    alt: "a man takes a photo of himself and three friends in a mirrored elevator"
 tags:
   - travel
 ---

@@ -10,31 +10,14 @@ jammin:
   - title: "Joe Ghatt - Always Remember"
     href: "https://song.link/s/1ExYYvPf8qmUxtAg5dO196"
 gallery:
-  images:
-    image1:
-      id: 1
-      image: 2024-07-05_m10p-1.jpg"
-      alt: "an old wooden door and bricked windows on an old painted brick building"
-      width: 2048
-      height: 1365
-    image2:
-      id: 2
-      image: 2024-07-05_m10p-3.jpg"
-      alt: "an old exit door with a hand written sign that says 'PULL' and an old faded sign that says 'Thanks! CALL AGAIN'"
-      width: 2048
-      height: 1365
-    image3:
-      id: 3
-      image: 2024-07-05_m10p-10.jpg"
-      alt: "view of a small town from an overlook on a partly cloudy day"
-      width: 2048
-      height: 1365
-    image4:
-      id: 4
-      image: 2024-07-05_m10p-52.jpg"
-      alt: "store front of an ice cream shop with neon signs that read 'The Meadows, Since 1950'"
-      width: 2048
-      height: 1365
+  - src: "2024-07-05_m10p-1.jpg"
+    alt: "an old wooden door and bricked windows on an old painted brick building"
+  - src: "2024-07-05_m10p-3.jpg"
+    alt: "an old exit door with a hand written sign that says 'PULL' and an old faded sign that says 'Thanks! CALL AGAIN'"
+  - src: "2024-07-05_m10p-10.jpg"
+    alt: "view of a small town from an overlook on a partly cloudy day"
+  - src: "2024-07-05_m10p-52.jpg"
+    alt: "store front of an ice cream shop with neon signs that read 'The Meadows, Since 1950'"
 tags:
   - travel
   - leica

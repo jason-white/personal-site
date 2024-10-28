@@ -7,36 +7,19 @@ image: "2023-03-11_xx-800_02-9.jpg"
 alt: "the corner of a table with bowls, a crockpot, chili toppings, cubes of cornbread and a list of ingredients"
 caption: "35mm Summicron ASPH / Kodak XX @ 800"
 gallery:
-  images:
-    image1:
-      id: 1
-      image: 2023-03-11_xx-800_02-8.jpg"
-      alt: "people standing around a table with a man behind it that serves chili. the man is eating a bowl of the chili himself"
-      width: 2048
-      height: 1365
-    image2:
-      id: 2
-      image: 2023-02-19_griii-9.jpg"
-      alt: "viewing a man from behind, he is wearing a hat that is held together with a string"
-      width: 2048
-      height: 1365
-    image3:
-      id: 3
-      image: 2023-02-19_griii-12.jpg"
-      alt: "a deliciouis looking plate of fettucine alfredo with sausage. there is a ball of fresh mozzarella on top"
-      width: 2048
-      height: 1365
-    image4:
-      id: 4
-      image: 2023-02-19_griii-14.jpg"
-      alt: "a wooden tray with three desserts and multiple spoons"
-      width: 2048
-      height: 1365
+  - src: "2023-03-11_xx-800_02-8.jpg"
+    alt: "people standing around a table with a man behind it that serves chili. the man is eating a bowl of the chili himself"
+  - src: "2023-02-19_griii-9.jpg"
+    alt: "viewing a man from behind, he is wearing a hat that is held together with a string"
+  - src: "2023-02-19_griii-12.jpg"
+    alt: "a deliciouis looking plate of fettucine alfredo with sausage. there is a ball of fresh mozzarella on top"
+  - src: "2023-02-19_griii-14.jpg"
+    alt: "a wooden tray with three desserts and multiple spoons"
 tags:
-- haw-river
-- leica
-- griii
-- kodakxx
+  - haw-river
+  - leica
+  - griii
+  - kodakxx
 ---
 
 We spent a couple of days in Haw River hanging out with Brian and Jeremie. Lounged around for a bit early in the day chatting and having some (very) good coffee.

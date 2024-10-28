@@ -7,67 +7,26 @@ image: "untitled-64.jpg"
 alt: "a symphony on stage stands to address the crowd's applause at the end of their show"
 caption: "Ricoh GRIII X"
 gallery:
-  images:
-    image0:
-      id: 1
-      image: untitled-11.jpg"
-      alt: "sun pours through the window of a rustic cafe, spilling onto flowers on the window sill and cutlery on a table"
-      width: 2048
-      height: 1365
-    image1:
-      id: 2
-      image: untitled-10.jpg"
-      alt: "a cover of a vintage Berlin gay magazine: Berlin from Behind"
-      width: 1365
-      height: 2048
-    image2:
-      id: 3
-      image: untitled-42.jpg"
-      alt: "a shelf with various corked bottles and a small bottle of poppers that reads 'dumb bitch juice'"
-      width: 2048
-      height: 1365
-    image3:
-      id: 4
-      image: untitled-13.jpg"
-      alt: "a small note on a gallery wall that reads: 'Poppers - I first got into poppers at work and now they are my drug of choice. I had this French client who always showed up to my flat immaculately dressed on a Monday afternoon. He liked to listen to Edith Piaf, huff poppers and get fisted. I'd be there, elbow-deep in his hairy ass, thinking 'what is my life?!' I've since introduced them to a lot of straight clients. You have to be careful though. I once passed the bottle to a client, looked over and he was drinking them!'"
-      width: 2048
-      height: 1365
-    image4:
-      id: 5
-      image: untitled-32.jpg"
-      alt: "a still from an art film where a man replaced his eyes with anuses. he is in a threesome with two other men"
-      width: 2048
-      height: 1365
-    image5:
-      id: 6
-      image: untitled-63.jpg"
-      alt: "a simple store front of a clothing shop reads 'riveted garments - DC4 - genuine quality'"
-      width: 2048
-      height: 1365
-    image6:
-      id: 7
-      image: untitled-77.jpg"
-      alt: "a fancy beverage in a stemmed glass with chili powder dusted on the right side"
-      width: 1365
-      height: 2048
-    image7:
-      id: 8
-      image: untitled-81.jpg"
-      alt: "a mixed drink in a tall glass with berries and mint leaves"
-      width: 1365
-      height: 2048
-    image8:
-      id: 9
-      image: untitled-85.jpg"
-      alt: "a ferrari sports car parked on the street"
-      width: 2048
-      height: 1365
-    image9:
-      id: 10
-      image: untitled-88.jpg"
-      alt: "reflection of four men in a mirrored elevator"
-      width: 1365
-      height: 2048
+  - src: "untitled-11.jpg"
+    alt: "sun pours through the window of a rustic cafe, spilling onto flowers on the window sill and cutlery on a table"
+  - src: "untitled-10.jpg"
+    alt: "a cover of a vintage Berlin gay magazine: Berlin from Behind"
+  - src: "untitled-42.jpg"
+    alt: "a shelf with various corked bottles and a small bottle of poppers that reads 'dumb bitch juice'"
+  - src: "untitled-13.jpg"
+    alt: "a small note on a gallery wall that reads: 'Poppers - I first got into poppers at work and now they are my drug of choice. I had this French client who always showed up to my flat immaculately dressed on a Monday afternoon. He liked to listen to Edith Piaf, huff poppers and get fisted. I'd be there, elbow-deep in his hairy ass, thinking 'what is my life?!' I've since introduced them to a lot of straight clients. You have to be careful though. I once passed the bottle to a client, looked over and he was drinking them!'"
+  - src: "untitled-32.jpg"
+    alt: "a still from an art film where a man replaced his eyes with anuses. he is in a threesome with two other men"
+  - src: "untitled-63.jpg"
+    alt: "a simple store front of a clothing shop reads 'riveted garments - DC4 - genuine quality'"
+  - src: "untitled-77.jpg"
+    alt: "a fancy beverage in a stemmed glass with chili powder dusted on the right side"
+  - src: "untitled-81.jpg"
+    alt: "a mixed drink in a tall glass with berries and mint leaves"
+  - src: "untitled-85.jpg"
+    alt: "a ferrari sports car parked on the street"
+  - src: "untitled-88.jpg"
+    alt: "reflection of four men in a mirrored elevator"
 tags:
   - travel
 ---

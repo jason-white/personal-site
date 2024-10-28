@@ -7,43 +7,22 @@ image: "untitled-382-Enhanced-NR.jpg"
 alt: "a stage sits in the back of a crowded room with a banner lit up that reads 'hallas'"
 caption: "35mm Summilux Pre ASPH / Leica M10-P"
 gallery:
-  images:
-    image1:
-      id: 1
-      image: untitled-283-Enhanced-NR.jpg"
-      alt: "two long-haired men playing guitars on stage, the singer is wearing a cape"
-      width: 2048
-      height: 1365
-    image1:
-      id: 2
-      image: untitled-150-Enhanced-NR.jpg"
-      alt: "a long-haired man playing a guitar on stage wearing a cape"
-      width: 2048
-      height: 1365
-    image3:
-      id: 3
-      image: untitled-257-Enhanced-NR.jpg"
-      alt: "two long-haired men playing guitars on stage, the singer is wearing a cape"
-      width: 2048
-      height: 1365
-    image4:
-      id: 4
-      image: untitled-319-Enhanced-NR.jpg"
-      alt: "from the side, a long-haired man on stage playing guitar leans towards the crowd yelling with excitement"
-      width: 2048
-      height: 1365
-    image5:
-      id: 5 
-      image: freeways_pour-house-2.jpg"
-      alt: "a band of men performing on stage playing guitar. the long-haired man in the middle is playing a guitar solo with intensity"
-      width: 2048
-      height: 1365
+  - src: "untitled-283-Enhanced-NR.jpg"
+    alt: "two long-haired men playing guitars on stage, the singer is wearing a cape"
+  - src: "untitled-150-Enhanced-NR.jpg"
+    alt: "a long-haired man playing a guitar on stage wearing a cape"
+  - src: "untitled-257-Enhanced-NR.jpg"
+    alt: "two long-haired men playing guitars on stage, the singer is wearing a cape"
+  - src: "untitled-319-Enhanced-NR.jpg"
+    alt: "from the side, a long-haired man on stage playing guitar leans towards the crowd yelling with excitement"
+  - src: "freeways_pour-house-2.jpg"
+    alt: "a band of men performing on stage playing guitar. the long-haired man in the middle is playing a guitar solo with intensity"
 tags:
-- leica
-- hallas
-- freeways
-- live-music
-- 35mmpreasph
+  - leica
+  - hallas
+  - freeways
+  - live-music
+  - 35mmpreasph
 ---
 
 I first learned of the progressive-rock band {{< link href="https://www.discogs.com/artist/4692219-H%C3%A4llas" text="Hällas" >}} back in 2017 via a {{< link href="https://www.discogs.com/artist/5771809-Priest-18" text="Priest" >}} Spotify radio station. Priest is a completely different genre of music, but both are from Sweden so I guess that's how Spotify was linking the two. The song Star Rider played and that was it. I immediately wanted more. At the time they had one EP and one LP, and I probably listened to both on repeat for a solid week. Of course I hoped to one day see them live. Then this pandemic thing hit the globe, and I just accepted I'd never get the chance.

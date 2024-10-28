@@ -7,61 +7,24 @@ image: "untitled-1-4.jpg"
 alt: "Brandenburg Gate, an 18th century monument, during the day surrounded by a large crowd of tourists"
 caption: "iPhone 14 Pro"
 gallery:
-  images:
-    image0:
-      id: 0
-      image: 2024-04-01_m10p-2.jpg"
-      alt: "a view of buildings on either side of the Spree river. A train is crossing the bridge in the distance"
-      width: 2048
-      height: 1365
-    image1:
-      id: 1
-      image: untitled-2.jpg"
-      alt: "a window on the side of a building. This is the building Michael Jackson held his baby out of"
-      width: 1365
-      height: 2048
-    image2:
-      id: 2
-      image: 2024-04-01_m10p-39.jpg"
-      alt: "the tops of concrete pillars making up the Memorial to the Murdered Jews of Europe with buildings in the background"
-      width: 2048
-      height: 1365
-    image3:
-      id: 3
-      image: 2024-04-01_m10p-61.jpg"
-      alt: "a uniquely designed brick building with many small, angled windows going upwards on either side of the metal and glass door"
-      width: 2048
-      height: 1365
-    image4:
-      id: 4
-      image: 2024-04-01_m10p-63.jpg"
-      alt: "a very worn playground toy on a spring in the likeness of a bicycle. there's a small bit of graffiti on it"
-      width: 2048
-      height: 1365
-    image5:
-      id: 5
-      image: 2024-04-01_m10p-72.jpg"
-      alt: "the side of a building has a pattern made of red and white square tiles. there are many small square windows of apartments inside"
-      width: 2048
-      height: 1365
-    image6:
-      id: 6
-      image: untitled-4.jpg"
-      alt: "a large open gallery with concrete floors. as soon as you walk in you notice the dead animals lying on the ground. the one nearest is a fox. they are taxidermied."
-      width: 2048
-      height: 1365
-    image7:
-      id: 7
-      image: 2024-04-01_m10p-74.jpg"
-      alt: "two men walking towards a large abstract sculpture. the ground is made up of letters in individual tiles."
-      width: 2048
-      height: 1365
-    image8:
-      id: 8
-      image: 2024-04-01_griii-x-3.jpg"
-      alt: "a Leica M camera with a simple leather strap lying on a bed"
-      width: 2048
-      height: 1365
+  - src: "2024-04-01_m10p-2.jpg"
+    alt: "a view of buildings on either side of the Spree river. A train is crossing the bridge in the distance"
+  - src: "untitled-2.jpg"
+    alt: "a window on the side of a building. This is the building Michael Jackson held his baby out of"
+  - src: "2024-04-01_m10p-39.jpg"
+    alt: "the tops of concrete pillars making up the Memorial to the Murdered Jews of Europe with buildings in the background"
+  - src: "2024-04-01_m10p-61.jpg"
+    alt: "a uniquely designed brick building with many small, angled windows going upwards on either side of the metal and glass door"
+  - src: "2024-04-01_m10p-63.jpg"
+    alt: "a very worn playground toy on a spring in the likeness of a bicycle. there's a small bit of graffiti on it"
+  - src: "2024-04-01_m10p-72.jpg"
+    alt: "the side of a building has a pattern made of red and white square tiles. there are many small square windows of apartments inside"
+  - src: "untitled-4.jpg"
+    alt: "a large open gallery with concrete floors. as soon as you walk in you notice the dead animals lying on the ground. the one nearest is a fox. they are taxidermied."
+  - src: "2024-04-01_m10p-74.jpg"
+    alt: "two men walking towards a large abstract sculpture. the ground is made up of letters in individual tiles."
+  - src: "2024-04-01_griii-x-3.jpg"
+    alt: "a Leica M camera with a simple leather strap lying on a bed"
 tags:
   - travel
 ---

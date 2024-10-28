@@ -2,7 +2,6 @@ singleQuote: false
 bracketSpacing: true
 htmlWhitespaceSensitivity: "ignore"
 singleAttributePerLine: true
-proseWrap: "always"
 plugins:
   - "prettier-plugin-go-template"
 overrides:

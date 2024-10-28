@@ -10,31 +10,14 @@ jammin:
   - title: "DR. Moriarity, A-F-R-O, MF DOOM - Super Villains"
     href: "https://song.link/s/6iMfUuHZN1RybfUGuncTeL"
 gallery:
-  images:
-    image1:
-      id: 1
-      image: 2024-05-11_m10p-13.jpg"
-      alt: "a man plays a coin operated basketball arcade game"
-      width: 2048
-      height: 1365
-    image2:
-      id: 2
-      image: 2024-05-11_m10p-14.jpg"
-      alt: "the interior of a mirrored art installation reflecting lots of little lights, a man's face looks inside via a hole in the wall"
-      width: 2048
-      height: 1365
-    image3:
-      id: 3
-      image: 2024-05-11_m10p-28.jpg"
-      alt: "a view between two sculptures of a boy looking at young women in prom dresses being photographed"
-      width: 2048
-      height: 1365
-    image4:
-      id: 4
-      image: 2024-05-11_m10p-39.jpg"
-      alt: "view of a metal wall of a building with nicely landscaped lawn"
-      width: 1365
-      height: 2048
+  - src: "2024-05-11_m10p-13.jpg"
+    alt: "a man plays a coin operated basketball arcade game"
+  - src: "2024-05-11_m10p-14.jpg"
+    alt: "the interior of a mirrored art installation reflecting lots of little lights, a man's face looks inside via a hole in the wall"
+  - src: "2024-05-11_m10p-28.jpg"
+    alt: "a view between two sculptures of a boy looking at young women in prom dresses being photographed"
+  - src: "2024-05-11_m10p-39.jpg"
+    alt: "view of a metal wall of a building with nicely landscaped lawn"
 tags:
   - raleigh
   - leica
