@@ -6,16 +6,6 @@ draft: false
 image: "deadmau5-live.jpg"
 alt: "deadmau5 performing live"
 caption: "iPhone 11 Pro"
-gallery:
-  - src: "captain-america-deadmau5.jpg"
-    alt: "alt text"
-    width: 3024
-    height: 2268
-  - src: "deadmau5-helmet.jpg"
-    alt: "alt text"
-    width: 3024
-    height: 2268
-
 tags:
   - shows
 ---
