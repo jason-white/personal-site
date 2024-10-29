@@ -1,68 +1,69 @@
 {{ if .Params.gallery }}
-<section
-  id="Gallery"
-  class="post__gallery"
->
-
-<ul class="list-reset gallery__images">
-    {{- range .Params.gallery -}}
-        {{- $src := .src -}} 
-        {{- $alt := .alt -}} 
+  {{- $pageDir := .Page.File.Dir -}}
+  <section
+    id="Gallery"
+    class="post__gallery"
+  >
+    <ul class="list-reset gallery__images">
+      {{- range .Params.gallery -}}
         {{- $respSizes := slice "375" "640" "960" "1280" "1600" "1920" -}}
+        {{- $src := .src -}}
+        {{- $alt := .alt -}}
+        {{- $webpSrc := replaceRE "\\.[^.]+$" ".webp" $src -}}
+        {{- $myCloud := "dpmsynxig" -}}
+        {{- $cloudBase := print "https://res.cloudinary.com/" $myCloud "/image/upload/" -}}
+        {{- $xFmPart1 := "q_auto,w_" -}}
+        {{- $xFmPart2 := ",x_0,z_1/" -}}
         {{- $dataSzes := "(min-width: 1024px) 50vw, 100vw" -}}
+        {{- $imagePath := print $pageDir $webpSrc -}}
 
-        {{- if $.Page.Resources.GetMatch $src -}}  {{/* Check if the resource exists */}}
-            {{ with $.Page.Resources.GetMatch $src }}
-                {{- $imgRsc := . -}}
-                {{- $actualImg := $imgRsc.Process "resize 640x webp MitchellNetravali" -}}
-                <li class="gallery__item">
-                         <a
-                            href="{{ $actualImg.RelPermalink }}"
-                            target="_blank"
-                            data-pswp-width="{{ $imgRsc.Width }}"
-                            data-pswp-height="{{ $imgRsc.Height }}"
-                            data-cropped="true"
-                          >
-                          <img
-                              class="gallery__thumb"
-                              src="{{ $actualImg.RelPermalink }}"
-                              srcset="
-                                    {{- range $i, $e := $respSizes -}}
-                                        {{- if ge $imgRsc.Width $e -}}
-                                            {{- if $i }}, {{ end -}}
-                                            {{- ($imgRsc.Process (print "resize " $e "x webp photo MitchellNetravali")).RelPermalink }} {{ $e }}w
-                                        {{- end -}}
-                                    {{- end -}}"
-                                sizes="{{ $dataSzes }}"
-                                width="{{ $imgRsc.Width }}"
-                                height="{{ $imgRsc.Height }}"
-                                alt="{{ $alt }}"
-                                loading="lazy"
-                            />
-                    </a>
-                </li>
-            {{- end -}}
-        {{- else -}}
-            <p>No resource found for: {{ $src }}</p>  {{/* Debug output if no resource is found */}}
+        {{- if $src -}}
+          <li class="gallery__item">
+            <a
+              href="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
+              target="_blank"
+              data-pswp-width="{{ $width }}"
+              data-pswp-height="{{ $height }}"
+              data-cropped="true"
+              {{- $srcset := "" -}}
+              {{- range $i, $e := $respSizes -}}
+                {{- if $i -}}
+                  {{- $srcset = print $srcset ", " -}}
+                {{- end -}}
+                {{- $srcset -}}{{- $cloudBase -}}{{- $xFmPart1 -}}
+                {{- $e -}}{{- $xFmPart2 -}}{{- $imagePath -}} {{ $e }}w -}}
+              {{- end -}}
+              data-pswp-srcset="{{ $srcset }}"
+            >
+              <img
+                class="gallery__thumb"
+                sizes="{{ $dataSzes }}"
+                src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
+                width="600"
+                height="400"
+                alt="{{ $alt }}"
+                loading="lazy"
+              />
+            </a>
+          </li>
         {{- end -}}
-    {{- end -}}
-</ul>
+      {{- end -}}
+    </ul>
+  </section>
 
-</section>
+  <script type="module">
+    import PhotoSwipeLightBox from "/js/photoswipe-lightbox.esm.min.js";
 
-<script type="module">
-  import PhotoSwipeLightBox from "/js/photoswipe-lightbox.esm.min.js";
+    const lightbox = new PhotoSwipeLightBox({
+      gallery: "#Gallery",
+      children: "a",
+      initialZoomLevel: "fit",
+      secondaryZoomLevel: 1,
+      maxZoomLevel: 1,
+      showHideAnimationType: "fade",
+      pswpModule: () => import("/js/photoswipe.esm.min.js"),
+    });
 
-  const lightbox = new PhotoSwipeLightBox({
-    gallery: "#Gallery",
-    children: "a",
-    initialZoomLevel: "fit",
-    secondaryZoomLevel: 1,
-    maxZoomLevel: 1,
-    showHideAnimationType: "fade",
-    pswpModule: () => import("/js/photoswipe.esm.min.js"),
-  });
-
-  lightbox.init();
-</script>
+    lightbox.init();
+  </script>
 {{ end }}
