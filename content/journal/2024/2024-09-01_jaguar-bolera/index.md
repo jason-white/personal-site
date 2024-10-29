@@ -9,8 +9,12 @@ caption: "35mm Summicron ASPH / Leica M10-P"
 gallery:
   - src: "7.jpg"
     alt: "Two men looking at and playing with an interactive art piece that plays music as balloons dance above a box fan pointing up"
+    width: 2048
+    height: 1365
   - src: "65.jpg"
     alt: "Two men sitting on a bench paying attention to something going on off-camera to the left"
+    width: 2048
+    height: 1365
 tags:
   - raleigh
   - leica

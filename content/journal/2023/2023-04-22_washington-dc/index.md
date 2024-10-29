@@ -9,20 +9,36 @@ caption: "35mm Summicron ASPH / Leica M10-P"
 gallery:
   - src: "2023-04-22_m10p-10.jpg"
     alt: "four women facing different directions, three of them capturing a moment on their smartphone"
+    width: 2048
+    height: 1365
   - src: "2023-04-22_m10p-11.jpg"
     alt: "a man lining up an image of the washington monument on his smartphone while a woman observes"
+    width: 2048
+    height: 1365
   - src: "2023-04-22_m10p-23.jpg"
     alt: "a woman's umbrella opened too far during an unexpected drizzle as her family and friends watch with a confused look on their faces"
+    width: 2048
+    height: 1365
   - src: "2023-04-22_m10p-15.jpg"
     alt: "a cartoon etched in the stone of the world war ii memorial that reads 'killroy was here'"
+    width: 2048
+    height: 1365
   - src: "2023-04-22_m10p-38.jpg"
     alt: "a man stands behind a three dimensional representation of a mega-toothed shark's jaws"
+    width: 1365
+    height: 2048
   - src: "2023-04-22_m10p-39.jpg"
     alt: "a 52-foot-long model of a female mega-toothed shark is suspended from the ceiling"
+    width: 2048
+    height: 1365
   - src: "2023-04-22_m10p-42.jpg"
     alt: "three tourists take a nap on a bench in the smithsonian natural history museum while their small child plays on a smartphone"
+    width: 2048
+    height: 1365
   - src: "2023-04-22_m10p-44.jpg"
     alt: "a man standing in front of various food trucks wearing a plastic blue smithsonian poncho and holding an umbrella"
+    width: 2048
+    height: 1365
 tags:
   - leica
   - m10p

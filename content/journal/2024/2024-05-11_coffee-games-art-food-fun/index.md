@@ -12,12 +12,20 @@ jammin:
 gallery:
   - src: "2024-05-11_m10p-13.jpg"
     alt: "a man plays a coin operated basketball arcade game"
+    width: 2048
+    height: 1365
   - src: "2024-05-11_m10p-14.jpg"
     alt: "the interior of a mirrored art installation reflecting lots of little lights, a man's face looks inside via a hole in the wall"
+    width: 2048
+    height: 1365
   - src: "2024-05-11_m10p-28.jpg"
     alt: "a view between two sculptures of a boy looking at young women in prom dresses being photographed"
+    width: 2048
+    height: 1365
   - src: "2024-05-11_m10p-39.jpg"
     alt: "view of a metal wall of a building with nicely landscaped lawn"
+    width: 1365
+    height: 2048
 tags:
   - raleigh
   - leica

@@ -9,6 +9,8 @@
         {{- $respSizes := slice "375" "640" "960" "1280" "1600" "1920" -}}
         {{- $src := .src -}}
         {{- $alt := .alt -}}
+        {{- $width := .width -}}
+        {{- $height := .height -}}
         {{- $webpSrc := replaceRE "\\.[^.]+$" ".webp" $src -}}
         {{- $myCloud := "dpmsynxig" -}}
         {{- $cloudBase := print "https://res.cloudinary.com/" $myCloud "/image/upload/" -}}
@@ -20,7 +22,7 @@
         {{- if $src -}}
           <li class="gallery__item">
             <a
-              href="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
+              href="{{ $cloudBase }}{{ $xFmPart1 }}2048{{ $xFmPart2 }}{{ $imagePath }}"
               target="_blank"
               data-pswp-width="{{ $width }}"
               data-pswp-height="{{ $height }}"
@@ -30,17 +32,16 @@
                 {{- if $i -}}
                   {{- $srcset = print $srcset ", " -}}
                 {{- end -}}
-                {{- $srcset -}}{{- $cloudBase -}}{{- $xFmPart1 -}}
-                {{- $e -}}{{- $xFmPart2 -}}{{- $imagePath -}} {{ $e }}w -}}
+                {{- $srcset = print $srcset $cloudBase $xFmPart1 $e $xFmPart2 $imagePath " " $e "w" -}}
               {{- end -}}
-              data-pswp-srcset="{{ $srcset }}"
+              {{ printf "data-pswp-srcset=\"%s\"" $srcset | safeHTMLAttr }}
             >
               <img
                 class="gallery__thumb"
                 sizes="{{ $dataSzes }}"
-                src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
-                width="600"
-                height="400"
+                src="{{ $cloudBase }}{{ $xFmPart1 }}375{{ $xFmPart2 }}{{ $imagePath }}"
+                width="375"
+                height="250"
                 alt="{{ $alt }}"
                 loading="lazy"
               />

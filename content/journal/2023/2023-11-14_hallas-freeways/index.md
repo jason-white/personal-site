@@ -9,14 +9,24 @@ caption: "35mm Summilux Pre ASPH / Leica M10-P"
 gallery:
   - src: "untitled-283-Enhanced-NR.jpg"
     alt: "two long-haired men playing guitars on stage, the singer is wearing a cape"
+    width: 2048
+    height: 1365
   - src: "untitled-150-Enhanced-NR.jpg"
     alt: "a long-haired man playing a guitar on stage wearing a cape"
+    width: 2048
+    height: 1365
   - src: "untitled-257-Enhanced-NR.jpg"
     alt: "two long-haired men playing guitars on stage, the singer is wearing a cape"
+    width: 2048
+    height: 1365
   - src: "untitled-319-Enhanced-NR.jpg"
     alt: "from the side, a long-haired man on stage playing guitar leans towards the crowd yelling with excitement"
+    width: 2048
+    height: 1365
   - src: "freeways_pour-house-2.jpg"
     alt: "a band of men performing on stage playing guitar. the long-haired man in the middle is playing a guitar solo with intensity"
+    width: 2048
+    height: 1365
 tags:
   - leica
   - hallas

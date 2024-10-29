@@ -9,20 +9,36 @@ caption: "28mm Elmarit ASPH / Kodak XX @ 800"
 gallery:
   - src: "2023-01-19_xx-800_01-4-positive.jpg"
     alt: "a gate on a snowy mountain trail with a sign that reads no tresspassing. it also has a christmas wreath hanging on it"
+    width: 2048
+    height: 1365
   - src: "2023-01-19_xx-800_02-12.jpg"
     alt: "four men playing cards at a table"
+    width: 2048
+    height: 1365
   - src: "2023-01-19_xx-800_01-15.jpg"
     alt: "a group of men sitting around a table playing a card game. each of them are making finger gun expressions at the other"
+    width: 2048
+    height: 1365
   - src: "2023-01-19_xx-800_01-12.jpg"
     alt: "a group of men sitting around a table playing a card game. one is holding anothers face to his and kissing him forcefully"
+    width: 2048
+    height: 1365
   - src: "2023-01-19_xx-800_01-10.jpg"
     alt: "four men about to drink a shot off of a ski. also known as a 'shotski'"
+    width: 2048
+    height: 1365
   - src: "2023-01-17_m10p-9.jpg"
     alt: "a large group of men post for a photograph in a log cabin"
+    width: 2048
+    height: 1365
   - src: "2023-01-17_m10p-18.jpg"
     alt: "a foggy mountain view from an overlook"
+    width: 2048
+    height: 1365
   - src: "2023-01-17_m10p-13.jpg"
     alt: "a junked passenger airplane sits in an open road-side area"
+    width: 2048
+    height: 1365
 tags:
   - gatlinburg
   - vacation

@@ -12,10 +12,16 @@ jammin:
 gallery:
   - src: "2024-07-07_m10p-54.jpg"
     alt: "A cute dog with large perked up ears pays attention to what's going on outside of his front porch."
+    width: 2048
+    height: 1365
   - src: "2024-07-07_m10p-60.jpg"
     alt: "A view of mountains off the highway from inside of a vehicle. Reflections of clouds off of the drivers watch face."
+    width: 2048
+    height: 1365
   - src: "2024-07-07_m10p-68.jpg"
     alt: "Three large crosses and an american flag in the distance, viewed from the passenger seat of a vehicle."
+    width: 2048
+    height: 1365
 tags:
   - travel
   - pre-a

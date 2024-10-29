@@ -9,14 +9,24 @@ caption: "50mm Summilux ASPH / Leica M10-P"
 gallery:
   - src: "2023-06-03_m10p-18.jpg"
     alt: "a duplex beach house with both sides almost mirroring each other"
+    width: 2048
+    height: 1365
   - src: "2023-06-03_m10p-23.jpg"
     alt: "a duplix beach house with both sides almost mirroring each other"
+    width: 2048
+    height: 1365
   - src: "2023-06-03_m10p-10.jpg"
     alt: "a torn beach umbrella stands in the sand of a seemingly empty beach next to a cart and a couple of towels laid out"
+    width: 2048
+    height: 1365
   - src: "IMG_2878.jpg"
     alt: "a row of off-road vehicles (trucks, suv, jeeps) on a beach"
+    width: 2048
+    height: 1365
   - src: "2023-06-03_m10p-43.jpg"
     alt: "a sunset over a bay of water with dark clouds scattered about"
+    width: 2048
+    height: 1365
 tags:
   - leica
   - 50mmsummiluxasph

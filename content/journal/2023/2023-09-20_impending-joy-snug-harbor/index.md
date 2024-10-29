@@ -9,16 +9,28 @@ caption: "28mm Elmarit ASPH / Leica M10-P"
 gallery:
   - src: "untitled-101.jpg"
     alt: "a man plays a guitar solo on stage"
+    width: 2048
+    height: 1365
   - src: "untitled-112.jpg"
     alt: "a man very energetically playing a guitar on stage"
+    width: 2048
+    height: 1365
   - src: "untitled-94.jpg"
     alt: "two sets of custom guitar pedal boards on stage"
+    width: 2048
+    height: 1365
   - src: "untitled-14.jpg"
     alt: "a man sings into the microphone while performing on stage with a desktop computer and other electronics"
+    width: 1365
+    height: 2048
   - src: "untitled-27.jpg"
     alt: "a man performing on stage with a desktop computer and other electronics"
+    width: 1365
+    height: 2048
   - src: "untitled-28.jpg"
     alt: "a man performing on stage tapping glowing buttons on a sampling machine"
+    width: 2048
+    height: 1365
 tags:
   - leica
   - 28mmelmaritasph

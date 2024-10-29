@@ -9,14 +9,24 @@ caption: "35mm Summicron ASPH / Leica M-10-P"
 gallery:
   - src: "untitled-12.jpg"
     alt: "a drag queen standing in a hotel dining area, poses and gives a sassy look to the camera"
+    width: 2048
+    height: 1365
   - src: "untitled-79-Enhanced-NR.jpg"
     alt: "an modern walkway between two buildings, brightly illuminated in pink with plants hanging from the ceiling"
+    width: 2048
+    height: 1365
   - src: "untitled-15.jpg"
     alt: "a grimy entrance to a club is dimly lit under an awning. a shopping cart with some bottles sits beside a wooden wall"
+    width: 1365
+    height: 2048
   - src: "untitled-16.jpg"
     alt: "a collage of stickers dimly lit on a lamp post"
+    width: 2048
+    height: 1365
   - src: "untitled-18.jpg"
     alt: "four men in a mirrored elevator, one is pointing a camera at themselves"
+    width: 1365
+    height: 2048
 tags:
   - travel
 ---

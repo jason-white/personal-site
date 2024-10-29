@@ -9,24 +9,44 @@ caption: "35mm Summicron ASPH / Leica M10-P"
 gallery:
   - src: "untitled-31.jpg"
     alt: "old architecture style building connected to a very modern style building at the edge of a river"
+    width: 2048
+    height: 1365
   - src: "untitled-117-Enhanced-NR.jpg"
     alt: "an industrial concrete interior dimly lit by three large sphere-shaped lights on tall, narrow stands"
+    width: 2048
+    height: 1365
   - src: "untitled-60-Enhanced-NR.jpg"
     alt: "people walking up a twisting concrete staircase, dimly lit by the tucked lights under the railing"
+    width: 2048
+    height: 1365
   - src: "untitled-61.jpg"
     alt: "splotches and narrow beams of light scattered in a darkroom"
+    width: 2048
+    height: 1365
   - src: "untitled-94-Enhanced-NR.jpg"
     alt: "very bright laser lights in a dark room creating silhouette's of the people below"
+    width: 2048
+    height: 1365
   - src: "untitled-103-Enhanced-NR.jpg"
     alt: "laser lights creating geometic shapes appear to float high up in a large dark room"
+    width: 2048
+    height: 1365
   - src: "untitled-5.jpg"
     alt: "a lovely presented salad of fennel sliced into strips like pasta in a rustic bowl on a wooden table"
+    width: 2048
+    height: 1365
   - src: "untitled-15.jpg"
     alt: "a lovely presented bowl of sliced grilled pumpkin on top of a purée with sesame seeds"
+    width: 2048
+    height: 1365
   - src: "untitled-18.jpg"
     alt: "a small cup of espresso sits on a matching plate"
+    width: 2048
+    height: 1365
   - src: "untitled-22.jpg"
     alt: "four men standing in a mirrored elevator"
+    width: 2048
+    height: 1365
 tags:
   - travel
 ---

@@ -9,22 +9,40 @@ caption: "35mm Summicron ASPH / Leica M10-P"
 gallery:
   - src: "untitled-77.jpg"
     alt: "the leaves of one tree bunched up next to the blossoms of another"
+    width: 2048
+    height: 1365
   - src: "untitled-1.jpg"
     alt: "a napkin with a print that reads 'romeo und romeo' sits on a cafe table next to coffee and an empty plate"
+    width: 2048
+    height: 1365
   - src: "untitled-138.jpg"
     alt: "looking straight onto a non-descript metal door. an address number of '10' mounted to the far left"
+    width: 2048
+    height: 1365
   - src: "untitled-139.jpg"
     alt: "a view of the side of a very small four door car parked on the street"
+    width: 2048
+    height: 1365
   - src: "untitled-137.jpg"
     alt: "a cropped image of a door and wall creating an abstract composition"
+    width: 2048
+    height: 1365
   - src: "untitled-134.jpg"
     alt: "the side view of a small, vintage car parked on the street"
+    width: 2048
+    height: 1365
   - src: "untitled-146.jpg"
     alt: "a very large group of men socializing outside of a bar named 'prinzknecht'"
+    width: 2048
+    height: 1365
   - src: "untitled-15.jpg"
     alt: "a view of a very crowded bar. people are in line to order drinks, there are four bearded men working on the other side of the bar"
+    width: 2048
+    height: 1365
   - src: "untitled-3.jpg"
     alt: "a man takes a photo of himself and three friends in a mirrored elevator"
+    width: 2048
+    height: 1365
 tags:
   - travel
 ---

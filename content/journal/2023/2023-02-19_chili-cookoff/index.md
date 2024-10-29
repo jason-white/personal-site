@@ -9,12 +9,20 @@ caption: "35mm Summicron ASPH / Kodak XX @ 800"
 gallery:
   - src: "2023-03-11_xx-800_02-8.jpg"
     alt: "people standing around a table with a man behind it that serves chili. the man is eating a bowl of the chili himself"
+    width: 2048
+    height: 1365
   - src: "2023-02-19_griii-9.jpg"
     alt: "viewing a man from behind, he is wearing a hat that is held together with a string"
+    width: 2048
+    height: 1365
   - src: "2023-02-19_griii-12.jpg"
     alt: "a deliciouis looking plate of fettucine alfredo with sausage. there is a ball of fresh mozzarella on top"
+    width: 2048
+    height: 1365
   - src: "2023-02-19_griii-14.jpg"
     alt: "a wooden tray with three desserts and multiple spoons"
+    width: 2048
+    height: 1365
 tags:
   - haw-river
   - leica
