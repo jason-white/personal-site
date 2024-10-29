@@ -1,13 +1,18 @@
 {{- $respSizes := slice "375" "640" "960" "1280" "1600" "1920" -}}
+
 {{- $src := .Params.image -}}
-{{- $webpSrc := replaceRE "\\.[^.]+$" ".webp" $src -}}
 {{- $alt := .Params.alt -}}
 {{- $cap := .Params.caption -}}
+
+{{- $webpSrc := replaceRE "\\.[^.]+$" ".webp" $src -}}
+
 {{- $myCloud := "dpmsynxig" -}}
 {{- $cloudBase := print "https://res.cloudinary.com/" $myCloud "/image/upload/" -}}
 {{- $xFmPart1 := "q_auto,w_" -}}
 {{- $xFmPart2 := ",x_0,z_1/" -}}
+
 {{- $dataSzes := "(min-width: 1024px) 50vw, 100vw" -}}
+
 {{- $pageDir := .Page.File.Dir -}}
 {{- $imagePath := print $pageDir $webpSrc -}}
 

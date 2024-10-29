@@ -11,11 +11,11 @@
 {{- $cloudBase := print "https://res.cloudinary.com/" $myCloud "/image/upload/" -}}
 {{- $xFmPart1 := "q_auto,w_" -}}
 {{- $xFmPart2 := ",x_0,z_1/" -}}
-{{- $dataSzes := "(min-width: 1024px) 50vw, 100vw" -}}
-{{- $pageDir := .Page.File.Dir -}}
-{{- $imagePath := print $pageDir $webpSrc -}}
 
 {{- $dataSzes := "(min-width: 1024px) 50vw, 100vw" -}}
+
+{{- $pageDir := .Page.File.Dir -}}
+{{- $imagePath := print $pageDir $webpSrc -}}
 
 {{- if  $src -}}
   <figure>
@@ -38,4 +38,6 @@
       <figcaption><p>{{ $cap }}</p></figcaption>
     {{- end }}
   </figure>
+{{- else -}}
+  <p><em>Image unavailable.</em></p>
 {{- end -}}
