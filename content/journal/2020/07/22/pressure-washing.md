@@ -14,7 +14,7 @@ We bought a pressure washer the other day. Well, a few weeks ago at this point. 
 
 Anywho, pressure washers are amazing. Like, *amazing*. I honestly didn't think our driveway was so dirty. Boy was I wrong. You can see a difference at the end of the driveway.
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1595473722/2020-07-22_22-flickr.jpg" alt="camoflauge sandles" caption="Ilford HP5 pushed to 1600" >}}
+{{< figure src="2020-07-22_22-flickr.jpg" alt="camoflauge sandles" caption="Ilford HP5 pushed to 1600" >}}
 
 The patio makes me proud to look at. Now if we can just keep up with the flowers falling from the mimosa tree.
 

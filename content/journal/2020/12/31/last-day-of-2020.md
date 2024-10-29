@@ -21,8 +21,8 @@ So a little bummed I can't get any shots with the hasselblad. I snap some photos
 
 A jogger comes up from behind me and runs right past the crane. Just a few feet from it and the crane couldn't have been less bothered. Now I'm thinking I can get _really_ close. I get a few frames of him on the edge of the water as I walk by. A woman walking her dog behind me was nice enough to stop moving every time I stopped to take a photo. After the crane flew off I thanked her and continued down one of the paths.
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1609723838/2021%20Posts/2021-01-03/untitled-14-positive.jpg" alt="crane bird near on bank of water" caption="Kodak Portra 400" >}}
+{{< figure src="untitled-14-positive.jpg" alt="crane bird near on bank of water" caption="Kodak Portra 400" >}}
 
 In the middle of the swampy looking water there's a tall, skinny cross. If I'm not mistaken it usually has bird houses made from gourds hanging from it. But now it's bare. And standing reflected in this murky body of water, surrounded by dense fog made for a pretty cool image. How on earth do they get out there to hang more bird houses on it?
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1609723831/2021%20Posts/2021-01-03/untitled-25-positive.jpg" alt="large thin cross in body of water in fog" caption="Kodak Portra 400" >}}
+{{< figure src="untitled-25-positive.jpg" alt="large thin cross in body of water in fog" caption="Kodak Portra 400" >}}

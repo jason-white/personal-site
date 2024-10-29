@@ -18,4 +18,4 @@ The weather has been mostly beautiful so it's hard not to go for walks after wor
 
 All park equipment has been tied up or blocked off to keep people from gathering around. This probably drives a lot of people crazy but I'm pretty proud of the city overall.
 
-{{< figure src="https://res.cloudinary.com/dpmsynxig/image/upload/f_auto,q_auto:good/v1587689678/000003270019.jpg" alt="soccer goals tied together" caption="Kodak Portra 400" >}}
+{{< figure src="000003270019.jpg" alt="soccer goals tied together" caption="Kodak Portra 400" >}}
