@@ -38,14 +38,14 @@
 
 @font-face {
   font-family: "InterV";
-  src: url("../fonts/InterVariable.woff2") format("woff2-variations");
+  src: url("/fonts/InterVariable.woff2") format("woff2");
   font-weight: 100 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "InterV";
-  src: url("../fonts/InterVariable-Italic.woff2") format("woff2-variations");
+  src: url("/fonts/InterVariable-Italic.woff2") format("woff2");
   font-weight: 100 900;
   font-style: italic;
 }
@@ -557,7 +557,7 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
   font-size: var(--small-font-size);
   padding-block: var(--fluid-gap);
-  h3 {
+  .secondary {
     font-weight: 400;
     margin-block-end: 0.5rem;
   }
