@@ -279,6 +279,12 @@ img {
   }
 }
 
+.list__thumb {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  object-position: center center;
+}
+
 .tags {
   display: flex;
   flex-direction: column;

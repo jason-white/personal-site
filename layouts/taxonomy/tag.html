@@ -2,46 +2,44 @@
 <section class="list-page">
   <h1>Filed under: {{ .Title }}</h1>
   <ul class="post-list list-reset">
-    {{ range .Pages }} {{ if .Params.image }}
-    <li>
-      <article>
-        <div class="image-wrap border-radius">
-          <img
-            loading="lazy"
-            src="{{ .Params.thumbnail }}"
-            alt="thumbnail for {{ .Title }}"
-          />
-        </div>
-        <h2>{{ .Title }}</h2>
-        <time>{{ .Date.Format "January 2, 2006" }}</time>
-        <p>{{ .Summary | truncate 120 }}</p>
-        <span>
-          <a
-            aria-label="View post {{ .Title }}"
-            href="{{ .Permalink }}"
-          >
-            View post
-          </a>
-        </span>
-      </article>
-
+    {{ range .Pages }}
+      {{ if .Params.image }}
+        <li>
+          <article>
+            <div class="image-wrap border-radius">
+              {{ partial "list-thumb.html" . }}
+            </div>
+            <h2>{{ .Title }}</h2>
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
+            <p>{{ .Summary | truncate 120 }}</p>
+            <span>
+              <a
+                aria-label="View post {{ .Title }}"
+                href="{{ .Permalink }}"
+              >
+                View post
+              </a>
+            </span>
+          </article>
+        </li>
       {{ else if .Params.href }}
-
-      <article>
-        <h2>{{ .Title }}</h2>
-        <time>{{ .Date.Format "January 2, 2006" }}</time>
-        {{ .Content }}
-        <span class="external-link">
-          <a
-            aria-label="Visit {{ .Title }}"
-            href="{{ .Params.href }}"
-          >
-            Visit link
-          </a>
-        </span>
-      </article>
-    </li>
-    {{ end }} {{ end }}
+        <li>
+          <article>
+            <h2>{{ .Title }}</h2>
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
+            {{ .Content }}
+            <span class="external-link">
+              <a
+                aria-label="Visit {{ .Title }}"
+                href="{{ .Params.href }}"
+              >
+                Visit link
+              </a>
+            </span>
+          </article>
+        </li>
+      {{ end }}
+    {{ end }}
   </ul>
 </section>
 {{ partial "footer.html" . }}

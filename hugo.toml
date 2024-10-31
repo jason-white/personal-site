@@ -5,8 +5,9 @@ rssLimit = 20
 title = 'Jason White'
 buildDrafts = false
 
-[author]
+[params.author]
   name = "Jason White"
+  email = "jason@rotdog.io"
 
 [permalinks]
 	journal = "/:year/:month/:day/:title/"

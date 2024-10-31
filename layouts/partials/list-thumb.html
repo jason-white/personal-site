@@ -1,0 +1,37 @@
+{{- $respSizes := slice "375" "640" "960" -}}
+
+{{- $src := .Params.image -}}
+{{- $alt := .Params.alt -}}
+
+{{- $webpSrc := replaceRE "\\.[^.]+$" ".webp" $src -}}
+
+{{- $myCloud := "dpmsynxig" -}}
+{{- $cloudBase := print "https://res.cloudinary.com/" $myCloud "/image/upload/" -}}
+{{- $xFmPart1 := "q_auto,w_" -}}
+{{- $xFmPart2 := ",x_0,z_1/" -}}
+
+{{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
+
+{{- $pageDir := .Page.File.Dir -}}
+{{- $imagePath := print $pageDir $webpSrc -}}
+
+{{- if $src -}}
+  <img
+    class="list__thumb"
+    srcset="
+      {{- range $i, $e := $respSizes -}}
+        {{- if $i }},{{ end -}}
+        {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $imagePath }}
+        {{ $e }}w
+      {{- end -}}
+    "
+    sizes="{{ $dataSzes }}"
+    src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
+    width="600"
+    height="400"
+    alt="{{ $alt }}"
+    loading="lazy"
+  />
+{{- else -}}
+  <p><em>Image unavailable.</em></p>
+{{- end -}}
