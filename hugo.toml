@@ -5,9 +5,9 @@ rssLimit = 20
 title = 'Jason White'
 buildDrafts = false
 
-[params.author]
-  name = "Jason White"
-  email = "jason@rotdog.io"
+[params]
+  author = "Jason White"
+  description = "Personal site of Jason White, a photographer and developer based in Charlotte, North Carolina."
 
 [permalinks]
 	journal = "/:year/:month/:day/:title/"
