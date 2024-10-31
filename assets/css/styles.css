@@ -18,7 +18,7 @@
   --flow: var(--gap);
   --flow-lg: calc(var(--gap) * 2);
 
-  --font-stack: "InterV", Georgia, serif;
+  --font-stack: "InterV", system-ui, serif;
 
   --border-top: 0.063rem solid var(--mg-color);
   --border-radius: 0.25rem;
