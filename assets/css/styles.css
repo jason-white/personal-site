@@ -242,12 +242,7 @@ img {
 }
 
 .image-wrap {
-  background-color: var(--accent-color--dark);
   overflow: hidden;
-  img {
-    filter: grayscale(100%);
-    mix-blend-mode: multiply;
-  }
 }
 
 .post-section {
@@ -432,14 +427,6 @@ img {
   border-block-start: none;
   span::after {
     content: "\2192";
-  }
-}
-
-.post-list article:hover,
-.post-list article:focus-within {
-  img {
-    filter: grayscale(0);
-    mix-blend-mode: normal;
   }
 }
 
