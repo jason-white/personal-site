@@ -59,19 +59,19 @@ Lastly, an EP by Alex Kassian which seems to be a rework or remix of this Manuel
 
 I've been reading a lot more. The key has been to setup a specific time every day to make an afternoon cup of coffee and read for at least 45 minutes. It's been working really well, so far.
 
-#### {{< link href="https://www.librarything.com/work/27326233" text="Building a Second Brain" >}} by Tiago Forte
+#### Tiago Forte - {{< link href="https://www.librarything.com/work/27326233" text="Building a Second Brain" >}}
 
 It was a pretty good read. I don't think I'll dive into using this setup any time soon as I've started a {{< link href="https://www.youtube.com/watch?v=o1NJYnZCfmY" text="Zettelkasten" >}} in Obsidian, complete with scripts to quickly start and save a note to my inbox from the terminal. It's working pretty well.
 
-#### {{< link href="https://www.librarything.com/work/30743605" text="Slow Productivity: The Lost Art of Accomplishment Without Burnout" >}} by Cal Newport.
+#### Cal Newport - {{< link href="https://www.librarything.com/work/30743605" text="Slow Productivity: The Lost Art of Accomplishment Without Burnout" >}}
 
 I enjoyed this one, and I'm trying to implement some of the ideas in my day-to-day.
 
-#### {{< link href="https://www.librarything.com/work/49485" text="When Gravity Fails" >}} by George Alec Effinger
+#### George Alec Effinger - {{< link href="https://www.librarything.com/work/49485" text="When Gravity Fails" >}}
 
 I stopped reading this for a bit, but I've jumped back on it and dividing my time between a fiction and non-fiction book.
 
-#### {{< link href="https://www.librarything.com/work/32433688" text="Web Accessibility Cookbook" >}} by Manuel Matuzović.
+#### Manuel Matuzović - {{< link href="https://www.librarything.com/work/32433688" text="Web Accessibility Cookbook" >}}
 
 Really good so far. I've already learned a few new things and am trying to implement them where I can on my site. Accessibility is a top priority around these parts.
 
