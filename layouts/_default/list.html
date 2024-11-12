@@ -13,7 +13,7 @@
             </div>
             <h2>{{ .Title }}</h2>
             <time>{{ .Date.Format "January 2, 2006" }}</time>
-            <p>{{ .Summary | truncate 120 }}</p>
+            {{ .Summary | truncate 100 }}
             <span>
               <a
                 aria-label="View post {{ .Title }}"

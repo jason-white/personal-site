@@ -1,0 +1,11 @@
+@layer reset, variables, fonts, defaults, typography, layout, utilities, design, photoswipe;
+
+@import url("reset.css") layer(reset);
+@import url("variables.css") layer(variables);
+@import url("fonts.css") layer(fonts);
+@import url("defaults.css") layer(defaults);
+@import url("typography.css") layer(typography);
+@import url("layout.css") layer(layout);
+@import url("utilities.css") layer(utilities);
+@import url("design.css") layer(design);
+@import url("photoswipe.css") layer(photoswipe);

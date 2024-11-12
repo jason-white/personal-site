@@ -19,7 +19,7 @@ The vibes have been up and down since the March post. Had a wonderful trip to Be
 
 Our deck and shed are _finally_ finished and inspected. I gotta say, it turned out really great! We were very worried how things would go. There was so much back and forth about the foundation, and then the base of the shed had to be re-engineered (with a hefty surprise addition to the cost.) The deck guys hit our house's power cable that we learned is no longer buried as deep as it should be due to some previous owner digging a chunk out of the land. Thankfully we didn't have to pay to move it. Then there was a lot of back and forth with inspectors and more engineers. If you have a very hilly yard, just budget for leveling the ground out. I will never buy a property on a hill again.
 
-{{< figure src="untitled-2.jpg" caption="Ricoh GRIII X" alt="a large shed sits in a back yard surrounded by a deck" >}}
+{{< figure src="2024-06-15_griiix-2" caption="Ricoh GRIII X" alt="a large shed sits in a back yard surrounded by a deck" >}}
 
 There's still a lot of work to do, but she's up! And solid. More solid than our house. 😂
 

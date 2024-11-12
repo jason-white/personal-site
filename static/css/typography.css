@@ -1,0 +1,25 @@
+:is(h1, h2, h3, h4, h5, h6) {
+  line-height: 1.15;
+  font-weight: 400;
+  text-wrap: pretty;
+}
+
+h1 {
+  font-size: clamp(2.074rem, 1.8415rem + 0.9537vw, 2.986rem);
+  margin-block-end: var(--gap);
+}
+
+a {
+  color: var(--accent-color--dark);
+}
+
+a:focus {
+  outline: 0.25rem solid var(--accent-color--dark);
+  outline-offset: 0.25rem;
+}
+
+p {
+  font-family: var(--font-stack);
+  font-size: var(--base-font-size);
+  line-height: 1.5;
+}

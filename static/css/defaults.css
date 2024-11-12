@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  max-width: 120rem;
+  min-height: 100vh;
+  min-height: 100dvh;
+  color: var(--fg-color);
+  background-color: var(--bg-color);
+  font-family: var(--font-stack);
+}
+
+hr {
+  border: none;
+  height: 1.6rem;
+  margin-inline: auto;
+  text-align: center;
+  overflow: visible;
+}
+
+hr::before {
+  content: "\2731\2731\2731";
+  letter-spacing: 25px;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: var(--small-font-size);
+  color: var(--fg-color--darker);
+  padding: 0.5rem;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
