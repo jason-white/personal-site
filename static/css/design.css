@@ -223,7 +223,7 @@
 
 .post-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(35ch, 1fr));
   gap: var(--fluid-gap);
   article {
     display: flex;
