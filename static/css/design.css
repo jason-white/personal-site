@@ -489,3 +489,46 @@
       ". pagination pagination .";
   }
 }
+
+.xxl {
+  font-size: clamp(4rem, 1.0368rem + 12.1569vw, 15.625rem);
+  font-weight: 700;
+  line-height: 85%;
+  letter-spacing: -2px;
+  margin-inline: var(--fluid-gap);
+}
+
+.music {
+  margin-inline: var(--fluid-gap);
+  padding-block: var(--gap);
+  border-block: 2px solid var(--mg-color);
+}
+
+.fav-albums-columns {
+  column-width: 240px;
+  gap: 32px;
+  article + article {
+    margin-block-start: 32px;
+  }
+  article h3 {
+    font-weight: 500;
+  }
+  article p {
+    color: var(--fg-color--darker);
+  }
+  article * + * {
+    margin-block-start: 16px;
+  }
+  /* article { */
+  /*   border-block-start: 1px solid white; */
+  /* } */
+}
+
+.pseudo-art {
+  break-inside: avoid;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  background-color: blue;
+  margin-block-end: 16px;
+}

@@ -1,0 +1,26 @@
+<!-- Import Header -->
+{{ partial "header.html" . }}
+
+
+<h1 class="xxl">{{ .Title }}</h1>
+<section class="music">
+  {{ range $albums := .Site.Data.music2024 }}
+    <div class="fav-albums-columns">
+      {{ range $albums }}
+        <article>
+          <div class="pseudo-art"></div>
+          <h3><em>{{ .title }}</em></h3>
+          <p>{{ .content }}</p>
+          <p>Favorite track: {{ .favorite }}</p>
+        </article>
+      {{ end }}
+    </div>
+  {{ end }}
+</section>
+
+<section>
+  {{ .Content }}
+</section>
+
+<!-- Import Footer -->
+{{ partial "footer.html" . }}
