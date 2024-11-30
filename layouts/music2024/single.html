@@ -8,8 +8,11 @@
     <div class="fav-albums-columns">
       {{ range $albums }}
         <article>
-          <div class="pseudo-art"></div>
           <h3><em>{{ .title }}</em></h3>
+          <img
+            class="art"
+            src="{{ .art }}"
+          />
           <p>{{ .content }}</p>
           <p>Favorite track: {{ .favorite }}</p>
         </article>
