@@ -496,12 +496,13 @@
   line-height: 85%;
   letter-spacing: -2px;
   margin-inline: var(--fluid-gap);
+  text-wrap: balance;
 }
 
 .music {
   margin-inline: var(--fluid-gap);
   padding-block: var(--gap);
-  border-block: 2px solid var(--mg-color);
+  border-block-start: 2px solid var(--mg-color);
 }
 
 .fav-albums-columns {
@@ -510,10 +511,11 @@
   article + article {
     margin-block-start: 32px;
   }
-  article h3 {
-    font-weight: 700;
+  article h2 {
+    font-weight: 500;
+    font-size: var(--base-font-size);
     margin-block: 0;
-    color: var(--accent-color--dark);
+    break-after: avoid;
   }
   article p {
     color: var(--fg-color--darker);
@@ -522,17 +524,45 @@
   article * + * {
     margin-block-start: 8px;
   }
-  /* article { */
-  /*   border-block-start: 1px solid white; */
-  /* } */
+
+  article {
+    border-block-end: 1px solid var(--mg-color);
+  }
+
+  article:last-of-type {
+    border: none;
+  }
 }
 
-.pseudo-art {
-  break-inside: avoid;
+.art {
   width: 100%;
   height: auto;
   aspect-ratio: 1 / 1;
   background-color: blue;
   margin-block-end: 16px;
   border-radius: 2px;
+}
+
+.aoty {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-inline: var(--fluid-gap);
+  padding-block: var(--gap);
+  border-block-start: 2px solid var(--mg-color);
+}
+
+.aoty-content {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    margin-block: auto;
+  }
+  p {
+    column-width: 300px;
+    gap: 32px;
+  }
 }
