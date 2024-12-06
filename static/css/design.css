@@ -500,48 +500,79 @@
 }
 
 .music {
+  container-type: inline-size;
+  container-name: music-list;
+  margin-block-start: calc(var(--gap) * 2);
   margin-inline: var(--fluid-gap);
   padding-block: var(--gap);
-  border-block-start: 2px solid var(--mg-color);
+  /* border-block-start: 2px solid var(--mg-color); */
 }
 
-.fav-albums-columns {
-  column-width: 240px;
-  gap: 32px;
-  article + article {
-    margin-block-start: 32px;
-  }
-  article h2 {
-    font-weight: 500;
-    font-size: var(--base-font-size);
-    margin-block: 0;
-    break-after: avoid;
-  }
-  article p {
-    color: var(--fg-color--darker);
-    font-size: 16px;
-  }
-  article * + * {
-    margin-block-start: 8px;
-  }
-
-  /* article { */
-  /*   border-block-end: 1px solid var(--mg-color); */
-  /* } */
-  /**/
-  /* article:last-of-type { */
-  /*   border: none; */
-  /* } */
+.album-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: var(--fluid-gap);
 }
 
-.footnote {
-  border: 1px solid var(--mg-color);
-  padding: var(--gap);
-  p {
-    margin: 0;
-    font-size: var(--small-font-size);
-    color: var(--fg-color--darker);
+@container music-list (width < 480px) {
+  .album-list {
+    display: block;
+    li + li {
+      margin-block-start: calc(var(--gap) * 2);
+    }
   }
+}
+
+@container music-list (width > 1088px) {
+  .album-list {
+    display: block;
+    column-width: 200px;
+    column-rule: 1px solid var(--mg-color);
+    li + li {
+      margin-block-start: calc(var(--gap) * 2);
+    }
+  }
+}
+
+.album-list li {
+  container-type: inline-size;
+  container-name: album-card;
+}
+
+.album-card {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "art"
+    "desc";
+  gap: var(--gap);
+}
+
+@container album-card (width > 400px) {
+  .album-card {
+    grid-template-columns: 100px 1fr;
+    grid-template-areas:
+      "art title"
+      "art desc";
+  }
+}
+
+.album-card h2 {
+  grid-area: title;
+  font-weight: 500;
+  font-size: var(--base-font-size);
+  margin-block: 0;
+}
+
+.album-card p {
+  grid-area: desc;
+  color: var(--fg-color--darker);
+  font-size: var(--small-font-size);
+  margin-block: 0;
+}
+
+.album-card .art {
+  grid-area: art;
 }
 
 .art {
@@ -549,62 +580,45 @@
   height: auto;
   aspect-ratio: 1 / 1;
   background-color: blue;
-  margin-block-end: 16px;
   border-radius: 2px;
 }
 
-.aoty--wrap {
+.favorite-track {
+  font-size: var(--small-font-size);
+}
+
+.bestof {
   margin-block-start: 128px;
   padding-block-end: 128px;
-  border: 1px solid oklch(0.92 0.19 108.07);
-  border-radius: 2rem;
   margin-inline: var(--fluid-gap);
 }
 
-.aoty {
+.bestof-card {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
-  margin-inline: var(--fluid-gap);
-  padding-block: var(--gap);
-  /* border-block-start: 2px solid var(--mg-color); */
-  > * {
-    grid-column: 2 / 4;
-  }
-  h2 {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "art content";
+  align-items: center;
+  gap: var(--fluid-gap);
   img {
-    position: relative;
-    box-shadow: 16px 16px 0px 0px rgba(241, 60, 40, 1);
-    box-shadow: 16px 16px 0px 0px oklch(0.63 0.22 30.2);
-  }
-  p {
-    column-width: 300px;
-    gap: 32px;
+    grid-area: art;
+    box-shadow: 16px 16px 0px 0px rgb(39 88 72);
+    box-shadow: 16px 16px 0px 0px oklch(0.42 0.06 169.59);
   }
 }
 
-.aoty h2::before {
-  content: "◭";
-  position: relative;
-  font-size: 64px;
-  margin-block: calc(var(--fluid-gap) * 1.25);
-  color: oklch(0.63 0.22 30.2);
+.bestof-card__content {
+  grid-area: content;
+  padding: var(--fluid-gap);
 }
 
-.aoty--artist {
-  font-size: 48px;
-  line-height: 1.5;
+.bestof-card:last-of-type {
+  grid-template-areas: "content art";
+  img {
+    box-shadow: 16px 16px 0px 0px rgb(239 53 40);
+    box-shadow: 16px 16px 0px 0px oklch(0.62 0.22 29.21);
+  }
 }
 
-.aoty--album {
-  font-size: 64px;
-  line-height: 1.5;
+.bestof-card + .bestof-card {
+  margin-block-start: calc(var(--fluid-gap) * 2);
 }

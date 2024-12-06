@@ -2,59 +2,48 @@
 {{ partial "header.html" . }}
 
 
+<h1 class="xxl">{{ .Title }}</h1>
 <section>
-  <h1 class="xxl">{{ .Title }}</h1>
   <div class="music">
-    {{ range $albums := .Site.Data.music2024 }}
-      <div class="fav-albums-columns">
-        {{ range $albums }}
-          <article>
+    <ol
+      class="album-list list-reset"
+      reversed
+    >
+      {{ range first 10 .Site.Data.music.year2024.albums }}
+        <li>
+          <article class="album-card">
             <h2><em>{{ .title }}</em></h2>
             <img
               class="art"
               src="{{ .art }}"
             />
-            <p>{{ .content }}</p>
-            <p>Favorite track: {{ .favorite }}</p>
+            <p>
+              {{ .content | markdownify }}
+              <span class="favorite-track">
+                Favorite track:
+                <a href="">{{ .favorite }}</a>
+              </span>
+            </p>
           </article>
-        {{ end }}
-      </div>
-    {{ end }}
+        </li>
+      {{ end }}
+    </ol>
   </div>
 </section>
 
-<section class="aoty--wrap">
-  <!-- <h2 class="xxl">Album of the Year</h2> -->
-  <article class="aoty">
-    <h2>
-      <div class="aoty--artist">Blood Incantation</div>
-      <div class="aoty--album">Absolute Elsewhere</div>
-    </h2>
-    <img
-      class="art"
-      src="https://res.cloudinary.com/dpmsynxig/image/upload/c_scale,w_1000/journal/2024/11/29/absolute-elsewhere.jpg"
-    />
-    <p>
-      Holy. Shit. They did it. They made the perfect Blood Incantation album.
-      Only Blood Incantation can do such a thing. Possibly the most polarizing
-      death metal band to date (are there other polarizing death metal bands?)
-      When they released Timewave Zero (a pure ambient album), there was a
-      definite divide in fans that loved it or hated it. Back in 2023 there was
-      talk about the band recording with members of Hallas at Hansa Tonstudio in
-      Berlin. Then Luminescent Bridge was released, but it seemed this was an
-      unrelated single, one side death metal, the other ambient. The guys were
-      cooking something else. A full length LP was finally announced this year,
-      and I don't think anybody was ready. They blended ambient and psychedelic
-      rock with multiple sub-genres of metal in such a way that no actual fan
-      could be mad about. It features Thorsten Quaesching from Tangerine Dream
-      on synths, and if that isn't enough, Nicklas Malmqvist from Hallas is also
-      on keys. There's a portion of The Message (Tablet II) that will make you
-      feel like you've been immediately transported into a 70s Pink Floyd album
-      before being dropped into some of the best thrash metal to bless your ear
-      holes. This album is a pure masterpiece, and I have a hunch they will push
-      it even further.
-    </p>
-  </article>
+<section class="bestof">
+  {{ range last 2 .Site.Data.music.year2024.albums }}
+    <article class="bestof-card">
+      <img
+        class="art"
+        src="{{ .art }}"
+      />
+      <div class="bestof-card__content">
+        <h2>{{ .title }}</h2>
+        <p>{{ .content }}</p>
+      </div>
+    </article>
+  {{ end }}
 </section>
 
 <!-- Import Footer -->
