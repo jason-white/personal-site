@@ -1,49 +1,8 @@
-{{ partial "header.html" . }}
-
-
-<section class="list-page">
-  <h1>{{ .Title }}</h1>
-  <ul class="post-list list-reset">
-    {{ range (.Paginator 16).Pages }}
-      {{ if eq .Section "journal" }}
-        <li class="subgrid">
-          <article>
-            <div class="image-wrap border-radius">
-              {{ partial "list-thumb.html" . }}
-            </div>
-            <h2>{{ .Title }}</h2>
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
-            <p>{{ .Summary | truncate 100 }}</p>
-            <span>
-              <a
-                aria-label="View post {{ .Title }}"
-                href="{{ .Permalink }}"
-              >
-                View post
-              </a>
-            </span>
-          </article>
-        </li>
-      {{ else if eq .Section "links" }}
-        <li class="subgrid">
-          <article>
-            <h2>{{ .Title }}</h2>
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
-            {{ .Content }}
-            <span class="external-link">
-              <a
-                aria-label="Visit {{ .Title }}"
-                href="{{ .Params.href }}"
-              >
-                Visit link
-              </a>
-            </span>
-          </article>
-        </li>
-      {{ end }}
-    {{ end }}
-  </ul>
-  {{ partial "pagination" . }}
-</section>
-
-{{ partial "footer.html" . }}
+{{ define "main" }}
+  <section class="list-page">
+    <h1>{{ .Title }}</h1>
+    {{ $posts := (.Paginator 20).Pages }}
+    {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
+    {{ partial "pagination" . }}
+  </section>
+{{ end }}

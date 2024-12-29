@@ -1,0 +1,18 @@
+<ul class="favorite-list list-reset">
+  {{ $albums := .Site.Data.music.year2024.albums }}
+  {{ range $albums.Favorites }}
+    <li>
+      <div class="album-card">
+        <img
+          class="art"
+          style="box-shadow: 0 0 60px -18px {{ .color }}; border: 1px solid {{ .color }}"
+          src="{{ .art }}"
+          alt="Album artwork for {{ .title }}"
+        />
+        <h3>{{ .title | markdownify }}</h3>
+        <p>{{ .content | markdownify }}</p>
+        <p>Top track: {{ .favorite | markdownify }}</p>
+      </div>
+    </li>
+  {{ end }}
+</ul>

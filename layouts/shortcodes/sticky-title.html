@@ -1,0 +1,7 @@
+{{ $title := .Get "title" }}
+
+
+<div class="sticky-title">
+  <h2><span>{{ $title }}</span></h2>
+  {{ .Inner | markdownify }}
+</div>

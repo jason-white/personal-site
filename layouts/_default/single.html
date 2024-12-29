@@ -1,63 +1,61 @@
-<!-- Import Header -->
-{{ partial "header.html" . }}
+{{ define "main" }}
+  <article class="post">
+    <header class="post__title">
+      <h1>{{ .Title }}</h1>
+      <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+    </header>
 
-
-<article class="post">
-  <header class="post__title">
-    <h1>{{ .Title }}</h1>
-    <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
-  </header>
-
-  <!-- If feature image exists... -->
-  {{ if .Params.image }}
-    <!-- Render feature partial -->
-    {{ partial "feature.html" . }}
-    <!-- End -->
-  {{ end }}
-
-
-  <div class="post__content">
-    {{ .Content }}
-    {{ if eq .Section "links" }}
-      <div class="visit-link">
-        <span class="external-link">
-          <a
-            aria-label="Visit {{ .Title }}"
-            href="{{ .Params.href }}"
-          >
-            Visit link
-          </a>
-        </span>
+    <!-- If feature image exists... -->
+    {{ if .Params.image }}
+      <div class="post__feature">
+        <!-- Render feature partial -->
+        {{ partial "feature.html" . }}
+        <!-- End -->
       </div>
     {{ end }}
-  </div>
-
-  <!-- If the gallery images exist -->
-  {{ if .Params.gallery }}
-    <!-- Render post__gallery partial -->
-    {{ partial "post_gallery.html" . }}
-    <!-- End if -->
-  {{ end }}
 
 
-  <!-- If type == Journal, Links or Now -->
-  {{ if or (eq .Params.type "journal") (eq .Params.type "now") }}
-    <!-- Render meta.html partial -->
-    {{ partial "meta.html" . }}
-    <!-- End if -->
-  {{ end }}
+    <div class="post__content">
+      {{ .Content }}
+      {{ if eq .Params.type "link" }}
+        <div class="post__link">
+          <span class="external-link">
+            <a
+              aria-label="Visit {{ .Title }}"
+              href="{{ .Params.href }}"
+            >
+              Visit link
+            </a>
+          </span>
+        </div>
+      {{ end }}
+    </div>
+
+    <!-- If the gallery images exist -->
+    {{ if .Params.gallery }}
+      <!-- Render post__gallery partial -->
+      {{ partial "post_gallery.html" . }}
+      <!-- End if -->
+    {{ end }}
 
 
-  <!-- Render pagination -->
+    <!-- If type == Journal, Links or Now -->
+    {{ if or (eq .Params.type "journal") (eq .Params.type "now") }}
+      <!-- Render meta.html partial -->
+      {{ partial "meta.html" . }}
+      <!-- End if -->
+    {{ end }}
 
-  <!-- If type == Journal, Links or Now -->
-  {{ if or (eq .Params.type "journal") (eq .Params.type "now") (eq .Params.type
-    "links")
-  }}
-    <!-- Render single post pagination partial -->
-    {{ partial "single-pagination.html" . }}
-    <!-- End if -->
-  {{ end }}
-</article>
 
-{{ partial "footer.html" . }}
+    <!-- Render pagination -->
+
+    <!-- If type == Journal, Links or Now -->
+    {{ if or (eq .Params.type "journal") (eq .Params.type "now") (eq .Params.type
+      "link")
+    }}
+      <!-- Render single post pagination partial -->
+      {{ partial "single-pagination.html" . }}
+      <!-- End if -->
+    {{ end }}
+  </article>
+{{ end }}

@@ -17,24 +17,29 @@ buildDrafts = false
 [taxonomies]
   tag = "tags"
 
+# [[menus.main]]
+# 	name = 'Home'
+# 	pageRef = '/'
+# 	weight = 10
+
 [[menus.main]]
 	name = 'Journal'
 	pageRef = '/journal'
-	weight = 10
+	weight = 20
 
-[[menus.main]]
-    name = 'Links'
-    pageRef = '/links'
-    weight = 20
+# [[menus.main]]
+#     name = 'Links'
+#     pageRef = '/links'
+#     weight = 30
 
 [[menus.main]]
 	name = 'Now'
 	pageRef = '/now'
-	weight = 30
+	weight = 40
 [[menus.main]]
     name = 'About'
     pageRef = '/about'
-    weight = 40
+    weight = 50
 
 [[menus.elsewhere]]
     name = 'Mastodon'

@@ -1,9 +1,38 @@
-{{- $src := .Get "src" -}} {{- $img := .Page.Resources.GetMatch $src -}} {{- if
-$img -}} {{- $processed := $img.Resize "800x" -}}
-<img
-  src="{{ $processed.RelPermalink }}"
-  alt="Processed Image"
-/>
+{{/* This shortcode is inspired by brycewray.com */}}
+{{/* This is an img only version of the figure code */}}
+
+{{- $respSizes := slice "375" "640" "960" "1280" "1600" "1920" -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+
+{{- $webpSrc := replaceRE "\\.[^.]+$" ".webp" $src -}}
+
+{{- $myCloud := "dpmsynxig" -}}
+{{- $cloudBase := print "https://res.cloudinary.com/" $myCloud "/image/upload/" -}}
+{{- $xFmPart1 := "q_auto,w_" -}}
+{{- $xFmPart2 := ",x_0,z_1/" -}}
+
+{{- $dataSzes := "(min-width: 1024px) 50vw, 100vw" -}}
+
+{{- $pageDir := .Page.File.Dir -}}
+{{- $imagePath := print $pageDir $webpSrc -}}
+
+{{- if  $src -}}
+  <img
+    srcset="
+      {{- range $i, $e := $respSizes -}}
+        {{- if $i }},{{ end -}}
+        {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $imagePath }}
+        {{ $e }}w
+      {{- end -}}
+    "
+    sizes="{{ $dataSzes }}"
+    src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
+    width="600"
+    height="400"
+    alt="{{ $alt }}"
+    loading="lazy"
+  />
 {{- else -}}
-<p>Image not found.</p>
+  <p><em>Image unavailable.</em></p>
 {{- end -}}

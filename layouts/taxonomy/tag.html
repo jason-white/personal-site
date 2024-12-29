@@ -1,45 +1,56 @@
-{{ partial "header.html" . }}
-<section class="list-page">
-  <h1>Filed under: {{ .Title }}</h1>
-  <ul class="post-list list-reset">
-    {{ range .Pages }}
-      {{ if .Params.image }}
-        <li class="subgrid">
-          <article>
-            <div class="image-wrap border-radius">
-              {{ partial "list-thumb.html" . }}
-            </div>
-            <h2>{{ .Title }}</h2>
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
-            {{ .Summary | truncate 100 }}
-            <span>
-              <a
-                aria-label="View post {{ .Title }}"
-                href="{{ .Permalink }}"
-              >
-                View post
-              </a>
-            </span>
-          </article>
-        </li>
-      {{ else if .Params.href }}
-        <li>
-          <article>
-            <h2>{{ .Title }}</h2>
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
-            {{ .Content }}
-            <span class="external-link">
-              <a
-                aria-label="Visit {{ .Title }}"
-                href="{{ .Params.href }}"
-              >
-                Visit link
-              </a>
-            </span>
-          </article>
-        </li>
+{{ define "main" }}
+  <section class="list-page">
+    <h1>Filed under: {{ .Title }}</h1>
+    <ul class="post-list list-reset">
+      {{ range (.Paginator 20).Pages }}
+        {{ if .Params.image }}
+          <li>
+            <article class="post-item">
+              <div class="post-item__title">
+                <h2>
+                  {{ .Title }}
+                </h2>
+                <a
+                  aria-label="View post {{ .Title }}"
+                  href="{{ .Permalink }}"
+                >
+                  <time>{{ .Date.Format "January 2, 2006" }}</time>
+                </a>
+              </div>
+              <div class="post-item__img border-radius">
+                {{ partial "list-thumb.html" . }}
+              </div>
+            </article>
+          </li>
+        {{ else if .Params.href }}
+          <li>
+            <article class="post-item">
+              <div class="post-item__title">
+                <h2>{{ .Title }}</h2>
+                <a
+                  aria-label="View post {{ .Title }}"
+                  href="{{ .Permalink }}"
+                >
+                  <time>{{ .Date.Format "January 2, 2006" }}</time>
+                </a>
+              </div>
+              <div class="post-item__content">
+                {{ .Content }}
+              </div>
+              <span class="post-item__link external-link">
+                <a
+                  aria-label="Visit {{ .Title }}"
+                  href="{{ .Params.href }}"
+                >
+                  Visit link
+                </a>
+              </span>
+            </article>
+          </li>
+        {{ end }}
       {{ end }}
-    {{ end }}
-  </ul>
-</section>
-{{ partial "footer.html" . }}
+    </ul>
+
+    {{ partial "pagination" . }}
+  </section>
+{{ end }}

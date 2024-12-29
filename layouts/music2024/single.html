@@ -2,48 +2,109 @@
 {{ partial "header.html" . }}
 
 
-<h1 class="xxl">{{ .Title }}</h1>
-<section>
+<section class="music-wrap">
+  <h1 class="heading--xxl">{{ .Title }}</h1>
+  <article class="music-2024-content">
+    {{ .Content }}
+  </article>
   <div class="music">
-    <ol
-      class="album-list list-reset"
-      reversed
-    >
-      {{ range first 10 .Site.Data.music.year2024.albums }}
+    <ul class="album-list list-reset">
+      {{ range .Site.Data.music.year2024.albums.Favorites }}
         <li>
           <article class="album-card">
-            <h2><em>{{ .title }}</em></h2>
             <img
               class="art"
               src="{{ .art }}"
             />
+            <h2>{{ .title | markdownify }}</h2>
             <p>
               {{ .content | markdownify }}
-              <span class="favorite-track">
-                Favorite track:
-                <a href="">{{ .favorite }}</a>
-              </span>
             </p>
           </article>
         </li>
       {{ end }}
-    </ol>
+    </ul>
   </div>
-</section>
-
-<section class="bestof">
-  {{ range last 2 .Site.Data.music.year2024.albums }}
-    <article class="bestof-card">
-      <img
-        class="art"
-        src="{{ .art }}"
-      />
-      <div class="bestof-card__content">
-        <h2>{{ .title }}</h2>
-        <p>{{ .content }}</p>
+  <div class="more">
+    <header>
+      <div class="more__sticky-content">
+        <h2 class="heading--xl">Other albums I enjoyed</h2>
+        <p>
+          Albums that I also really liked, but they just weren't in heavy
+          rotation throughout the year like the ones featured above.
+        </p>
       </div>
-    </article>
-  {{ end }}
+    </header>
+    <ul class="list-reset more-list">
+      {{ range .Site.Data.music.year2024.albums.Others }}
+        <li>
+          <p>{{ .artist | markdownify }}</p>
+          <span>{{ .title | markdownify }}</span>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="more">
+    <header>
+      <div class="more__sticky-content">
+        <h2 class="heading--xl">Singles I played over and over</h2>
+        <p>
+          Songs that I could not get enough of this year. I did not include
+          anything released prior to 2024, or any songs from the above albums.
+        </p>
+      </div>
+    </header>
+    <ul class="list-reset more-list">
+      {{ range .Site.Data.music.year2024.albums.Singles }}
+        <li>
+          <p>{{ .artist | markdownify }}</p>
+          <span>{{ .title | markdownify }}</span>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="more">
+    <header>
+      <div class="more__sticky-content">
+        <h2 class="heading--xl">Discovery 2024 Playlist</h2>
+        <p>
+          Here is the full Discovery 2024 playlist on Spotify. It includes
+          anything and everything that I've never heard of until this year.
+        </p>
+      </div>
+    </header>
+    <div>
+      <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/playlist/4VjfIHolfxIFFc1A4gijV2?utm_source=generator&theme=0"
+        width="100%"
+        height="704"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </div>
+  </div>
+  <div class="more more--tags">
+    <header>
+      <h2 class="xl">Tags</h2>
+    </header>
+    {{ $taxonomy := "tags" }}
+    {{ with .Param $taxonomy }}
+      <ul class="post__tags list-reset">
+        {{ range $index, $tag := . }}
+          {{ with $.Site.GetPage (printf "/%s/%s"
+            $taxonomy $tag)
+          -}}
+            <li>
+              <a href="{{ .Permalink }}">{{ replace $tag "-" " " }}</a>
+            </li>
+          {{- end -}}
+        {{- end -}}
+      </ul>
+    {{ end }}
+  </div>
 </section>
 
 <!-- Import Footer -->

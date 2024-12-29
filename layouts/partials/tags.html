@@ -1,6 +1,6 @@
 {{ $taxonomy := "tags" }}
 {{ with .Param $taxonomy }}
-  <div>
+  <div class="meta__tags">
     <p class="secondary">Tags</p>
     <ul class="post__tags list-reset">
       {{ range $index, $tag := . }}

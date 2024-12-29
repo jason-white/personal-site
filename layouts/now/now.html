@@ -1,24 +1,28 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
+  <article class="post">
+    {{ range first 1 (where (where .Site.RegularPages "Section" "journal")
+      ".Params.type" "now")
+    }}
 
-<article class="post">
-  {{ range first 1 (where (where .Site.RegularPages "Section" "journal")
-  ".Params.type" "now") }} {{ partial "feature.html" . }}
+      {{ partial "feature.html" . }}
 
-  <div class="post__title">
-    <h1>{{ .Title }}</h1>
-    <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
-  </div>
 
-  <div class="post__content">
-    {{ .Content }}
-    <!-- Now info partial -->
-    {{ partial "now_info.html" . }}
-  </div>
+      <div class="post__title">
+        <h1>{{ .Title }}</h1>
+        <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+      </div>
 
-  <!-- Post info partial. -->
-  {{ partial "meta.html" . }} {{ end }}
+      <div class="post__content">
+        {{ .Content }}
+        <!-- Now info partial -->
+        {{ partial "now_info.html" . }}
+      </div>
 
-  <!-- Close the range loop -->
-</article>
+      <!-- Post info partial. -->
+      {{ partial "meta.html" . }}
+    {{ end }}
 
-{{ partial "footer.html" . }}
+
+    <!-- Close the range loop -->
+  </article>
+{{ end }}

@@ -1,9 +1,12 @@
 :root {
   --base-font-size: clamp(1rem, 0.8904rem + 0.4494vw, 1.25rem);
+  --large-font-size: clamp(1.5rem, 1.3725rem + 0.5229vw, 2rem);
+
+  --med-font-size: clamp(0.875rem, 0.8333rem + 0.1389vw, 1rem);
   --small-font-size: 0.8875rem;
-  --accent-color: #d7d8c6; /* Seafoam */
+  --accent-color: #ff6800; /* Seafoam */
   --accent-color--dark: #698947;
-  --accent-color--dark: oklch(0.59 0.1 130.57);
+  --accent-color--dark: oklch(0.7 0.2 44.12);
   --secondary-color: #ff755c; /*  */
   --fg-color: #ede7db; /* Agate */
   --fg-color--darker: #9d9d9d;
@@ -27,5 +30,5 @@
   --border-radius--full: 100%;
 
   --gap: 1rem;
-  --fluid-gap: clamp(2rem, 1.4902rem + 2.0915vw, 4rem);
+  --fluid-gap: clamp(2rem, 1.4902rem + 2.0915vw, 3rem);
 }

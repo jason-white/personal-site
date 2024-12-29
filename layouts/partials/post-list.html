@@ -1,0 +1,57 @@
+<ul class="post-list list-reset">
+  {{ range .posts }}
+    {{ if or (eq .Type "journal") (eq .Type "now") }}
+      <li>
+        <article class="post-item">
+          <div class="post-item__title">
+            <h2>
+              {{ .Title }}
+            </h2>
+
+            <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+          </div>
+          {{ if .Params.image }}
+            <div class="post-item__img border-radius">
+              {{ partial "list-thumb.html" . }}
+            </div>
+          {{ else }}
+            <div class="post-item__content">
+              {{ .Summary }}
+            </div>
+          {{ end }}
+          <span class="post-item__link internal-link">
+            <a
+              aria-label="View post {{ .Title }}"
+              href="{{ .Permalink }}"
+            >
+              View post
+            </a>
+          </span>
+        </article>
+      </li>
+    {{ else if eq .Type "link" }}
+      <li>
+        <article class="post-item">
+          <div class="post-item__title">
+            <h2>{{ .Title }}</h2>
+
+            <time class="secondary">
+              {{ .Date.Format "January 2, 2006" }}
+            </time>
+          </div>
+          <div class="post-item__content">
+            {{ .Content }}
+          </div>
+          <span class="post-item__link external-link">
+            <a
+              aria-label="Visit {{ .Title }}"
+              href="{{ .Params.href }}"
+            >
+              Visit link
+            </a>
+          </span>
+        </article>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>

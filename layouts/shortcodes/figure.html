@@ -5,6 +5,11 @@
 {{- $alt := .Get "alt" -}}
 {{- $cap := .Get "caption" -}}
 
+{{/* Layout variations */}}
+
+{{/* Sets a class on the img to render the figure in various ways. see `.post-figure` css class */}}
+{{- $class := .Get "class" -}}
+
 {{- $webpSrc := replaceRE "\\.[^.]+$" ".webp" $src -}}
 
 {{- $myCloud := "dpmsynxig" -}}
@@ -18,8 +23,13 @@
 {{- $imagePath := print $pageDir $webpSrc -}}
 
 {{- if  $src -}}
-  <figure>
+  <figure class="post-figure">
     <img
+      class="{{ if $class }}
+        {{ $class }}
+      {{ else }}
+        full-start
+      {{ end }}"
       srcset="
         {{- range $i, $e := $respSizes -}}
           {{- if $i }},{{ end -}}
@@ -35,7 +45,7 @@
       loading="lazy"
     />
     {{- if $cap -}}
-      <figcaption class="secondary">{{ $cap }}</figcaption>
+      <figcaption>{{ $cap }}</figcaption>
     {{- end }}
   </figure>
 {{- else -}}

@@ -22,3 +22,10 @@
   margin: 0;
   list-style-type: none;
 }
+
+/* Set image to a 1:1 aspect ratio */
+.square {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center center;
+}

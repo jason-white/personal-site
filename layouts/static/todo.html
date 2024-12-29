@@ -1,23 +1,23 @@
-{{ partial "header.html" . }}
-<article class="post">
-  <header class="post__title">
-    <h1>{{ .Title }}</h1>
-  </header>
+{{ define "main" }}
+  <article class="post">
+    <header class="post__title">
+      <h1>{{ .Title }}</h1>
+    </header>
 
-  <section class="post__content">{{ .Content }}</section>
+    <section class="post__content">{{ .Content }}</section>
 
-  <aside class="post__meta">
-    <div class="slash-pages">
-      <h3 class="secondary">More Stuff</h3>
-      <ul class="list-reset">
-        <li>
-          <a href="/uses/">Uses</a>
-        </li>
-        <li>
-          <a href="/todo/">To-do list</a>
-        </li>
-      </ul>
-    </div>
-  </aside>
-</article>
-{{ partial "footer.html" . }}
+    <aside class="post__sidebar">
+      <div class="slash-pages">
+        <h3 class="secondary">More Stuff</h3>
+        <ul class="list-reset">
+          <li>
+            <a href="/uses/">Uses</a>
+          </li>
+          <li>
+            <a href="/todo/">To-do list</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </article>
+{{ end }}

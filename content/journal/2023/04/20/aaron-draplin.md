@@ -1,5 +1,6 @@
 ---
 type: "journal"
+layout: "link"
 title: "Aaron Draplin Talk"
 date: 2023-04-20T17:56:29-04:00
 draft: false
@@ -7,9 +8,9 @@ image: "2023-04-20_m10p-22.jpg"
 alt: "a bearded man wearing a hat speaks at a podium with his arm raised, gesturing towards an unseen crowd"
 caption: "35mm Summicron ASPH / Leica M10-P"
 tags:
-- draplin
-- leica
-- m10p
+  - draplin
+  - leica
+  - m10p
 ---
 
 I finally got to see {{< link href="https://draplin.com" text="Draplin" >}} speak. This has been on a list for quite some time. And if I weren't heading to DC the next day I would have definitely taken his workshop. The event was made possible by AAF Charlotte and the One Club.

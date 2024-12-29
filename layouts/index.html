@@ -1,7 +1,13 @@
-<!-- Import header -->
-{{ partial "header.html" . }}
-<section class="home-page">
-  <div class="intro">{{ .Content }}</div>
-</section>
-<!-- Import footer -->
-{{ partial "footer.html" . }}
+{{ define "main" }}
+  <section class="home-page grid">
+    <article class="intro">
+      {{ .Content }}
+    </article>
+
+    <div class="home-list">
+      <h2>Recent Posts</h2>
+      {{ $posts := first 5 (where .Site.RegularPages "Type" "journal") }}
+      {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
+    </div>
+  </section>
+{{ end }}
