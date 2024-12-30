@@ -23,7 +23,7 @@
 }
 
 .columns {
-  column-count: 3;
+  column-width: 300px;
   gap: var(--gap);
 }
 
@@ -64,6 +64,7 @@
 .header {
   grid-area: header;
   padding-block: var(--fluid-gap);
+  margin-block-end: 5rem;
   nav {
     display: flex;
     flex-direction: column;
@@ -450,6 +451,7 @@
 
 .post__content,
 .page__content {
+  color: var(--fg-color--darker);
   grid-area: content;
   margin-block-end: var(--fluid-gap);
   > * + * {
@@ -526,6 +528,9 @@
 .sidebar-content {
   display: flex;
   flex-wrap: wrap;
+  p {
+    font-size: var(--small-font-size);
+  }
 }
 
 .post__meta {
@@ -694,13 +699,15 @@
 }
 
 .favorite-list {
-  column-count: 3;
-  column-rule: 1px solid var(--mg-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
+  /* column-count: 3; */
+  /* column-rule: 1px solid var(--mg-color); */
   gap: var(--fluid-gap);
   padding-block: calc(var(--gap) * 2);
-  li + li {
-    margin-block-start: calc(var(--gap) * 2);
-  }
+  /* li + li { */
+  /*   margin-block-start: calc(var(--gap) * 2); */
+  /* } */
 }
 
 .album-card > * + * {

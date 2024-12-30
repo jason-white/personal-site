@@ -27,10 +27,10 @@ buildDrafts = false
 	pageRef = '/journal'
 	weight = 20
 
-# [[menus.main]]
-#     name = 'Links'
-#     pageRef = '/links'
-#     weight = 30
+[[menus.main]]
+    name = 'Links'
+    pageRef = '/links'
+    weight = 30
 
 [[menus.main]]
 	name = 'Now'

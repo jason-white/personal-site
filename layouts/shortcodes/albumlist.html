@@ -1,12 +1,30 @@
-<ul class="favorite-list list-reset">
+{{- $respSizes := slice "375" "640" "960" -}}
+{{- $myCloud := "dpmsynxig" -}}
+{{- $cloudBase := print "https://res.cloudinary.com/" $myCloud "/image/upload/" -}}
+{{- $xFmPart1 := "q_auto,w_" -}}
+{{- $xFmPart2 := ",x_0,z_1/" -}}
+{{- $pageDir := .Page.File.Dir -}}
+{{- $imagePath := print $pageDir -}}
+
+
+<ol class="favorite-list list-reset">
   {{ $albums := .Site.Data.music.year2024.albums }}
   {{ range $albums.Favorites }}
+    {{ $webpSrc := replaceRE "\\.[^.]+$" ".webp" .src }}
     <li>
       <div class="album-card">
         <img
           class="art"
           style="box-shadow: 0 0 60px -18px {{ .color }}; border: 1px solid {{ .color }}"
-          src="{{ .art }}"
+          {{- $srcset := "" -}}
+          {{- range $i, $e := $respSizes -}}
+            {{- if $i -}}
+              {{- $srcset = print $srcset ", " -}}
+            {{- end -}}
+            {{- $srcset = print $srcset $cloudBase $xFmPart1 $e $xFmPart2 $imagePath $webpSrc " " $e "w" -}}
+          {{- end -}}
+          {{ printf "srcset=\"%s\"" $srcset | safeHTMLAttr }}
+          src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}{{ $webpSrc }}"
           alt="Album artwork for {{ .title }}"
         />
         <h3>{{ .title | markdownify }}</h3>
@@ -15,4 +33,4 @@
       </div>
     </li>
   {{ end }}
-</ul>
+</ol>
