@@ -2,6 +2,7 @@
   line-height: 1.15;
   font-weight: 400;
   text-wrap: pretty;
+  color: var(--fg-color);
 }
 
 h1 {

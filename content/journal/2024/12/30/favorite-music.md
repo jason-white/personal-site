@@ -18,7 +18,7 @@ What a fantastic year of music! Even though I stayed on top of it better than la
 
 Looking back on a whole year of music is always interesting. There are some clear standouts, but then there are all those other albums that make you go, "Oh yeah! I totally forgot that came out this year!" Underworld, one of my all-time favorite artists, released a new album—but I may have listened to it only once. It’s not that I didn’t enjoy it; I was just too busy rocking out to Curta’n Wall singing about hill forts and unicorn horns.
 
-So let’s dive into. Here's all the music I dug in 2024. I don’t like ranking things, so here’s a list in chronological order. I considered an "Album of the Year" section, but decided against it. It was pretty much between 1999 Write the Future's _hella <code>(˃̣̣̥╭╮˂̣̣̥) ✧ ♡ ‧º·˚:</code>_, and Blood Incantation's _Absolute Elsewhere_.
+So let’s dive into it. Here's all the music I dug in 2024. I don’t like ranking things, so the list is in chronological order. I considered an "Album of the Year" section, but decided against it. It was pretty much between 1999 Write the Future's _hella <code>(˃̣̣̥╭╮˂̣̣̥) ✧ ♡ ‧º·˚:</code>_, and Blood Incantation's _Absolute Elsewhere_.
 {{< /columns >}}
 
 ## Favorite Albums
