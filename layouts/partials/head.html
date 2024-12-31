@@ -1,5 +1,4 @@
 <!doctype html>
-<!-- prettier-ignore -->
 <html lang="{{ .Site.LanguageCode | default " en-us" }}">
   <head>
     <meta charset="UTF-8" />
@@ -13,17 +12,17 @@
     />
     <title>{{ .Title }}</title>
     {{ with .Site.Params.description }}
-  <meta
-    name="description"
-    content="{{ . }}"
-  />
-{{ end }}
+      <meta
+        name="description"
+        content="{{ . }}"
+      />
+    {{ end }}
     {{ with .Site.Params.author }}
-  <meta
-    name="author"
-    content="{{ . }}"
-  />
-{{ end }}
+      <meta
+        name="author"
+        content="{{ . }}"
+      />
+    {{ end }}
     <meta
       property="fediverse:creator"
       content="@nux@mas.to"
@@ -45,31 +44,38 @@
       content="{{ .Permalink }}"
     />
 
-  <meta
-    property="og:image"
-    content="https://res.cloudinary.com/dpmsynxig/image/upload/c_fill,g_face,h_300,q_auto,w_600/v1735585676/journal/about/self-portrait-chamonix.webp"
-  />
-  <meta
-    property="og:alt"
-    content="A man takes a self-portrait in front of a mirror with a large format camera"
-  />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dpmsynxig/image/upload/c_fill,g_face,h_300,q_auto,w_600/v1735585676/journal/about/self-portrait-chamonix.webp"
+    />
+
+    <meta
+      property="og:alt"
+      content="A man takes a self-portrait in front of a mirror with a large format camera"
+    />
     {{ if .Params.description }}
-  <meta
-    property="og:description"
-    content="{{ .Params.description }}"
-  />
-{{ end }}
+      <meta
+        property="og:description"
+        content="{{ .Params.description }}"
+      />
+    {{ end }}
     <link
       rel="author"
       href="humans.txt"
     />
+    <style>
+      @layer reset, variables, fonts, defaults, typography, layout, utilities, design, photoswipe;
+    </style>
+    {{ $css := resources.Match "css/**.css" | resources.Concat "styles.css" | minify }}
     <link
+      type="text/css"
       rel="stylesheet"
-      href="/css/styles.css"
+      href="{{ $css.Permalink }}"
     />
     {{ with .OutputFormats.Get "rss" }}
-  {{ printf `
-    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML
-  }}
-{{ end -}}
+      {{ printf `
+        <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML
+      }}
+    {{ end -}}
   </head>
+</html>

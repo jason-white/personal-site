@@ -51,4 +51,4 @@ Some of these probably deserve to be in the Favorites list after I really dig in
 
 Every year I add songs to a playlist that I really like, and have never heard before. This years is a lot larger than the last. It's easier than making a long list of every single that I enjoyed playing over and over again all year. If I could call out one song, though? The Beaches - Takes One to Know One. That's my Single of the Year, I guess.
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4VjfIHolfxIFFc1A4gijV2?utm_source=generator&theme=0" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe title="Discovery 2024 playlist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4VjfIHolfxIFFc1A4gijV2?utm_source=generator&theme=0" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
