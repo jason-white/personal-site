@@ -63,15 +63,25 @@
       rel="author"
       href="humans.txt"
     />
-    <style>
-      @layer reset, variables, fonts, defaults, typography, layout, utilities, design, photoswipe;
-    </style>
-    {{ $css := resources.Match "css/**.css" | resources.Concat "styles.css" | minify }}
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="{{ $css.Permalink }}"
-    />
+    {{ with resources.Get "css/styles.scss" }}
+      {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/styles.css" }}
+      {{ with . | toCSS $opts }}
+        {{ if hugo.IsDevelopment }}
+          <link
+            rel="stylesheet"
+            href="{{ .RelPermalink }}"
+          />
+        {{ else }}
+          {{ with . | minify | fingerprint }}
+            <link
+              type="text/css"
+              rel="stylesheet"
+              href="{{ .RelPermalink }}"
+            />
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
     {{ with .OutputFormats.Get "rss" }}
       {{ printf `
         <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML

@@ -7,7 +7,7 @@
     Skip to main content
   </a>
 
-  <nav>
+  <nav class="grid">
     {{ if .IsHome }}
       <h1 class="hp__logo">
         <a
@@ -71,7 +71,7 @@
     {{ end }}
 
     {{ with site.Menus.main }}
-      <ul class="nav__list list-reset">
+      <ul class="nav__list list-reset flow">
         {{ range . }}
           <li>
             {{ $url := .URL }}
