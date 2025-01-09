@@ -1,15 +1,15 @@
 <!-- Import Head -->
 <header class="header">
   <a
-    class="skip"
-    href="#content-start"
+    class="visually-hidden"
+    href="#main-content"
   >
     Skip to main content
   </a>
 
   <nav>
     {{ if .IsHome }}
-      <h1 class="hp__logo">
+      <h1>
         <a
           rel="home"
           href="/"
@@ -39,7 +39,7 @@
         </a>
       </h1>
     {{ else }}
-      <div class="hp__logo">
+      <div>
         <a
           rel="home"
           href="/"

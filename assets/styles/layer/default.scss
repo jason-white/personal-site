@@ -1,0 +1,7 @@
+@use 'sass:meta';
+
+@layer default {
+  @layer config {
+    @include meta.load-css('../default/config');
+  }
+}

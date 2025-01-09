@@ -1,0 +1,7 @@
+@use 'sizes';
+
+html {
+  @include sizes.text;
+
+  font-size: var(--root, 1.25em);
+}
