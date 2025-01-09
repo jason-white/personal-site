@@ -2,7 +2,7 @@
   {{ range .posts }}
     {{ if or (eq .Type "journal") (eq .Type "now") }}
       <li>
-        <article class="post-item">
+        <article class="post-item grid">
           <div class="post-item__title">
             <h2>
               {{ .Title }}
@@ -31,7 +31,7 @@
       </li>
     {{ else if eq .Type "link" }}
       <li>
-        <article class="post-item">
+        <article class="post-item grid">
           <div class="post-item__title">
             <h2>{{ .Title }}</h2>
 

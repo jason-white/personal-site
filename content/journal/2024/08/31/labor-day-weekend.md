@@ -12,7 +12,7 @@ jammin:
 tags:
   - labor-day
   - leica
-  - pre-a
+  - 35mm-summicron
   - 50mm-summilux
 ---
 

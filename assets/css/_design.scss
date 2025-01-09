@@ -63,6 +63,13 @@
   grid-area: header;
   padding-block: var(--fluid-gap);
   margin-block-end: 5rem;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--fluid-gap);
+  }
 }
 
 @container layout (width > 425px) {
@@ -73,7 +80,6 @@
 }
 
 .hp__logo {
-  grid-column: 1;
   margin-block-end: 0;
 
   a {
@@ -85,12 +91,12 @@
 }
 
 .nav__list {
-  grid-column-start: 3;
   display: flex;
-  flex-direction: column;
+  gap: var(--gap);
 
   li {
     line-height: 1;
+    margin: 0;
   }
 
   a {
@@ -113,6 +119,12 @@
 
 .home-list {
   grid-area: list;
+
+  h2 {
+    font-size: calc(var(--base-font-size)* 1.25);
+    font-weight: 600;
+    margin-block-end: var(--fluid-gap);
+  }
 }
 
 .intro {
@@ -291,15 +303,16 @@
 
 .post-item:has(.post-item__img) {
   grid-template-areas:
-    "title . image image"
-    "link . . .";
+    "title title . ."
+    "image image image image"
+    "link link . .";
 }
 
 .post-item:has(.post-item__content) {
   grid-template-areas:
-    "title title title title"
+    "title title . ."
     "content content content content"
-    "link . . . ";
+    "link link . .";
 }
 
 .post-item__title {
@@ -359,14 +372,12 @@
 @container layout (width > 960px) {
   .post-item:has(.post-item__img) {
     grid-template-areas:
-      "title . image image"
-      "link . image image";
+      "title image image link";
   }
 
   .post-item:has(.post-item__content) {
     grid-template-areas:
-      "title . content ."
-      "link . content .";
+      "title content content link";
   }
 }
 
