@@ -303,14 +303,14 @@
 
 .post-item:has(.post-item__img) {
   grid-template-areas:
-    "title title . ."
+    "title title title ."
     "image image image image"
     "link link . .";
 }
 
 .post-item:has(.post-item__content) {
   grid-template-areas:
-    "title title . ."
+    "title title title ."
     "content content content content"
     "link link . .";
 }
