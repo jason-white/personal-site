@@ -43,7 +43,6 @@
       property="og:url"
       content="{{ .Permalink }}"
     />
-
     <meta
       property="og:image"
       content="https://res.cloudinary.com/dpmsynxig/image/upload/c_fill,g_face,h_300,q_auto,w_600/v1735585676/journal/about/self-portrait-chamonix.webp"
@@ -57,6 +56,11 @@
       <meta
         property="og:description"
         content="{{ .Params.description }}"
+      />
+    {{ else }}
+      <meta
+        property="og:description"
+        content="{{ .Summary | truncate 150 }}"
       />
     {{ end }}
     <link
