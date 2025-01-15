@@ -1,14 +1,23 @@
-{{ partial "head" . }}
-<body>
-  <div class="layout">
-    {{ partial "header" . }}
-    <main
-      class="main-content"
-      id="content-start"
-    >
-      {{ block "main" . }}
-      {{ end }}
-    </main>
-    {{ partial "footer" . }}
-  </div>
-</body>
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default " en-us" }}">
+  {{ partial "head" . }}
+  <body>
+    <div class="layout">
+      {{ partial "header" . }}
+      <main
+        class="main-content"
+        id="content-start"
+      >
+        {{ block "main" . }}
+        {{ end }}
+      </main>
+      {{ partial "footer" . }}
+    </div>
+    {{ with resources.Get "js/wc.js" }}
+      <script
+        type="module"
+        src="{{ .RelPermalink }}"
+      ></script>
+    {{ end }}
+  </body>
+</html>

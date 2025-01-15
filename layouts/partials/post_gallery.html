@@ -52,8 +52,10 @@
     </ul>
   </section>
 
+  {{ $lightboxJS := resources.Get "js/photoswipe-lightbox.esm.min.js" | resources.Fingerprint }}
+  {{ $photoswipeJS := resources.Get "js/photoswipe.esm.min.js" | resources.Fingerprint }}
   <script type="module">
-    import PhotoSwipeLightBox from "/js/photoswipe-lightbox.esm.min.js";
+import PhotoSwipeLightBox from "{{ $lightboxJS.Permalink }}";
 
     const lightbox = new PhotoSwipeLightBox({
       gallery: "#Gallery",
@@ -62,7 +64,7 @@
       secondaryZoomLevel: 1,
       maxZoomLevel: 1,
       showHideAnimationType: "fade",
-      pswpModule: () => import("/js/photoswipe.esm.min.js"),
+  pswpModule: () => import("{{ $photoswipeJS.Permalink }}"),
     });
 
     lightbox.init();
