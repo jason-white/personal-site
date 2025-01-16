@@ -7,11 +7,9 @@
 
     <!-- If feature image exists... -->
     {{ if .Params.image }}
-      <div class="post__feature">
-        <!-- Render feature partial -->
-        {{ partial "feature.html" . }}
-        <!-- End -->
-      </div>
+      <!-- Render feature partial -->
+      {{ partial "feature.html" . }}
+      <!-- End -->
     {{ end }}
 
 

@@ -17,7 +17,8 @@
 {{- $imagePath := print $pageDir $webpSrc -}}
 
 {{- if $src -}}
-  <figure class="post__feature">
+<div class="post__feature">
+  <figure>
     <img
       srcset="
         {{- range $i, $e := $respSizes -}}
@@ -39,3 +40,4 @@
 {{- else -}}
   <p><em>Image unavailable.</em></p>
 {{- end -}}
+</div>
