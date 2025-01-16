@@ -543,11 +543,14 @@
 
 .sidebar {
   grid-area: aside;
+
 }
 
 .sidebar-content {
   display: flex;
   flex-wrap: wrap;
+
+
 
   p {
     font-size: var(--small-font-size);
