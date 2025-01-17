@@ -25,6 +25,7 @@ p {
   line-height: 1.5;
   text-wrap: pretty;
   hyphens: auto;
+  hyphenate-limit-chars: 10;
   margin-block: 0;
   color: var(--fg-color--darker);
 }

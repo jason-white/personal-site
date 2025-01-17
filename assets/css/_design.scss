@@ -450,7 +450,7 @@
 
 .post__feature {
   grid-area: feature;
-  margin-block-end: var(--gap);
+  margin-block-end: calc(var(--gap) * 2);
 }
 
 .post-item__summ {
