@@ -41,20 +41,16 @@
   fill: var(--accent-color--dark);
 }
 
-.skip {
+.visually-hidden:not(:focus) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
   position: absolute;
-  top: 0;
-  left: 0;
-  padding: 0.5rem;
-  background: black;
-  color: white;
-  transform: translateY(-125%);
-  transition: transform 0.3s;
-  z-index: 10;
-}
-
-.skip:focus {
-  transform: translateY(-5%);
+  width: 1px;
+  white-space: nowrap;
 }
 
 .header {
@@ -152,7 +148,7 @@
 .list__thumb {
   aspect-ratio: 3/2;
   object-fit: cover;
-  object-position: center center;
+  object-position: top center;
 }
 
 .tags {
@@ -406,14 +402,6 @@
     "pagination pagination pagination pagination";
 }
 
-/* .post:has(.post__meta) { */
-/*   grid-template-areas: */
-/*     "title title title title" */
-/*     "content content content content" */
-/*     "aside aside aside aside" */
-/*     "pagination pagination pagination pagination"; */
-/* } */
-
 .post:has(.post__feature) {
   grid-template-areas: "feature feature feature feature"
     "title title title title"
@@ -422,13 +410,13 @@
     "pagination pagination pagination pagination";
 }
 
-/* .post--portrait:has(.post__feature) { */
-/*   grid-template-areas: */
-/*     "title feature feature feature" */
-/*     "content feature feature feature" */
-/*     "aside aside aside aside" */
-/*     "pagination pagination pagination pagination"; */
-/* } */
+// .post--portrait:has(.post__feature) {
+//   grid-template-areas:
+//     "title title feature feature"
+//     "content feature feature feature"
+//     "aside aside aside aside"
+//     "pagination pagination pagination pagination";
+// }
 
 .post:has(.post__feature):has(.post__gallery) {
   grid-template-areas: "feature feature feature feature"
@@ -598,20 +586,6 @@
       "pagination pagination pagination pagination";
   }
 
-  .post:has(.post__feature) {
-    grid-template-areas: "feature feature feature feature"
-      "title title title ."
-      "content content content aside"
-      "pagination pagination pagination pagination";
-  }
-
-  .post--portrait:has(.post__feature) {
-    grid-template-areas: "title title feature feature"
-      "content content feature feature"
-      "aside aside aside aside"
-      "pagination pagination pagination pagination";
-  }
-
   .post:has(.post__feature):has(.post__gallery) {
     grid-template-areas: "feature feature feature feature"
       "title title title ."
@@ -620,9 +594,30 @@
       "pagination pagination pagination pagination";
   }
 
+  article.post--portrait:has(.post__feature) {
+    grid-template-areas:
+      "title title feature feature"
+      "content content content aside"
+      "pagination pagination pagination .";
+  }
+
+  .post--portrait .post__title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .post:has(.post__link) {
     grid-template-areas: "title title title ."
       "content content content ."
+      "pagination pagination pagination pagination";
+  }
+
+  .post:has(.post__feature) {
+    grid-template-areas: "feature feature feature feature"
+      "title title title ."
+      "content content content aside"
       "pagination pagination pagination pagination";
   }
 

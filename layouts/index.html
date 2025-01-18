@@ -6,7 +6,7 @@
 
     <div class="home-list">
       <h2>Recent Posts</h2>
-      {{ $posts := first 5 (where .Site.RegularPages "Type" "journal") }}
+      {{ $posts := first 5 (where .Site.RegularPages "Section" "journal") }}
       {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
     </div>
   </section>

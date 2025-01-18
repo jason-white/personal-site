@@ -1,8 +1,12 @@
 {{ define "main" }}
-  <article class="post">
+  <article
+    class="post {{ if eq .Params.layout "portrait" }}post--portrait{{ end }}"
+  >
     <header class="post__title">
-      <h1>{{ .Title }}</h1>
-      <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+      <div>
+        <h1>{{ .Title }}</h1>
+        <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+      </div>
     </header>
 
     <!-- If feature image exists... -->

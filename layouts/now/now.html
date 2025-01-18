@@ -1,10 +1,12 @@
 {{ define "main" }}
-  <article class="post">
-    {{ range first 1 (where (where .Site.RegularPages "Section" "journal")
+{{ range first 1 (where (where .Site.RegularPages "Section" "journal")
       ".Params.type" "now")
     }}
 
-      {{ partial "feature.html" . }}
+  <article
+    class="post {{ if eq .Params.layout "portrait" }}post--portrait{{ end }}"
+  >
+          {{ partial "feature.html" . }}
 
 
       <div class="post__title">

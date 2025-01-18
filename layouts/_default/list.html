@@ -1,7 +1,7 @@
 {{ define "main" }}
   <section class="list-page">
     <h1>{{ .Title }}</h1>
-    {{ $posts := where .Site.RegularPages "Type" "journal" }}
+    {{ $posts := where .Site.RegularPages "Section" "journal" }}
     {{ $paginator := .Paginate $posts 20 }}
     {{ partial "post-list.html" (dict "context" . "posts" $paginator.Pages) }}
     {{ partial "pagination" . }}
