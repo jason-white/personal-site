@@ -122,7 +122,7 @@
 
 .intro {
   grid-area: intro;
-  margin-block: calc(var(--fluid-gap) * 3);
+  margin-block: calc(var(--fluid-gap) * 2);
 
   p {
     font-size: clamp(1.44rem, 1.2784rem + 0.663vw, 2.074rem);
@@ -273,7 +273,6 @@
   }
 
   p {
-    margin-block: 0;
     text-wrap: pretty;
     color: var(--fg-color--darker);
     font-size: var(--small-font-size);
@@ -390,8 +389,8 @@
 .post {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-auto-rows: auto;
   column-gap: var(--fluid-gap);
+  row-gap: var(--fluid-gap);
   align-items: start;
 }
 
@@ -536,9 +535,7 @@
 
 .sidebar-content {
   display: flex;
-  flex-wrap: wrap;
-
-
+  flex-direction: column;
 
   p {
     font-size: var(--small-font-size);
