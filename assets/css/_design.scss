@@ -105,6 +105,10 @@
   }
 }
 
+a.nav--active {
+  color: var(--accent-color);
+}
+
 .home-page {
   grid-template-areas:
     "intro intro intro intro"
