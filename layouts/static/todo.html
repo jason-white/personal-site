@@ -6,18 +6,6 @@
 
     <section class="post__content">{{ .Content }}</section>
 
-    <aside class="post__sidebar">
-      <div class="slash-pages">
-        <h3 class="secondary">More Stuff</h3>
-        <ul class="list-reset">
-          <li>
-            <a href="/uses/">Uses</a>
-          </li>
-          <li>
-            <a href="/todo/">To-do list</a>
-          </li>
-        </ul>
-      </div>
-    </aside>
+    {{ partial "sidebar.html" . }}
   </article>
 {{ end }}

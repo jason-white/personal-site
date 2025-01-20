@@ -106,18 +106,31 @@
 }
 
 .home-page {
-  grid-template-areas: "intro intro intro intro"
-    "list list list list";
+  grid-template-areas:
+    "intro intro intro intro"
+    "journal journal journal journal"
+    "links links links links";
 }
 
 .home-list {
-  grid-area: list;
 
   h2 {
     font-size: var(--large-font-size);
     font-weight: 600;
     margin-block-end: var(--fluid-gap);
   }
+}
+
+.home-list+.home-list {
+  padding-block-start: calc(var(--fluid-gap) * 3);
+}
+
+.hl--journal {
+  grid-area: journal;
+}
+
+.hl--links {
+  grid-area: links;
 }
 
 .intro {
@@ -137,7 +150,8 @@
 @container layout (width > 960px) {
   .home-page {
     grid-template-areas: "intro intro intro ."
-      "list list list list";
+      "journal journal journal journal"
+      "links links links links";
   }
 }
 

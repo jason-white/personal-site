@@ -32,7 +32,8 @@ I love reading other peoples 'Uses' pages so I thought I'd make my own.
 - {{< link text="Obsidian" href="https://obsidian.md/" >}} - A very good markdown notes editor. New addition to my workflow but I'm loving it. Mostly using Obsidian for keeping track of work notes but will likely incorporate it into personal use soon. I highly recommend checking out plugins and customizing it.
 - {{< link text="Reeder" href="https://www.reederapp.com/" >}} - My goto RSS feed reader.
 - ~~{{< link text="Yabai" href="https://github.com/koekeishiya/yabai" >}} - Tiling window manager for macOS~~
-- {{< link text="AeroSpace" href="https://github.com/nikitabobko/AeroSpace" >}} - i3-like tiling window manager for macOS. Still beta. Really nicely done!
+- ~~{{< link text="AeroSpace" href="https://github.com/nikitabobko/AeroSpace" >}} - i3-like tiling window manager for macOS. Still beta. Really nicely done!~~
+- {{< link text="Raycast" href="https://raycast.com" >}} - I'm testing out Raycast after being an Alfred user for many years. The only reason I made the switch is because it has window management. It does _a lot_, but it can't even open folders in Finder by default like Alfred, which is annoying.
 - {{< link text="Steermouse" href="https://plentycom.jp/en/steermouse/" >}} - Shoutout to {{< link text="Chris Glass" href="https://chrisglass.com" >}} for turning me onto this app. Gives you complete control over non-Apple mice. After setting up Steermouse, the OP1 is a _dream_.
 
 ## Cameras
@@ -50,6 +51,7 @@ I love reading other peoples 'Uses' pages so I thought I'd make my own.
 
 ## Lenses
 
+- Leica 35mm Summilux Pre-Aspherical
 - Leica 28mm Elmarit ASPH
 - Leica 35mm Summicron ASPH
 - Leica 50mm Summilux ASPH
@@ -57,9 +59,9 @@ I love reading other peoples 'Uses' pages so I thought I'd make my own.
 - ~~Carl Zeiss 80mm Planar f/2.8 C~~
 - ~~Carl Zeiss 150mm Sonnar f/4 C T\*~~
 - Sigma 70mm f/2.8 DG ART Macro (Sony E mount)
-- Sigma 70mm f/2.8 DG Macro (Nikon F mount)
+- Sigma 70mm f/2.8 DG Macro (Nikon F mount, for sale)
 - Sony FE 200-600mm f/5.6-6.3 G OSS
-- Rodenstock 75mm f/4.5 Apo Rodagon D 2x
+- Rodenstock 75mm f/4.5 Apo Rodagon D 2x (Screw mount)
 - Rodenstock 210mm f/5.6 Sironar-N
 
 ## Scanning

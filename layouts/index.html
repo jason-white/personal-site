@@ -1,13 +1,18 @@
 {{ define "main" }}
-  <section class="home-page grid">
-    <article class="intro">
+  <div class="home-page grid">
+    <section class="intro">
       {{ .Content }}
-    </article>
+    </section>
 
-    <div class="home-list">
+    <section class="home-list hl--journal">
       <h2>Recent Posts</h2>
-      {{ $posts := first 10 (where .Site.RegularPages "Section" "in" (slice "journal" "links")) }}
+      {{ $posts := first 5 (where .Site.RegularPages "Section" "journal") }}
       {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
-    </div>
-  </section>
+    </section>
+    <section class="home-list hl--links">
+      <h2>Recent Links</h2>
+      {{ $posts := first 10 (where .Site.RegularPages "Section" "links") }}
+      {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
+    </section>
+  </div>
 {{ end }}
