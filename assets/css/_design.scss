@@ -260,18 +260,10 @@ a.nav--active {
   border-block-start: 1px solid var(--mg-color);
 }
 
-.list-page {
-  h1 {
-    font-size: var(--large-font-size);
-    font-weight: 600;
-    margin-block-end: var(--fluid-gap);
-  }
-
-  .pagination {
-    border-block-start: 1px solid var(--mg-color);
-    padding-block-start: var(--gap);
-    margin-block-start: var(--fluid-gap);
-  }
+.list-page .pagination {
+  border-block-start: 1px solid var(--mg-color);
+  padding-block-start: var(--gap);
+  margin-block-start: var(--fluid-gap);
 }
 
 .post-item {
