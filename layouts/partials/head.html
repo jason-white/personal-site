@@ -89,4 +89,17 @@
       <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML
     }}
   {{ end -}}
+  <style>
+    .intro {
+      grid-area: intro;
+      margin-block: calc(var(--fluid-gap) * 2);
+      p {
+        font-size: clamp(1.44rem, 1.2784rem + 0.663vw, 2.074rem);
+        max-width: 42ch;
+      }
+      p + p {
+        margin-block-start: var(--gap);
+      }
+    }
+  </style>
 </head>

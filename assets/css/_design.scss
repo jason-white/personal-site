@@ -137,19 +137,19 @@ a.nav--active {
   grid-area: links;
 }
 
-.intro {
-  grid-area: intro;
-  margin-block: calc(var(--fluid-gap) * 2);
-
-  p {
-    font-size: clamp(1.44rem, 1.2784rem + 0.663vw, 2.074rem);
-    /* max-width: 42ch; */
-  }
-
-  p+p {
-    margin-block-start: var(--gap);
-  }
-}
+// .intro {
+//   grid-area: intro;
+//   margin-block: calc(var(--fluid-gap) * 2);
+//
+//   p {
+//     font-size: clamp(1.44rem, 1.2784rem + 0.663vw, 2.074rem);
+//     max-width: 42ch;
+//   }
+//
+//   p+p {
+//     margin-block-start: var(--gap);
+//   }
+// }
 
 @container layout (width > 960px) {
   .home-page {
