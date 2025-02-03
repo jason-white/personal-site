@@ -8,11 +8,13 @@
       <h2>Recent Posts</h2>
       {{ $posts := first 5 (where .Site.RegularPages "Section" "journal") }}
       {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
+      <a href="/journal">More journal posts</a>
     </section>
     <section class="home-list hl--links">
       <h2>Recent Links</h2>
       {{ $posts := first 10 (where .Site.RegularPages "Section" "links") }}
       {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
+      <a href="/links">More link posts</a>
     </section>
   </div>
 {{ end }}
