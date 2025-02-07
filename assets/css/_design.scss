@@ -24,11 +24,11 @@
 }
 
 .external-link::after {
-  content: "\2197 ";
+  content: "\2197\0020";
 }
 
 .internal-link::after {
-  content: "\2192 ";
+  content: "\2192\0020";
 }
 
 .link-icon {
