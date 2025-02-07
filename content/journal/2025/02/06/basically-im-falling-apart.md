@@ -149,6 +149,6 @@ All of the Castlevania shows on Netflix so far have been really good.
 
 ### NFL
 
-Football isn't something I talk about a lot, but over the last couple of years, I've gotten more and more into it. Being a Panthers fan is hard, ya'll, but I think Bryce "Bryce Cold, the Carolina Reaper" Young may take us pretty far next year. It was _amazing_ to see how he changed mid-season. I don't know what happened. I don't care what happened. But, holy hell, did he step it up.
+Football isn't something I talk about a lot, but over the last couple of years, I've gotten more and more into it. Being a Panthers fan is hard, y'all, but I think Bryce "Bryce Cold, the Carolina Reaper" Young may take us pretty far next year. It was _amazing_ to see how he changed mid-season. I don't know what happened. I don't care what happened. But, holy hell, did he step it up.
 
 I’m not entirely thrilled about the Super Bowl matchup being a repeat of last year, but it definitely says a lot about the two teams that made it. I had been predicting a Lions vs. Chiefs Super Bowl all season, but it didn’t pan out.
