@@ -35,7 +35,7 @@ I took a break late last year on the job search because we had a few trips that 
 
 The job search is brutal. If you don't know someone at the company you're applying to, your resume is likely not even being looked at. If the job posting is {{< link href="https://www.forbes.com/sites/rachelwells/2024/08/13/36-of-job-adverts-are-fake-how-to-spot-them-in-2024/" text="even real to begin with." >}} I applied to a (supposedly) remote role at a company a friend works at and when I asked for a referral, he couldn't even find the post. I looked, and it had been taken down. He eventually found the hiring manager and learned that it was taken down because he got over 1000 applications the day of posting. He also said he liked my resume, but the role wasn't actually remote.
 
-To quote my good buddy Kevin, <quote>"It's tough out there."</quote>
+> It's tough out there. -Kevin C.
 
 <hr />
 

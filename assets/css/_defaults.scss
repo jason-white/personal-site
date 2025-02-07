@@ -34,3 +34,9 @@ img {
   height: auto;
   vertical-align: middle;
 }
+
+blockquote {
+  margin-inline-start: var(--fluid-gap);
+  padding: var(--fluid-gap);
+  border-inline-start: 1px solid var(--mg-color);
+}
