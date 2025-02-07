@@ -24,6 +24,7 @@ I love reading other peoples 'Uses' pages so I thought I'd make my own.
 ## Apps
 
 - {{< link text="Neovim" href="https://neovim.io/" >}} - Text editor of choice for a long time now. And I'm still terribly inefficient with it.
+- {{< link text="Ghostty" href="https://ghostty.org/" >}} - Giving this terminal a go after using iTerm for so many years.
 - {{< link text="Cloudinary" href="https://cloudinary.com" >}} - Cloud hosted media platform that lets you transform images.
 - {{< link text="Lightroom" href="https://adobe.com" >}} - Photo editor of choice. Lightroom smart catalogs is how I organize everything. I can quickly find something by lens, film stock, etc.
 - {{< link text="Negative Lab Pro" href="https://www.negativelabpro.com/" >}} - A Lightroom plugin that does a fantastic job at converting digitized negatives into positives.
