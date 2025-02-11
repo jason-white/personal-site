@@ -41,25 +41,39 @@ buildDrafts = false
     pageRef = '/about'
     weight = 50
 
-[[menus.elsewhere]]
+[[menus.internal]]
+  name = 'Uses'
+  pageRef = '/uses'
+  post = 'A list of all of the things I use from hardware to software, camera gear, and more.'
+  weight = 10
+
+[[menus.internal]]
+  name = 'Blogroll'
+  pageRef = '/blogroll'
+  post = "The sites that I subscribe to and enjoy reading on a regular basis."
+  weight = 20
+
+[[menus.internal]]
+  name = 'Todo'
+  pageRef = '/todo'
+  post = "Things I need to take care of 'round these parts."
+  weight = 30
+
+
+[[menus.social]]
     name = 'Mastodon'
     url = 'https://mas.to/@nux'
     weight = 10
 
-[[menus.elsewhere]]
-    name = 'Instagram'
-    url = 'https://instagram.com/qbrt'
-    weight = 20
-
-[[menus.elsewhere]]
+[[menus.social]]
     name = 'last.fm'
     url = 'https://www.last.fm/user/qbertqbert'
-    weight = 40
+    weight = 20
 
-[[menus.elsewhere]]
+[[menus.social]]
     name = 'Discogs'
     url = 'https://www.discogs.com/user/qbrt/collection?page=1&sort=artist%2Casc&folder=0&limit=25'
-    weight = 50
+    weight = 30
 
 [markup]
   [markup.goldmark]

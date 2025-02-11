@@ -1,0 +1,4 @@
+.center {
+  max-inline-size: var(--measure);
+  margin-inline: auto;
+}

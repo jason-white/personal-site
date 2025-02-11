@@ -1,0 +1,124 @@
+{
+  "title": "Spacing",
+  "description": "Consistent spacing sizes, based on a ratio, with min and max sizes. This allows you to set spacing based on the context size. For example, min for mobile and max for desktop browsers.",
+  "meta": {
+    "scaleGenerator": "https://utopia.fyi/space/calculator?c=320,16,1.2,2560,24,1.414,6,2,&s=0.75|0.5|0.25,1.5|2|3|4|6|8,s-l|s-xl&g=s,l,xl,12"
+  },
+  "items": [
+    {
+      "name": "Zero",
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "3XS",
+      "min": 4,
+      "max": 6
+    },
+    {
+      "name": "2XS",
+      "min": 8,
+      "max": 12
+    },
+    {
+      "name": "XS",
+      "min": 12,
+      "max": 18
+    },
+    {
+      "name": "S",
+      "min": 16,
+      "max": 24
+    },
+    {
+      "name": "M",
+      "min": 24,
+      "max": 36
+    },
+    {
+      "name": "L",
+      "min": 32,
+      "max": 48
+    },
+    {
+      "name": "XL",
+      "min": 48,
+      "max": 72
+    },
+    {
+      "name": "2XL",
+      "min": 64,
+      "max": 96
+    },
+    {
+      "name": "3XL",
+      "min": 96,
+      "max": 144
+    },
+    {
+      "name": "4XL",
+      "min": 128,
+      "max": 192
+    },
+    {
+      "name": "3XS - 2XS",
+      "min": 4,
+      "max": 12
+    },
+    {
+      "name": "2XS - XS",
+      "min": 8,
+      "max": 18
+    },
+    {
+      "name": "XS - S",
+      "min": 12,
+      "max": 24
+    },
+    {
+      "name": "S - M",
+      "min": 16,
+      "max": 36
+    },
+    {
+      "name": "M - L",
+      "min": 24,
+      "max": 48
+    },
+    {
+      "name": "L - XL",
+      "min": 32,
+      "max": 72
+    },
+    {
+      "name": "XL - 2XL",
+      "min": 48,
+      "max": 96
+    },
+    {
+      "name": "2XL - 3XL",
+      "min": 64,
+      "max": 144
+    },
+    {
+      "name": "3XL - 4XL",
+      "min": 96,
+      "max": 192
+    },
+    {
+      "name": "S - L",
+      "min": 16,
+      "max": 48
+    },
+    {
+      "name": "S - XL",
+      "min": 16,
+      "max": 72
+    },
+    {
+      "name": "M - 4XL",
+      "min": 36,
+      "max": 192
+    }
+  ]
+}

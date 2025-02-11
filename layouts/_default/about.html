@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <article class="page page--about grid">
+  <article class="post switcher">
     <!-- If feature image exists... -->
     {{ if .Params.image }}
       <!-- Render feature partial -->
@@ -8,11 +8,21 @@
     {{ end }}
 
 
-    <div class="page__content">
-      <h1 class="page-title--about">{{ .Title }}</h1>
-      {{ .Content }}
+    <div class="post__content">
+      <h1>
+        {{ .Title }}
+      </h1>
+      <div
+        class="sidebar"
+        data-direction="rtl"
+      >
+        <div class="post__copy copy flow">
+          {{ .Content }}
+        </div>
+        <aside>
+          {{ partial "sidebar" . }}
+        </aside>
+      </div>
     </div>
-
-    {{ partial "sidebar.html" . }}
   </article>
 {{ end }}

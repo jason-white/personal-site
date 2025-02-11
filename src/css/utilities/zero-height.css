@@ -1,0 +1,9 @@
+/* Utility for removing line-height
+*  Mostly just helpful for removing extra
+*  space when wrapping my logo SVG in an
+*  anchor tag */
+
+.zero-height {
+  display: block;
+  line-height: 0;
+}

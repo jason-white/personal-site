@@ -1,6 +1,24 @@
 {
-  "devDependencies": {
-    "prettier": "^3.3.3",
-    "prettier-plugin-go-template": "^0.0.15"
+  "scripts": {
+    "clean": "rm -r -f public/css && mkdir public/css",
+    "hugo": "hugo server",
+    "hugo:drafts": "hugo server -D",
+    "css": "npx postcss src/css/*.css --dir assets/css",
+    "css:watch": "npm run css -- --watch",
+    "serve": "npm run clean && npm-run-all --parallel hugo:drafts css:watch"
+  },
+  "dependencies": {
+    "clean-css": "^5.3.2",
+    "cssnano": "^6.0.1",
+    "npm-run-all2": "^7.0.2",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-import-ext-glob": "^2.1.1",
+    "postcss-js": "^4.0.1",
+    "prettier": "^3.5.0",
+    "prettier-plugin-go-template": "^0.0.15",
+    "slugify": "^1.6.6",
+    "tailwindcss": "^3.3.5"
   }
 }

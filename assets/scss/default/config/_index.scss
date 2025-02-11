@@ -1,7 +1,0 @@
-@use 'sizes';
-
-html {
-  @include sizes.spacing;
-  @include sizes.text;
-  font-size: var(--root, 1.25em);
-}

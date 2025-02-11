@@ -28,12 +28,12 @@
       "
       sizes="{{ $dataSzes }}"
       src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
-      width="600"
-      height="400"
       alt="{{ $alt }}"
     />
     {{- if $cap -}}
-      <figcaption class="secondary">{{ $cap }}</figcaption>
+      <figcaption>
+        <p>{{ $cap }}</p>
+      </figcaption>
     {{- end }}
   </figure>
 {{- else -}}

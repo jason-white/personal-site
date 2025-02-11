@@ -45,7 +45,12 @@
       loading="lazy"
     />
     {{- if $cap -}}
-      <figcaption>{{ $cap }}</figcaption>
+      <figcaption
+        class="switcher"
+        data-direction="rtl"
+      >
+        {{ $cap }}
+      </figcaption>
     {{- end }}
   </figure>
 {{- else -}}

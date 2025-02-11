@@ -1,0 +1,91 @@
+.footer {
+  --space: var(--space-2xs);
+  --cluster-vertical-alignment: flex-start;
+  position: relative;
+  margin-block-start: var(--space-m-4xl);
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  padding-block: var(--gutter);
+  padding-block-end: var(--space-4xl);
+  font-size: var(--size-step-00);
+  overflow: clip;
+  z-index: 10;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer nav {
+  --gutter: var(--space-xl);
+  /* border-inline-start: 2px solid var(--color-light); */
+  /* padding-inline-start: var(--space-s-m); */
+}
+
+/* .footer::before { */
+/*   --shape-width: 80rem; */
+/*   --shape-height: 70rem; */
+/*   --shape-color: red; */
+/**/
+/*   content: ""; */
+/*   position: absolute; */
+/*   bottom: -70rem; */
+/*   left: 25%; */
+/*   width: var(--shape-width); */
+/*   height: var(--shape-height); */
+/*   border-radius: 50%; */
+/*   background-color: var(--shape-color); */
+/*   filter: blur(75px); */
+/*   animation-name: rotate; */
+/*   animation-duration: 12s; */
+/*   animation-timing-function: linear; */
+/*   animation-iteration-count: infinite; */
+/*   /* animation-direction: alternate; */
+/* } */
+
+/* .footer::after { */
+/*   --shape-width: 50rem; */
+/*   --shape-height: 60rem; */
+/*   --shape-color: red; */
+/**/
+/*   content: ""; */
+/*   position: absolute; */
+/*   bottom: -50rem; */
+/*   left: 10%; */
+/*   width: var(--shape-width); */
+/*   height: var(--shape-height); */
+/*   border-radius: 50%; */
+/*   background-color: var(--shape-color); */
+/*   filter: blur(75px); */
+/*   animation-name: rotate; */
+/*   animation-duration: 10s; */
+/*   animation-timing-function: linear; */
+/*   animation-iteration-count: infinite; */
+/*   /* animation-direction: alternate; */
+/* } */
+
+footer svg {
+  fill: var(--color-light);
+}
+
+/* @keyframes rotate { */
+/*   0% { */
+/*     transform: rotate(0deg); */
+/*   } */
+/*   100% { */
+/*     transform: rotate(359deg); */
+/*   } */
+/* } */
+/**/
+/* @keyframes anime2 { */
+/*   0% { */
+/*     transform: translate(30%, 4%); */
+/*   } */
+/**/
+/*   50% { */
+/*     transform: translate(20%, 50%); */
+/*   } */
+/*   100% { */
+/*     transform: translate(10%, 70%); */
+/*   } */
+/* } */

@@ -1,0 +1,36 @@
+.post__content h1 {
+  font-size: var(--size-step-6);
+  margin-block-start: 0;
+  border-block-start: 2px solid var(--color-dark);
+  padding-block: var(--space-m-4xl);
+  font-weight: 400;
+}
+
+.post__copy,
+.post__content aside {
+  border-block-start: 2px solid var(--color-dark);
+  padding-block-start: var(--space-m);
+}
+
+.post__feature {
+  margin-block-end: var(--space-m);
+}
+
+.post__feature img {
+  mix-blend-mode: multiply;
+  width: 100%;
+}
+
+.post--landscape {
+  --sidebar-target-width: var(--measure);
+  --sidebar-content-min-width: 60%;
+}
+
+.post--landscape h1 {
+  font-size: var(--size-step-3);
+  padding-block: var(--space-s-xl);
+}
+
+.post--landscape .post__content > div {
+  grid-column: span 2;
+}

@@ -67,9 +67,8 @@
       rel="author"
       href="humans.txt"
     />
-    {{ with resources.Get "scss/styles.scss" }}
-      {{ $opts := dict "transpiler" "dartsass" "targetPath" "scss/styles.css" }}
-      {{ with . | toCSS $opts }}
+    {{ with resources.Get "css/global.css" }}
+      {{ with . }}
         {{ if hugo.IsDevelopment }}
           <link
             rel="stylesheet"

@@ -1,0 +1,16 @@
+.header {
+  font-size: var(--size-step-0);
+  padding-block: var(--gutter);
+}
+
+.header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}

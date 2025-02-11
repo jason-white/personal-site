@@ -1,0 +1,14 @@
+figcaption {
+  display: flex;
+  font-size: var(--size-step-00);
+}
+
+figcaption > * {
+  flex-basis: 50%;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
