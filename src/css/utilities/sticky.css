@@ -1,0 +1,16 @@
+/* 
+STICKY UTILITY
+Makes the direct child a sticky element
+`--offset` is the spacing between the sticky
+and the top of the viewport. `--gutter` is
+the default.
+*/
+
+.sticky {
+  --offset: var(--gutter);
+}
+
+.sticky > * {
+  position: sticky;
+  top: var(--offset, --gutter);
+}

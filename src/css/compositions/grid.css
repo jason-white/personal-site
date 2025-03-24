@@ -37,5 +37,5 @@ to change how empty grid tracks are handled */
 
 .grid[data-layout="quarters"] {
   --grid-placement: auto-fit;
-  --grid-min-item-size: clamp(16rem, 50%, 15rem);
+  --grid-min-item-size: 25rem;
 }

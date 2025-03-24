@@ -17,12 +17,17 @@ between the sidebar and main content.
 
 EXCEPTIONS
 .sidebar[data-direction='rtl']: flips the sidebar to be on the right 
+.sidebar[data-reverse='true']: reverses the order of the row items
 */
 
 .sidebar {
   display: flex;
   flex-wrap: wrap;
   gap: var(--gutter, var(--space-m));
+}
+
+.sidebar[data-reverse="true"] {
+  flex-direction: row-reverse;
 }
 
 .sidebar:not([data-direction="rtl"]) > :first-child {

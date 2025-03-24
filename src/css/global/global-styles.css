@@ -5,10 +5,16 @@
   project: https://cube.fyi/css.html
 */
 body {
-  background: var(--color-light);
-  color: var(--color-dark);
+  background: var(--color-dark);
+  color: var(--color-light);
   font-size: var(--size-step-0);
   font-family: var(--font-base);
   line-height: var(--leading-standard);
   margin: 0;
+}
+
+p,
+li,
+blockquote {
+  max-width: var(--measure);
 }

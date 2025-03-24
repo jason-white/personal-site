@@ -12,7 +12,7 @@
     },
     {
       "name": "Primary",
-      "value": "#A40F00"
+      "value": "#FF5810"
     },
     {
       "name": "Primary Dark",
@@ -25,6 +25,10 @@
     {
       "name": "Secondary",
       "value": "#2F4446"
+    },
+    {
+      "name": "Tertiary",
+      "value": "red"
     }
   ]
 }

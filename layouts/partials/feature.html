@@ -18,18 +18,23 @@
 
 {{- if $src -}}
   <figure class="post__feature">
-    <img
-      srcset="
-        {{- range $i, $e := $respSizes -}}
-          {{- if $i }},{{ end -}}
-          {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $imagePath }}
-          {{ $e }}w
-        {{- end -}}
-      "
-      sizes="{{ $dataSzes }}"
-      src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
-      alt="{{ $alt }}"
-    />
+    <picture>
+      <img
+        srcset="
+          {{- range $i, $e := $respSizes -}}
+            {{- if $i }},{{ end -}}
+            {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $imagePath }}
+            {{ $e }}w
+          {{- end -}}
+        "
+        sizes="{{ $dataSzes }}"
+        src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
+        alt="{{ $alt }}"
+        loading="eager"
+        fetchpriority="high"
+        class="fade-color-out"
+      />
+    </picture>
     {{- if $cap -}}
       <figcaption>
         <p>{{ $cap }}</p>

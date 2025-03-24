@@ -2,8 +2,7 @@
   --space: var(--space-2xs);
   --cluster-vertical-alignment: flex-start;
   position: relative;
-  margin-block-start: var(--space-m-4xl);
-  background-color: var(--color-primary);
+  background-color: var(--color-dark);
   color: var(--color-light);
   padding-block: var(--gutter);
   padding-block-end: var(--space-4xl);

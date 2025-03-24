@@ -1,16 +1,18 @@
 .header {
   font-size: var(--size-step-0);
   padding-block: var(--gutter);
+  background-color: var(--color-dark);
 }
 
 .header a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--color-dark);
+  color: var(--color-light);
 }
 
 .logo {
   width: 2.5rem;
   height: 2.5rem;
+  fill: var(--color-light);
 }

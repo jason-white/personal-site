@@ -1,69 +1,32 @@
 {{ define "main" }}
-  <article
-    class="post post--landscape sidebar"
-    data-direction="rtl"
-  >
-    <!-- If feature image exists... -->
-    {{ if .Params.image }}
-      <!-- Render feature partial -->
-      {{ partial "feature.html" . }}
-      <!-- End -->
-    {{ end }}
+  <article>
+    <h1 class="post__title">
+      {{ .Title }}
+    </h1>
+
+    <div class="post__body">
+      <!-- If feature image exists... -->
+      {{ if .Params.image }}
+        <!-- Render feature partial -->
+        {{ partial "feature.html" . }}
+        <!-- End -->
+      {{ end }}
 
 
-    <div
-      class="post__content grid"
-      data-layout="thirds"
-    >
-      <div>
-        <header class="post__title">
-          <h1>{{ .Title }}</h1>
-          <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
-        </header>
-
-        {{ .Content }}
-      </div>
-      {{ if eq .Params.type "link" }}
-        <div class="post__link">
-          <span class="external-link">
-            <a
-              aria-label="Visit {{ .Title }}"
-              href="{{ .Params.href }}"
-            >
-              Visit link
-            </a>
-          </span>
+      <div class="post__content">
+        <div
+          class="sidebar"
+          data-direction="rtl"
+        >
+          <div class="flow">
+            {{ .Content }}
+          </div>
+          <aside>
+            {{ partial "sidebar" . }}
+          </aside>
         </div>
-      {{ end }}
-
-
-      <!-- If the gallery images exist -->
-      {{ if .Params.gallery }}
-        <!-- Render post__gallery partial -->
-        {{ partial "post_gallery.html" . }}
-        <!-- End if -->
-      {{ end }}
-
-
-      <!-- If type == Journal, Links or Now -->
-      {{ if or (eq .Params.type "journal") (eq .Params.type "now") }}
-        <!-- Render meta.html partial -->
-        {{ partial "meta.html" . }}
-        <!-- End if -->
-      {{ end }}
-
-
-      <!-- Render pagination -->
-
-      <!-- If type == Journal, Links or Now -->
-      {{ if or (eq .Params.type "journal") (eq .Params.type "now") (eq .Params.type
-        "link")
-      }}
-        <!-- Render single post pagination partial -->
-        {{ partial "single-pagination.html" . }}
-        <!-- End if -->
-      {{ end }}
-
+      </div>
     </div>
   </article>
+  {{ partial "single-pagination.html" . }}
 {{ end }}

@@ -1,27 +1,34 @@
 {{ define "main" }}
-  <article class="post switcher">
-    <!-- If feature image exists... -->
-    {{ if .Params.image }}
-      <!-- Render feature partial -->
-      {{ partial "feature.html" . }}
-      <!-- End -->
-    {{ end }}
+  <article>
+    <h1 class="post__title">
+      {{ .Title }}
+    </h1>
+
+    <div
+      class="post__body sidebar"
+      data-direction="rtl"
+      data-reverse="true"
+    >
+      <!-- If feature image exists... -->
+      {{ if .Params.image }}
+        <!-- Render feature partial -->
+        {{ partial "feature.html" . }}
+        <!-- End -->
+      {{ end }}
 
 
-    <div class="post__content">
-      <h1>
-        {{ .Title }}
-      </h1>
-      <div
-        class="sidebar"
-        data-direction="rtl"
-      >
-        <div class="post__copy copy flow">
-          {{ .Content }}
+      <div class="post__content">
+        <div
+          class="sidebar"
+          data-direction="rtl"
+        >
+          <div class="flow">
+            {{ .Content }}
+          </div>
+          <aside>
+            {{ partial "sidebar" . }}
+          </aside>
         </div>
-        <aside>
-          {{ partial "sidebar" . }}
-        </aside>
       </div>
     </div>
   </article>
