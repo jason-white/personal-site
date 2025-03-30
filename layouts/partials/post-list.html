@@ -1,55 +1,30 @@
-<ul class="post-list list-reset">
+<ul class="post-list stack list-reset">
   {{ range .posts }}
     {{ if or (eq .Type "journal") (eq .Type "now") }}
-      <li>
-        <article class="post-item grid">
-          <div class="post-item__title">
-            <h2>
-              {{ .Title }}
-            </h2>
-
-            <time class="secondary">{{ .Date.Format "January 2, 2006" }}</time>
+      <li class="post-list__journal">
+        <article class="sidebar">
+          <div class="stack">
+            <h3>
+              <a
+                aria-label="View post {{ .Title }}"
+                href="{{ .Permalink }}"
+              >
+                {{ .Title }}
+              </a>
+            </h3>
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
           </div>
-          {{ if .Params.image }}
-            <div class="post-item__img border-radius">
-              {{ partial "list-thumb.html" . }}
-            </div>
-          {{ else }}
-            <div class="post-item__content">
-              <p>{{ .Summary }}</p>
-            </div>
-          {{ end }}
-          <span class="post-item__link internal-link">
-            <a
-              aria-label="View post {{ .Title }}"
-              href="{{ .Permalink }}"
-            >
-              View post
-            </a>
-          </span>
+          {{ partial "list-thumb.html" . }}
         </article>
       </li>
     {{ else if eq .Type "link" }}
       <li>
-        <article class="post-item grid">
-          <div class="post-item__title">
-            <h2>{{ .Title }}</h2>
-
-            <time class="secondary">
-              {{ .Date.Format "January 2, 2006" }}
-            </time>
-          </div>
-          <div class="post-item__content">
-            {{ .Content }}
-          </div>
-          <span class="post-item__link external-link">
-            <a
-              aria-label="Visit {{ .Title }}"
-              href="{{ .Params.href }}"
-            >
-              Visit link
-            </a>
-          </span>
+        <article class="post-list__link stack">
+          <h3><a href="{{ .Params.href }}">{{ .Title }}</a></h3>
+          {{ .Content }}
+          <time>
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
         </article>
       </li>
     {{ end }}

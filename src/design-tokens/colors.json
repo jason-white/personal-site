@@ -4,11 +4,11 @@
   "items": [
     {
       "name": "Dark",
-      "value": "#111"
+      "value": "#090807"
     },
     {
       "name": "Light",
-      "value": "#fff"
+      "value": "#FCF6F3"
     },
     {
       "name": "Primary",
@@ -29,6 +29,10 @@
     {
       "name": "Tertiary",
       "value": "red"
+    },
+    {
+      "name": "Dark rgb",
+      "value": "9, 8, 7"
     }
   ]
 }

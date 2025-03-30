@@ -2,13 +2,15 @@
   --space: var(--space-2xs);
   --cluster-vertical-alignment: flex-start;
   position: relative;
-  background-color: var(--color-dark);
   color: var(--color-light);
-  padding-block: var(--gutter);
-  padding-block-end: var(--space-4xl);
   font-size: var(--size-step-00);
   overflow: clip;
   z-index: 10;
+}
+
+.footer .wrapper {
+  padding-block: var(--gutter);
+  padding-block-end: var(--space-4xl);
 }
 
 .footer a {

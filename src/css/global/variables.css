@@ -7,4 +7,5 @@
   --leading-standard: 1.5;
   --measure: 60ch;
   --letters-tight: -0.25rem;
+  --wrapper-max-width: 2048px;
 }

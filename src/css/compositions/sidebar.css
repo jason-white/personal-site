@@ -30,6 +30,10 @@ EXCEPTIONS
   flex-direction: row-reverse;
 }
 
+.sidebar[data-wrap="false"] {
+  flex-wrap: no-wrap;
+}
+
 .sidebar:not([data-direction="rtl"]) > :first-child {
   flex-basis: var(--sidebar-target-width, 20rem);
   flex-grow: 1;

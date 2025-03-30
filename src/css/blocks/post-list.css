@@ -1,0 +1,60 @@
+.post-list li {
+  --space: var(--gutter);
+  max-width: 100%;
+}
+
+.post-list article {
+  --space: var(--space-s);
+  font-size: var(--size-step-0);
+  padding-block-end: var(--gutter);
+  border-block-end: 1px solid #333;
+}
+
+.post-list .sidebar {
+  --sidebar-target-width: 20ch;
+  --sidebar-content-min-width: 60%;
+}
+
+/* .post-list__link { */
+/*   font-size: var(--size-step-0); */
+/*   padding-block-end: var(--gutter); */
+/*   border-block-end: 1px solid #333; */
+/* } */
+
+.post-list h3 {
+  font-size: var(--size-step-0);
+  font-weight: 500;
+}
+
+.post-list time {
+  font-size: var(--size-step-00);
+  text-transform: uppercase;
+}
+
+.post-list__journal:hover .list__thumb {
+  background: transparent;
+  transition: 0.3s cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+.post-list__journal:hover .list__thumb img {
+  filter: none;
+  mix-blend-mode: normal;
+}
+
+.list__thumb {
+  aspect-ratio: 3/2;
+  background-color: var(--color-primary);
+  background-image: url("/noise3.png");
+  border-radius: 3px;
+  overflow: clip;
+}
+
+.list__thumb img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  object-position: top center;
+  filter: saturate(0) contrast(125%);
+  mix-blend-mode: multiply;
+  transition: 0.3s cubic-bezier(0, 0.55, 0.45, 1);
+}

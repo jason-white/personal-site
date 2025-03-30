@@ -1,9 +1,8 @@
 ---
 type: "page"
 title: "Home"
+heading: "Hello, I'm Jason."
 description: "Jason White"
 ---
 
-Hello, I'm Jason. Welcome to my little slice of the internet!
-
-I like to post photos in the form of a [journal](/journal) and share [links](/links) to things that I find around the web. Feel free to click around! ✌️
+<mark>I enjoy posting photos of every day life and travel in the form of a [journal](/journal), as well as share [links](/links) to the interesting things I find on the web.</mark>

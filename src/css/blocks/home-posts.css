@@ -1,0 +1,16 @@
+.home__posts {
+  --space: var(--gutter);
+  margin-block-start: var(--gutter);
+}
+
+.home__posts .sidebar {
+  --sidebar-target-width: 40rem;
+  --sidebar-content-min-width: 55%;
+}
+
+.home__journal {
+}
+
+.home__posts aside {
+  padding-inline: var(--gutter);
+}

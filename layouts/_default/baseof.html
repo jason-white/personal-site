@@ -1,12 +1,37 @@
 {{ partial "head" . }}
 <body>
-  {{ partial "header" . }}
-  <main
-    id="main-content"
-    class="main-content wrapper"
-  >
-    {{ block "main" . }}
-    {{ end }}
-  </main>
-  {{ partial "footer" . }}
+  <div class="tortilla">
+    <!-- SVG filters -->
+    <!-- 💡 https://danieldarrenjones.com/ -->
+    <svg
+      class="visually-hidden"
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      height="0"
+      width="0"
+    >
+      <defs>
+        <filter id="roughEdges">
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency=".05"
+            numOctaves="4"
+          />
+          <feDisplacementMap
+            in="SourceGraphic"
+            scale="5"
+          />
+        </filter>
+      </defs>
+    </svg>
+    {{ partial "header" . }}
+    <main
+      id="main-content"
+      class="main-content"
+    >
+      {{ block "main" . }}
+      {{ end }}
+    </main>
+    {{ partial "footer" . }}
+  </div>
 </body>

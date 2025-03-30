@@ -1,7 +1,9 @@
 .header {
   font-size: var(--size-step-0);
+}
+
+.header .wrapper {
   padding-block: var(--gutter);
-  background-color: var(--color-dark);
 }
 
 .header a {
@@ -11,8 +13,15 @@
   color: var(--color-light);
 }
 
+.header h1 {
+  display: flex;
+  align-items: stretch;
+  margin-block-start: 0;
+  height: 2.5rem;
+}
+
 .logo {
   width: 2.5rem;
   height: 2.5rem;
-  fill: var(--color-light);
+  fill: var(--color-primary);
 }

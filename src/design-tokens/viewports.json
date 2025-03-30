@@ -3,5 +3,5 @@
   "description": "The min and maximum viewports used to generate fluid type and space scales.",
   "min": 320,
   "mid": 1440,
-  "max": 2560
+  "max": 2048
 }

@@ -4,17 +4,64 @@
   Low-specificity, global styles that apply to the whole 
   project: https://cube.fyi/css.html
 */
+
 body {
-  background: var(--color-dark);
+  background-color: #f4f4f4;
+  background-image: url("/noise3.png");
+  background-size: 300px 300px;
+  background-repeat: repeat;
+
   color: var(--color-light);
   font-size: var(--size-step-0);
   font-family: var(--font-base);
   line-height: var(--leading-standard);
-  margin: 0;
+  margin-block: 0;
+  margin-inline: -4px;
+}
+
+.tortilla {
+  position: relative;
+  max-inline-size: var(--wrapper-max-width);
+  margin-inline: auto;
+  background-color: var(--color-dark);
+  /* box-shadow: */
+  /*   rgb(85, 91, 255) 0px 0px 0px 3px, */
+  /*   rgb(31, 193, 27) 0px 0px 0px 6px, */
+  /*   rgb(255, 217, 19) 0px 0px 0px 9px, */
+  /*   rgb(255, 156, 85) 0px 0px 0px 12px, */
+  /*   rgb(255, 85, 85) 0px 0px 0px 15px; */
+  box-shadow:
+    rgba(0, 0, 0, 0.07) 0px 1px 1px,
+    rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px,
+    rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  /* overflow: clip; */
+}
+
+.tortilla::before,
+.tortilla::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-light);
+  filter: url(#roughEdges);
+  z-index: 1;
+  width: 1px;
+}
+
+.tortilla::after {
+  left: 0;
 }
 
 p,
 li,
 blockquote {
   max-width: var(--measure);
+}
+
+a {
+  text-decoration-color: var(--color-primary);
 }

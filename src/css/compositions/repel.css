@@ -26,3 +26,10 @@ Can be any acceptable flexbox alignment value.
   align-items: var(--repel-horizontal-alignment, flex-start);
   flex-direction: column;
 }
+
+.repel[overlap] > :first-child {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}

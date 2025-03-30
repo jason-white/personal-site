@@ -1,0 +1,66 @@
+.hero mark {
+  background: linear-gradient(
+    0deg,
+    transparent 19%,
+    rgba(var(--color-dark-rgb), 0.75) 19%,
+    rgba(var(--color-dark-rgb), 0.75) 65%,
+    transparent 65%
+  );
+  color: var(--color-light);
+}
+
+.hero__inner {
+  background-color: var(--color-primary);
+  background-image: url("/noise3.png");
+  background-size: 200px 200px;
+  background-repeat: repeat;
+  padding-block: var(--gutter);
+  padding-inline-start: var(--gutter);
+  border-top-left-radius: var(--space-s);
+  border-bottom-left-radius: var(--space-s);
+}
+
+.hero__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "hero";
+}
+
+.hero__content .repel {
+  grid-area: hero;
+  position: relative;
+  max-width: 70ch;
+  z-index: 10;
+  margin-inline-end: var(--gutter);
+}
+
+.hero__heading {
+  font-size: var(--size-step-5);
+  text-wrap: pretty;
+  margin-block: 0;
+  font-weight: 700;
+  line-height: 0.9;
+}
+
+.hero__lede {
+  font-size: var(--size-step-1);
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.hero__img {
+  grid-area: hero;
+  max-width: 25rem;
+  justify-self: end;
+}
+
+.hero__img img {
+  inline-size: 100%;
+  block-size: 100%;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+  object-position: top center;
+  border-top-left-radius: var(--space-s);
+  border-bottom-left-radius: var(--space-s);
+  filter: contrast(150%);
+}

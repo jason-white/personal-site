@@ -125,44 +125,45 @@ textarea:not([rows]) {
 }
 
 :root {
-  --color-dark: #111;
-  --color-light: #fff;
+  --color-dark: #090807;
+  --color-light: #FCF6F3;
   --color-primary: #FF5810;
   --color-primary-dark: #7C0E01;
   --color-primary-dark-red: #111;
   --color-secondary: #2F4446;
   --color-tertiary: red;
-  --space-zero: clamp(0rem, -0.01rem + 0.04vw, 0.0625rem);
-  --space-3xs: clamp(0.25rem, 0.23rem + 0.09vw, 0.375rem);
-  --space-2xs: clamp(0.5rem, 0.46rem + 0.18vw, 0.75rem);
-  --space-xs: clamp(0.75rem, 0.70rem + 0.27vw, 1.125rem);
-  --space-s: clamp(1rem, 0.93rem + 0.36vw, 1.5rem);
-  --space-m: clamp(1.5rem, 1.39rem + 0.54vw, 2.25rem);
-  --space-l: clamp(2rem, 1.86rem + 0.71vw, 3rem);
-  --space-xl: clamp(3rem, 2.79rem + 1.07vw, 4.5rem);
-  --space-2xl: clamp(4rem, 3.71rem + 1.43vw, 6rem);
-  --space-3xl: clamp(6rem, 5.57rem + 2.14vw, 9rem);
-  --space-4xl: clamp(8rem, 7.43rem + 2.86vw, 12rem);
-  --space-3xs-2xs: clamp(0.25rem, 0.18rem + 0.36vw, 0.75rem);
-  --space-2xs-xs: clamp(0.5rem, 0.41rem + 0.45vw, 1.125rem);
-  --space-xs-s: clamp(0.75rem, 0.64rem + 0.54vw, 1.5rem);
-  --space-s-m: clamp(1rem, 0.82rem + 0.89vw, 2.25rem);
-  --space-m-l: clamp(1.5rem, 1.29rem + 1.07vw, 3rem);
-  --space-l-xl: clamp(2rem, 1.64rem + 1.79vw, 4.5rem);
-  --space-xl-2xl: clamp(3rem, 2.57rem + 2.14vw, 6rem);
-  --space-2xl-3xl: clamp(4rem, 3.29rem + 3.57vw, 9rem);
-  --space-3xl-4xl: clamp(6rem, 5.14rem + 4.29vw, 12rem);
-  --space-s-l: clamp(1rem, 0.71rem + 1.43vw, 3rem);
-  --space-s-xl: clamp(1rem, 0.50rem + 2.50vw, 4.5rem);
-  --space-m-4xl: clamp(2.25rem, 0.86rem + 6.96vw, 12rem);
-  --size-step-00: clamp(0.833125rem, 0.80rem + 0.16vw, 1.060625rem);
-  --size-step-0: clamp(1rem, 0.93rem + 0.36vw, 1.5rem);
-  --size-step-1: clamp(1.2rem, 1.07rem + 0.66vw, 2.12125rem);
-  --size-step-2: clamp(1.44rem, 1.22rem + 1.11vw, 2.999375rem);
-  --size-step-3: clamp(1.728125rem, 1.37rem + 1.79vw, 4.240625rem);
-  --size-step-4: clamp(2.07375rem, 1.51rem + 2.80vw, 5.99625rem);
-  --size-step-5: clamp(2.488125rem, 1.63rem + 4.28vw, 8.47875rem);
-  --size-step-6: clamp(2.98625rem, 1.70rem + 6.43vw, 11.989375rem);
+  --color-dark-rgb: 9, 8, 7;
+  --space-zero: clamp(0rem, -0.01rem + 0.06vw, 0.0625rem);
+  --space-3xs: clamp(0.25rem, 0.23rem + 0.12vw, 0.375rem);
+  --space-2xs: clamp(0.5rem, 0.45rem + 0.23vw, 0.75rem);
+  --space-xs: clamp(0.75rem, 0.68rem + 0.35vw, 1.125rem);
+  --space-s: clamp(1rem, 0.91rem + 0.46vw, 1.5rem);
+  --space-m: clamp(1.5rem, 1.36rem + 0.69vw, 2.25rem);
+  --space-l: clamp(2rem, 1.81rem + 0.93vw, 3rem);
+  --space-xl: clamp(3rem, 2.72rem + 1.39vw, 4.5rem);
+  --space-2xl: clamp(4rem, 3.63rem + 1.85vw, 6rem);
+  --space-3xl: clamp(6rem, 5.44rem + 2.78vw, 9rem);
+  --space-4xl: clamp(8rem, 7.26rem + 3.70vw, 12rem);
+  --space-3xs-2xs: clamp(0.25rem, 0.16rem + 0.46vw, 0.75rem);
+  --space-2xs-xs: clamp(0.5rem, 0.38rem + 0.58vw, 1.125rem);
+  --space-xs-s: clamp(0.75rem, 0.61rem + 0.69vw, 1.5rem);
+  --space-s-m: clamp(1rem, 0.77rem + 1.16vw, 2.25rem);
+  --space-m-l: clamp(1.5rem, 1.22rem + 1.39vw, 3rem);
+  --space-l-xl: clamp(2rem, 1.54rem + 2.31vw, 4.5rem);
+  --space-xl-2xl: clamp(3rem, 2.44rem + 2.78vw, 6rem);
+  --space-2xl-3xl: clamp(4rem, 3.07rem + 4.63vw, 9rem);
+  --space-3xl-4xl: clamp(6rem, 4.89rem + 5.56vw, 12rem);
+  --space-s-l: clamp(1rem, 0.63rem + 1.85vw, 3rem);
+  --space-s-xl: clamp(1rem, 0.35rem + 3.24vw, 4.5rem);
+  --space-m-4xl: clamp(2.25rem, 0.44rem + 9.03vw, 12rem);
+  --size-step-00: clamp(0.75rem, 0.68rem + 0.35vw, 1.125rem);
+  --size-step-0: clamp(1rem, 0.91rem + 0.46vw, 1.5rem);
+  --size-step-1: clamp(1.333125rem, 1.21rem + 0.62vw, 1.999375rem);
+  --size-step-2: clamp(1.776875rem, 1.61rem + 0.82vw, 2.665625rem);
+  --size-step-3: clamp(2.36875rem, 2.15rem + 1.10vw, 3.553125rem);
+  --size-step-4: clamp(3.1575rem, 2.87rem + 1.46vw, 4.73625rem);
+  --size-step-5: clamp(4.20875rem, 3.82rem + 1.95vw, 6.313125rem);
+  --size-step-6: clamp(5.61rem, 5.09rem + 2.60vw, 8.415625rem);
   --leading-flat: 1;
   --leading-fine: 1.15;
   --leading-loose: 1.7;
@@ -178,6 +179,7 @@ textarea:not([rows]) {
   --leading-standard: 1.5;
   --measure: 60ch;
   --letters-tight: -0.25rem;
+  --wrapper-max-width: 2048px;
 }
 
 /* 
@@ -188,18 +190,64 @@ textarea:not([rows]) {
 */
 
 body {
-  background: var(--color-dark);
+  background-color: #f4f4f4;
+  background-image: url("/noise3.png");
+  background-size: 300px 300px;
+  background-repeat: repeat;
+
   color: var(--color-light);
   font-size: var(--size-step-0);
   font-family: var(--font-base);
   line-height: var(--leading-standard);
-  margin: 0;
+  margin-block: 0;
+  margin-inline: -4px;
+}
+
+.tortilla {
+  position: relative;
+  max-inline-size: var(--wrapper-max-width);
+  margin-inline: auto;
+  background-color: var(--color-dark);
+  /* box-shadow: */
+  /*   rgb(85, 91, 255) 0px 0px 0px 3px, */
+  /*   rgb(31, 193, 27) 0px 0px 0px 6px, */
+  /*   rgb(255, 217, 19) 0px 0px 0px 9px, */
+  /*   rgb(255, 156, 85) 0px 0px 0px 12px, */
+  /*   rgb(255, 85, 85) 0px 0px 0px 15px; */
+  box-shadow:
+    rgba(0, 0, 0, 0.07) 0px 1px 1px,
+    rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px,
+    rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  /* overflow: clip; */
+}
+
+.tortilla::before,
+.tortilla::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-light);
+  filter: url(#roughEdges);
+  z-index: 1;
+  width: 1px;
+}
+
+.tortilla::after {
+  left: 0;
 }
 
 p,
 li,
 blockquote {
   max-width: var(--measure);
+}
+
+a {
+  text-decoration-color: var(--color-primary);
 }
 
 /*
@@ -234,13 +282,15 @@ figure img {
   --space: var(--space-2xs);
   --cluster-vertical-alignment: flex-start;
   position: relative;
-  background-color: var(--color-dark);
   color: var(--color-light);
-  padding-block: var(--gutter);
-  padding-block-end: var(--space-4xl);
   font-size: var(--size-step-00);
   overflow: clip;
   z-index: 10;
+}
+
+.footer .wrapper {
+  padding-block: var(--gutter);
+  padding-block-end: var(--space-4xl);
 }
 
 .footer a {
@@ -381,8 +431,10 @@ footer svg {
 
 .header {
   font-size: var(--size-step-0);
+}
+
+.header .wrapper {
   padding-block: var(--gutter);
-  background-color: var(--color-dark);
 }
 
 .header a {
@@ -392,14 +444,170 @@ footer svg {
   color: var(--color-light);
 }
 
+.header h1 {
+  display: flex;
+  align-items: stretch;
+  margin-block-start: 0;
+  height: 2.5rem;
+}
+
 .logo {
   width: 2.5rem;
   height: 2.5rem;
-  fill: var(--color-light);
+  fill: var(--color-primary);
+}
+
+.hero mark {
+  background: linear-gradient(
+    0deg,
+    transparent 19%,
+    rgba(var(--color-dark-rgb), 0.75) 19%,
+    rgba(var(--color-dark-rgb), 0.75) 65%,
+    transparent 65%
+  );
+  color: var(--color-light);
+}
+
+.hero__inner {
+  background-color: var(--color-primary);
+  background-image: url("/noise3.png");
+  background-size: 200px 200px;
+  background-repeat: repeat;
+  padding-block: var(--gutter);
+  padding-inline-start: var(--gutter);
+  border-top-left-radius: var(--space-s);
+  border-bottom-left-radius: var(--space-s);
+}
+
+.hero__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "hero";
+}
+
+.hero__content .repel {
+  grid-area: hero;
+  position: relative;
+  max-width: 70ch;
+  z-index: 10;
+  margin-inline-end: var(--gutter);
+}
+
+.hero__heading {
+  font-size: var(--size-step-5);
+  text-wrap: pretty;
+  margin-block: 0;
+  font-weight: 700;
+  line-height: 0.9;
+}
+
+.hero__lede {
+  font-size: var(--size-step-1);
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.hero__img {
+  grid-area: hero;
+  max-width: 25rem;
+  justify-self: end;
+}
+
+.hero__img img {
+  inline-size: 100%;
+  block-size: 100%;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+  object-position: top center;
+  border-top-left-radius: var(--space-s);
+  border-bottom-left-radius: var(--space-s);
+  filter: contrast(150%);
+}
+
+.home__posts {
+  --space: var(--gutter);
+  margin-block-start: var(--gutter);
+}
+
+.home__posts .sidebar {
+  --sidebar-target-width: 40rem;
+  --sidebar-content-min-width: 55%;
+}
+
+.home__journal {
+}
+
+.home__posts aside {
+  padding-inline: var(--gutter);
 }
 
 .internal-pages {
   font-size: var(--size-step-00);
+}
+
+.post-list li {
+  --space: var(--gutter);
+  max-width: 100%;
+}
+
+.post-list article {
+  --space: var(--space-s);
+  font-size: var(--size-step-0);
+  padding-block-end: var(--gutter);
+  border-block-end: 1px solid #333;
+}
+
+.post-list .sidebar {
+  --sidebar-target-width: 20ch;
+  --sidebar-content-min-width: 60%;
+}
+
+/* .post-list__link { */
+
+/*   font-size: var(--size-step-0); */
+
+/*   padding-block-end: var(--gutter); */
+
+/*   border-block-end: 1px solid #333; */
+
+/* } */
+
+.post-list h3 {
+  font-size: var(--size-step-0);
+  font-weight: 500;
+}
+
+.post-list time {
+  font-size: var(--size-step-00);
+  text-transform: uppercase;
+}
+
+.post-list__journal:hover .list__thumb {
+  background: transparent;
+  transition: 0.3s cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+.post-list__journal:hover .list__thumb img {
+  filter: none;
+  mix-blend-mode: normal;
+}
+
+.list__thumb {
+  aspect-ratio: 3/2;
+  background-color: var(--color-primary);
+  background-image: url("/noise3.png");
+  border-radius: 3px;
+  overflow: clip;
+}
+
+.list__thumb img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  object-position: top center;
+  filter: saturate(0) contrast(125%);
+  mix-blend-mode: multiply;
+  transition: 0.3s cubic-bezier(0, 0.55, 0.45, 1);
 }
 
 .post__title {
@@ -563,6 +771,13 @@ Can be any acceptable flexbox alignment value.
   flex-direction: column;
 }
 
+.repel[overlap] > :first-child {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
 /* 
 SIDEBAR
 More info: https://every-layout.dev/layouts/sidebar/
@@ -593,6 +808,10 @@ EXCEPTIONS
 
 .sidebar[data-reverse="true"] {
   flex-direction: row-reverse;
+}
+
+.sidebar[data-wrap="false"] {
+  flex-wrap: no-wrap;
 }
 
 .sidebar:not([data-direction="rtl"]) > :first-child {
@@ -684,11 +903,20 @@ A common wrapper/container
 
 .wrapper {
   margin-inline: auto;
-  /* max-width: clamp(16rem, var(--wrapper-max-width, 100vw), 110rem); */
-  max-inline-size: var(--wrapper-max-width, 1764px);
+  max-inline-size: var(--wrapper-max-width);
   padding-left: var(--gutter);
   padding-right: var(--gutter);
   position: relative;
+}
+
+.wrapper[data-wrapper-type="inner"] {
+  min-width: 100%;
+  padding-block: var(--gutter-wrapper-inner-block, var(--gutter));
+  padding-inline: var(--gutter-wrapper-inner-inline, var(--gutter));
+}
+
+.wrapper[data-bleed-right] {
+  padding-right: 0;
 }
 
 .fade-in {
