@@ -1,6 +1,6 @@
 {{ partial "head" . }}
 <body>
-  <div class="tortilla">
+  <div class="page-wrap">
     <!-- SVG filters -->
     <!-- 💡 https://danieldarrenjones.com/ -->
     <svg
@@ -11,15 +11,28 @@
       width="0"
     >
       <defs>
+        <filter id="noiseFilter">
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.85"
+            numOctaves="1"
+            stitchTiles="stitch"
+          />
+        </filter>
+        <rect
+          width="100%"
+          height="100%"
+          filter="url(#noiseFilter)"
+        />
         <filter id="roughEdges">
           <feTurbulence
             type="fractalNoise"
-            baseFrequency=".05"
-            numOctaves="4"
+            baseFrequency="0.09"
+            numOctaves="10"
           />
           <feDisplacementMap
             in="SourceGraphic"
-            scale="5"
+            scale="20"
           />
         </filter>
       </defs>

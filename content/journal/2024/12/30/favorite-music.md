@@ -3,7 +3,8 @@ type: "journal" # or "now" if a 'Now' post
 title: "Favorite Music of 2024"
 date: "2024-12-29T21:03:58-05:00"
 draft: false
-summary: "It's that time of the year! I love end of year music lists. I find so much stuff that never showed up on my radar. Here's all of the music that I thoroughly enjoyed throughout 2024."
+image: "favorite-albums-feature.jpg"
+alt: "A collage of favorite albums featured in this blog post"
 jammin:
   - title: "杉本喜代志 - Rosetta Stone"
     href: "https://song.link/s/04TduRJVUXqlfazow3Dsk1"

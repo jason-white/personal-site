@@ -11,12 +11,16 @@
       "value": "#FCF6F3"
     },
     {
+      "name": "Middle",
+      "value": "#ccc"
+    },
+    {
       "name": "Primary",
       "value": "#FF5810"
     },
     {
       "name": "Primary Dark",
-      "value": "#7C0E01"
+      "value": "#D64000"
     },
     {
       "name": "Primary Dark Red",
@@ -31,8 +35,16 @@
       "value": "red"
     },
     {
+      "name": "Primary rgb",
+      "value": "255, 88, 16"
+    },
+    {
       "name": "Dark rgb",
       "value": "9, 8, 7"
+    },
+    {
+      "name": "Dark Gray",
+      "value": "#313131"
     }
   ]
 }

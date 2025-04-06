@@ -1,16 +1,30 @@
 .home__posts {
-  --space: var(--gutter);
-  margin-block-start: var(--gutter);
+  --space: var(--space-xl);
 }
 
 .home__posts .sidebar {
-  --sidebar-target-width: 40rem;
-  --sidebar-content-min-width: 55%;
+  --sidebar-target-width: 35ch;
+  --sidebar-content-min-width: 60%;
 }
 
 .home__journal {
+  padding-block: var(--space-l);
 }
 
-.home__posts aside {
+.link__posts {
+  container-type: inline-size;
+}
+
+.home__links {
+  padding-block: var(--space-l);
   padding-inline: var(--gutter);
+  border-inline-start: 1px solid var(--color-dark-gray);
+}
+
+@container (width > 50vi) {
+  .home__links {
+    /* border-block-start: 1px solid var(--color-dark-gray); */
+    border-inline-start: none;
+    padding-inline: 0;
+  }
 }

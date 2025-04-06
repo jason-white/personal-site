@@ -1,30 +1,38 @@
 <ul class="post-list stack list-reset">
   {{ range .posts }}
     {{ if or (eq .Type "journal") (eq .Type "now") }}
-      <li class="post-list__journal">
-        <article class="sidebar">
-          <div class="stack">
-            <h3>
-              <a
-                aria-label="View post {{ .Title }}"
-                href="{{ .Permalink }}"
-              >
-                {{ .Title }}
-              </a>
-            </h3>
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
+      <li>
+        <article class="post-list__card">
+          <div class="sidebar">
+            <div class="stack">
+              <h3>
+                <a
+                  aria-label="View post {{ .Title }}"
+                  href="{{ .Permalink }}"
+                >
+                  {{ .Title }}
+                </a>
+              </h3>
+              <time>{{ .Date.Format "January 2, 2006" }}</time>
+            </div>
+            {{ partial "list-thumb.html" . }}
           </div>
-          {{ partial "list-thumb.html" . }}
         </article>
       </li>
     {{ else if eq .Type "link" }}
       <li>
-        <article class="post-list__link stack">
-          <h3><a href="{{ .Params.href }}">{{ .Title }}</a></h3>
-          {{ .Content }}
-          <time>
-            {{ .Date.Format "January 2, 2006" }}
-          </time>
+        <article class="post-list__card">
+          <div class="sidebar">
+            <div class="stack">
+              <h3><a href="{{ .Params.href }}">{{ .Title }}</a></h3>
+              <time>
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+            </div>
+            <div>
+              {{ .Content }}
+            </div>
+          </div>
         </article>
       </li>
     {{ end }}

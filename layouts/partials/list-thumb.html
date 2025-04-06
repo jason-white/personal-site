@@ -1,4 +1,4 @@
-{{- $respSizes := slice "375" "640" "960" -}}
+{{- $respSizes := slice "375" "640" "960" "1280" -}}
 
 {{- $src := .Params.image -}}
 {{- $alt := .Params.alt -}}
@@ -27,8 +27,8 @@
       "
       sizes="{{ $dataSzes }}"
       src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
-      width="600"
-      height="400"
+      width="300"
+      height="200"
       alt="{{ $alt }}"
       loading="lazy"
     />

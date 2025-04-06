@@ -1,19 +1,26 @@
 .hero mark {
-  background: linear-gradient(
-    0deg,
-    transparent 19%,
-    rgba(var(--color-dark-rgb), 0.75) 19%,
-    rgba(var(--color-dark-rgb), 0.75) 65%,
-    transparent 65%
-  );
-  color: var(--color-light);
+  background:
+    linear-gradient(
+      0.3deg,
+      transparent 19%,
+      rgba(var(--color-dark-rgb), 0.85) 19%,
+      rgba(var(--color-dark-rgb), 0.85) 65%,
+      transparent 65%
+    ),
+    url("/noise3.png");
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero a {
+  text-decoration-color: var(--color-light);
+  text-decoration-thickness: 10%;
+  text-underline-offset: 10%;
 }
 
 .hero__inner {
   background-color: var(--color-primary);
-  background-image: url("/noise3.png");
-  background-size: 200px 200px;
   background-repeat: repeat;
+  background-image: url("/noise3.png");
   padding-block: var(--gutter);
   padding-inline-start: var(--gutter);
   border-top-left-radius: var(--space-s);
@@ -29,7 +36,7 @@
 .hero__content .repel {
   grid-area: hero;
   position: relative;
-  max-width: 70ch;
+  max-width: 60ch;
   z-index: 10;
   margin-inline-end: var(--gutter);
 }
@@ -39,24 +46,27 @@
   text-wrap: pretty;
   margin-block: 0;
   font-weight: 700;
-  line-height: 0.9;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--letters-tight);
+  transform: rotate(0.7deg);
 }
 
 .hero__lede {
-  font-size: var(--size-step-1);
-  line-height: 1.2;
+  font-size: var(--size-step-3);
+  line-height: var(--leading-fine);
   font-weight: 500;
+  transform: rotate(-0.75deg);
 }
 
 .hero__img {
   grid-area: hero;
-  max-width: 25rem;
+  max-width: 50rem;
   justify-self: end;
 }
 
 .hero__img img {
-  inline-size: 100%;
   block-size: 100%;
+  inline-size: 100%;
   mix-blend-mode: multiply;
   object-fit: cover;
   object-position: top center;
