@@ -259,6 +259,22 @@ a {
   }
 }
 
+body > [href="#main-content"] {
+  position: absolute;
+  display: block;
+  padding: 1rem;
+  z-index: 2;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+*:focus {
+  outline-style: dotted;
+  outline-offset: var(--space-3xs);
+  outline-width: 3px;
+  outline-color: var(--color-primary);
+}
+
 .about {
   --switcher-target-container-width: 65rem;
   --switcher-gutter: 0;
@@ -1170,10 +1186,10 @@ VISUALLY HIDDEN UTILITY
 Info: https://piccalil.li/quick-tip/visually-hidden/ 
 */
 
-.visually-hidden {
+.visually-hidden:not(:focus) {
   border: 0;
   clip: rect(0 0 0 0);
-  height: 0;
+  height: auto;
   margin: 0;
   overflow: hidden;
   padding: 0;

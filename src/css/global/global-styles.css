@@ -57,3 +57,19 @@ a {
     navigation: auto;
   }
 }
+
+body > [href="#main-content"] {
+  position: absolute;
+  display: block;
+  padding: 1rem;
+  z-index: 2;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+*:focus {
+  outline-style: dotted;
+  outline-offset: var(--space-3xs);
+  outline-width: 3px;
+  outline-color: var(--color-primary);
+}
