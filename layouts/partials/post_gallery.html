@@ -4,7 +4,7 @@
     id="Gallery"
     class="post__gallery"
   >
-    <ul class="list-reset gallery__images">
+    <ul class="list-reset grid">
       {{- range .Params.gallery -}}
         {{- $respSizes := slice "375" "640" "960" "1280" "1600" "1920" -}}
         {{- $src := .src -}}
@@ -52,8 +52,10 @@
     </ul>
   </section>
 
+  {{ $lightboxJS := resources.Get "js/photoswipe-lightbox.esm.min.js" | resources.Fingerprint }}
+  {{ $photoswipeJS := resources.Get "js/photoswipe.esm.min.js" | resources.Fingerprint }}
   <script type="module">
-    import PhotoSwipeLightBox from "/js/photoswipe-lightbox.esm.min.js";
+import PhotoSwipeLightBox from "{{ $lightboxJS.Permalink }}";
 
     const lightbox = new PhotoSwipeLightBox({
       gallery: "#Gallery",
@@ -62,7 +64,7 @@
       secondaryZoomLevel: 1,
       maxZoomLevel: 1,
       showHideAnimationType: "fade",
-      pswpModule: () => import("/js/photoswipe.esm.min.js"),
+  pswpModule: () => import("{{ $photoswipeJS.Permalink }}"),
     });
 
     lightbox.init();

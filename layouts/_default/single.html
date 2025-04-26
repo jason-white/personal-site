@@ -1,32 +1,42 @@
 {{ define "main" }}
-  <article>
-    <h1 class="post__title">
-      {{ .Title }}
-    </h1>
-
-    <div class="post__body">
+  <article class="journal__post">
+    <div
+      class="wrapper"
+      data-bleed-right
+    >
       <!-- If feature image exists... -->
       {{ if .Params.image }}
         <!-- Render feature partial -->
         {{ partial "feature.html" . }}
         <!-- End -->
       {{ end }}
+    </div>
 
-
-      <div class="post__content">
-        <div
-          class="sidebar"
-          data-direction="rtl"
-        >
-          <div class="flow">
-            {{ .Content }}
-          </div>
-          <aside>
-            {{ partial "sidebar" . }}
-          </aside>
+    <div class="post__content wrapper">
+      <div class="post__title">
+        <div class="center">
+          <h1>
+            {{ .Title }}
+          </h1>
         </div>
+      </div>
+      <div class="center stack">
+        <div class="flow">
+          {{ .Content }}
+
+          {{ if .Params.gallery }}
+            {{ partial "post_gallery.html" . }}
+          {{ end }}
+        </div>
+        <aside class="post__meta region">
+          {{ partial "meta.html" . }}
+        </aside>
       </div>
     </div>
   </article>
-  {{ partial "single-pagination.html" . }}
+  <div class="wrapper">
+    <div class="post__pagination">
+      {{ partial "single-pagination.html" . }}
+    </div>
+  </div>
 {{ end }}

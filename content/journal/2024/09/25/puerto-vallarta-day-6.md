@@ -5,7 +5,7 @@ date: "2024-09-25T10:33:57-05:00"
 draft: false
 image: "IMG_1034.jpeg"
 alt: "A computer monitor on a desk displays a windows desktop with a browser showing a weather report of two large storms brewing in the south Pacific and Gulf of Mexico."
-caption: "iPhone 14 Pro"
+caption: "Hurricane Helene coming up from the Gulf of Mexico. iPhone 14 Pro"
 jammin:
   - title: "Misha Panfilov - Mesosphere"
     href: "https://song.link/s/6JkrO3shu6SjchCylbqAsL"

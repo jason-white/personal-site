@@ -1,31 +1,32 @@
-{{ $paginator := .Paginator }} {{ if gt $paginator.TotalPages 1 }}
-<nav
-  aria-label="Pagination"
-  class="pagination"
->
-  {{ if $paginator.HasPrev }}
-  <span class="pagination__prev">
-    <a
-      aria-label="Navigate to a list of more recent articles"
-      rel="newer"
-      class="pagination__prev"
-      href="{{ $paginator.Prev.URL }}"
-    >
-      <span class="link-icon">&#8592;</span>
-      Newer
-    </a>
-  </span>
-  {{ end }} {{ if $paginator.HasNext }}
-  <span class="pagination__next">
-    <a
-      aria-label="Navigate to a list of older articles"
-      rel="older"
-      href="{{ $paginator.Next.URL }}"
-    >
-      Older
-      <span class="link-icon">&#8594;</span>
-    </a>
-  </span>
-  {{ end }}
-</nav>
+{{ $paginator := .Paginator }}
+{{ if gt $paginator.TotalPages 1 }}
+  <nav
+    aria-label="Pagination"
+    class="repel"
+  >
+    {{ if $paginator.HasPrev }}
+      <span>
+        <a
+          aria-label="Navigate to a list of more recent articles"
+          rel="newer"
+          href="{{ $paginator.Prev.URL }}"
+        >
+          <span class="link-icon">&#8592;</span>
+          Newer
+        </a>
+      </span>
+    {{ end }}
+    {{ if $paginator.HasNext }}
+      <span class="inline-start-auto">
+        <a
+          aria-label="Navigate to a list of older articles"
+          rel="older"
+          href="{{ $paginator.Next.URL }}"
+        >
+          Older
+          <span class="link-icon">&#8594;</span>
+        </a>
+      </span>
+    {{ end }}
+  </nav>
 {{ end }}

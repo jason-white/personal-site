@@ -1,0 +1,26 @@
+.about {
+  --switcher-target-container-width: 65rem;
+  --switcher-gutter: 0;
+}
+
+.about__title {
+  padding-block: var(--gutter);
+  border-block: var(--border);
+  margin-block-start: 0;
+  margin-block-end: var(--gutter);
+}
+
+.about__title h1 {
+  margin-block: 0;
+  font-weight: 900;
+  text-wrap: pretty;
+  font-size: var(--size-step-5);
+  letter-spacing: var(--letters-tight);
+  line-height: var(--leading-tight);
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
+}
+
+.portrait__content .about__content {
+  padding-inline-end: var(--gutter);
+}

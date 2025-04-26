@@ -1,9 +1,12 @@
 .footer {
   --region-space: var(--space-l-xl);
   --space: var(--space-2xs);
-  background-color: var(--color-primary);
+  --repel-vertical-alignment: start;
+  background: url("/noise3.png"), var(--color-primary);
   color: var(--color-dark);
+  font-size: var(--size-step-00);
   font-weight: 500;
+  flex-grow: 2;
 }
 
 .footer a {
@@ -13,7 +16,6 @@
 .footer__logo {
   --gutter: var(--space-xs);
   --cluster-vertical-alignment: center;
-  padding-inline-end: var(--space-l);
 }
 
 .footer__logo .logo {
@@ -22,7 +24,7 @@
 }
 
 .footer__nav {
-  --gutter: var(--space-xl);
+  --gutter: var(--space-2xl);
   --cluster-vertical-alignment: start;
 }
 
@@ -34,4 +36,8 @@
 
 .footer__nav ul {
   padding-inline-start: 0;
+}
+
+.footer__version {
+  --space: var(--space-zero);
 }

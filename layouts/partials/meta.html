@@ -1,26 +1,29 @@
 <!-- Misc data for posts. Tags, etc. -->
 
-<aside>
-  <div class="post__meta">
-    {{ if .Params.jammin }}
-      <div class="jammin">
-        <p class="secondary">Jammin'</p>
-        <span>
-          {{ range .Params.jammin }}
-            <a
-              aria-label="{{ .title }} (opens song link in new tab or window)"
-              href="{{ .href }}"
-              target="_blank"
-              rel="noopener"
-            >
-              {{ .title }}
-            </a>
-            <span class="link-icon">&#8599;</span>
-          {{ end }}
-        </span>
-      </div>
-    {{ end }}
-    <!-- tags -->
-    {{ partial "tags.html" . }}
+<div class="meta stack">
+  <div class="repel">
+    <h3>Posted</h3>
+    <hr />
+    <time>{{ .Date.Format "January 2, 2006" }}</time>
   </div>
-</aside>
+  {{ if .Params.jammin }}
+    <div class="repel">
+      <h3>Jammin'</h3>
+      <hr />
+      <span>
+        {{ range .Params.jammin }}
+          <a
+            aria-label="{{ .title }} (opens song link in new tab or window)"
+            href="{{ .href }}"
+            target="_blank"
+            rel="noopener"
+          >
+            {{ .title }}
+          </a>
+        {{ end }}
+      </span>
+    </div>
+  {{ end }}
+  <!-- tags -->
+  {{ partial "tags.html" . }}
+</div>

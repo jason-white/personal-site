@@ -1,0 +1,35 @@
+<section class="home__posts">
+  <div class="wrapper">
+    <div
+      class="sidebar"
+      data-direction="rtl"
+    >
+      <div class="home__journal stack">
+        <h2>Recent journal posts</h2>
+        <div>
+          {{ $posts := first 3 (where .Site.RegularPages "Type" "journal") }}
+          {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
+        </div>
+        <p>
+          View more
+          <a href="/journal">journal posts</a>
+          →
+        </p>
+      </div>
+      <div class="home__link-posts">
+        <div class="home__links stack">
+          <h2>Recent links</h2>
+          <div>
+            {{ $posts := first 6 (where .Site.RegularPages "Type" "link") }}
+            {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
+          </div>
+          <p>
+            View more
+            <a href="/links">link posts</a>
+            →
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

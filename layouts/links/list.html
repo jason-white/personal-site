@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <section class="wrapper">
+    <div class="center region">
+      <h1>{{ .Title }}</h1>
+      {{ $posts := where .Site.RegularPages "Section" "links" }}
+      {{ $paginator := .Paginate $posts 20 }}
+      {{ partial "post-list.html" (dict "context" . "posts" $paginator.Pages) }}
+    </div>
+    <div class="post-list__pagination wrapper">
+      <div class="region">
+        {{ partial "pagination" . }}
+      </div>
+    </div>
+  </section>
+{{ end }}

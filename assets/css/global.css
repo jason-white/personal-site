@@ -115,6 +115,13 @@ textarea:not([rows]) {
 /* @font-face here */
 
 @font-face {
+  font-family: "Label";
+  src: url("/fonts/Impact-Label.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "InterV";
   src: url("/fonts/InterVariable.woff2") format("woff2");
   font-weight: 100 900;
@@ -139,7 +146,8 @@ textarea:not([rows]) {
   --color-tertiary: red;
   --color-primary-rgb: 255, 88, 16;
   --color-dark-rgb: 9, 8, 7;
-  --color-dark-gray: #313131;
+  --color-light-rgb: 252, 246, 243;
+  --color-dark-gray: #232323;
   --space-zero: clamp(0rem, -0.01rem + 0.06vw, 0.0625rem);
   --space-3xs: clamp(0.25rem, 0.23rem + 0.12vw, 0.375rem);
   --space-2xs: clamp(0.5rem, 0.45rem + 0.23vw, 0.75rem);
@@ -186,8 +194,9 @@ textarea:not([rows]) {
   --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
   --leading-standard: 1.5;
   --measure: 60ch;
-  --letters-tight: -0.25rem;
+  --letters-tight: -0.125rem;
   --wrapper-max-width: 2048px;
+  --border: 1px solid #666;
 }
 
 /* 
@@ -210,7 +219,10 @@ body {
 }
 
 .page-wrap {
+  min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
   max-inline-size: var(--wrapper-max-width);
   margin-inline: auto;
   background-color: var(--color-dark);
@@ -255,16 +267,46 @@ body {
 
 /* } */
 
-p,
-li,
-blockquote {
-  max-width: var(--measure);
-}
-
 a {
   text-decoration-color: var(--color-primary);
   text-decoration-thickness: 12%;
   text-underline-offset: 12%;
+}
+
+.inline-start-auto {
+  margin-inline-start: auto;
+}
+
+.about {
+  --switcher-target-container-width: 65rem;
+  --switcher-gutter: 0;
+}
+
+.about__title {
+  padding-block: var(--gutter);
+  border-block: var(--border);
+  margin-block-start: 0;
+  margin-block-end: var(--gutter);
+}
+
+.about__title h1 {
+  margin-block: 0;
+  font-weight: 900;
+  text-wrap: pretty;
+  font-size: var(--size-step-5);
+  letter-spacing: var(--letters-tight);
+  line-height: var(--leading-tight);
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
+}
+
+.portrait__content .about__content {
+  padding-inline-end: var(--gutter);
+}
+
+.album-list {
+  list-style-type: none;
+  padding: 0;
 }
 
 /*
@@ -280,27 +322,29 @@ to a max width of --measure (default 60ch)
   hyphenate-limit-chars: 10;
 }
 
-figcaption {
-  display: flex;
+.post__figure {
+  --region-space: var(--space-l);
+  /* max-width: var(--measure); */
+}
+
+.post__figure figcaption {
+  padding: var(--space-xs);
   font-size: var(--size-step-00);
 }
 
-figcaption > * {
-  flex-basis: 50%;
-}
-
-figure img {
-  width: 100%;
-  height: auto;
-  display: block;
+.post__figure img {
+  border-radius: var(--space-3xs);
 }
 
 .footer {
   --region-space: var(--space-l-xl);
   --space: var(--space-2xs);
-  background-color: var(--color-primary);
+  --repel-vertical-alignment: start;
+  background: url("/noise3.png"), var(--color-primary);
   color: var(--color-dark);
+  font-size: var(--size-step-00);
   font-weight: 500;
+  flex-grow: 2;
 }
 
 .footer a {
@@ -310,7 +354,6 @@ figure img {
 .footer__logo {
   --gutter: var(--space-xs);
   --cluster-vertical-alignment: center;
-  padding-inline-end: var(--space-l);
 }
 
 .footer__logo .logo {
@@ -319,7 +362,7 @@ figure img {
 }
 
 .footer__nav {
-  --gutter: var(--space-xl);
+  --gutter: var(--space-2xl);
   --cluster-vertical-alignment: start;
 }
 
@@ -331,6 +374,10 @@ figure img {
 
 .footer__nav ul {
   padding-inline-start: 0;
+}
+
+.footer__version {
+  --space: var(--space-zero);
 }
 
 .header {
@@ -412,6 +459,7 @@ figure img {
   line-height: var(--leading-tight);
   letter-spacing: var(--letters-tight);
   transform: rotate(0.7deg);
+  background: url("#roughEdges");
 }
 
 .hero__lede {
@@ -438,12 +486,72 @@ figure img {
   filter: contrast(150%);
 }
 
+.home__about {
+  --sidebar-target-width: 35ch;
+  --sidebar-content-min-width: 60%;
+  --region-space: var(--space-3xl);
+}
+
 .home__introduction {
   font-size: var(--size-step-1);
 }
 
+.home__introduction p {
+  max-inline-size: var(--measure);
+  margin-block-start: 0;
+}
+
 .home__posts {
-  --space: var(--space-xl);
+  --space: var(--space-l);
+}
+
+/* .home__posts mark { */
+
+/*   background: */
+
+/*     linear-gradient( */
+
+/*       0.3deg, */
+
+/*       transparent 19%, */
+
+/*       rgba(var(--color-primary-rgb), 0.9) 19%, */
+
+/*       rgba(var(--color-primary-rgb), 0.9) 65%, */
+
+/*       transparent 65% */
+
+/*     ), */
+
+/*     rgba(var(--color-primary-rgb), 0.7); */
+
+/*   color: var(--color-dark); */
+
+/* } */
+
+.home__posts h2 {
+  font-weight: 700;
+  font-size: var(--size-step-2);
+  margin-block-start: 0;
+  /* margin-block-end: var(--space-l); */
+}
+
+/* .home__journal h2 { */
+
+/*   transform: rotate(1.125deg); */
+
+/* } */
+
+/**/
+
+/* .home__links h2 { */
+
+/*   transform: rotate(-1deg); */
+
+/* } */
+
+.home__posts {
+  margin-block-end: var(--space-m);
 }
 
 .home__posts .sidebar {
@@ -455,11 +563,12 @@ figure img {
   padding-block: var(--space-l);
 }
 
-.link__posts {
+.home__link-posts {
   container-type: inline-size;
 }
 
 .home__links {
+  position: relative;
   padding-block: var(--space-l);
   padding-inline: var(--gutter);
   border-inline-start: 1px solid var(--color-dark-gray);
@@ -475,6 +584,45 @@ figure img {
 
 .internal-pages {
   font-size: var(--size-step-00);
+}
+
+.meta {
+  --gutter: var(--space-xs);
+  --space: var(--space-2xs);
+  font-size: var(--size-step-00);
+  padding: var(--space-xs);
+  background-color: var(--color-dark-gray);
+  border-radius: var(--space-3xs);
+}
+
+.meta hr {
+  flex-grow: 2;
+  flex-shrink: 1;
+  /* height: 1px; */
+  border-color: #666;
+}
+
+.meta h3 {
+  font-size: var(--size-step-00);
+  margin-block: 0;
+}
+
+.post__gallery {
+  --region-space: var(--space-m);
+  --gutter: var(--space-xs);
+  --grid-min-item-size: 10rem;
+  margin-block-start: var(--gutter);
+  padding-block-start: var(--gutter);
+}
+
+.gallery__item {
+  aspect-ratio: 1;
+}
+
+.gallery__thumb {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .post-list li {
@@ -525,7 +673,7 @@ figure img {
 .list__thumb img {
   object-fit: cover;
   object-position: top center;
-  filter: saturate(0) contrast(125%);
+  filter: saturate(0);
   mix-blend-mode: multiply;
   border-radius: 3px;
   /* transition: filter 0.3s cubic-bezier(0, 0.55, 0.45, 1); */
@@ -536,47 +684,163 @@ figure img {
   mix-blend-mode: normal;
 }
 
-.post__title {
-  font-size: var(--size-step-6);
-  letter-spacing: var(--letters-tight);
-  line-height: var(--leading-flat);
-  margin-block: 0;
-  padding-block: var(--space-m);
-  font-weight: 900;
+.post-list__pagination {
+  --region-space: var(--gutter);
+  border-block-start: var(--border);
 }
 
-.post__body {
-  --sidebar-target-width: 60ch;
-  --sidebar-content-min-width: 40%;
-}
-
-.post__content .sidebar {
-  --sidebar-target-width: 30ch;
-  --sidebar-content-min-width: 55%;
-}
-
-.post__feature {
-  margin-inline-end: calc(var(--gutter) * -1);
-}
-
-.post__feature picture {
-  border-start-start-radius: clamp(0rem, -2.4186rem + 9.9225vw, 8rem);
-  border-end-start-radius: 0.5rem;
-  background-color: var(--color-primary);
-  overflow: clip;
-}
-
-.post__feature img {
-  filter: saturate(0);
-  mix-blend-mode: multiply;
+.post-list__pagination a {
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
 }
 
 .prose {
   --flow-space: var(--space-m);
 }
 
+.journal__post {
+  --switcher-target-container-width: 65rem;
+  --switcher-gutter: 0;
+  --flow-space: var(--gutter);
+  /* --region-space: var(--space-m); */
+}
+
+.portrait__content .post__content {
+  padding-inline-end: var(--gutter);
+}
+
+.post__title {
+  padding-block: var(--gutter);
+  border-block: var(--border);
+  margin-block-start: 0;
+  margin-block-end: var(--gutter);
+}
+
+.post__title h1 {
+  margin-block: 0;
+  font-weight: 900;
+  text-wrap: pretty;
+  font-size: var(--size-step-5);
+  letter-spacing: var(--letters-tight);
+  line-height: var(--leading-tight);
+}
+
+.post__time {
+  font-size: var(--size-step-00);
+  font-family: monospace;
+}
+
+.post__permalink {
+  font-size: var(--size-step-00);
+  color: var(--primary);
+}
+
+.post__content {
+  font-size: var(--size-step-0);
+}
+
+.post__content .flow > hr {
+  border: none;
+  text-align: center;
+}
+
+.post__content .flow > hr::after {
+  content: "***";
+}
+
+.post__feature {
+  margin-block-end: var(--space-s);
+}
+
+.post__feature img {
+  border-top-left-radius: var(--space-s);
+  border-bottom-left-radius: var(--space-s);
+}
+
+.post__feature figcaption {
+  display: flex;
+  justify-content: flex-end;
+  padding-inline: var(--gutter);
+}
+
+.post__feature figcaption p {
+  font-size: var(--size-step-00);
+  margin-block-start: var(--space-s);
+  max-width: 100%;
+}
+
+.post__meta {
+  --region-space: var(--space-m);
+}
+
+.post__meta.switcher {
+  --switcher-target-container-width: 40rem;
+}
+
+.post__pagination {
+  margin-block-start: var(--gutter);
+  padding-block: var(--gutter);
+  border-block-start: var(--border);
+}
+
+/*
+CUSTOM PROPERTIES AND CONFIGURATION
+
+--gutter (var(--space-size-1)): This defines the space
+between each item
+
+--albatross-target-container-width (40rem): How large the container
+needs to be to allow items to sit inline with each other
+
+--albatross-vertical-alignment How items should align vertically.
+Can be any acceptable flexbox alignment value.
+
+*/
+
+.albatross {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, var(--space-s-l));
+  align-items: var(--albatross-vertical-alignment, flex-start);
+}
+
+.albatross > * {
+  flex-grow: 1;
+  flex-basis: calc(
+    (var(--albatross-target-container-width, 60rem) - 100%) * 999
+  );
+}
+
+/* Pseudo elements for empty columns */
+
+.albatross[data-before="true"]:before {
+  content: "";
+  display: block;
+  flex-grow: 1;
+  flex-basis: calc(
+    (var(--albatross-target-container-width, 60rem) - 100%) * 999
+  );
+}
+
+.albatross[data-after="true"]:after {
+  content: "";
+  display: block;
+  flex-grow: 1;
+  flex-basis: calc(
+    (var(--albatross-target-container-width, 60rem) - 100%) * 999
+  );
+}
+
+.albatross > *[data-grow="2"] {
+  flex-grow: 2;
+}
+
+.albatross[data-reverse="true"] {
+  flex-direction: row-reverse;
+}
+
 .center {
-  max-inline-size: var(--measure);
+  max-inline-size: var(--center-width, var(--measure));
   margin-inline: auto;
 }
 
@@ -791,7 +1055,7 @@ A layout that allows you to lay **2** items next to each other
 until there is not enough horizontal space to allow that.
 
 CUSTOM PROPERTIES AND CONFIGURATION
---gutter (var(--space-size-1)): This defines the space
+--switcher-gutter (var(--space-size-1)): This defines the space
 between each item
 
 --switcher-target-container-width (40rem): How large the container
@@ -804,7 +1068,7 @@ Can be any acceptable flexbox alignment value.
 .switcher {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--gutter, var(--space-s-l));
+  gap: var(--switcher-gutter, var(--space-s-l));
   align-items: var(--switcher-vertical-alignment, flex-start);
 }
 
@@ -907,10 +1171,6 @@ the default.
 */
 
 .sticky {
-  --offset: var(--gutter);
-}
-
-.sticky > * {
   position: sticky;
   top: var(--offset, --gutter);
 }
@@ -940,4 +1200,443 @@ Info: https://piccalil.li/quick-tip/visually-hidden/
 .zero-height {
   display: block;
   line-height: 0;
+}
+
+/*! PhotoSwipe main CSS by Dmytro Semenov | photoswipe.com */
+
+.pswp {
+  --pswp-bg: #000;
+  --pswp-placeholder-bg: #222;
+
+  --pswp-root-z-index: 100000;
+
+  --pswp-preloader-color: rgba(79, 79, 79, 0.4);
+  --pswp-preloader-color-secondary: rgba(255, 255, 255, 0.9);
+
+  /* defined via js:
+--pswp-transition-duration: 333ms; */
+
+  --pswp-icon-color: #fff;
+  --pswp-icon-color-secondary: #4f4f4f;
+  --pswp-icon-stroke-color: #4f4f4f;
+  --pswp-icon-stroke-width: 2px;
+
+  --pswp-error-text-color: var(--pswp-icon-color);
+}
+
+/*
+Styles for basic PhotoSwipe (pswp) functionality (sliding area, open/close transitions)
+*/
+
+.pswp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--pswp-root-z-index);
+  display: none;
+  touch-action: none;
+  outline: 0;
+  opacity: 0.003;
+  contain: layout style size;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Prevents focus outline on the root element,
+(it may be focused initially) */
+
+.pswp:focus {
+  outline: 0;
+}
+
+.pswp * {
+  box-sizing: border-box;
+}
+
+.pswp img {
+  max-width: none;
+}
+
+.pswp--open {
+  display: block;
+}
+
+.pswp,
+.pswp__bg {
+  transform: translateZ(0);
+  will-change: opacity;
+}
+
+.pswp__bg {
+  opacity: 0.005;
+  background: var(--pswp-bg);
+}
+
+.pswp,
+.pswp__scroll-wrap {
+  overflow: hidden;
+}
+
+.pswp__scroll-wrap,
+.pswp__bg,
+.pswp__container,
+.pswp__item,
+.pswp__content,
+.pswp__img,
+.pswp__zoom-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pswp__img,
+.pswp__zoom-wrap {
+  width: auto;
+  height: auto;
+}
+
+.pswp--click-to-zoom.pswp--zoom-allowed .pswp__img {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+.pswp--click-to-zoom.pswp--zoomed-in .pswp__img {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.pswp--click-to-zoom.pswp--zoomed-in .pswp__img:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+/* :active to override grabbing cursor */
+
+.pswp--no-mouse-drag.pswp--zoomed-in .pswp__img,
+.pswp--no-mouse-drag.pswp--zoomed-in .pswp__img:active,
+.pswp__img {
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+  cursor: zoom-out;
+}
+
+/* Prevent selection and tap highlights */
+
+.pswp__container,
+.pswp__img,
+.pswp__button,
+.pswp__counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.pswp__item {
+  /* z-index for fade transition */
+  z-index: 1;
+  overflow: hidden;
+}
+
+.pswp__hidden {
+  display: none !important;
+}
+
+/* Allow to click through pswp__content element, but not its children */
+
+.pswp__content {
+  pointer-events: none;
+}
+
+.pswp__content > * {
+  pointer-events: auto;
+}
+
+/*
+
+PhotoSwipe UI
+
+*/
+
+/*
+Error message appears when image is not loaded
+(JS option errorMsg controls markup)
+*/
+
+.pswp__error-msg-container {
+  display: grid;
+}
+
+.pswp__error-msg {
+  margin: auto;
+  font-size: 1em;
+  line-height: 1;
+  color: var(--pswp-error-text-color);
+}
+
+/*
+class pswp__hide-on-close is applied to elements that
+should hide (for example fade out) when PhotoSwipe is closed
+and show (for example fade in) when PhotoSwipe is opened
+*/
+
+.pswp .pswp__hide-on-close {
+  opacity: 0.005;
+  will-change: opacity;
+  transition: opacity var(--pswp-transition-duration)
+    cubic-bezier(0.4, 0, 0.22, 1);
+  z-index: 10;
+  /* always overlap slide content */
+  pointer-events: none;
+  /* hidden elements should not be clickable */
+}
+
+/* class pswp--ui-visible is added when opening or closing transition starts */
+
+.pswp--ui-visible .pswp__hide-on-close {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* <button> styles, including css reset */
+
+.pswp__button {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  opacity: 0.85;
+  -webkit-appearance: none;
+  -webkit-touch-callout: none;
+}
+
+.pswp__button:hover,
+.pswp__button:active,
+.pswp__button:focus {
+  transition: none;
+  padding: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  opacity: 1;
+}
+
+.pswp__button:disabled {
+  opacity: 0.3;
+  cursor: auto;
+}
+
+.pswp__icn {
+  fill: var(--pswp-icon-color);
+  color: var(--pswp-icon-color-secondary);
+  position: absolute;
+  top: 14px;
+  left: 9px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.pswp__icn-shadow {
+  stroke: var(--pswp-icon-stroke-color);
+  stroke-width: var(--pswp-icon-stroke-width);
+  fill: none;
+}
+
+.pswp__icn:focus {
+  outline: 0;
+}
+
+/*
+div element that matches size of large image,
+large image loads on top of it,
+used when msrc is not provided
+*/
+
+div.pswp__img--placeholder,
+.pswp__img--with-bg {
+  background: var(--pswp-placeholder-bg);
+}
+
+.pswp__top-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  z-index: 10;
+
+  /* allow events to pass through top bar itself */
+  pointer-events: none !important;
+}
+
+.pswp__top-bar > * {
+  pointer-events: auto;
+  /* this makes transition significantly more smooth,
+   even though inner elements are not animated */
+  will-change: opacity;
+}
+
+/*
+
+Close button
+
+*/
+
+.pswp__button--close {
+  margin-right: 6px;
+}
+
+/*
+
+Arrow buttons
+
+*/
+
+.pswp__button--arrow {
+  position: absolute;
+  top: 0;
+  width: 75px;
+  height: 100px;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.pswp__button--arrow:disabled {
+  display: none;
+  cursor: default;
+}
+
+.pswp__button--arrow .pswp__icn {
+  top: 50%;
+  margin-top: -30px;
+  width: 60px;
+  height: 60px;
+  background: none;
+  border-radius: 0;
+}
+
+.pswp--one-slide .pswp__button--arrow {
+  display: none;
+}
+
+/* hide arrows on touch screens */
+
+.pswp--touch .pswp__button--arrow {
+  visibility: hidden;
+}
+
+/* show arrows only after mouse was used */
+
+.pswp--has_mouse .pswp__button--arrow {
+  visibility: visible;
+}
+
+.pswp__button--arrow--prev {
+  right: auto;
+  left: 0px;
+}
+
+.pswp__button--arrow--next {
+  right: 0px;
+}
+
+.pswp__button--arrow--next .pswp__icn {
+  left: auto;
+  right: 14px;
+  /* flip horizontally */
+  transform: scale(-1, 1);
+}
+
+/*
+
+Zoom button
+
+*/
+
+.pswp__button--zoom {
+  display: none;
+}
+
+.pswp--zoom-allowed .pswp__button--zoom {
+  display: block;
+}
+
+/* "+" => "-" */
+
+.pswp--zoomed-in .pswp__zoom-icn-bar-v {
+  display: none;
+}
+
+/*
+
+Loading indicator
+
+*/
+
+.pswp__preloader {
+  position: relative;
+  overflow: hidden;
+  width: 50px;
+  height: 60px;
+  margin-right: auto;
+}
+
+.pswp__preloader .pswp__icn {
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  animation: pswp-clockwise 600ms linear infinite;
+}
+
+.pswp__preloader--active .pswp__icn {
+  opacity: 0.85;
+}
+
+@keyframes pswp-clockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+
+"1 of 10" counter
+
+*/
+
+.pswp__counter {
+  height: 30px;
+  margin-top: 15px;
+  margin-inline-start: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  color: var(--pswp-icon-color);
+  text-shadow: 1px 1px 3px var(--pswp-icon-color-secondary);
+  opacity: 0.85;
+}
+
+.pswp--one-slide .pswp__counter {
+  display: none;
 }

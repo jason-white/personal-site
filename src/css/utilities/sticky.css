@@ -7,10 +7,6 @@ the default.
 */
 
 .sticky {
-  --offset: var(--gutter);
-}
-
-.sticky > * {
   position: sticky;
   top: var(--offset, --gutter);
 }

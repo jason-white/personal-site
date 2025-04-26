@@ -1,0 +1,87 @@
+.journal__post {
+  --switcher-target-container-width: 65rem;
+  --switcher-gutter: 0;
+  --flow-space: var(--gutter);
+  /* --region-space: var(--space-m); */
+}
+
+.portrait__content .post__content {
+  padding-inline-end: var(--gutter);
+}
+
+.post__title {
+  padding-block: var(--gutter);
+  border-block: var(--border);
+  margin-block-start: 0;
+  margin-block-end: var(--gutter);
+}
+
+.post__title h1 {
+  margin-block: 0;
+  font-weight: 900;
+  text-wrap: pretty;
+  font-size: var(--size-step-5);
+  letter-spacing: var(--letters-tight);
+  line-height: var(--leading-tight);
+}
+
+.post__time {
+  font-size: var(--size-step-00);
+  font-family: monospace;
+}
+
+.post__permalink {
+  font-size: var(--size-step-00);
+  color: var(--primary);
+}
+
+.post__content {
+  font-size: var(--size-step-0);
+}
+
+.post__content .flow > hr {
+  border: none;
+  text-align: center;
+}
+
+.post__content .flow > hr::after {
+  content: "***";
+}
+
+.post__feature {
+  margin-block-end: var(--space-s);
+}
+
+.post__feature img {
+  border-top-left-radius: var(--space-s);
+  border-bottom-left-radius: var(--space-s);
+}
+
+.post__feature figcaption {
+  display: flex;
+  justify-content: flex-end;
+  padding-inline: var(--gutter);
+}
+
+.post__feature figcaption p {
+  font-size: var(--size-step-00);
+  margin-block-start: var(--space-s);
+}
+
+.post__feature figcaption p {
+  max-width: 100%;
+}
+
+.post__meta {
+  --region-space: var(--space-m);
+}
+
+.post__meta.switcher {
+  --switcher-target-container-width: 40rem;
+}
+
+.post__pagination {
+  margin-block-start: var(--gutter);
+  padding-block: var(--gutter);
+  border-block-start: var(--border);
+}

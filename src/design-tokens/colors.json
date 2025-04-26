@@ -43,8 +43,12 @@
       "value": "9, 8, 7"
     },
     {
+      "name": "Light rgb",
+      "value": "252, 246, 243"
+    },
+    {
       "name": "Dark Gray",
-      "value": "#313131"
+      "value": "#232323"
     }
   ]
 }

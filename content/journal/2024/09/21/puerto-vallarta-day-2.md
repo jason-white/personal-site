@@ -60,6 +60,6 @@ Had some pool time, then lounged around for a bit. Then chilled inside and watch
 
 Later we showered up to go for a walk around town. We took the beach access which was much easier and faster than calling a car. The uneven, cobblestone streets of PV definitely add to the character, but some of the sidewalks are almost three feet high. Don't trip.
 
-We stopped for a drink and some nachos. The food was alright. Apparently this place does pizza. Pizza is popularer here, I'm told.
+We stopped for a drink and some nachos. The food was alright. Apparently this place does pizza. Pizza is popular here, I'm told.
 
 More pool time when we got back before the Beer Olympics. This was a series of drinking games, like beer pong, etc. I don't drink alcohol anymore, so I didn't participate, but it was incredibly fun to photograph! It was intense at times and got a little muddy. I took almost 450 photos. I'll need to upload my favorites to Flickr. There are far too many to add to one post, but I'll add my favorite favorites.

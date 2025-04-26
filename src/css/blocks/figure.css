@@ -1,14 +1,13 @@
-figcaption {
-  display: flex;
+.post__figure {
+  --region-space: var(--space-l);
+  /* max-width: var(--measure); */
+}
+
+.post__figure figcaption {
+  padding: var(--space-xs);
   font-size: var(--size-step-00);
 }
 
-figcaption > * {
-  flex-basis: 50%;
-}
-
-figure img {
-  width: 100%;
-  height: auto;
-  display: block;
+.post__figure img {
+  border-radius: var(--space-3xs);
 }

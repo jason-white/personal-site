@@ -23,27 +23,29 @@
 {{- $imagePath := print $pageDir $webpSrc -}}
 
 {{- if  $src -}}
-  <figure class="post-figure">
-    <img
-      class="{{ if $class }}
-        {{ $class }}
-      {{ else }}
-        full-start
-      {{ end }}"
-      srcset="
-        {{- range $i, $e := $respSizes -}}
-          {{- if $i }},{{ end -}}
-          {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $imagePath }}
-          {{ $e }}w
-        {{- end -}}
-      "
-      sizes="{{ $dataSzes }}"
-      src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
-      width="600"
-      height="400"
-      alt="{{ $alt }}"
-      loading="lazy"
-    />
+  <figure class="post__figure region">
+    <picture>
+      <img
+        class="{{ if $class }}
+          {{ $class }}
+        {{ else }}
+          full-start
+        {{ end }}"
+        srcset="
+          {{- range $i, $e := $respSizes -}}
+            {{- if $i }},{{ end -}}
+            {{- $cloudBase }}{{ $xFmPart1 }}{{ $e }}{{ $xFmPart2 }}{{ $imagePath }}
+            {{ $e }}w
+          {{- end -}}
+        "
+        sizes="{{ $dataSzes }}"
+        src="{{ $cloudBase }}{{ $xFmPart1 }}600{{ $xFmPart2 }}{{ $imagePath }}"
+        width="600"
+        height="400"
+        alt="{{ $alt }}"
+        loading="lazy"
+      />
+    </picture>
     {{- if $cap -}}
       <figcaption
         class="switcher"

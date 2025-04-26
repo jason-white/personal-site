@@ -1,0 +1,20 @@
+.meta {
+  --gutter: var(--space-xs);
+  --space: var(--space-2xs);
+  font-size: var(--size-step-00);
+  padding: var(--space-xs);
+  background-color: var(--color-dark-gray);
+  border-radius: var(--space-3xs);
+}
+
+.meta hr {
+  flex-grow: 2;
+  flex-shrink: 1;
+  /* height: 1px; */
+  border-color: #666;
+}
+
+.meta h3 {
+  font-size: var(--size-step-00);
+  margin-block: 0;
+}

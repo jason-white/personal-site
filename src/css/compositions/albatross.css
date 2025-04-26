@@ -1,0 +1,54 @@
+/*
+CUSTOM PROPERTIES AND CONFIGURATION
+
+--gutter (var(--space-size-1)): This defines the space
+between each item
+
+--albatross-target-container-width (40rem): How large the container
+needs to be to allow items to sit inline with each other
+
+--albatross-vertical-alignment How items should align vertically.
+Can be any acceptable flexbox alignment value.
+
+*/
+
+.albatross {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, var(--space-s-l));
+  align-items: var(--albatross-vertical-alignment, flex-start);
+}
+
+.albatross > * {
+  flex-grow: 1;
+  flex-basis: calc(
+    (var(--albatross-target-container-width, 60rem) - 100%) * 999
+  );
+}
+
+/* Pseudo elements for empty columns */
+.albatross[data-before="true"]:before {
+  content: "";
+  display: block;
+  flex-grow: 1;
+  flex-basis: calc(
+    (var(--albatross-target-container-width, 60rem) - 100%) * 999
+  );
+}
+
+.albatross[data-after="true"]:after {
+  content: "";
+  display: block;
+  flex-grow: 1;
+  flex-basis: calc(
+    (var(--albatross-target-container-width, 60rem) - 100%) * 999
+  );
+}
+
+.albatross > *[data-grow="2"] {
+  flex-grow: 2;
+}
+
+.albatross[data-reverse="true"] {
+  flex-direction: row-reverse;
+}

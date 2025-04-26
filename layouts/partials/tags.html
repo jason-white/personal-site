@@ -1,8 +1,9 @@
 {{ $taxonomy := "tags" }}
 {{ with .Param $taxonomy }}
-  <div class="meta__tags">
-    <p class="secondary">Tags</p>
-    <ul class="post__tags list-reset">
+  <div class="meta__tags repel">
+    <h3>Tags</h3>
+    <hr />
+    <ul class="list-reset cluster">
       {{ range $index, $tag := . }}
         {{ with $.Site.GetPage (printf "/%s/%s"
           $taxonomy $tag)

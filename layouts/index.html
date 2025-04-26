@@ -1,63 +1,11 @@
 {{ define "main" }}
-  <section class="hero">
-    <div
-      class="wrapper"
-      data-bleed-right
-    >
-      <div
-        class="hero__inner wrapper"
-        data-wrapper-type="inner"
-        data-bleed-right
-      >
-        <article class="hero__content">
-          <div
-            class="repel"
-            data-direction="column"
-          >
-            <h1 class="hero__heading"><mark>{{ .Params.heading }}</mark></h1>
-            <div class="hero__lede"><mark>{{ .Params.description }}</mark></div>
-          </div>
-          <div class="hero__img">
-            <img
-              src="https://res.cloudinary.com/dpmsynxig/image/upload/c_crop,e_saturation:-100,g_north,h_900,q_auto:good,w_1280,x_0/v1730337563/journal/2024/06/14/untitled-1-3.webp"
-              alt="The mosaic reflection of a man with a beard and hat taking a selfie in front of a mirror ball."
-            />
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-  <section class="region">
+  {{ partial "hero.html" . }}
+  <section class="home__about region">
     <div class="wrapper">
       <article class="home__introduction">
         {{ .Content }}
       </article>
     </div>
   </section>
-
-  <section class="home__posts region">
-    <div class="wrapper">
-      <div
-        class="sidebar"
-        data-direction="rtl"
-      >
-        <div class="home__journal">
-          <div class="stack">
-            <h2>Recent journal posts</h2>
-            {{ $posts := first 6 (where .Site.RegularPages "Type" "journal") }}
-            {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
-          </div>
-        </div>
-        <div class="link__posts">
-          <div class="home__links">
-            <div class="stack">
-              <h2>Recent links</h2>
-              {{ $posts := first 8 (where .Site.RegularPages "Type" "link") }}
-              {{ partial "post-list.html" (dict "context" . "posts" $posts) }}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  {{ partial "home-posts.html" . }}
 {{ end }}

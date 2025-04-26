@@ -1,0 +1,17 @@
+.post__gallery {
+  --region-space: var(--space-m);
+  --gutter: var(--space-xs);
+  --grid-min-item-size: 10rem;
+  margin-block-start: var(--gutter);
+  padding-block-start: var(--gutter);
+}
+
+.gallery__item {
+  aspect-ratio: 1;
+}
+
+.gallery__thumb {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

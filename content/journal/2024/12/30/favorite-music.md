@@ -4,6 +4,7 @@ title: "Favorite Music of 2024"
 date: "2024-12-29T21:03:58-05:00"
 draft: false
 image: "favorite-albums-feature.jpg"
+caption: "2024 was a heck of a year for music"
 alt: "A collage of favorite albums featured in this blog post"
 jammin:
   - title: "杉本喜代志 - Rosetta Stone"

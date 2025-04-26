@@ -13,3 +13,5 @@
 @import-glob 'utilities/*.css';
 
 @import "tailwindcss/utilities";
+
+@import "photoswipe/photoswipe.css";

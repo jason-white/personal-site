@@ -28,6 +28,12 @@
               <time>
                 {{ .Date.Format "January 2, 2006" }}
               </time>
+              <a
+                class="post__permalink"
+                href="{{ .Permalink }}"
+              >
+                Permalink
+              </a>
             </div>
             <div>
               {{ .Content }}

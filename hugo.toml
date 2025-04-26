@@ -10,7 +10,7 @@ buildDrafts = false
   description = "Personal site of Jason White, a photographer and developer based in Charlotte, North Carolina."
 
 [permalinks]
-	journal = "/:year/:month/:day/:title/"
+	journal = "/journal/:year/:month/:day/:title/"
 	links = "/:year/:month/:day/:title/"
 	now = "/:year/:month/:day/:title/"
 

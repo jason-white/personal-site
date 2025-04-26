@@ -49,6 +49,7 @@
   line-height: var(--leading-tight);
   letter-spacing: var(--letters-tight);
   transform: rotate(0.7deg);
+  background: url("#roughEdges");
 }
 
 .hero__lede {

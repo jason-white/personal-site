@@ -1,5 +1,12 @@
 /* @font-face here */
 @font-face {
+  font-family: "Label";
+  src: url("/fonts/Impact-Label.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "InterV";
   src: url("/fonts/InterVariable.woff2") format("woff2");
   font-weight: 100 900;

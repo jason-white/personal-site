@@ -18,7 +18,10 @@ body {
 }
 
 .page-wrap {
+  min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
   max-inline-size: var(--wrapper-max-width);
   margin-inline: auto;
   background-color: var(--color-dark);
@@ -48,14 +51,12 @@ body {
 /*   left: 0; */
 /* } */
 
-p,
-li,
-blockquote {
-  max-width: var(--measure);
-}
-
 a {
   text-decoration-color: var(--color-primary);
   text-decoration-thickness: 12%;
   text-underline-offset: 12%;
+}
+
+.inline-start-auto {
+  margin-inline-start: auto;
 }

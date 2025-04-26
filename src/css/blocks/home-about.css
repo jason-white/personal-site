@@ -1,3 +1,14 @@
+.home__about {
+  --sidebar-target-width: 35ch;
+  --sidebar-content-min-width: 60%;
+  --region-space: var(--space-3xl);
+}
+
 .home__introduction {
   font-size: var(--size-step-1);
+}
+
+.home__introduction p {
+  max-inline-size: var(--measure);
+  margin-block-start: 0;
 }
