@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <div class="wrapper">
+    <article class="page margin-block-end">
+      <div class="post__title">
+        <div>
+          <h1>
+            {{ .Title }}
+          </h1>
+        </div>
+      </div>
+      <div
+        class="sidebar"
+        data-direction="rtl"
+      >
+        <div class="flow copy">
+          {{ .Content }}
+        </div>
+        <aside>
+          {{ partial "sidebar.html" . }}
+        </aside>
+      </div>
+    </article>
+  </div>
+{{ end }}

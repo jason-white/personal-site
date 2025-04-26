@@ -34,23 +34,6 @@ body {
   background-repeat: repeat;
 }
 
-/* .page-wrap::before, */
-/* .page-wrap::after { */
-/*   position: absolute; */
-/*   content: ""; */
-/*   top: 0; */
-/*   right: 0; */
-/*   bottom: 0; */
-/*   background-color: var(--color-light); */
-/*   filter: url(#roughEdges); */
-/*   z-index: 1; */
-/*   width: 1px; */
-/* } */
-/**/
-/* .page-wrap::after { */
-/*   left: 0; */
-/* } */
-
 a {
   text-decoration-color: var(--color-primary);
   text-decoration-thickness: 12%;
@@ -59,4 +42,18 @@ a {
 
 .inline-start-auto {
   margin-inline-start: auto;
+}
+
+.margin-block-end {
+  margin-block-end: var(--margin-block-space, var(--gutter));
+}
+
+@view-transition {
+  navigation: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
 }

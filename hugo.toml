@@ -47,11 +47,11 @@ buildDrafts = false
   post = 'A list of all of the things I use from hardware to software, camera gear, and more.'
   weight = 10
 
-[[menus.internal]]
-  name = 'Blogroll'
-  pageRef = '/blogroll'
-  post = "The sites that I subscribe to and enjoy reading on a regular basis."
-  weight = 20
+# [[menus.internal]]
+#   name = 'Blogroll'
+#   pageRef = '/blogroll'
+#   post = "The sites that I subscribe to and enjoy reading on a regular basis."
+#   weight = 20
 
 [[menus.internal]]
   name = 'Todo'

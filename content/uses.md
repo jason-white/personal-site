@@ -2,7 +2,7 @@
 title: "Uses"
 date: 2020-05-25T19:29:16-04:00
 type: "static"
-layout: "uses"
+layout: "page"
 ---
 
 I love reading other peoples 'Uses' pages so I thought I'd make my own.
@@ -31,8 +31,11 @@ I love reading other peoples 'Uses' pages so I thought I'd make my own.
 - {{< link text="Things 3" href="https://culturedcode.com/things/" >}} - Things is how I remember everything. Setup for the Getting Things Done method of _getting things done_. I use it all day every day for work and personal.
 - {{< link text="Obsidian" href="https://obsidian.md/" >}} - A very good markdown notes editor. New addition to my workflow but I'm loving it. Mostly using Obsidian for keeping track of work notes but will likely incorporate it into personal use soon. I highly recommend checking out plugins and customizing it.
 - {{< link text="Reeder" href="https://www.reederapp.com/" >}} - My goto RSS feed reader.
+- ~~{{< link text="Alfred" href="https://www.alfredapp.com/" >}} - I can't say how long I've been using Alfred, but it was a must install when setting up a new machine for _many_ years. I was never a power user, but even when not highly customized, it's a better experience than Spotlight.~~
 - ~~{{< link text="Yabai" href="https://github.com/koekeishiya/yabai" >}} - Tiling window manager for macOS~~
-- {{< link text="AeroSpace" href="https://github.com/nikitabobko/AeroSpace" >}} - i3-like tiling window manager for macOS. Still beta. Really nicely done!
+- {{< link text="Raycast" href="https://raycast.com/" >}} - I started using Raycast when I learned it had built-in window management, and after doing some customizations here and there, I am loving it.
+- ~{{< link text="AeroSpace" href="https://github.com/nikitabobko/AeroSpace" >}} - i3-like tiling window manager for macOS. Still beta. Really nicely done!~
+
 - {{< link text="Steermouse" href="https://plentycom.jp/en/steermouse/" >}} - Shoutout to {{< link text="Chris Glass" href="https://chrisglass.com" >}} for turning me onto this app. Gives you complete control over non-Apple mice. After setting up Steermouse, the OP1 is a _dream_.
 
 ## Cameras

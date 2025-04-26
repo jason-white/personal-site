@@ -235,38 +235,6 @@ body {
   background-repeat: repeat;
 }
 
-/* .page-wrap::before, */
-
-/* .page-wrap::after { */
-
-/*   position: absolute; */
-
-/*   content: ""; */
-
-/*   top: 0; */
-
-/*   right: 0; */
-
-/*   bottom: 0; */
-
-/*   background-color: var(--color-light); */
-
-/*   filter: url(#roughEdges); */
-
-/*   z-index: 1; */
-
-/*   width: 1px; */
-
-/* } */
-
-/**/
-
-/* .page-wrap::after { */
-
-/*   left: 0; */
-
-/* } */
-
 a {
   text-decoration-color: var(--color-primary);
   text-decoration-thickness: 12%;
@@ -275,6 +243,20 @@ a {
 
 .inline-start-auto {
   margin-inline-start: auto;
+}
+
+.margin-block-end {
+  margin-block-end: var(--margin-block-space, var(--gutter));
+}
+
+@view-transition {
+  navigation: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
 }
 
 .about {
@@ -315,7 +297,7 @@ Keep any area with lots of copy
 to a max width of --measure (default 60ch)
 */
 
-.copy {
+.copy > * {
   max-inline-size: var(--measure, 60ch);
   text-wrap: pretty;
   hyphens: auto;
@@ -348,7 +330,7 @@ to a max width of --measure (default 60ch)
 }
 
 .footer a {
-  text-decoration: none;
+  text-decoration-color: var(--primary-dark);
 }
 
 .footer__logo {
@@ -367,9 +349,13 @@ to a max width of --measure (default 60ch)
 }
 
 .footer__nav h4 {
+  display: inline-block;
   margin: 0;
-  line-height: 1.5;
-  text-decoration: underline;
+  line-height: 1;
+  padding: var(--space-3xs);
+  border-radius: var(--space-3xs);
+  color: var(--color-light);
+  background-color: var(--color-dark);
 }
 
 .footer__nav ul {
@@ -605,6 +591,10 @@ to a max width of --measure (default 60ch)
 .meta h3 {
   font-size: var(--size-step-00);
   margin-block: 0;
+}
+
+.page {
+  --sidebar-target-width: 20rem;
 }
 
 .post__gallery {
@@ -920,7 +910,7 @@ to change how empty grid tracks are handled */
 
 .grid[data-layout="halves"] {
   --grid-placement: auto-fit;
-  --grid-min-item-size: clamp(16rem, 50vw, 33rem);
+  --grid-min-item-size: clamp(16rem, 50vw, 20rem);
 }
 
 /* Three column grid layout */

@@ -4,7 +4,7 @@ Keep any area with lots of copy
 to a max width of --measure (default 60ch)
 */
 
-.copy {
+.copy > * {
   max-inline-size: var(--measure, 60ch);
   text-wrap: pretty;
   hyphens: auto;

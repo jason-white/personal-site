@@ -6,10 +6,10 @@
       {{ $paginator := .Paginate $posts 10 }}
       {{ partial "post-list.html" (dict "context" . "posts" $paginator.Pages) }}
     </div>
-  </section>
-  <div class="post-list__pagination wrapper">
-    <div class="region">
-      {{ partial "pagination" . }}
+    <div class="post-list__pagination wrapper">
+      <div class="region">
+        {{ partial "pagination" . }}
+      </div>
     </div>
-  </div>
+  </section>
 {{ end }}

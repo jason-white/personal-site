@@ -10,7 +10,7 @@
 }
 
 .footer a {
-  text-decoration: none;
+  text-decoration-color: var(--primary-dark);
 }
 
 .footer__logo {
@@ -29,9 +29,13 @@
 }
 
 .footer__nav h4 {
+  display: inline-block;
   margin: 0;
-  line-height: 1.5;
-  text-decoration: underline;
+  line-height: 1;
+  padding: var(--space-3xs);
+  border-radius: var(--space-3xs);
+  color: var(--color-light);
+  background-color: var(--color-dark);
 }
 
 .footer__nav ul {

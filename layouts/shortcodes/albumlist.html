@@ -7,7 +7,10 @@
 {{- $imagePath := print $pageDir -}}
 
 
-<ol class="grid album-list">
+<ol
+  class="grid album-list"
+  data-layout="halves"
+>
   {{ $albums := .Site.Data.music.year2024.albums }}
   {{ range $albums.Favorites }}
     {{ $webpSrc := replaceRE "\\.[^.]+$" ".webp" .src }}
