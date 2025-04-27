@@ -5,7 +5,6 @@
       {{ $posts := where .Site.RegularPages "Type" "link" }}
       {{ $paginator := .Paginate $posts 20 }}
       {{ partial "post-list.html" (dict "context" . "posts" $paginator.Pages) }}
-      {{ partial "pagination" . }}
     </div>
     <div class="post-list__pagination wrapper">
       <div class="region">
