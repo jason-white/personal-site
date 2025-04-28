@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <article class="journal__post">
+    <div class="post__content wrapper">
+      <div class="post__title">
+        <div class="center">
+          <h1>
+            {{ .Title }}
+          </h1>
+        </div>
+      </div>
+      <div class="center stack">
+        <div class="flow copy">
+          {{ .Content }}
+          <p>
+            View:
+            <a
+              target="_blank"
+              aria-label="This link opens in a new tap/page"
+              href="{{ .Params.href }}"
+            >
+              {{ .Title }}
+            </a>
+          </p>
+        </div>
+        <aside class="post__meta region">
+          {{ partial "meta.html" . }}
+        </aside>
+      </div>
+    </div>
+  </article>
+  <div class="wrapper">
+    <div class="post__pagination">
+      {{ partial "single-pagination.html" . }}
+    </div>
+  </div>
+{{ end }}
