@@ -2,9 +2,33 @@
   <section class="wrapper">
     <div class="center region">
       <h1>{{ .Title }}</h1>
-      {{ $posts := where .Site.RegularPages "Section" "links" }}
-      {{ $paginator := .Paginate $posts 20 }}
-      {{ partial "post-list.html" (dict "context" . "posts" $paginator.Pages) }}
+      <ul class="post-list stack list-reset">
+        {{ $posts := where .Site.RegularPages "Section" "links" }}
+        {{ $paginator := .Paginate $posts 20 }}
+        {{ range $paginator.Pages }}
+          <li>
+            <article class="post-list__card">
+              <div class="sidebar">
+                <div class="stack">
+                  <h3><a href="{{ .Params.href }}">{{ .Title }}</a></h3>
+                  <time>
+                    {{ .Date.Format "January 2, 2006" }}
+                  </time>
+                  <a
+                    class="post__permalink"
+                    href="{{ .Permalink }}"
+                  >
+                    Permalink
+                  </a>
+                </div>
+                <div class="flow">
+                  {{ .Content }}
+                </div>
+              </div>
+            </article>
+          </li>
+        {{ end }}
+      </ul>
     </div>
     <div class="post-list__pagination wrapper">
       <div class="region">
