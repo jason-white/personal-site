@@ -2,6 +2,7 @@
   <section class="wrapper">
     <div class="center region">
       <h1>{{ .Title }}</h1>
+      <h1>HELLOOOO</h1>
       <ul class="post-list stack list-reset">
         {{ $posts := where .Site.RegularPages "Section" "links" }}
         {{ $paginator := .Paginate $posts 20 }}
