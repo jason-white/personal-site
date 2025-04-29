@@ -3,27 +3,24 @@
     <div class="center region">
       <h1>{{ .Title }}</h1>
       <ul class="post-list stack list-reset">
-        {{ $posts := where .Site.RegularPages "Section" "links" }}
-        {{ $paginator := .Paginate $posts 20 }}
+        {{ $posts := where .Site.RegularPages "Section" "journal" }}
+        {{ $paginator := .Paginate $posts 10 }}
         {{ range $paginator.Pages }}
           <li>
             <article class="post-list__card">
               <div class="sidebar">
                 <div class="stack">
-                  <h3><a href="{{ .Params.href }}">{{ .Title }}</a></h3>
-                  <time>
-                    {{ .Date.Format "January 2, 2006" }}
-                  </time>
-                  <a
-                    class="post__permalink"
-                    href="{{ .Permalink }}"
-                  >
-                    Permalink
-                  </a>
+                  <h3>
+                    <a
+                      aria-label="View post {{ .Title }}"
+                      href="{{ .Permalink }}"
+                    >
+                      {{ .Title }}
+                    </a>
+                  </h3>
+                  <time>{{ .Date.Format "January 2, 2006" }}</time>
                 </div>
-                <div class="flow">
-                  {{ .Content }}
-                </div>
+                {{ partial "list-thumb.html" . }}
               </div>
             </article>
           </li>
