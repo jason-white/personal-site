@@ -2,7 +2,7 @@
   <section class="wrapper">
     <div class="center region">
       <h1>{{ .Title }}</h1>
-      {{ $posts := where .Site.RegularPages "Type" "journal" }}
+      {{ $posts := where .Site.RegularPages "Section" "journal" }}
       {{ $paginator := .Paginate $posts 10 }}
       {{ partial "post-list.html" (dict "context" . "posts" $paginator.Pages) }}
     </div>
