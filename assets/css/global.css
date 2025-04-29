@@ -666,10 +666,6 @@ to a max width of --measure (default 60ch)
   font-family: monospace;
 }
 
-.post-list__card p {
-  margin-block: 0;
-}
-
 .list__thumb {
   background-color: var(--color-primary);
   background-image: url("/noise3.png");
