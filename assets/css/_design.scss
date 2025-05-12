@@ -828,3 +828,20 @@ a.nav--active {
     border-block-end: none;
   }
 }
+
+.v2-banner {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+}
+
+.v2-banner p {
+  color: currentColor;
+  font-size: 1rem;
+}
+
+.v2-banner a {
+  color: var(--mg-color);
+}
