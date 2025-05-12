@@ -6,10 +6,10 @@
 [dev]
   framework = "hugo"
 
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+# [[redirects]]
+#   from = "/api/*"
+#   to = "/.netlify/functions/:splat"
+#   status = 200
 
 [context.production.environment]
 HUGO_VERSION = "0.112.0"
